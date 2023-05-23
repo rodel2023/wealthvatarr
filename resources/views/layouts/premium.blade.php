@@ -17,7 +17,7 @@
 
    
    <!-- Navigation-->
-   <nav class="navbar navbar-expand-sm bg-secondary text-uppercase fixed-top" id="mainNav" style="position: sticky;background-color: #6610f2;">
+   <nav class="navbar navbar-expand-sm text-uppercase fixed-top" id="mainNav" style="position: sticky;background-color: #6610f2;">
       <div class="container">
          <a class="navbar-brand" href="{{ url('/avatar') }}">                        
                <div class="header-logo">
