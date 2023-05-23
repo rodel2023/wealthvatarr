@@ -114,6 +114,8 @@ class RegisterController extends Controller
             'source' => "self",
             'access_level' => json_encode(array(1)),
         ]);
+        
+        $user->assignRole('user');
 
         // Optionally, log in the user after registration
         auth()->login($user);
@@ -145,6 +147,8 @@ class RegisterController extends Controller
             'access_level' => json_encode(array(1)),
         ]);
 
+        
+        $user->assignRole('user');
         // Optionally, log in the user after registration
         auth()->login($user);
 
@@ -189,5 +193,5 @@ class RegisterController extends Controller
         return redirect()->route('avatar')->with('success', 'Registration successful!');
     }
 
-    
+
 }
