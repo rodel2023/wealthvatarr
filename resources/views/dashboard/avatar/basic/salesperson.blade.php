@@ -1,276 +1,605 @@
-@extends('layouts.premium')
+@extends('layouts.basic')
 
 @section('content')
-
 	<div class="card mx-auto" style="width: 60rem;">
 		<div class="card-body" style="text-align: -webkit-left;">
 			<div class="tab-content" id="nav-tabContent">
-				<!-- Introduction Section-->
 				<div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="nav-home-tab">
 					<div class="row">
 						<div class="col-12">
-							<!-- Section Heading-->
-							<h2 class="sub-header-banker text-center">
-								WHAT MAKES YOU THE <span  class="text-danger"> <strong>BANKER</strong> </span>
-							</h2>
-							<!-- Icon Divider-->
-							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
-								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
-							</div>
-							<!-- Section Content-->
-							<p> 
-								The Banker loves big and risky assets. They play the get-rich-quick game no matter how big
-								the involved money is. Just like a rebel, a Banker loves challenging the norms by their
-								creative ideas. They have their own ways of doing things and they love the track that‟s not being
-								used by many.
-							</p>
-							<p>     
-								They are the best person to ask about financial complexities. Numbers are their friends, but
-								sometimes, a Banker bravely takes on a challenge even without enough data and backup
-								plan. When they win, they win big. But when they lose, they lose a lot.
-								You have your own set of approaches and practices when it comes to risk-taking and creativity.
-								This attitude is what makes you unstoppable from pursuing the things you want.
-								In short, you believe that your long-term goals can be easily achieved by taking the road less
-								traveled. 
-							</p>
+						<h2 class="sub-header-salesperson text-center">
+							THE SALESPERSON
+						</h2>
 
+						<p>
+							You are one of the few people blessed with the <strong>best gifts</strong> not given to many. Your superpowers
+							are there (in fact, you know you can feel it in you!) but they are currently dormant. There are
+							endless possibilities given your <strong>unique set of gifts</strong> – which are just sitting and waiting for you
+							to realize it.
+						</p>
+						<p>
+							Just recently, things are getting tough on your part, isn’t it? Unfortunate circumstances have
+							happened which have surely worn you out over the past weeks. Things didn’t go as planned.
+							You spent time and effort and even sacrificed a lot but the results and the turn of events
+							just...didn’t favor you.
+						</p>
+						<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649302374/WealthAvatarr/salesperson1_ezv46z.png" class="img-intext" alt="" > 
+						<p>
+							I hope you don’t lose your spark and let those greatest attributes I’ve seen in you die just
+							because of these unfortunate incidents.
+						</p>
+						<p>
+							These are just signs that <strong>big things are going to reveal</strong> themselves.
+						</p>
+						
+						<p>
+							This is the time where your greatest superpower – that set of gifts I’m talking about – will be of
+							use to reveal even better things. Your natural gifts are product of your childhood dreams. These
+							dreams include wealth, quality relationships, good luck, and happiness.
+						</p>
+						<p>
+							However, your full potential is being hindered by the <strong>negative forces</strong> lurking around
+							someone with such an incredible set of gifts. These negative forces saw that your goals
+							are without clarity and that’s where they attack. It is <strong>critical that you realize what 
+							these are</strong> or you would never know which one would be your greatest enemy, resulting
+							in the futility of your natural gifts.
+						</p>
+						<p>
+							I hope you are ready to know about your natural gifts…and brave enough to meet your
+							weaknesses you didn’t have the courage to face before.
+						</p>
+						<h2 class="sub-header-salesperson text-center">
+							Your personality and behavior are those of THE INFLUENCER
+						</h2>
+						
+
+						<p>
+							You are the easiest and the most outgoing person among your friends. You love connecting
+							with people and maintaining good relationship with them. You feel at peace knowing that they
+							trust you back.
+						</p>
+						
+
+						<p>
+							The quote by Ioan Gruffudd saying that <i>“As long as you understand that you find happiness
+								through family, friends and love, then money is just a nice bonus.”</i> appeals to you the most,
+							among your friends and comrades.
+						</p>
+						<p>
+							Your approachable and cheerful nature makes people love you. They feel safe when your
+							presence is near. You are flexible in any situation you might be in.
+						</p>
+						<h2 class="sub-header-salesperson text-center">
+						YOUR GREATEST STRENGTH LIES ON…
+						</h2>
+						<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649299539/WealthAvatarr/strength_mlmklk.png" class="img-intext" alt="" >
+						<p>
+							You valuing relationships and genuine connections above all else. You love connecting people
+							more than you connect with money.
+						</p>
+						
+						<p>
+							You are never anxious about your earning capacity as long you know you keep genuine
+							relationships and real connections with other people.
+						</p>
+						<p>
+							You never view money as a determinant of social status.
+						</p>
+						<p>
+							You love helping people financially, spiritually, and emotionally. You find it hard to say NO to
+							those who need your help the most.
+						</p>
+						<p>
+							You feel the happiest as long as you know that you maintain good friendships with others. Your
+							wealth comes along with these people you trust and help.
+						</p>
+						<h2 class="sub-header-salesperson text-center">
+							Here’s an additional good news – you carry some sort of good luck thanks to this hidden strength of yours
+						</h2>
+						<p>
+							Your ability to form long-term genuine relationships and connections with people can help you
+							generate income.
+						</p>
+
+						<p>
+							Your optimism and cheerfulness brings you good luck in your wealth generation abilities. You
+							are always present in any social gathering for the genuine purpose of creating lasting
+							relationships. 
+						</p>
+						<p>
+							You don’t think much about money, hence, your mind is always free of financial stress. They are
+							not pressured to earn and show-off their wealth.
+						</p>
+						<p>
+							It’s the last thing to worry about.
+						</p>
+						<p>
+							The Salespersons would rather worry about people hating on them and take time to fix any
+							broken connections they might have.
+						</p>
+						
+						<h2 class="sub-header-salesperson text-center">
+							Take for example this popular person with the same natural gifts as yours.
+
+						</h2>
+						<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649301461/WealthAvatarr/example_rof86l.png">
+						<p>
+							Jeff Bezos, founder of Amazon, credits his success to the smart people he worked with when he
+							was starting on his tech company. He has his own path to wealth generation – that is, by
+							collecting knowledge of the smart people around him. He made it a goal to connect with people
+							and expanded his network. In an interview, he shared how he got smart people to work on his
+							side.
+						</p>
+						<p>
+							That is, by giving something before receiving from them.
+						</p>
+						<p>
+							He kept in mind that in networking, people provide referral, help in attaining your goals, share
+							important contacts and info, serve as your coaches – in other words, people want something
+							and in exchange, they give what they can give.
+						</p>
+						<p>
+							This secret of him about pooling knowledge is one of the significant factors why his net worth
+							grew tremendously.
+						</p>
+						<p>
+							Now that you know your calling…
+						</p>
+						<p>
+							<strong>Be aware of some potential dangers ahead of you… You must know what they are before it’s too late…</strong>
+						</p>
+						
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab1-next" >
-							Show Me My Superpowers...
+							Show Me The Dangers…
 						</a>
 					</div>
 				</div>
-				<!-- SUPERPOWERS Section-->
-				<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="nav-superpowers-tab">
+				<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="nav-profile-tab">
 					<div class="row">	
 						<div class="col-12">
-							<!-- Section Heading-->
-							<h2 class="sub-header-banker text-center">
-								A <span  class="text-danger"> <strong>BANKER'S</strong> </span> SUPERPOWERS							
+							<h2 class="sub-header-salesperson text-center">
+								THESE WONDERFUL GIFTS, HOWEVER, ARE BEING
+								COUNTERED BY YOUR GREATEST WEAKNESSES								
 							</h2>
-							<!-- Icon Divider-->
-							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
-								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
-							</div>
-							<!-- Section Content-->
-							<p><u><strong>Why do I need to identify my superpowers and strengths?</strong></u></p>
-							<p>Good question. Let‟s start with knowing the importance of superpowers and strengths. First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations. Research further concluded that these skills and abilities can still be further developed according to one‟s limits.</p>
 
-							<p><br />
-							<strong>The same goes to one‟s inner traits.</strong></p>
-							<p> One‟s superpowers are said to be the easiest ones to develop further &ndash; and these developedsuperpowers would be your fastest way to grow your wealth and cultivate a success mindset. As THE BANKER, here are the superpowers which you can focus on to build your first wealth base:</p>
-
-							<p><br />
-							<strong>Your Risk-Taking Attitude Keeps You On Track</strong></p>
-							<p>A Banker usually has his long-term and short-term goals completely and clearly laid out in front of him &ndash; and this is the reason why he takes on every challenge no matter how risky it may get. Your favorite line is similar to &ldquo;Let‟s see what happens&rdquo; because your own way of getting the things you want is different from the norms. You place the highest bets on the unconventional ways of building your wealth. This is so that when you win, you know you will win big time and that‟s equivalent to one goal slashed as achieved from your bucketlist.</p>
-
-							<p><br />
-							<strong>You Never Quit</strong></p>
-							<p>A Banker is always on experimental mode. They are constantly looking for new ways to earn and generative passive income. They may quit a strategy, but their creative and risk-taking mind will just constantly look for another way to compensate the loss in that particular strategy. Quitting is the last option, because on the mind of a banker, the world has never-ending ideas. They always aspire to see their ideas come to life and take the responsibility of doing so.</p>
-
-							<br /><p><strong>You Are Fond Of Developing Cutting Edge Ideas</strong></p>
-							<p>A Banker is a great unconventional entrepreneur, because they always make sure that their offers appeal to the consumers. They develop products and services with the thought in mind that this is going to be the next big thing. Bankers Understand Financial Complexities They know how others play the money game. They never miss a cent from their financial statements. They are very well-versed with numbers that they know how to play with it. That‟s why they invest in risky and expensive investments &ndash; such as acquiring big assets &ndash; because they know the return can double and triple in the next few years.</p>
-
-							<p><br />
-							<strong>Responsible Gambler</strong></p>
-							<p> A Banker is a lone figure. This may be a downside because he only works as a one-man team, however, this makes him a responsible person when it comes to mistakes and other liabilities.</p>
+							<p>
+								You being dependent on other people for your happiness does more harm to you. Your desire
+								to build connections with a lot of people and your generosity makes you an easy prey to be
+								taken advantage of.
+							</p>
+							<p>
+								You trust people a lot that you even entrust your financial decisions to them. This is a wrong
+								way to handle your assets and wealth.
+							</p>
+							<p>
+								In fact, this might be a reason why your own timeline to achieve your life goals is taking a little
+								too long than expected.
+							</p>
+							<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649302374/WealthAvatarr/salesperson2_xynawx.png" class="img-intext" alt="" > 
+							<p>
+								True enough, you might have formed real connections with trusted people. But there are also
+								certain individuals in your circle that are not trustworthy enough yet you let them in in life.
+							</p>
+							<p>
+								This is your greatest source of obstacles that constantly brings you problems with regards to
+								wealth, relationships, and happiness.
+							</p>
+							
+							<p>
+								In fact, I’m seeing that this negative energy still continues as we go along so...
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								BEWARE OF THESE POTENTIAL PROBLEMS I’VE SEEN PEOPLE WITH
+								SUCH WONDERFUL GIFTS HAVE ENCOUNTERED								
+							</h2>
+							<p>
+								The Salespersons find it hard to let go of people. They believe that everyone is inherently good
+								and your forgiving nature won’t really change them for good.
+							</p>
+							<p>
+								Your tendency to become financially dependent on others is a big factor on why you have not
+								attained financial freedom and independence yet.
+							</p>
+							<p>
+								Your generosity even to those who don’t deserve it can replete your savings and hard-earned
+								money. Your goals are not anymore yours, but for those of other people.
+							</p>
+							<p>
+								The Salesperson are prone to suffer from lack of financial independence in the future because
+								they failed to realize that they’ve been with the wrong people early in their life.
+							</p>
+							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649299539/WealthAvatarr/obstacle_dochjm.png">
+							<h2 class="sub-header-salesperson text-center">
+								DON’T TAKE THESE OBSTACLES FOR GRANTED.
+							</h2>
+							
+							<p>
+								Your gifts are being utilized at its minimal. Your greatest weaknesses are slowly taking over
+								your potential hence, achieving your goals are taking so much time for now.
+							</p>
+							<p>
+								Your anxious mind makes it hard for you to find that happiness you’ve always yearned for in
+								your career, lifestyle, relationships, and wealth.
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								Your timeline to achieve your goals are getting more and more
+								extended because of this secret that wealthy people have since
+								uncovered
+							</h2>
+							<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649299919/WealthAvatarr/energy_ngcfll.png" class="img-intext" alt="">
+							<p>
+								In Science, we have always learned that energy balance is important. Consuming too
+								much energy and burning too little of it would result to the storage of body fat - and this
+								will lead to risks of diseases and organ malfunction in the long run.
+							</p>
+							<p>
+								Now, let’s apply the same to our mind’s composition.
+							</p>
+							
+							<p>
+								A positive energy is not enough to bring you tremendous results and abundance.
+								Possessing your own gifts and strengths are not enough.
+							</p>
+							<p>
+								Sometimes, too much of this strength can lead to negative consequences.
+							</p>
+							<p>
+								Too much of the negative energy will then open the gates to unforeseen events and
+								result to your goals getting delayed.
+							</p>
+							<p>
+								This is the same principle that celebrities and wealthy businessmen have been using for
+								years.
+							</p>
+							<p>
+								Just like you, they only uncovered this at some point in their lives.
+							</p>
+							<p>
+								They only uncovered it at some point where the negative energy they didn’t know
+								they’ve been possessing was taking so much control in their lives that their goals turned
+								seemingly hard to achieve.
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								Psychologists say that our financial decisions, including the unintelligent ones,
+								are affected by the subconsciousness
+							</h2>
+							
+							<p>
+								This subconscious is seated on the deepest part of the mind - that which is not brought
+								by experiences, but is generally inherited.
+							</p>
+							
+							<p>
+								It is responsible for one’s belief, spirituality, and instincts.
+							</p>
+							<p>
+								That subconsciousness can be understood and defined by these archetypes which can
+								tell patterns of behaviour and mindset.
+							</p>
+							<p>
+								The first thing that mega-wealthy individuals who found this revelation did was to become aware of
+								their wealth archetype. From then on, they became aware of their behaviours, instinct,
+								and patterns. They found the source of their negative
+								energies and became much more prepared to deal with the possible problems they are
+								the most prone to encounter.
+							</p>
+							<p>
+								This knowledge became one of their ultimate weapons to transcend the challenges
+								coming to their way.
+							</p>
+							<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649299539/WealthAvatarr/subconscious_xdlkle.png" class="img-intext" alt="">
+							<p>
+								The next analysis of your reading will tackle the same thing that will make you ...
+							</p>
+							<p>
+								...reach your goals the soonest possible time
+							</p>
+							<p>
+								...establish a better timeline for yourself
+							</p>
+							<p>
+								...be clear with your money goals
+							</p>
+							<p>
+								...achieve them even if you encounter challenges along the way.
+							</p>
+							<p>
+								<strong>Not only would the next part of the reading provide you the true meaning and other hidden weaknesses
+									of THE SALESPERSON</strong>
+							</p>
+							<p>
+								<strong>...but this in-depth analysis will also reveal the missing piece to the reasons why you’re not achieving the life, relationships and bank account of your dreams. (warning: It might shock you).</strong>
+							</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab2-next">
-							Show Me My Weaknesses!
+							Show Me My Missing Piece!
 						</a>
 					</div>
 				</div>
-				<!-- WEAKNESSES Section-->
-				<div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-weaknesses-tab">
+				<div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-contact-tab">
 					<div class="row">
 						<div class="col-12">
-							<!-- Section Heading-->
-							<h2 class="sub-header-banker text-center">
-								A <span  class="text-danger"> <strong>BANKER'S</strong> </span> WEAKNESSES
+							<h2 class="sub-header-salesperson text-center">
+								The Shocking (YET Concrete) Reason Why You’re Not Achieving the Life, Relationships and Bank Account of Your Dreams 
 							</h2>
-							<!-- Icon Divider-->
-							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
-								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
-							</div>
-							<!-- Section Content-->
-							<p><strong>You Find It Hard To Trust People</strong><br /><br />
-							A Banker does not really feel comfortable when they entrust a big project or a big deadline to people other than themselves. Their trust issues might have been rooted from their childhood or past relationship and friendship betrayals which led them to their fall.</p>
-
-							<p>Bankers cannot delegate significant work, because of this fear of sabotage. Besides, you think that your own creative ways can bring the best results and only you could do it the way you wanted it to be.</p>
-
-							<p><br />
-							<strong>Bankers Rarely Have A Backup Plan</strong><br /><br />
-							Bankers have in mind that they will never fail, hence, they take every risk they know of. However, practicality and today‟s uncertainty necessitate the need for a backup plan. When the pandemic kicks in, a lot of thriving businesses were forced to shut down without hint of return. Managers and executives were forced to look for other jobs, media personalities and celebrities started looking for better jobs somewhere. Even the rich are asking their financial managers and advisors of the best thing to do when their investment plummets as the economy is constantly falling.</p>
-
-							<p>If a you are someone who bet a huge stake on something in danger getting dissipated because of this unforeseen event which are claiming lives and livelihoods, then chances are high that you are one of the most uncomfortable people every time the Government imposes new regulations invoking their police power for public safety.</p>
-
-							<p><br />
-							<strong>They Gamble Even Their Whole Financial Security</strong><br /><br />
-							Bankers purchase risky big assets to take control. A Banker with no backup plan gambles his or her whole financial stability. A risky appetite, paired with willingness to gamble everything is a very dangerous venture that anyone should be wary of.</p>
-
-							<p>Take for example the story of Patricia Kluge.</p>
-
-							<p>After getting a high-settlement divorce from a wealthy husband, Kluge invested so much of her money by opening a winery and investing into real estate. When the housing market crashed, she lost everything she invested. The bank foreclosed her winery and subdivision. She battled these cases with attorneys around the world to try and save her business ventures. She ended up filing bankruptcy and auctioning off her jewelry and luxurious assets.</p>
-
-							<p><br />
-							<strong>Bankers Live For The Approval Of Others</strong><br /><br />
-							Bankers are also said ask others for other‟s approval. They love to give attention to money because it makes them stand out from the crowd. A banker strives to make a name for him or herself. They want people to see that their method of dealing with things are superior than that of the conventional standards.</p>
-							
-						</div>
-						<a class="btn button-go-up" href="#nav-tab" id="tab3-next">
-							Show Me My WEALTH CHALLENGES!
-						</a>
-					</div>
-					
-				</div>
-				<!-- CHALLENGES Section-->
-				<div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="nav-challenges-tab">
-					<div class="row">	
-						<div class="col-12">
-							<h2 class="sub-header-banker text-center">
-								WEALTH CHALLENGES FOR A <span  class="text-danger"> <strong>BANKER</strong> </span> 						
-							</h2>
-							<!-- Icon Divider-->
-							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
-								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
-							</div>
-
-							<!-- Section Content-->
-							<p><u><strong>These problems can impact your wealth generation potential. Why is that so?</strong></u></p>
-							<p><br />
-
-							<strong>Start From The Tried And Tested Systems That You&rsquo;re Already Accustomed To</strong></p>
 							<p>
-							Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you‟re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.</p>
-
-							<p><br />
-							<strong>Building Wealth Is A Team Effort</strong></p>
-							<p> No person became rich without a team backing him or her up. Microsoft was founded by Bill Gates and his childhood friend Paul Allen. In 1976, Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Mark Zuckerberg was helped by his classmates in creating and launching FaceMash &ndash; which would later on become Facebook.</p>
-							<p>Don‟t be mistaken that a team means a group of professionals working together towards one goal. That is one definition. But remember that you have your very own team at home &ndash; your spouse, parents, siblings, best friends, and trusted relatives. In fact, a team player does not have much qualifications. As long as you are working together in unity and with one goal, you are already considered a team.</p>
-							<p>Building wealth is rarely a one-man job. Even if you‟re only investing, you would need financial planners and managers or a stockbroker to trade. Both of you are considered a team with a single goal &ndash; to multiply your money.</p>
-							<p>Each people is gifted with a unique sets of gifts &ndash; a set of talents which will eventually fit in your path to success.</p>
-							<p>Business- and organization-wise, proper delegation is one of the skills of a good leader. He knows who trust with confidential matters, who would be the best person to do a certain task, and who would be the one who would bring significant and innovative results to the team. Team effort is a work in itself.</p>
-
-							<p style="text-align: center;"><br /><strong>This is your power motivation formula in building your wealth as a Banker:</strong></p>
-							<p style="text-align: center;">Symbiotic Flows + Partnerships + Backup Plan</p>
-							<p style="text-align: center;"> And For Your Ultimate Secret to Wealth-Generation:</p>
-							<p style="text-align: center;">Investing In Symbiotic Flows, Long-Term Investments, And Financial Coaching</p>
-							
-						</div>
-						<a class="btn button-go-up" href="#nav-tab" id="tab4-next">
-							Show Me My WEALTH FORMULA!
-						</a>
-					</div>
-				</div>
-
-				<!-- WEALTH FORMULA Section-->
-				<div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="nav-wealth_formula-tab">
-					<div class="row">	
-						<div class="col-12">
-							<h2 class="sub-header-banker text-center">
-								A <span  class="text-danger"> <strong>BANKER'S</strong> </span> WEALTH FORMULA 						
-							</h2>
-							<!-- Icon Divider-->
-							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
-								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
-							</div>
-
-							<!-- Section Content-->
-							<p><u><strong>These problems can impact your wealth generation potential. Why is that so?</strong></u></p>
-							<p><br />
-
-							<strong>Start From The Tried And Tested Systems That You&rsquo;re Already Accustomed To</strong></p>
+								By now, you know your wealth archetype superpower. You probably want to apply that awareness to attract more wealth this year.
+							</p>
 							<p>
-							Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you‟re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.</p>
-
-							<p><br />
-							<strong>Building Wealth Is A Team Effort</strong></p>
-							<p> No person became rich without a team backing him or her up. Microsoft was founded by Bill Gates and his childhood friend Paul Allen. In 1976, Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Mark Zuckerberg was helped by his classmates in creating and launching FaceMash &ndash; which would later on become Facebook.</p>
-							<p>Don‟t be mistaken that a team means a group of professionals working together towards one goal. That is one definition. But remember that you have your very own team at home &ndash; your spouse, parents, siblings, best friends, and trusted relatives. In fact, a team player does not have much qualifications. As long as you are working together in unity and with one goal, you are already considered a team.</p>
-							<p>Building wealth is rarely a one-man job. Even if you‟re only investing, you would need financial planners and managers or a stockbroker to trade. Both of you are considered a team with a single goal &ndash; to multiply your money.</p>
-							<p>Each people is gifted with a unique sets of gifts &ndash; a set of talents which will eventually fit in your path to success.</p>
-							<p>Business- and organization-wise, proper delegation is one of the skills of a good leader. He knows who trust with confidential matters, who would be the best person to do a certain task, and who would be the one who would bring significant and innovative results to the team. Team effort is a work in itself.</p>
-
-							<p style="text-align: center;"><br /><strong>This is your power motivation formula in building your wealth as a Banker:</strong></p>
-							<p style="text-align: center;">Symbiotic Flows + Partnerships + Backup Plan</p>
-							<p style="text-align: center;"> And For Your Ultimate Secret to Wealth-Generation:</p>
-							<p style="text-align: center;">Investing In Symbiotic Flows, Long-Term Investments, And Financial Coaching</p>
-						</div>
-						<a class="btn button-go-up" href="#nav-tab" id="tab5-next">
-							Show Me My WEALTH GUIDE!
-						</a>
-					</div>
-				</div>
-				<!-- WEALTH GUIDE Section-->
-				<div class="tab-pane fade" id="tab6" role="tabpanel" aria-labelledby="nav-wealth_guide-tab">
-					<div class="row">
-						<div class="col-12">
-							<h2 class="sub-header-banker text-center">
-								A <span  class="text-danger"> <strong>BANKER'S</strong> </span> WEALTH GUIDE
+								Yet... <strong>Knowledge isn’t enough.</strong> 
+							</p>
+							<p>
+								You see, even though you’re armed with the universe’s most precious secrets in terms of what your Wealth Archetype looks like...
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								There’s still something missing.
 							</h2>
-							<!-- Icon Divider-->
-							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
-								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
-							</div>
-							<!--Section Content-->
-							<p>It‟s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Banker would eventually encounter in this lifetime.</p>
-							<p>Your obsession with money is understandable. No one wants to compromise their financial stability and choose material happiness which are usually just temporary contentment.</p>
-							<p>These fears are reasonable. You want to build wealth in the shortest possible time. You want towatch your savings grow instead of it diminishing over temporary happiness; hence, you would rather save all the money that you think is not really necessary in your day-to-day sustenance.</p>
-							<p>However, these wants can sometimes be thought as motivation for you to perform well in your day job, get promotions, or think of a new business concept that can be the next big thing. It‟s possible that these wants not take up your savings funds, for you can let your money do the work for you.</p>
-							<p>Here are the solutions catered just for a Banker like you:</p>
+							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649301469/WealthAvatarr/step3-header1_svexhd.png">
+							<p>
+								Where you’re trapped on a hamster wheel despite your best efforts.
+							</p>
+							<p>
+								Attaining finances gruelling like an uphill climb, yet disappearing like sand through your fingertips when you do get them.
+							</p>
+							<p>
+								A burning frustration because the goalpost keeps moving, where the fulfilment of your dreams seem to be further and further away.
+							</p>
+							<p>
+								You may be wondering, <strong><i>is it because I’m not trying hard enough?</i></strong>
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								Well, the answer is a resounding no.
+							</h2>
+							<p>
+								Listen... It has nothing to do with your efforts. <i>Not at all.</i>
+							</p>
+							<p>
+								The main reason you're not manifesting the way you’re supposed to is because <strong>of this STARTLING stumbling block.</strong> 
+							</p>
+							<p>
+								It’s actually the hidden reason behind the stark inequality in this world.
+							</p>
+							<p>
+								In fact, while I admit circumstances are volatile at the moment... This 1 thing even can cause you to REMAIN poor even when times are good.
+							</p>
+							<p>
+								When you address this factor... <strong>It's as if the dam that held stagnant water is now demolished...</strong> releasing a mighty gushing stream of peace, love, abundance and joy.
+							</p>
+							<p>
+								It’s called...
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								The Genetic Glass Ceiling
+							</h2>
+							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649306578/WealthAvatarr/genetics_pcpt2u.png">
+							<p>
+								You see... Your struggle with money didn’t just start with you.
+							</p>
+							<p>
+								It began many generations ago.
+							</p>
+							<p>
+								Science has shown that any form of trauma -- be it finances, abuse, war or other unpleasant things -- actually affects you on a genetic level.
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								It’s named epigenetics.
+							</h2>
+							<p>
+								Epigenetics is the study of how prior behaviours and environment can cause changes that affect the way your genes work.
+							</p>
+							<p>
+								In a sobering study published by the Society of Biological Psychiatry in November 2020, it concluded that if your ancestors encounter trauma like extreme poverty, the brain chemistry of the baby will be adversely affected.
+							</p>
+							<p>
+								In other words, your mind can’t reach it’s full manifestation potential because the brain has been “handicapped” since birth.
+							</p>
+							<p>
+								So if you’re fighting to make ends meet... It’s probably because your ancestors faced the same issue... And now you <strong>have a historical handicap.</strong>  
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								Here’s an illustration.
+							</h2>
+							<p>
+								You may teach an arthritic patient all the steps to a specific ballroom dance... However, no matter how hard they try, they will never be able to replicate the steps properly. In fact, they may not be even able to replicate the steps at all.
+							</p>
+							<img src= "{{ asset('assets/img/image/sadperson.png') }}" class="img-intext mt-0" alt="">
+							<p>
+								All because of existing impediments.
+							<ul>
+								<li>So it isn’t about the instructions.</li>
+								<li>Or the meditations.</li>
+								<li>Or the binaural beats.</li>
+							</ul>
+							</p>
+							<p>
+								You exert the energy... Try all you may... And then... 
+							</p>
+							<p>
+								<strong>THUD.</strong>
+							</p>
+							<p>
+								You bang against that blasted Glass Ceiling! Holding your forehead in pain...
+							</p>
+							<p>
+								Guess what? The reverse is also true.
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								Because the Rich Have “Won the Genetic Jackpot” 
+							</h2>
+							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649299553/WealthAvatarr/genetics2_adob1s.png">
+							<p>
+								When you say, “that person is blessed with good genes”... You hit the nail on the head!
+							</p>
+							<p>
+								Everything they touch turns to gold, like King Midas.
+							</p>
+							<p>
+								In an explosive 2011 study in the International Journal of Epidemiology, children who are brought up in affluent or poverty-stricken homes affect the epigenetics of their DNA.
+							</p>
+							<p>
+								Children in rich and poor households have similar sets of genes, but their environment can <strong>dictate which genes are switched on or silenced.</strong>
+							</p>
+							<p>
+								<strong><i>Pay attention because that statement holds the key to your breakthrough.</i></strong>
+							</p>
+							<p>
+								In another study... Rich kids are naturally inclined to assert their will in life, whereas poor kids tend to shrink away in servitude.
+							</p>
+							<p>
+								This means the wealthy truly have it all.
+							</p>
+							<p>
+								This means the wealthy truly have it all.
+							</p>
+							<p>
+								Is it cause for despair? Absolutely not!
+							</p>
+							<p>
+								Because you can actually do something about it.
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								Even Nature Proves It Can Change From One Form to Another.
+							</h2>
+							<p>
+								<ul>
+									<li>Like a caterpillar to a butterfly</li>
+									<li>Like a tadpole to a frog</li>
+									<li>And even like a frog to a prince. And most importantly...</li>
+								</ul>
+							</p>
+							<p>
+								<strong><i>From Genetic Glass Ceiling to Genetic Jackpot!</i></strong>
+							</p>
+							<p>
+								From Genetic Glass Ceiling to Genetic Jackpot!
+							</p>
+							<p>
+								I’m going to repeat an earlier passage which holds the remarkable key.
+							</p>
+							<p>
+								<strong><i>“Children in rich and poor households have similar sets of genes, but their environment can dictate which genes are switched on or silenced.”</i></strong>
+							</p>
+							<p>
+								In other words, you’re born with <strong>the innate potential</strong> within you... It’s just switched off.
+							</p>
+							<p>
+								The studies reveal poverty and abundance is really a difference of triggering the “on” switch for certain genetics.
+							</p>
+							<p>
+								<strong>So How Do We Do That?</strong>
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								I Present to You “the Genetic Wealth Switch”
+							</h2>
+							<p>
+								<strong>In other words, You Play Specific Frequencies That Turn On the Genes to Make Wealth</strong>
+							</p>
+							<p>
+								That may sound strange, but it's cutting edge science.  
+
+								According to a revolutionary 2018 Kyoto University study in ScienceDaily... When mechanosensitive genes are subjected to audible sounds, the genes can actually be switched on or off.
+							</p>
+							<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649299546/WealthAvatarr/imagine_iyqvf7.png" class="img-intext mt-0" alt="">
+							<p>
+								In layman terms, certain frequencies awaken the cells that spark abundance.
+							</p>
+							<p>
+								When you tune in to these near-magic frequencies...
+							</p>
+							<p>
+								Even the most irreversible of circumstances can change. Where hearts start opening up... When messages from the Universe become more vivid...
+							</p>
+							<p>
+								Where you can start manifesting fabulous wealth like the rich.
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								And That’s Where We Come In
+							</h2>
+							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1650465567/WealthAvatarr/wealth-min-min_1_1_bmogih.gif">
+							<p>
+								You see. We at WealthAvatarr™ know the no.1 struggle most test-takers are facing is the ability to become a money magnet due to the Genetic Glass Ceiling.
+							</p>
 							
-							<p><br /><strong>#1 Enlist The Help Of A Finance Coach / Financial Advisor</strong></p>
-							<p><br />Financial coaches aim to help their clients get clear about their financial goals, habits, and money appetite. They teach people how to be responsible with their money and fix their financial practices. An advisor, on the other hand, will recommend investment according to your risk appetite, long-term goals, and amount of money you‟re willing to gamble. A financial professional is not only for the wealthy people &ndash; these professionals cater to small businesses and those with day job who are looking to start or diversify their investment portfolio.</p>
-							<p>Wealth management and investment involves risks. Specific investment strategies and the amount to be involved depends particularly on the client. This is a case-to-case basis. Financial advisors provide their clients with individual plans to cater to their needs and specific goals.</p>
-							<p>Whether it be a question on the best thing to do with your money just sitting in a bank, an advice about a particular investment, or a help in budgeting a big expensive event such as wedding and birthdays, a financial coach or advisor can provide you the best options to consider.</p>
-							<p>Where to find financial coaches / advisors?</p>
-							<ul>
-								<li>Referrals will be your best option if you have friends or colleagues who have tried their</li>
-								<li>service.</li>
-								<li>Most financial advisors are affiliated with insurance companies.</li>
-								<li>National Association of Personal Financial Advisors (NAPFA) website</li>
-								<li>Accredited Financial Counselor website</li>
-							</ul>
-							<p>Alternative: <strong>Start Subscribing To Financial Newsletters And Listening To Financial Podcasts</strong></p>
-							<p>Financial podcasts are one of the top podcast niche nowadays. Most people, even the younger generations, are worried of their financial security this pandemic. A finance professional advice may be something that they cannot afford yet, so they resort to financial podcasts to get particular advice from.</p>
-
-							<p><br /><strong>#2 When You Are Able To Take It To The Next Level, Invest In Long-Term Ones</strong><br /><br />
-							Long-term investments are those where you let your money stay for a long time to generate cash after a certain number of years. Do this when you are ready to part with some of your money and put it in an income-generating fund to leave it there for maximum returns.</p>
-							<p>Why Long-Term Investments?</p>
-							<ul>
-								<li>Less time-consuming. You won‟t need to be bothered by the fluctuations of the value of the asset.</li>
-								<li>Higher returns of investment.</li>
-							</ul>
-
-							<p>What Are The Best Long-Term Investments?</p>
-							<ul>
-								<li>Stocks</li>
-								<li>Corporate and Treasury Bonds</li>
-								<li>Mutual Funds</li>
-							</ul>
-
-							<p><br />Where To Avail?</p>
-							<p>Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don‟t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a&nbsp; minimum investment of $500.</p>
-							<p>There are also online brokers and trading platforms which offer $0 fees and no minimum amount. You would only need to deposit such amount enough to buy a minimum number of stocks in your preferred company.</p>
-							<p><br /><strong>#3 Start A Connected Side Hustle</strong><br /><br />
-							Here are the best low-cost side hustles for a Banker to fit on his or her expertise:</p>
-							<ul>
-								<li><strong>Sell online courses (Minimum $50 per course)</strong></li>
-								<li><strong>Writing and content creation services (Minimum $10 per article for web content)</strong></li>
-								<li><strong>Blogger / Affiliate Marketer ($200/month for a beginner)</strong></li>
-							</ul>
+							<p>
+								You’ll get the knowledge -- which is powerful in itself... But you do not get the tools to utilise them. To “magnetise” you.
+							</p>
+							<p>
+								Therefore, we commissioned genetic-altering audio to be customised by Sound Engineers... Tuned to the right frequencies so you can start seeing the cash flow in.
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								INTRODUCING:  WealthAvatarr™ Premium Bundle
+							</h2>
+							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649301462/WealthAvatarr/wealth_bundle22_a5dcqo.png">
+							<p>
+								The ultimate package to take your wealth to the next level.
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								COMPONENT #1: Wealth Archetype Frequencies
+							</h2>
+							<p>
+								<strong>Here’s What You Get.</strong>
+							</p>
+							<p>
+								We make unlocking your wealth-getting potential easy for you.
+							</p>
+							<p>
+								All you need to do is listen to <strong><i>these magical audios 3-minutes a day.</i></strong>
+							</p>
+							<p>
+								By just wearing headphones, activate those dormant genes to create a Midas Touch.
+							</p>
+							<p>
+								And start flourishing.
+							</p>
+							<p>
+								Now here’s something crucial.
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								Your Vibration Needs to Match Your Specific Archetype As Well.
+							</h2>
+							<p>
+								In a Forbes Article, renowned High Vibration entrepreneurial coach Taryn Lee states: “Each of us has a unique set of codes, a unique set of success frequencies. Unlocking them is simply a process of trusting your instincts, prioritising the health of your energy and tapping into your inner guide to follow the direction of your dreams’.
+							</p>
+							<p>
+								Simply put, the frequencies that unleash your manifestation potential is SPECIFICALLY tailored to you.
+							</p>
+							<p>
+								It’s like the radio. One decimal point off and the audio quality drops.
+							</p>
+							<p>
+								That’s why we not only created audios to help you break through the Genetic Glass Ceiling, we TAILORED it to your wealth archetype.
+							</p>
+							<p>
+								Every beep. Every boop. Every click. Every melody... Is customised to your type.
+							</p>
+							<p>
+								Giving the the greatest chance of breaking through and living the life of your dreams.
+							</p>
+							<p>
+								Now, you possess a superior genetic advantage.
+							</p>
+							<p>
+								Well, on to the next part.
+							</p>
+							<h2 class="sub-header-salesperson text-center">
+								COMPONENT #2: Premium Archetype Analysis
+							</h2>
+							<p>
+								<strong>INTRODUCING: YOUR PREMIUM ARCHETYPAL ANALYSIS - THE GATEWAY TO ARCHETYPAL INTEGRATION</strong>
+							</p>
+							<p>
+								Once you shatter the Genetic Glass Ceiling, you still need to know what to do with all that freedom.
+							</p>
+							<p>
+								After all, nature abhors a vacuum, and you need to fill that open mind with the juiciest money-making secrets in the galaxy.
+							</p>
+							<p>
+								Again, we’re giving you an Archetype Analysis that’s SPECIALLY for you.
+							</p>
+							<p>
+								There’s 5 phases to knowing your archetype. This report outlines each of these steps.
+							</p>
 							<h2 class="sub-header-salesperson text-center">
 								Already, These are Results That Our Community Have Achieved
 							</h2>
@@ -806,6 +1135,7 @@
 							<p>
 								But, it can’t come into your life, until you’ve taken that first step for a brand new you.
 							</p>
+							
 							<div class="testimonial">
 								<span class="archetype-sm creator"></span>
 								<div class="testimonial-header">
@@ -825,7 +1155,7 @@
 									<p>
 										Carolina Strait, 28<br>
 										Proud start-up owner at the age of 28<br>
-										Wealth archetype: Banker 
+										Wealth archetype: Conqueror 
 
 									</p>
 								</div>
@@ -990,7 +1320,7 @@
 									<div class="col-sm-12">
 										<img class="img-mw600" src="{{ asset('assets/img/image/analysis.png') }}">
 					
-										<a href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'><img src='../image/pricing.png' class='img-mw600'></a>
+										<a href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'><img src="{{ asset('assets/img/image/pricing.png') }}" class='img-mw600'></a>
 									</div>
 									<input type="hidden" name="" value="individualogist.com/offer/paa/reading-v4/?name=sj&email=101successhacks%40gmail.com&archetype=caregiver">
 									<input type="hidden" name="" value="reading-v4">
@@ -998,7 +1328,6 @@
 							</div>
 							
 						</div>
-						
 					</div>
 					
 				</div>
