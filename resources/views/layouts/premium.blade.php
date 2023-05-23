@@ -30,12 +30,16 @@
          <div class="collapse navbar-collapse" id="navbarResponsive">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav me-auto">
-               <li class="nav-item mx-0 mx-lg-1">
-                  <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'>FE</a>
-               </li>
-               <li class="nav-item mx-0 mx-lg-1">
-                  <a class="btn btn-secondary px-3 mb-2 mb-lg-0" href="http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4">OTO - 1</a>
-               </li>
+               <ul class="navbar-nav me-auto">
+                  <li class="nav-item mx-0 mx-lg-1">
+                     <!-- <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'>FE</a> -->
+                     <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/basic') }}">FE</a>
+                  </li>
+                  <li class="nav-item mx-0 mx-lg-1">
+                     <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto1') }}">OTO - 1</a>
+                     <!-- <a class="btn btn-secondary px-3 mb-2 mb-lg-0" href="http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4">OTO - 1</a> -->
+                  </li>
+               </ul>
             </ul>
             <!-- Right Side Of Navbar -->
                <ul class="navbar-nav ms-auto">

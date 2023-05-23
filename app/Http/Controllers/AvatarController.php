@@ -77,7 +77,7 @@ class AvatarController extends Controller
         }
     }
 
-    public function basic(){
+    public function oto_1(){
 
         $user = auth()->user();
         $access_level = json_decode($user->access_level);
@@ -108,7 +108,7 @@ class AvatarController extends Controller
 
     }
 
-    public function oto_1(){
+    public function basic(){
         $user = auth()->user();
         $access_level = json_decode($user->access_level);
         $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
