@@ -11,19 +11,30 @@
 |
 */
 
+Route::namespace('Auth')->group(function () {
+    Route::get('auth/register', 'RegisterController@index')->name('register');
+    Route::post('auth/register', 'RegisterController@store')->name('adduser');
+});
+
+
+Route::get('/',  'AvatarController@index');
+
 Route::group(['middleware' => ['get.menu']], function () {
-    Route::get('/', function () {           return view('dashboard.homepage'); });
 
+    Route::get('/dashboard', function () {           return view('dashboard.homepage'); });
+    
     Route::group(['middleware' => ['role:user']], function () {
-
         Route::get('avatar', 'AvatarController@index')->name('avatar');
-        // Route::get('banker', 'AvatarController@banker')->name('banker');
-        // Route::get('capitalist', 'AvatarController@capitalist')->name('capitalist');
-        // Route::get('salesperson', 'AvatarController@salesperson')->name('salesperson');
-        // Route::get('conqueror', 'AvatarController@conqueror')->name('conqueror');
-        // Route::get('giver', 'AvatarController@giver')->name('giver');
-        // Route::get('influencer', 'AvatarController@influencer')->name('influencer');
-        // Route::get('adversary', 'AvatarController@giver')->name('adversary');
+        Route::get('basic', 'AvatarController@basic')->name('basic');
+        Route::get('oto1', 'AvatarController@oto_1')->name('oto1');
+
+        Route::get('avatar/adversary', 'AvatarController@adversary')->name('adversary');
+        Route::get('avatar/conqueror', 'AvatarController@conqueror')->name('conqueror');
+        Route::get('avatar/capitalist', 'AvatarController@capitalist')->name('capitalist');
+        Route::get('avatar/banker', 'AvatarController@banker')->name('banker');
+        Route::get('avatar/salesperson', 'AvatarController@salesperson')->name('salesperson');
+        Route::get('avatar/giver', 'AvatarController@giver')->name('giver');
+        Route::get('avatar/influencer', 'AvatarController@influencer')->name('influencer');
 
         Route::get('/colors', function () {     return view('dashboard.colors'); });
         Route::get('/typography', function () { return view('dashboard.typography'); });
