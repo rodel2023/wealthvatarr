@@ -2,7 +2,7 @@
 /node_modules
 /database/database.sqlite
 # /public/hot
-# /public/storage
+/public/storage
 # /public/js
 # /public/css
 /public/img
@@ -26,3 +26,7 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 composer.phar
+*.zip
+/quiz_old
+/image
+/img

@@ -11,4 +11,13 @@ class UserArchetype extends Model
      * @var string
      */
     protected $table = 'user_archetype';
+    
+        /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'name', 'email', 'isregistered', 'user_id', 'archetype'
+    ];
 }

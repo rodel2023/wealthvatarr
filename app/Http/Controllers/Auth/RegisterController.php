@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 use App\Models\CountryCode;
+use App\Models\UserArchetype;
 
 class RegisterController extends Controller
 {
@@ -130,7 +131,7 @@ class RegisterController extends Controller
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:8|confirmed',
+            'password' => 'required|string|min:8',
             'gender' => 'required|string|max:255',
             // 'country_code' => 'required|string|max:255',
             // 'mobile_number' => 'required|string|max:255',
@@ -138,13 +139,21 @@ class RegisterController extends Controller
 
         // Create and store the user
         $user = User::create([
-            'name' => $validatedData['name'],
-            'email' => $validatedData['email'],
-            'password' => Hash::make($validatedData['password']),
-            'contactNumber' => $validatedData['mobile_number'],
-            'gender' => $validatedData['name'],
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+            'contactNumber' => $request->mobile_number,
+            'gender' => $request->gender,
             'source' => "self",
             'access_level' => json_encode(array(1)),
+        ]);
+        
+        $UserArchetype = UserArchetype::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'isregistered' => 1,
+            'user_id' => $user->id,
+            'archetype' => $request->archetype,
         ]);
 
         

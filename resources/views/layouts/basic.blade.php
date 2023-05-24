@@ -63,6 +63,10 @@
       <div class="hero-image">
          <div class="hero-text">
                <h2 class="mt-5">Unlock Your Sacred Archetypal Powers & Experience Abundance Across All Aspects Of Your Life.</h2>
+                
+                <audio controls loop autoplay>
+                    <source src="{{ asset('assets/audio/Frequency_of_miracles.mp3')  }}" type="audio/mpeg">
+                </audio>
 
                <div class="{{$avatar}}-img">
                   <img src="{{ asset('assets/img/image') }}/{{$avatarmiddle}}" width="80px">
