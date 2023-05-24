@@ -1,0 +1,1099 @@
+body, html {
+    height: 100%;
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin-top: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    padding: 5px;
+}
+ul {
+    text-align: justify;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.testimonial {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #8429c2;
+    margin: 2em 0;
+    position: relative;
+}
+
+.creator {
+    background: url(https://res.cloudinary.com/dohqthrfv/image/upload/v1650349189/WealthAvatarr/testimony-1_hmvxhf.png) no-repeat;
+    background-size: contain;
+}
+
+.testimonial h3 {
+    color: #A52A2A;
+    font-size: 1.4em;
+}
+
+.testimonial p {
+    font-size: 1em;
+    color: #222;
+    font-style: italic;
+	text-align: center;
+}
+
+.testimonial {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #A52A2A;
+    margin: 2em 0;
+    position: relative;
+	border-radius: 0.5rem;
+}
+
+.ruler {
+    background: url(https://res.cloudinary.com/dohqthrfv/image/upload/v1650349189/WealthAvatarr/testimony-1_hmvxhf.png) no-repeat;
+    background-size: contain;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(2px 2px 3px #000);
+}
+
+.testimonial-header{
+	margin-bottom: 10px;
+	justify-content: center;
+	display: flex;
+}
+
+.testimonial-header h2 {
+	margin-top: 10px
+	vertical-align: middle;
+	text-transform: uppercase;
+	margin-top: 13px;
+	color: #A52A2A;
+}
+
+.testimonial-header .logo-img{
+	width: 300px;
+	height: 60px;
+	margin: 8px 10px;
+	filter: drop-shadow(1px 1px 1px #000);
+}
+
+.testimonial-profile p {
+    font-size: .9em;
+    line-height: 1em;
+}
+
+.archetype-sm {
+    width: 50px;
+    height: 50px;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.3)));
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -25px;
+}
+
+
+
+.sub-header {
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: #8429c2;
+    font-size: 2em;
+    letter-spacing: 3px;
+    clear: both;
+    box-shadow: none;
+    border-bottom: 1px solid #8429c2;
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* ADVERSARY */
+
+.adversary-img::before {
+    border-top: 3px solid rgb(255,140,0);
+    content: "";
+    height: 0;
+    left: 0;
+    margin-right: 40px;
+    position: absolute;
+    right: 55%;
+    top: 49px;
+}
+.adversary-img::after {
+    border-top: 3px solid rgb(255,140,0);
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 49px;
+    left: 55%;
+    margin-left: 40px;
+    right: 0;
+}
+.adversary-img {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    min-height: 20px;
+    position: relative;
+    filter: drop-shadow(0 0 10px rgb(255,140,0));
+    z-index: 1;
+    top: 2em;
+}
+
+.sub-header-adversary {
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: #FF8C00;
+    font-size: 2em;
+    letter-spacing: 3px;
+    clear: both;
+    box-shadow: none;
+    border-bottom: 1px solid #8429c2;
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.hero-adversary {
+    height: 100%;
+    background-color: rgb(51, 19, 40);
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    background-image: linear-gradient(rgb(152,83,0), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dohqthrfv/image/upload/v1649316798/WealthAvatarr/background33_b7qxr9.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* end of adversary*/
+
+/* BANKER*/
+
+.banker-img::before {
+    border-top: 3px solid rgb(60,179,113);
+    content: "";
+    height: 0;
+    left: 0;
+    margin-right: 40px;
+    position: absolute;
+    right: 55%;
+    top: 49px;
+}
+.banker-img::after {
+    border-top: 3px solid rgb(60,179,113);
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 49px;
+    left: 55%;
+    margin-left: 40px;
+    right: 0;
+}
+.banker-img {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    min-height: 20px;
+    position: relative;
+    filter: drop-shadow(0 0 10px rgb(60,179,113));
+    z-index: 1;
+    top: 2em;
+}
+
+.sub-header-banker {
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: rgb(60,179,113);
+    font-size: 2em;
+    letter-spacing: 3px;
+    clear: both;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(60,179,113);
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.hero-banker {
+    height: 100%;
+    background-color: rgb(51, 19, 40);
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    background-image: linear-gradient(rgb(85,107,47), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dohqthrfv/image/upload/v1649314905/WealthAvatarr/background-9_owd6ys.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* end of banker*/
+
+/* capitalist*/
+
+.capitalist-img::before {
+    border-top: 3px solid rgb(255,20,147);
+    content: "";
+    height: 0;
+    left: 0;
+    margin-right: 40px;
+    position: absolute;
+    right: 55%;
+    top: 49px;
+}
+.capitalist-img::after {
+    border-top: 3px solid rgb(255,20,147);
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 49px;
+    left: 55%;
+    margin-left: 40px;
+    right: 0;
+}
+.capitalist-img {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    min-height: 20px;
+    position: relative;
+    filter: drop-shadow(0 0 10px rgb(255,20,147));
+    z-index: 1;
+    top: 2em;
+}
+
+.sub-header-capitalist {
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: rgb(255,20,147);
+    font-size: 2em;
+    letter-spacing: 3px;
+    clear: both;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(255,20,147);
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.hero-capitalist {
+    height: 100%;
+    background-color: rgb(51, 19, 40);
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    background-image: linear-gradient(rgb(144, 12, 63), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dohqthrfv/image/upload/v1649314924/WealthAvatarr/background-8_cujxy6.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* end of capitalist*/
+
+/* conqueror*/
+
+.conqueror-img::before {
+    border-top: 3px solid rgb(255,0,255);
+    content: "";
+    height: 0;
+    left: 0;
+    margin-right: 40px;
+    position: absolute;
+    right: 55%;
+    top: 49px;
+}
+.conqueror-img::after {
+    border-top: 3px solid rgb(255,0,255);
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 49px;
+    left: 55%;
+    margin-left: 40px;
+    right: 0;
+}
+.conqueror-img {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    min-height: 20px;
+    position: relative;
+    filter: drop-shadow(0 0 10px rgb(255,0,255));
+    z-index: 1;
+    top: 2em;
+}
+
+.sub-header-conqueror {
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: 	rgb(128,0,128);
+    font-size: 2em;
+    letter-spacing: 3px;
+    clear: both;
+    box-shadow: none;
+    border-bottom: 1px solid 	rgb(128,0,128);
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.hero-conqueror {
+    height: 100%;
+    background-color: rgb(51, 19, 40);
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    background-image: linear-gradient(rgb(75,0,130), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dohqthrfv/image/upload/v1649314931/WealthAvatarr/background7_sfboxc.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* end of conqueror*/
+
+/* giver*/
+
+.giver-img::before {
+    border-top: 3px solid 	rgb(255,255,51);
+    content: "";
+    height: 0;
+    left: 0;
+    margin-right: 40px;
+    position: absolute;
+    right: 55%;
+    top: 49px;
+}
+.giver-img::after {
+    border-top: 3px solid 	rgb(255,255,51);
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 49px;
+    left: 55%;
+    margin-left: 40px;
+    right: 0;
+}
+.giver-img {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    min-height: 20px;
+    position: relative;
+    filter: drop-shadow(0 0 10px rgb(255,255,51));
+    z-index: 1;
+    top: 2em;
+}
+
+.sub-header-giver {
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: 	rgb(153,153,0);
+    font-size: 2em;
+    letter-spacing: 3px;
+    clear: both;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(153,153,0);
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.hero-giver {
+    height: 100%;
+    background-color: rgb(51, 19, 40);
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    background-image: linear-gradient(rgb(102,102,0), rgba(0, 0, 0, 0.5)), url("../image/background5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* end of giver*/
+
+/*influencer*/
+
+.influencer-img::before {
+    border-top: 3px solid rgb(30,144,255);
+    content: "";
+    height: 0;
+    left: 0;
+    margin-right: 40px;
+    position: absolute;
+    right: 55%;
+    top: 49px;
+}
+.influencer-img::after {
+    border-top: 3px solid rgb(30,144,255);
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 49px;
+    left: 55%;
+    margin-left: 40px;
+    right: 0;
+}
+.influencer-img {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    min-height: 20px;
+    position: relative;
+    filter: drop-shadow(0 0 10px rgb(30,144,255));
+    z-index: 1;
+    top: 2em;
+}
+
+.sub-header-influencer {
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: 	rgb(0,0,255);
+    font-size: 2em;
+    letter-spacing: 3px;
+    clear: both;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(0,0,255);
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.hero-influencer {
+    height: 100%;
+    background-color: rgb(51, 19, 40);
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    background-image: linear-gradient(rgb(0,0,139), rgba(0, 0, 0, 0.5)), url("../image/background6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* end of influencer*/
+
+/* salesperson*/
+
+.salesperson-img::before {
+    border-top: 3px solid rgb(255,0,0);
+    content: "";
+    height: 0;
+    left: 0;
+    margin-right: 40px;
+    position: absolute;
+    right: 55%;
+    top: 49px;
+}
+.salesperson-img::after {
+    border-top: 3px solid rgb(255,0,0);
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 49px;
+    left: 55%;
+    margin-left: 40px;
+    right: 0;
+}
+.salesperson-img {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    min-height: 20px;
+    position: relative;
+    filter: drop-shadow(0 0 10px rgb(255,0,0));
+    z-index: 1;
+    top: 2em;
+}
+
+.sub-header-salesperson {
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: 	rgb(220,20,60);
+    font-size: 2em;
+    letter-spacing: 3px;
+    clear: both;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(220,20,60);
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.hero-salesperson {
+    height: 100%;
+    background-color: rgb(51, 19, 40);
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    background-image: linear-gradient(rgb(128,0,0), rgba(0, 0, 0, 0.5)), url("../image/architype-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* end of salesperson*/
+
+/* Place text in the middle of the image */
+.hero-text {
+    align-items: center;
+    margin-top: 5px;    
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 2em;
+}
+
+/* End of hero image */
+
+
+
+/* Form */
+.container{
+    margin-top: 0px;
+    place-items: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    
+}
+
+.input-box{
+    display: -ms-flexbox;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-box .icon{
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid rgb(51, 19, 40);
+    margin-top: 0px;
+    padding: 10px;
+    background-color: rgb(51, 19, 40);
+    width: 50px;
+    
+}
+
+.input-box input{
+    background-color: #fff;
+    outline: none;
+    border: 2px solid rgb(51, 19, 40);
+    padding: 5px 12px;
+    justify-content: center;
+    width: 400px;
+    color: #000;
+}
+
+.input-box input::placeholder{
+    color: #000;
+    opacity: .8;
+}
+
+/* End of Form */
+
+.nav {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav .btn{
+    text-align: center;
+    color:#ffff;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    font-size: 15px;
+    margin: 0px 10px;
+    display: block;
+    margin-top: 2em
+}
+.nav .btn .nav-title{
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.nav .btn .nav-subtitle{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+} 
+
+.nav .btn:hover {
+    background-color: rgb(51, 19, 40);
+    color: white;
+  }
+
+
+  .nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.section-1 {
+    background: url(../image/architype-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+h2.frame {
+    text-align: center;
+    text-transform: uppercase;
+    color: #353738;
+    background: url(../image/caregiver.png) no-repeat center center;
+    padding-top: 65px;
+    margin-top: 70px;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+.img-intext {
+    float: right;
+    clear: both;
+    filter: drop-shadow(0px 5px 15px rgba(0,0,0,.15));
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.3)));
+    width: 40%;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.my-row {
+    background-color: rgb(51, 19, 40);
+}
+
+.row .btn {
+    color:#ffff;
+    background-color: #8429c2;
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    width: 400px;
+    padding: 10px 40px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2em
+}
+
+.paav2-cta {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.paav2-cta:hover {
+  
+    box-shadow: 0 3px 3px 0 rgb(128,0,128);
+  }
+
+.paav2-cover {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 520px;
+}
+.security-text {
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+}
+
+.payment-options {
+    margin: 1em auto;
+    display: inline-block;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+}
+.cta-guarantee {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.cta-link {
+    color: #fff;
+    text-decoration: underline;
+    display: block;
+    margin: 1em auto;
+}
+
+.img-mw600 {
+    
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+    color: white !important;
+}
+
+.reg-price {
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+.glow {
+    text-shadow: 0 0 15px #fff, 0 0 20px #fff;
+}
+.reg-price {
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+.paav2-cta {
+    background: linear-gradient(45deg,#000000,#d1b875);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+    border-radius: 0.5em;
+    padding: 1em;
+    width: 100%;
+    margin: 2em auto;
+}
+
+.paav2-cover {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 120%;
+}
+
+.cta-btn {
+	white-space: normal;
+	margin: 1em auto;
+	border-radius: 100px;
+	background: red;
+	color: #fff;
+	text-transform: uppercase;
+	box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+	font-weight: 700;
+	padding: 0.5em 1em;
+	display: block;
+	font-size: 1.5em;
+}
+
+.cta-btn:hover {
+    background-color: #FFD700; /* Gold */
+    color: #000;
+  }
+
+.cta-guarantee {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.payment-options {
+    margin: 1em auto;
+    display: inline-block;
+    position: relative;
+    max-width: 250px;
+    width: 100%;
+}
+
+.row .btn:hover {
+    background-color: rgb(51, 19, 40);
+    color: white;
+  }
+   
+
+.card {
+    /* Add shadows to create the "card" effect */
+    
+    width: 70rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 40px;
+    outline-width: 1px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+  
+    box-shadow: 0 8px 16px 0 rgb(128,0,128);
+  }
+
+  .w-100 {
+    width: 100%!important;
+}
+
+
+  .footer-logo {
+    /*filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));*/
+    width: 200px;
+    position: relative;
+    margin: 20px auto;
+    font-size: 23px;
+}
+
+.purple {
+    color:rgb(128,0,128);
+}
+.pink {
+    color:rgb(255,20,147);
+}
+
+  #footer {
+    width: 100%;
+    background: #222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    position: relative;
+    margin-top: 50px;
+    display: block;
+    bottom: 0;
+    margin: 0 auto;
+    border-top: 3px solid #8429c2;
+}
+
+#footer p {
+    color: #fff;
+    text-align: center;
+}
+
+.proof-container {
+	position: fixed;
+	bottom: 0;
+	padding: 30px;
+	float: left;
+}
+
+.bubble1 .image {
+	display: block;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 59px;
+    width: 59px;
+}
+
+.bubble1 .image img {
+	border-radius: 50%;
+    height: 59px;
+    width: 59px;
+}
+
+.bubble1 {
+	background: #333 !important;
+    width: 330px !important;
+    margin: 0 auto;
+    height: 65px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 40px;
+    box-shadow: 0 0 1px rgb(0 0 0 / 20%), 0 1px 2px rgb(0 0 0 / 5%), 0 8px 50px rgb(0 0 0 / 5%);
+    line-height: 1.15 !important;
+}
+
+.bubble1 .content {
+	margin-left: 70px;
+    margin-right: 30px;
+    padding: 5px 0px 5px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#who,
+.what1 {
+	text-overflow: ellipsis;
+    width: 235px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#who {
+	
+	color: #fff !important;
+}
+
+.who1 {
+	font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    font-feature-settings: "kern","liga","pnum";
+    font-size: 13px;
+	color: #000;
+}
+
+#what {
+	font-size: 14px;
+	color: #fff769 !important;
+}
+
+.when1 {
+	font-size: 13px;
+	color: #ffd9d9 !important;
+}
+
+#proof-popup.hide-proof {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s 0.5s, opacity 0.4s linear;
+}
+
+#proof-popup.show-proof {
+	display: block;
+}
+
+#proof-popup.show-proof {
+	opacity: 1;
+	-webkit-animation: shootUp 1100ms linear both;
+	animation: shootUp 1100ms linear both;
+}
+
+@media screen and (max-width: 767px) {
+	#proof-popup {
+		left: 0px;
+		right: 0;
+		bottom: 15px;
+		margin: 0;
+		position: fixed;
+		z-index: 999999999999 !important;
+	}
+}
+
+.button-go-up {
+	color:#ffff;
+    background-color: #8429c2;
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    width: 400px;
+    padding: 10px 40px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2em
+}
+
+.nav-button-active {
+	 background-color: rgb(51, 19, 40) !important;
+    color: white !important;
+}
+
+.tick-list{
+	list-style: none;
+	padding-left: 15px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.tick-list i{
+	color: green;
+	font-size: 22px;
+	margin-right: 16px;
+}
+
+.tick-list .indent {
+	margin-left: 1.5rem
+}
+
+.tick-list span{
+	color: red;
+}
