@@ -70,52 +70,11 @@
       </div>
    </nav>
 
-	<div class="hero-{{$avatar}}">
-      
-      <div class="hero-image">
-         <div class="hero-text">
-               <h2 class="mt-5">Unlock Your Sacred Archetypal Powers & Experience Abundance Across All Aspects Of Your Life.</h2>
-                
-                <audio controls loop autoplay>
-                    <source src="{{ asset('assets/audio/Frequency_of_miracles.mp3')  }}" type="audio/mpeg">
-                </audio>
-
-               <div class="{{$avatar}}-img">
-                  <img src="{{ asset('assets/img/image') }}/{{$avatarmiddle}}" width="80px">
-               </div>
-               <div class="title-form mt-5 mb-4"><h4>This Exclusive Reading Is Specially Prepared For:</h4></div>
-               <h2 class="sub-header-{{$avatar}} text-center"><strong>{{$user->name}} </strong></h2>
-
-               <div class="container d-flex align-items-center flex-column">
-                  <img width="400px" src="{{ asset('/assets/img/avatars') }}/{{$image}}" alt="..." />
-                  <h2 class="sub-header-{{$avatar}} text-center">
-                     {{$title}}
-                  </h2>
-               </div>
-         </div>
+      <div class="row my-row">
+            @yield('content')
       </div>
-	</div>
-   
-   <div class="nav" id="nav-tab" role="tablist"  style="background-color: #6610f2;">
-      <button class="btn nav-button-active" id="tab1-button" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
-         <p class="nav-title">Step 1:</p>
-         <p class="nav-subtitle">Your Inner Wealth Vault Calling</p>
-      </button>
-      <button class="btn" id="tab2-button" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-         <p class="nav-title">Step 2:</p>
-         <p class="nav-subtitle">Potential Dangers Ahead</p></button>
-      </button>
-      <button class="btn" id="tab3-button" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
-         <p class="nav-title">Step 3:</p>
-         <p class="nav-subtitle">To Riches Beyond Imagination</p>
-      </button>
-   </div>
 
-   <div class="row my-row">
-         @yield('content')
-   </div>
 
-   
    <div class="row my-row" style="padding-top: 1rem;">
       <div class="card mx-auto" style="width: 60rem;">
          <div class="card-body" style="text-align: -webkit-left;">
@@ -940,33 +899,7 @@
       </div>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      
-      <script>
-         $(document).ready(function(){
-            $("#tab1-next").click(function(){
-               $("#tab2-button").click();
-            });
-            
-            $("#tab2-next").click(function(){
-               $("#tab3-button").click();
-            });
 
-            $("#tab3-next").click(function(){
-               $("#tab1-button").click();
-            });
-         });
-
-         var header = document.getElementById("nav-tab");
-         var btns = header.getElementsByClassName("btn");
-         for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function() {
-               var current = document.getElementsByClassName("nav-button-active");
-               current[0].className = current[0].className.replace("nav-button-active", "");
-               this.className += " nav-button-active";
-            });
-         }
-      </script>
-      
       @yield('javascript')
 
       <script>

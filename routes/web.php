@@ -26,7 +26,10 @@ Route::group(['middleware' => ['get.menu']], function () {
     Route::group(['middleware' => ['role:user']], function () {
         Route::get('avatar', 'AvatarController@index')->name('avatar');
         Route::get('basic', 'AvatarController@basic')->name('basic');
+        Route::get('premium', 'AvatarController@premium')->name('premium');
         Route::get('oto1', 'AvatarController@oto_1')->name('oto1');
+        Route::get('oto2', 'AvatarController@oto_2')->name('oto2');
+        Route::get('oto3', 'AvatarController@oto_3')->name('oto3');
 
         Route::get('avatar/adversary', 'AvatarController@adversary')->name('adversary');
         Route::get('avatar/conqueror', 'AvatarController@conqueror')->name('conqueror');

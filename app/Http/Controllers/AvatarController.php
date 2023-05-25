@@ -51,7 +51,7 @@ class AvatarController extends Controller
                 }else if($archetype == "Adversary"){
                     return view('dashboard.avatar.adversary',["access_level"=>$access_level, "title"=>"The Adversary", "image" => "adversary.png","avatar" => "adversary","avatarmiddle" => "adversarymiddle.png", "user" => $user]);
                 }else{
-                    return Redirect::to('http://wealthavatarr.com/');
+                    return Redirect::to('http://wealthavatarr.com/quiz/');
                 }
             }else{
                 if($archetype == "Banker"){
@@ -73,11 +73,11 @@ class AvatarController extends Controller
                 }
             }
         }else{
-            return Redirect::to('http://wealthavatarr.com/');
+            return Redirect::to('http://wealthavatarr.com/quiz/');
         }
     }
 
-    public function oto_1(){
+    public function premium(){
 
         $user = auth()->user();
         $access_level = json_decode($user->access_level);
@@ -100,10 +100,10 @@ class AvatarController extends Controller
             }else if($archetype == "Adversary"){
                 return view('dashboard.avatar.adversary',["access_level"=>$access_level, "title"=>"The Adversary", "image" => "adversary.png","avatar" => "adversary","avatarmiddle" => "adversarymiddle.png", "user" => $user]);
             }else{
-                return Redirect::to('http://wealthavatarr.com/');
+                return Redirect::to('http://wealthavatarr.com/quiz/');
             }
         }else{
-            return Redirect::to('http://wealthavatarr.com/');
+            return Redirect::to('http://wealthavatarr.com/quiz/');
         }
 
     }
@@ -130,10 +130,10 @@ class AvatarController extends Controller
             }else if($archetype == "Adversary"){
                 return view('dashboard.avatar.basic.adversary',["access_level"=>$access_level, "title"=>"The Adversary", "image" => "adversary.png","avatar" => "adversary","avatarmiddle" => "adversarymiddle.png", "user" => $user]);
             }else{
-                return Redirect::to('http://wealthavatarr.com/');
+                return Redirect::to('http://wealthavatarr.com/quiz/');
             }
         }else{
-            return Redirect::to('http://wealthavatarr.com/');
+            return Redirect::to('http://wealthavatarr.com/quiz/');
         }
     }
 
@@ -181,6 +181,50 @@ class AvatarController extends Controller
         $access_level = json_decode($user->access_level);
         return view('dashboard.avatar.basic.influencer',["access_level"=>$access_level,"title"=>"The Influencer", "image" => "influencer.png","avatar" => "influencer","avatarmiddle" => "influencermiddle.png", "user" => $user]);
     }
+
+    public function oto_1(){
+
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
+
+        if($user_archetype){
+            return view('dashboard.avatar.oto1',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+        }else{
+            return Redirect::to('http://wealthavatarr.com/quiz/');
+        }
+
+    }
+    
+    public function oto_2(){
+
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
+
+        if($user_archetype){
+            return view('dashboard.avatar.oto2',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+        }else{
+            return Redirect::to('http://wealthavatarr.com/quiz/');
+        }
+
+    }
+    
+    public function oto_3(){
+
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
+
+        if($user_archetype){
+            return view('dashboard.avatar.oto3',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+        }else{
+            return Redirect::to('http://wealthavatarr.com/quiz/');
+        }
+
+    }
+
+    ///////////////////////////////////////////////////////////////////////////////
 
 
     /**
