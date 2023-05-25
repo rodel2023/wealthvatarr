@@ -24,7 +24,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap" rel="stylesheet">
 
-  <link rel="shortcut icon" href="/lp/assets/image/favicon.png">
+  <link rel="shortcut icon" href="../assets/img/image/favicon.ico">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
@@ -667,7 +667,7 @@
           <div class="indi-logo text-center p-3">
 
 			<!--<span class="purple"><h1><strong>Wealth</strong></span> <span class="pink">Avatarr</h1></span>-->
-			<img class="img-fluid" src="../image/wealth_avatarr.png">
+			<img class="img-fluid" src="../assets/img/image/wealth_avatarr.png">
           </div>
 
         </div>
@@ -715,7 +715,7 @@
 
             <img id="archetype-img" class="archetype-icon">-->
 
-            <img src="../image/adversarymiddle.png" class="archetype-icon">
+            <img src="../assets/img/image/adversarymiddle.png" class="archetype-icon">
 
             <div class="circle"></div>
 
