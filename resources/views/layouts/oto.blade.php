@@ -20,7 +20,7 @@
       <div class="container">
          <a class="navbar-brand" href="{{ url('/avatar') }}">                        
                <div class="header-logo">
-                  <img class="img-fluid" src="assets/img/wealth_avatarr.png">
+                  <img class="img-fluid" src="{{ url('assets/img/wealth_avatarr.png') }}">
                </div>
          </a>
          <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
