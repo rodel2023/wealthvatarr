@@ -20,21 +20,11 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p> 
-								The Influencer loves big and risky assets. They play the get-rich-quick game no matter how big
-								the involved money is. Just like a rebel, a Influencer loves challenging the norms by their
-								creative ideas. They have their own ways of doing things and they love the track that‟s not being
-								used by many.
-							</p>
-							<p>     
-								They are the best person to ask about financial complexities. Numbers are their friends, but
-								sometimes, a Influencer bravely takes on a challenge even without enough data and backup
-								plan. When they win, they win big. But when they lose, they lose a lot.
-								You have your own set of approaches and practices when it comes to risk-taking and creativity.
-								This attitude is what makes you unstoppable from pursuing the things you want.
-								In short, you believe that your long-term goals can be easily achieved by taking the road less
-								traveled. 
-							</p>
+							<p>The Influencers love to stand out from the crowd and they never fail to do such. They make the best first impressions because of their charm and the things they own. They bring radiance to any room they are in and they are always oozing with confidence wherever they may be. No wonder a lot of people are astonished with an influencer.</p>
+
+							<p>An Influencer attracts people and experiences. They view money as the source of every good thing in life. They work to buy the things they want and regard these expensive stuff as a source of power, authority, and good impressions.</p>
+
+							<p>In short, an influencer earning capacity is motivated by his or her desire to stand out and buy luxury.</p>
 
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab1-next" >
@@ -57,27 +47,52 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p><u><strong>Why do I need to identify my superpowers and strengths?</strong></u></p>
-							<p>Good question. Let‟s start with knowing the importance of superpowers and strengths. First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations. Research further concluded that these skills and abilities can still be further developed according to one‟s limits.</p>
+							
+							<h2 class="sub-header-influencer text-center">
+							Why do I need to identify my superpowers and strengths?
+							</h2>
 
-							<p><br />
-							<strong>The same goes to one‟s inner traits.</strong></p>
-							<p> One‟s superpowers are said to be the easiest ones to develop further &ndash; and these developedsuperpowers would be your fastest way to grow your wealth and cultivate a success mindset. As THE INFLUENCER, here are the superpowers which you can focus on to build your first wealth base:</p>
+							<p>Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.</p>
 
-							<p><br />
-							<strong>Your Risk-Taking Attitude Keeps You On Track</strong></p>
-							<p>A Influencer usually has his long-term and short-term goals completely and clearly laid out in front of him &ndash; and this is the reason why he takes on every challenge no matter how risky it may get. Your favorite line is similar to &ldquo;Let‟s see what happens&rdquo; because your own way of getting the things you want is different from the norms. You place the highest bets on the unconventional ways of building your wealth. This is so that when you win, you know you will win big time and that‟s equivalent to one goal slashed as achieved from your bucketlist.</p>
+							<p>First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.</p>
 
-							<p><br />
-							<strong>You Never Quit</strong></p>
-							<p>A Influencer is always on experimental mode. They are constantly looking for new ways to earn and generative passive income. They may quit a strategy, but their creative and risk-taking mind will just constantly look for another way to compensate the loss in that particular strategy. Quitting is the last option, because on the mind of a influencer, the world has never-ending ideas. They always aspire to see their ideas come to life and take the responsibility of doing so.</p>
+							<p>Research further concluded that these skills and abilities can still be further developed according to one&rsquo;s limits.</p>
 
-							<br /><p><strong>You Are Fond Of Developing Cutting Edge Ideas</strong></p>
-							<p>A Influencer is a great unconventional entrepreneur, because they always make sure that their offers appeal to the consumers. They develop products and services with the thought in mind that this is going to be the next big thing. Influencers Understand Financial Complexities They know how others play the money game. They never miss a cent from their financial statements. They are very well-versed with numbers that they know how to play with it. That‟s why they invest in risky and expensive investments &ndash; such as acquiring big assets &ndash; because they know the return can double and triple in the next few years.</p>
+							<p>The same goes to one&rsquo;s inner traits.</p>
 
-							<p><br />
-							<strong>Responsible Gambler</strong></p>
-							<p> A Influencer is a lone figure. This may be a downside because he only works as a one-man team, however, this makes him a responsible person when it comes to mistakes and other liabilities.</p>
+							<p>One&rsquo;s superpowers are said to be the easiest ones to develop further &ndash; and these developed superpowers would be your fastest way to grow your wealth and cultivate a success mindset.</p>
+
+							<p><strong>As THE INFLUENCER, here are the superpowers which you can focus on to build your first wealth base:</strong></p>
+
+							<h2 class="sub-header-influencer text-center">
+							You Always Ooze With Self-Confidence
+							</h2>
+
+							<p>In fact, you never know that your radiance and high confidence can be contagious that it can influence people to follow suit. An Influencer believes in his/her abilities to take the center stage. They make a grand entrance effortlessly. They believe that their skills are enough to be showcased around and they always carry their blings which significantly can add to&nbsp; their radiance and shine.</p>
+
+							<h2 class="sub-header-influencer text-center">
+							You Attract People And Opportunities
+							</h2>
+
+							<p>People know you are one in a kind. Thanks to your cheerful personality and the things you own which screams class and grace, people trust that you can do a job easily. Paired with a high self- esteem, an Influencer is one of the best team players to attract opportunities for the whole group.</p>
+
+							<h2 class="sub-header-influencer text-center">
+							Influencers Appreciate Opportunities
+							</h2>
+
+							<p>They may not make opportunities but influencers never let them pass once a door has been opened for them. It&rsquo;s a great way to bring in wealth so why have second thoughts? An influencer understands that not everyone gets the same opportunity which makes them appreciate it even more. They take actions when it comes to wealth generation.</p>
+
+							<h2 class="sub-header-influencer text-center">
+							Influencers Are Very Good Speakers
+							</h2>
+
+							<p style="margin-left:7px; margin-right:9px; text-align:justify">Influencers make it easy when it comes to public interaction. They have the best public relations skills. Influencers have the ability to persuade someone by their charm and speaking skills. It adds to their executive image.</p>
+
+							<h2 class="sub-header-influencer text-center">
+							Your Generosity Brings You To The Center Stage, Too
+							</h2>
+
+							<p>An Influencer helps in a way that can bring them to the center of attention, too. They never fail to ask how you&rsquo;ve been or ask for anything that they can help you with.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab2-next">
 							Show Me My Weaknesses!
@@ -99,29 +114,33 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p><strong>You Find It Hard To Trust People</strong><br /><br />
-							A Influencer does not really feel comfortable when they entrust a big project or a big deadline to people other than themselves. Their trust issues might have been rooted from their childhood or past relationship and friendship betrayals which led them to their fall.</p>
+							<h2 class="sub-header-influencer text-center">
+							Your Desire To Spend Compulsively Is Unstoppable
+							</h2>
 
-							<p>Influencers cannot delegate significant work, because of this fear of sabotage. Besides, you think that your own creative ways can bring the best results and only you could do it the way you wanted it to be.</p>
+							<p>It doesn&rsquo;t matter whether a certain item is on sale or not, as long as the Influencer desires it, it is considered sold. It is compulsive because these items are usually not necessary to live. They fall under wants and not under necessities. An Influencer has their own criteria on what to buy impulsively &ndash; as it is usually the expensive ones and useful in such a way that it can elevate his or her status, figure, and authority.</p>
+							<p><strong>These are the usual signs that point out you are a compulsive spender:</strong></p>
+							<ul>
+								<li>Your shopping expenses for wants take up a significant portion from your monthly income.</li>
+								<li>You go into debt because of it</li>
+								<li>You hide your extravagant purchases from family members and loved ones</li>
+								<li>You rarely use these purchases</li>
+								<li>Your New Year&rsquo;s Resolution always include limiting your impulse purchases</li>
+								<li>You&rsquo;re energetic and in the mood when it comes to shopping, online or not.</li>
+								<li>When you&rsquo;re sad and lonely, you feel that shopping can alleviate your feelings and your coping mechanism from stress.</li>
+							</ul>
 
-							<p><br />
-							<strong>Influencers Rarely Have A Backup Plan</strong><br /><br />
-							Influencers have in mind that they will never fail, hence, they take every risk they know of. However, practicality and today‟s uncertainty necessitate the need for a backup plan. When the pandemic kicks in, a lot of thriving businesses were forced to shut down without hint of return. Managers and executives were forced to look for other jobs, media personalities and celebrities started looking for better jobs somewhere. Even the rich are asking their financial managers and advisors of the best thing to do when their investment plummets as the economy is constantly falling.</p>
+							<h2 class="sub-header-influencer text-center">
+							You Cling Onto Your Unhappy Childhood
+							</h2>
 
-							<p>If a you are someone who bet a huge stake on something in danger getting dissipated because of this unforeseen event which are claiming lives and livelihoods, then chances are high that you are one of the most uncomfortable people every time the Government imposes new regulations invoking their police power for public safety.</p>
+							<p>An Influencer&rsquo;s materialism is a result of his or her unhappy childhood experiences. They found solace in the things they own now as a working adult, to compensate with the fact that their&nbsp; past is not that satisfying. Expensive stuff are usually the things that mask their sadness and insecurities from the past.</p>
 
-							<p><br />
-							<strong>They Gamble Even Their Whole Financial Security</strong><br /><br />
-							Influencers purchase risky big assets to take control. A Influencer with no backup plan gambles his or her whole financial stability. A risky appetite, paired with willingness to gamble everything is a very dangerous venture that anyone should be wary of.</p>
+							<h2 class="sub-header-influencer text-center">
+							You Are Obsessed With Insecurities
+							</h2>
 
-							<p>Take for example the story of Patricia Kluge.</p>
-
-							<p>After getting a high-settlement divorce from a wealthy husband, Kluge invested so much of her money by opening a winery and investing into real estate. When the housing market crashed, she lost everything she invested. The bank foreclosed her winery and subdivision. She battled these cases with attorneys around the world to try and save her business ventures. She ended up filing bankruptcy and auctioning off her jewelry and luxurious assets.</p>
-
-							<p><br />
-							<strong>Influencers Live For The Approval Of Others</strong><br /><br />
-							Influencers are also said ask others for other‟s approval. They love to give attention to money because it makes them stand out from the crowd. A influencer strives to make a name for him or herself. They want people to see that their method of dealing with things are superior than that of the conventional standards.</p>
-							
+							<p>No one is ever happy about their own insecurities but an influencer is oftentimes highly insecure about his or her own. They tend to mask it with the things they can buy and own. Their excessive positivity, sometimes, is only a front to mask your emotional baggage. You rarely say that there&rsquo;s something wrong even in front of your best of friends for fear that you&rsquo;d get judgment and reveal your insecurities and ugly past to them.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab3-next">
 							Show Me My WEALTH CHALLENGES!
@@ -144,26 +163,32 @@
 							</div>
 
 							<!-- Section Content-->
-							<p><u><strong>These problems can impact your wealth generation potential. Why is that so?</strong></u></p>
-							<p><br />
+							<p>A radiant image and genuine high self-confidence, with the right motivation and true appreciation of the result is a magic formula to instantly build your wealth. However, there are a lot of possible problems you are most possible to encounter.</p>
 
-							<strong>Start From The Tried And Tested Systems That You&rsquo;re Already Accustomed To</strong></p>
-							<p>
-							Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you‟re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.</p>
+							<p>Let&rsquo;s start.</p>
 
-							<p><br />
-							<strong>Building Wealth Is A Team Effort</strong></p>
-							<p> No person became rich without a team backing him or her up. Microsoft was founded by Bill Gates and his childhood friend Paul Allen. In 1976, Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Mark Zuckerberg was helped by his classmates in creating and launching FaceMash &ndash; which would later on become Facebook.</p>
-							<p>Don‟t be mistaken that a team means a group of professionals working together towards one goal. That is one definition. But remember that you have your very own team at home &ndash; your spouse, parents, siblings, best friends, and trusted relatives. In fact, a team player does not have much qualifications. As long as you are working together in unity and with one goal, you are already considered a team.</p>
-							<p>Building wealth is rarely a one-man job. Even if you‟re only investing, you would need financial planners and managers or a stockbroker to trade. Both of you are considered a team with a single goal &ndash; to multiply your money.</p>
-							<p>Each people is gifted with a unique sets of gifts &ndash; a set of talents which will eventually fit in your path to success.</p>
-							<p>Business- and organization-wise, proper delegation is one of the skills of a good leader. He knows who trust with confidential matters, who would be the best person to do a certain task, and who would be the one who would bring significant and innovative results to the team. Team effort is a work in itself.</p>
+							<ol>
+								<li><strong>Your Efforts May Not Enough To Keep Your Lifestyle</strong></li>
+								<li><strong>You Are Far From Achieving Genuine Happiness</strong></li>
+								<li><strong>Your Desire For Status And Power Will You Even More Uncomfortable</strong></li>
+								<li><strong>You Have Troubles Building Genuine Relationships With Family, Friends, And Acquaintances</strong></li>
+							</ol>
 
-							<p style="text-align: center;"><br /><strong>This is your power motivation formula in building your wealth as a Influencer:</strong></p>
-							<p style="text-align: center;">Symbiotic Flows + Partnerships + Backup Plan</p>
-							<p style="text-align: center;"> And For Your Ultimate Secret to Wealth-Generation:</p>
-							<p style="text-align: center;">Investing In Symbiotic Flows, Long-Term Investments, And Financial Coaching</p>
-							
+							<h2 class="sub-header-influencer text-center">
+							When Your Extravagant Purchases Are Not Matched With Your Earning Capacity, You Won&rsquo;t Achieve Financial Happiness And Independence
+							</h2>
+
+							<p>It&rsquo;s not uncommon to see a person with an Influencer archetype living with someone who can share some of their expenses. An Influencer&rsquo;s earning capability today may not be enough to fund the lifestyle that he or she is living in right now. This fact makes them far from being debt- free.</p>
+
+							<p>An Influencer&rsquo;s desire for fame, status, and authority through extravagant purchases is a surefire way not to achieve financial happiness and independence early. Many aspire to achieve this kind of happiness and independence while they are still young and able to enjoy the things in life. This is one of the challenges for you as an influencer, for you are the type that invests in things</p>
+
+							<h2 class="sub-header-influencer text-center">
+							Genuine Happiness Comes Not Only From Material Things
+							</h2>
+
+							<p>Now, your happiness comes only from the material things you own. This kind of happiness is temporary, only to fill the void and compensate for the intense feelings which make you impulse buy the things you desire. A psychologist Tim Kasser told American Psychological Association in 2014 that according to his research, materialism will lead to an unhappier life eventually.</p>
+
+							<p>The research further concluded that the more materialistic a person is, the more likely he is going to experience unpleasant emotions, the more physical health problems they experience, and the less they feel happy emotions than those who are less materialistic.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab4-next">
 							Show Me My WEALTH FORMULA!
@@ -186,25 +211,37 @@
 							</div>
 
 							<!-- Section Content-->
-							<p><u><strong>These problems can impact your wealth generation potential. Why is that so?</strong></u></p>
-							<p><br />
+							<p><strong><u>These problems can impact your wealth generation potential. Why is that so?</u></strong></p>
 
-							<strong>Start From The Tried And Tested Systems That You&rsquo;re Already Accustomed To</strong></p>
-							<p>
-							Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you‟re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.</p>
+							<h2 class="sub-header-influencer text-center">
+							Happiness Is A Great Motivation To Wealth Generation.
+							</h2>
 
-							<p><br />
-							<strong>Building Wealth Is A Team Effort</strong></p>
-							<p> No person became rich without a team backing him or her up. Microsoft was founded by Bill Gates and his childhood friend Paul Allen. In 1976, Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Mark Zuckerberg was helped by his classmates in creating and launching FaceMash &ndash; which would later on become Facebook.</p>
-							<p>Don‟t be mistaken that a team means a group of professionals working together towards one goal. That is one definition. But remember that you have your very own team at home &ndash; your spouse, parents, siblings, best friends, and trusted relatives. In fact, a team player does not have much qualifications. As long as you are working together in unity and with one goal, you are already considered a team.</p>
-							<p>Building wealth is rarely a one-man job. Even if you‟re only investing, you would need financial planners and managers or a stockbroker to trade. Both of you are considered a team with a single goal &ndash; to multiply your money.</p>
-							<p>Each people is gifted with a unique sets of gifts &ndash; a set of talents which will eventually fit in your path to success.</p>
-							<p>Business- and organization-wise, proper delegation is one of the skills of a good leader. He knows who trust with confidential matters, who would be the best person to do a certain task, and who would be the one who would bring significant and innovative results to the team. Team effort is a work in itself.</p>
+							<p>In a <a href="http://sonjalyubomirsky.com/wp-content/themes/sonjalyubomirsky/papers/BLinpressb.pdf">study </a>by Julia Boehm &amp; Sonja Lyubomirsky of the University of California, it was shown that contrary to the perception of many, happiness precedes success. It may sound contrary, especially if happiness is associated with money. However, it is also shown in different studies that happiness is associated with the income level. Sometimes, spending a little bit for our wants can become a big motivation which can result to better wealth generation.</p>
 
-							<p style="text-align: center;"><br /><strong>This is your power motivation formula in building your wealth as a Influencer:</strong></p>
-							<p style="text-align: center;">Symbiotic Flows + Partnerships + Backup Plan</p>
-							<p style="text-align: center;"> And For Your Ultimate Secret to Wealth-Generation:</p>
-							<p style="text-align: center;">Investing In Symbiotic Flows, Long-Term Investments, And Financial Coaching</p>
+							<h2 class="sub-header-influencer text-center">
+							Your Saving Habits Will Jumpstart Your Wealth Generation Capabilities
+							</h2>
+
+							<p>Great investments are a result of hard work paired with a risk-taking attitude. The best time to invest for a faster and higher return of investment in the near future is to invest as soon as you start earning an income. If a person keeps on spending and reasoning out that they deserve it, nothing will be left for them to invest. The things that they really deserve in the future will remain far-fetched. Investments need money to run. In wealth generation, you need the money to work for you.</p>
+
+							<h2 class="sub-header-influencer text-center">
+							Science Says That Conscientious People Are Most Likely To Get Rich
+							</h2>
+
+							<p>A <a href="https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/bjop.12360">2018 study </a>from the British Journal of Psychology concludes that focus on what they need to do instead on what they want to do. If you are focusing to buy stuff that you need because it signifies power and therefore, makes you happy, then you are more likely to be inferior in terms of your wealth-generating capacity. People who are planning how to earn more money, get promotions, and think of ways to make theirselves sellable are the people who will earn more than double in only a matter of years from now.</p>
+
+							<p>&nbsp;</p>
+
+							<h2 style="text-align:center"><strong>This is your power motivation formula in building your wealth as a Salesperson: </strong></h2>
+
+							<h2  class = "text-danger" style="text-align:center"><strong>Self + Perspective</strong></h2>
+
+							<p>&nbsp;</p>
+
+							<p class = "text-danger" style="text-align:center"><strong>And For Your Ultimate Secret to Wealth-Generation: </span></strong></p>
+
+							<p class = "text-danger" style="text-align:center"><strong>Finding Your Passion To Start Your Own Business</span></strong></p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab5-next">
 							Show Me My WEALTH GUIDE!
@@ -225,54 +262,96 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!--Section Content-->
-							<p>It‟s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Influencer would eventually encounter in this lifetime.</p>
-							<p>Your obsession with money is understandable. No one wants to compromise their financial stability and choose material happiness which are usually just temporary contentment.</p>
-							<p>These fears are reasonable. You want to build wealth in the shortest possible time. You want towatch your savings grow instead of it diminishing over temporary happiness; hence, you would rather save all the money that you think is not really necessary in your day-to-day sustenance.</p>
-							<p>However, these wants can sometimes be thought as motivation for you to perform well in your day job, get promotions, or think of a new business concept that can be the next big thing. It‟s possible that these wants not take up your savings funds, for you can let your money do the work for you.</p>
-							<p>Here are the solutions catered just for a Influencer like you:</p>
-							
-							<p><br /><strong>#1 Enlist The Help Of A Finance Coach / Financial Advisor</strong></p>
-							<p><br />Financial coaches aim to help their clients get clear about their financial goals, habits, and money appetite. They teach people how to be responsible with their money and fix their financial practices. An advisor, on the other hand, will recommend investment according to your risk appetite, long-term goals, and amount of money you‟re willing to gamble. A financial professional is not only for the wealthy people &ndash; these professionals cater to small businesses and those with day job who are looking to start or diversify their investment portfolio.</p>
-							<p>Wealth management and investment involves risks. Specific investment strategies and the amount to be involved depends particularly on the client. This is a case-to-case basis. Financial advisors provide their clients with individual plans to cater to their needs and specific goals.</p>
-							<p>Whether it be a question on the best thing to do with your money just sitting in a bank, an advice about a particular investment, or a help in budgeting a big expensive event such as wedding and birthdays, a financial coach or advisor can provide you the best options to consider.</p>
-							<p>Where to find financial coaches / advisors?</p>
-							<ul>
-								<li>Referrals will be your best option if you have friends or colleagues who have tried their</li>
-								<li>service.</li>
-								<li>Most financial advisors are affiliated with insurance companies.</li>
-								<li>National Association of Personal Financial Advisors (NAPFA) website</li>
-								<li>Accredited Financial Counselor website</li>
-							</ul>
-							<p>Alternative: <strong>Start Subscribing To Financial Newsletters And Listening To Financial Podcasts</strong></p>
-							<p>Financial podcasts are one of the top podcast niche nowadays. Most people, even the younger generations, are worried of their financial security this pandemic. A finance professional advice may be something that they cannot afford yet, so they resort to financial podcasts to get particular advice from.</p>
+							<p>It&rsquo;s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Influencer would eventually encounter in this lifetime.</p>
 
-							<p><br /><strong>#2 When You Are Able To Take It To The Next Level, Invest In Long-Term Ones</strong><br /><br />
-							Long-term investments are those where you let your money stay for a long time to generate cash after a certain number of years. Do this when you are ready to part with some of your money and put it in an income-generating fund to leave it there for maximum returns.</p>
-							<p>Why Long-Term Investments?</p>
+							<p>Your obsession with money is understandable. No one wants to compromise their financial stability and choose material happiness which are usually just temporary contentment.</p>
+
+							<p>These fears are reasonable. You want to build wealth in the shortest possible time. You want to watch your savings grow instead of it diminishing over temporary happiness; hence, you would rather save all the money that you think is not really necessary in your day-to-day sustenance.</p>
+
+							<p>However, these wants can sometimes be thought as motivation for you to perform well in your day job, get promotions, or think of a new business concept that can be the next big thing. It&rsquo;s possible that these wants not take up your savings funds, for you can let your money do the work for you.</p>
+
+							<p><strong>Here are the solutions catered just for a Influencer like you:</strong></p>
+
+							<h2 class="sub-header-influencer text-center">
+							#1 Enlist The Help Of A Life Coach
+							</h2>
+
+							<p>One thing that this wealth personality reading wants you to do is to get your life back. Your ugly childhood memories and hurtful past are still controlling you today that you are letting your emotions decide for you. You may be grabbing the best opportunities right away, but the results of these opportunities will be put into waste if you don&rsquo;t spend it wisely.</p>
+
+							<p>Contrary to the belief of many, a life coach is not similar to psychologist. Don&rsquo;t be afraid to get judged because you are working with one. Wealthy personalities and celebrities have their own life coaches to guide their goals and principles in life. Oprah Winfrey credits her life coach to her success. Leonardo DiCaprio enlisted the help of a life coach and his current status and achievements in life speak for themselves how successful life coaching is for him. Bill Clinton, Serena Williams, and Hugh Jackman are some of the famous personalities who are very vocal that they have discovered their own path to success thanks to their life coaches.</p>
+
+							<p>A life coach will tackle about your specific obstacles, what&rsquo;s taking you back from making progress, and will clarify your goals to work on to. Even your compulsive spending will be addressed. These are the specific job responsibilities of a life coach:</p>
+
 							<ul>
-								<li>Less time-consuming. You won‟t need to be bothered by the fluctuations of the value of the asset.</li>
+								<li>Help you attain work/life balance</li>
+								<li>Address your fears and help eliminate them</li>
+								<li>Teach you how to build stronger relationships</li>
+								<li>Enhance your creativity</li>
+								<li>Realign your long-term goals</li>
+								<li>Improve communication skills</li>
+								<li>Manage your time effectively</li>
+								<li>Create specific goals to achieve your dreams</li>
+							</ul>
+
+							<p style="margin-left:7px; margin-right:21px; text-align:justify">Consider a life coach as someone who drags you out of bed every morning. Most people need assistance and an authoritative figure to change bad habits and stick to their plan. A life coach can act as one to help you jumpstart your wealth generation journey.</p>
+
+							<h2 class="sub-header-influencer text-center">
+							#2 Invest In Long-Term Investments
+							</h2>
+
+							<p>This is perfect for an Influencer. Find investments which will require you not to withdraw your money for a certain number of years. Consider this as a very good practice to curb your compulsive spending tendencies. Every time you earn money, put at least 20% of it to a long- term investment fund.</p>
+
+							<p><strong>Why Long-Term Investments?</strong></p>
+
+							<ul>
+								<li>Less time-consuming. You won&rsquo;t need to be bothered by the fluctuations of the value of the asset.</li>
 								<li>Higher returns of investment.</li>
 							</ul>
 
-							<p>What Are The Best Long-Term Investments?</p>
+							<p><strong>What Are The Best Long-Term Investments?</strong></p>
+
 							<ul>
 								<li>Stocks</li>
 								<li>Corporate and Treasury Bonds</li>
-								<li>Mutual Funds</li>
+								<li>Mutual Funds Where To Avail?</li>
 							</ul>
 
-							<p><br />Where To Avail?</p>
-							<p>Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don‟t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a&nbsp; minimum investment of $500.</p>
+							<p>Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don&rsquo;t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a minimum investment of $500.</p>
+
 							<p>There are also online brokers and trading platforms which offer $0 fees and no minimum amount. You would only need to deposit such amount enough to buy a minimum number of stocks in your preferred company.</p>
-							<p><br /><strong>#3 Start A Connected Side Hustle</strong><br /><br />
-							Here are the best low-cost side hustles for a Influencer to fit on his or her expertise:</p>
+
+							<h2 class="sub-header-influencer text-center">
+							#3: Start A Business
+							</h2>
+
+							<p>Inc.com published a <a href="https://www.inc.com/jeff-haden/how-science-says-people-who-get-rich-are-different-from-everyone-else.html">report </a>noting some interesting facts about &quot;The 400 Individual Tax Returns Reporting the Largest Adjusted Gross Incomes&rdquo; by the IRS. Interestingly, this is how the top 400 taxpayers earned their income for that year:</p>
+
+							<p><strong>Wages and salaries: 4.47 percent Interest: 4.24 percent</strong></p>
+
+							<p><strong>Dividends: 10.89 percent</strong></p>
+
+							<p><strong>Partnerships and corporations: 16.24 percent Capital gains: 65.16 percent</strong></p>
+
+							<p>The top 400 earned more than half of their income from capital assets. These assets are investments &ndash; such as cars, stocks, houses, bonds, valuable pieces of arts, and other significant properties.</p>
+
+							<p>These only mean that living and working for a pure monthly income stream will not make you rich.</p>
+
+							<p>An Influencer, having an extrovert&rsquo;s traits which are more favorable to business and companies, has already got what it takes to start a business. Use your charm and cheerful personalities to gain more clients and consumers for your business. Use your public speaking skills to look for investors so you will have more capital to start. You can train the right persons how to have their own Influencer skills to help manage the business.</p>
+
+							<p><strong>These are the best niches to get you started in your business:</strong></p>
+
 							<ul>
-								<li><strong>Sell online courses (Minimum $50 per course)</strong></li>
-								<li><strong>Writing and content creation services (Minimum $10 per article for web content)</strong></li>
-								<li><strong>Blogger / Affiliate Marketer ($200/month for a beginner)</strong></li>
+								<li>Clothing and fashion items</li>
+								<li>Fitness Equipment</li>
+								<li>Gadgets And Technology</li>
+								<li>Home Improvement And D&eacute;cor</li>
+								<li>Health-Conscious Foods</li>
+								<li>Pet Supplies</li>
 							</ul>
 						</div>
-						
+						<a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
+							BUY product for 365 DAYS OF WEALTH AFFIRMATION
+						</a>
 					</div>
 					
 				</div>

@@ -111,7 +111,7 @@ class RegisterController extends Controller
             'email' => $validatedData['email'],
             'password' => Hash::make($validatedData['password']),
             'contactNumber' => $contactNumber,
-            'gender' => $validatedData['name'],
+            'gender' => $validatedData['gender'],
             'source' => "self",
             'access_level' => json_encode(array(1)),
         ]);

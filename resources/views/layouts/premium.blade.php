@@ -117,7 +117,7 @@
          @yield('content')
    </div>
 
-   <div class="row my-row" style="padding-top: 1rem;">
+   <!-- <div class="row my-row" style="padding-top: 1rem;">
       <div class="card mx-auto" style="width: 60rem;">
          <div class="card-body" style="text-align: -webkit-left;">
          <div class="row">
@@ -927,7 +927,7 @@
 
       </div>
       </div>
-   </div>
+   </div> -->
 
       <div id="footer">
         <div class="footer-logo">

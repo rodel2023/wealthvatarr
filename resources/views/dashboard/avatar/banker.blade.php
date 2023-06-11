@@ -20,22 +20,11 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p> 
-								The Banker loves big and risky assets. They play the get-rich-quick game no matter how big
-								the involved money is. Just like a rebel, a Banker loves challenging the norms by their
-								creative ideas. They have their own ways of doing things and they love the track that‟s not being
-								used by many.
-							</p>
-							<p>     
-								They are the best person to ask about financial complexities. Numbers are their friends, but
-								sometimes, a Banker bravely takes on a challenge even without enough data and backup
-								plan. When they win, they win big. But when they lose, they lose a lot.
-								You have your own set of approaches and practices when it comes to risk-taking and creativity.
-								This attitude is what makes you unstoppable from pursuing the things you want.
-								In short, you believe that your long-term goals can be easily achieved by taking the road less
-								traveled. 
-							</p>
+							<p>The Bankers are the thriftiest people, yet they never go out of style. Your fellow Bankers within this group are some of the most trusted individuals you have met in your life. The kind of lifestyle that you are living now is exactly within your means. When certain arrangements change, the Bankers are the easiest to adapt to these changes. </p>
 
+							<p>You have your own set of approaches and practices when it comes to your personal financial accounting and wealth generation. </p>
+
+							<p>In short, you earn to save and see your money grow mainly from your day salary alone.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab1-next" >
 							Show Me My Superpowers...
@@ -57,27 +46,57 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p><u><strong>Why do I need to identify my superpowers and strengths?</strong></u></p>
-							<p>Good question. Let‟s start with knowing the importance of superpowers and strengths. First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations. Research further concluded that these skills and abilities can still be further developed according to one‟s limits.</p>
+							<h2 class="sub-header-banker text-center">
+								Why do I need to identify my superpowers and strengths?
+							</h2>
 
-							<p><br />
-							<strong>The same goes to one‟s inner traits.</strong></p>
-							<p> One‟s superpowers are said to be the easiest ones to develop further &ndash; and these developedsuperpowers would be your fastest way to grow your wealth and cultivate a success mindset. As THE BANKER, here are the superpowers which you can focus on to build your first wealth base:</p>
+							<p>Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths. </p>
 
-							<p><br />
-							<strong>Your Risk-Taking Attitude Keeps You On Track</strong></p>
-							<p>A Banker usually has his long-term and short-term goals completely and clearly laid out in front of him &ndash; and this is the reason why he takes on every challenge no matter how risky it may get. Your favorite line is similar to &ldquo;Let‟s see what happens&rdquo; because your own way of getting the things you want is different from the norms. You place the highest bets on the unconventional ways of building your wealth. This is so that when you win, you know you will win big time and that‟s equivalent to one goal slashed as achieved from your bucketlist.</p>
+							<p>First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.</p>
 
-							<p><br />
-							<strong>You Never Quit</strong></p>
-							<p>A Banker is always on experimental mode. They are constantly looking for new ways to earn and generative passive income. They may quit a strategy, but their creative and risk-taking mind will just constantly look for another way to compensate the loss in that particular strategy. Quitting is the last option, because on the mind of a banker, the world has never-ending ideas. They always aspire to see their ideas come to life and take the responsibility of doing so.</p>
+							<p>Research further concluded that these skills and abilities can still be further developed according to one&rsquo;s limits. </p>
 
-							<br /><p><strong>You Are Fond Of Developing Cutting Edge Ideas</strong></p>
-							<p>A Banker is a great unconventional entrepreneur, because they always make sure that their offers appeal to the consumers. They develop products and services with the thought in mind that this is going to be the next big thing. Bankers Understand Financial Complexities They know how others play the money game. They never miss a cent from their financial statements. They are very well-versed with numbers that they know how to play with it. That‟s why they invest in risky and expensive investments &ndash; such as acquiring big assets &ndash; because they know the return can double and triple in the next few years.</p>
+							<p>The same goes to one&rsquo;s inner traits. </p>
 
-							<p><br />
-							<strong>Responsible Gambler</strong></p>
-							<p> A Banker is a lone figure. This may be a downside because he only works as a one-man team, however, this makes him a responsible person when it comes to mistakes and other liabilities.</p>
+							<p>One&rsquo;s superpowers are said to be the easiest ones to develop further &ndash; and these developed superpowers would be your fastest way to grow your wealth and cultivate a success mindset. </p>
+
+							<p> <strong> As THE BANKER, here are the superpowers which you can focus on to build your first wealth base:</strong></p>
+
+							<h2 class="sub-header-banker text-center">
+								High Appreciation for Money
+							</h2>
+
+							<p>Money is highly respected for a banker. Money is a product of one&rsquo;s sweat, sacrifices, and efforts. You value hardships so you make sure that every penny is well-accounted for. </p>
+
+							<h2 class="sub-header-banker text-center">
+								Disciplined, Never Easily Swayed By Materiality
+							</h2>
+
+							<p>Even if you have material wants, you rarely do splurge purchases because every expense must be planned. You make sure that you will earn back the amount you have used for this certain item. If you are tempted to buy a thing not really in your budget schedule, you think more than thrice before making the purchase. </p>
+
+							<h2 class="sub-header-banker text-center">
+								Highly Frugal
+							</h2>
+
+							<p>You have a lot of money-saving tips in mind. You have a lot of cash-back apps that you use to pay your bills. You would rather prepare home cooked meals than buying from fast foods and restaurants. Keep this superpower of yours &ndash; this will guide your path towards wealth creation! </p>
+
+							<h2 class="sub-header-banker text-center">
+								You Practice Proper Financial Accounting
+							</h2>
+
+							<p>Not a penny is wasted. Every dollar is well-accounted for. Not only that, your expenses are mostly necessities. You track most of your expenses. Keep this up! You are the last person to be taken advantage when it comes to money. </p>
+
+							<h2 class="sub-header-banker text-center">
+								You Live Within Your Means
+							</h2>
+
+							<p>Your lifestyle is just right for your day job salary. You are never compelled or pressured to keep up with others. </p>
+
+							<h2 class="sub-header-banker text-center">
+								You Pay Attention Even to Small Details 
+							</h2>
+
+							<p>Frugality entails that you scrutinize your expenses very well &ndash; making sure that a certain thing you buy does its job well. After all, that&rsquo;s what you pay for. Work-wise, you pay high attention even to these small important details.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab2-next">
 							Show Me My Weaknesses!
@@ -99,29 +118,23 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p><strong>You Find It Hard To Trust People</strong><br /><br />
-							A Banker does not really feel comfortable when they entrust a big project or a big deadline to people other than themselves. Their trust issues might have been rooted from their childhood or past relationship and friendship betrayals which led them to their fall.</p>
+							<p>You Miss Out A Lot of Great Things That Money Can Buy Whether we like it or not, there are really certain things in life that make us happy but in turn, we have to earn and but these stuff. In short, there are things and happiness that money can buy. </p>
 
-							<p>Bankers cannot delegate significant work, because of this fear of sabotage. Besides, you think that your own creative ways can bring the best results and only you could do it the way you wanted it to be.</p>
+							<p>Your trait to save money hinders you to feel that happiness associated with the greatest invention on Earth meant to provide the humankind happiness. We&rsquo;re talking about properties here &ndash; cars, condominium, high-end gadgets, elegant restaurants, and a luxurious lifestyle. </p>
 
-							<p><br />
-							<strong>Bankers Rarely Have A Backup Plan</strong><br /><br />
-							Bankers have in mind that they will never fail, hence, they take every risk they know of. However, practicality and today‟s uncertainty necessitate the need for a backup plan. When the pandemic kicks in, a lot of thriving businesses were forced to shut down without hint of return. Managers and executives were forced to look for other jobs, media personalities and celebrities started looking for better jobs somewhere. Even the rich are asking their financial managers and advisors of the best thing to do when their investment plummets as the economy is constantly falling.</p>
+							<h2 class="sub-header-banker text-center">
+								You Are Obsessed With Money &ndash; A Physical Thing That Can Be Exchanged For Something More Important
+							</h2>
 
-							<p>If a you are someone who bet a huge stake on something in danger getting dissipated because of this unforeseen event which are claiming lives and livelihoods, then chances are high that you are one of the most uncomfortable people every time the Government imposes new regulations invoking their police power for public safety.</p>
+							<p>For now, you are scared to let some of your hard-earned money to go with these &lsquo;expensive&rsquo; pleasures in life. You feel satisfied by seeing your money accumulate in your savings accounts. Keep in mind that money can also buy comfort, social relationships, and health, too. These are just some of the things that you are missing because of your money obsession. </p>
 
-							<p><br />
-							<strong>They Gamble Even Their Whole Financial Security</strong><br /><br />
-							Bankers purchase risky big assets to take control. A Banker with no backup plan gambles his or her whole financial stability. A risky appetite, paired with willingness to gamble everything is a very dangerous venture that anyone should be wary of.</p>
+							<h2 class="sub-header-banker text-center">
+								The Idea of Spending a Lot Even In Necessary Purchases Stresses You
+							</h2>
 
-							<p>Take for example the story of Patricia Kluge.</p>
+							<p>Most people are stressed with money because it&rsquo;s not enough to meet their monthly expenses and necessities. But Bankers are stressed with the idea of their account balance diminishing because of their obsession with money itself. Bankers are scared of running out of money when an emergency occurs. </p>
 
-							<p>After getting a high-settlement divorce from a wealthy husband, Kluge invested so much of her money by opening a winery and investing into real estate. When the housing market crashed, she lost everything she invested. The bank foreclosed her winery and subdivision. She battled these cases with attorneys around the world to try and save her business ventures. She ended up filing bankruptcy and auctioning off her jewelry and luxurious assets.</p>
-
-							<p><br />
-							<strong>Bankers Live For The Approval Of Others</strong><br /><br />
-							Bankers are also said ask others for other‟s approval. They love to give attention to money because it makes them stand out from the crowd. A banker strives to make a name for him or herself. They want people to see that their method of dealing with things are superior than that of the conventional standards.</p>
-							
+							<p>The last thing a Banker wants is to lose their financial independence.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab3-next">
 							Show Me My WEALTH CHALLENGES!
@@ -144,26 +157,44 @@
 							</div>
 
 							<!-- Section Content-->
-							<p><u><strong>These problems can impact your wealth generation potential. Why is that so?</strong></u></p>
-							<p><br />
+							<p>A frugal lifestyle is important in building your wealth quickly. However, there are a lot of possible problems you are most possible to encounter. </p>
 
-							<strong>Start From The Tried And Tested Systems That You&rsquo;re Already Accustomed To</strong></p>
-							<p>
-							Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you‟re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.</p>
+							<p><strong>Let&rsquo;s start.</strong> </p>
 
-							<p><br />
-							<strong>Building Wealth Is A Team Effort</strong></p>
-							<p> No person became rich without a team backing him or her up. Microsoft was founded by Bill Gates and his childhood friend Paul Allen. In 1976, Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Mark Zuckerberg was helped by his classmates in creating and launching FaceMash &ndash; which would later on become Facebook.</p>
-							<p>Don‟t be mistaken that a team means a group of professionals working together towards one goal. That is one definition. But remember that you have your very own team at home &ndash; your spouse, parents, siblings, best friends, and trusted relatives. In fact, a team player does not have much qualifications. As long as you are working together in unity and with one goal, you are already considered a team.</p>
-							<p>Building wealth is rarely a one-man job. Even if you‟re only investing, you would need financial planners and managers or a stockbroker to trade. Both of you are considered a team with a single goal &ndash; to multiply your money.</p>
-							<p>Each people is gifted with a unique sets of gifts &ndash; a set of talents which will eventually fit in your path to success.</p>
-							<p>Business- and organization-wise, proper delegation is one of the skills of a good leader. He knows who trust with confidential matters, who would be the best person to do a certain task, and who would be the one who would bring significant and innovative results to the team. Team effort is a work in itself.</p>
+							<ol>
+								<li>Your Health Is Compromised </li>
+								<li>You Have Something You Want To Do Or Achieve, Yet Money Is Stopping You </li>
+								<li>You Have Troubles Building Genuine Relationships With Family, Friends, And Acquaintances </li>
+								<li>Your Path To Financial Independence Is A Long Way To Go</li>
+							</ol>
 
-							<p style="text-align: center;"><br /><strong>This is your power motivation formula in building your wealth as a Banker:</strong></p>
-							<p style="text-align: center;">Symbiotic Flows + Partnerships + Backup Plan</p>
-							<p style="text-align: center;"> And For Your Ultimate Secret to Wealth-Generation:</p>
-							<p style="text-align: center;">Investing In Symbiotic Flows, Long-Term Investments, And Financial Coaching</p>
-							
+							<h2 class="sub-header-banker text-center">
+								Money Is Worth the Health
+							</h2>
+
+							<p>Regular checkups and up-to-date vaccinations and screening tests can significantly prolong your life and possibly serious conditions can be treated early. </p>
+
+							<p>As a general rule, a person under the age of 50 should see a doctor for a routine physical checkup once every 3 years. A person over the age of 50 should go at least once a year. An average doctor visit costs between $70-$250.</p>
+
+							<h2 class="sub-header-banker text-center">
+								Money Can Buy Happiness and Relaxation
+							</h2>
+
+							<p>As a simple exercise, list down all your wants in life without thinking of the money. Close your eyes and enumerate all those luxuries you&rsquo;ve always wanted.</p>
+
+							<p>It could be a vacation in another country, owning a high-rise condominium place, a new high- end car, a membership in luxurious club, starting a collection of expensive stuff, etc.</p>
+
+							<p>Now, take into account the money. </p>
+
+							<p>Which of the following could you achieve by now? </p>
+
+							<p>These are some of the material happiness that money can buy. A Banker usually encounter a hard time striking off these wants from their bucket list due to their obsession with money. This material happiness may also provide contentment and relaxation.</p>
+
+							<h2 class="sub-header-banker text-center">
+								Social Gatherings May Require You to Spend Money
+							</h2>
+
+							<p>Even a simple get-together entails spending a little. A Banker finds it hard to have quality time with friends and family, because in reality, it&rsquo;s associated with spending which means additional expenses.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab4-next">
 							Show Me My WEALTH FORMULA!
@@ -186,25 +217,33 @@
 							</div>
 
 							<!-- Section Content-->
-							<p><u><strong>These problems can impact your wealth generation potential. Why is that so?</strong></u></p>
+							<p><u><strong>These problems can impact your wealth generation potential. Why is that so? </strong></u></p>
+
+							<h2 class="sub-header-banker text-center">
+								Health And Success Are Inter-Related. 
+							</h2>
+							<p>Did you know that a research by the Rutgers Cooperative Extension Small Steps to Health and Wealth (SSHW) shows that overweight and obesity are associated with lower earnings, particularly for women in professional occupations? Employers spend a lot in developing programs to help people maintain good health habits and provide clinical care for employees who might be ill to make them even more productive at work. </p>
+
+							<h2 class="sub-header-banker text-center">
+								Happiness Is A Great Motivation To Wealth Generation. 
+							</h2>
+							<p>In a study by Julia Boehm &amp; Sonja Lyubomirsky of the University of California, it was shown that contrary to the perception of many, happiness precedes success. It may sound contrary, especially if happiness is associated with money. However, it is also shown in different studies that happiness is associated with the income level. Sometimes, spending a little bit for our wants can become a big motivation which can result to better wealth generation.</p>
+
+							<h2 class="sub-header-banker text-center">
+								People Who Are Good In Building Genuine Relationships Are Better At Wealth- Generation.
+							</h2>
+							<p>The Grant Study of the Harvard Medical School that people in loving relationship&nbsp;are more inclined to earn well and use their money in a wiser manner to build wealth quickly. It does not necessarily mean being in a romantic relationship. The study is very specific that the relationship may be with a parent, grandparents, children, or friends.</p>
+
 							<p><br />
+							&nbsp;</p>
 
-							<strong>Start From The Tried And Tested Systems That You&rsquo;re Already Accustomed To</strong></p>
-							<p>
-							Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you‟re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.</p>
+							<h2 style="text-align:center"><strong>This is your power motivation formula in building your wealth as a Banker: </strong></h2>
 
-							<p><br />
-							<strong>Building Wealth Is A Team Effort</strong></p>
-							<p> No person became rich without a team backing him or her up. Microsoft was founded by Bill Gates and his childhood friend Paul Allen. In 1976, Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Mark Zuckerberg was helped by his classmates in creating and launching FaceMash &ndash; which would later on become Facebook.</p>
-							<p>Don‟t be mistaken that a team means a group of professionals working together towards one goal. That is one definition. But remember that you have your very own team at home &ndash; your spouse, parents, siblings, best friends, and trusted relatives. In fact, a team player does not have much qualifications. As long as you are working together in unity and with one goal, you are already considered a team.</p>
-							<p>Building wealth is rarely a one-man job. Even if you‟re only investing, you would need financial planners and managers or a stockbroker to trade. Both of you are considered a team with a single goal &ndash; to multiply your money.</p>
-							<p>Each people is gifted with a unique sets of gifts &ndash; a set of talents which will eventually fit in your path to success.</p>
-							<p>Business- and organization-wise, proper delegation is one of the skills of a good leader. He knows who trust with confidential matters, who would be the best person to do a certain task, and who would be the one who would bring significant and innovative results to the team. Team effort is a work in itself.</p>
+							<h2  class = "text-danger" style="text-align:center"><strong>Health + Happiness + Relationships</strong></h2>
 
-							<p style="text-align: center;"><br /><strong>This is your power motivation formula in building your wealth as a Banker:</strong></p>
-							<p style="text-align: center;">Symbiotic Flows + Partnerships + Backup Plan</p>
-							<p style="text-align: center;"> And For Your Ultimate Secret to Wealth-Generation:</p>
-							<p style="text-align: center;">Investing In Symbiotic Flows, Long-Term Investments, And Financial Coaching</p>
+							<p class = "text-danger" style="text-align:center"><strong>And For Your Ultimate Secret to Wealth-Generation: </strong></p>
+
+							<p class = "text-danger" style="text-align:center"><strong>Investing In Short-Term and Long-Term Assets</strong></p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab5-next">
 							Show Me My WEALTH GUIDE!
@@ -225,54 +264,90 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!--Section Content-->
-							<p>It‟s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Banker would eventually encounter in this lifetime.</p>
-							<p>Your obsession with money is understandable. No one wants to compromise their financial stability and choose material happiness which are usually just temporary contentment.</p>
-							<p>These fears are reasonable. You want to build wealth in the shortest possible time. You want towatch your savings grow instead of it diminishing over temporary happiness; hence, you would rather save all the money that you think is not really necessary in your day-to-day sustenance.</p>
-							<p>However, these wants can sometimes be thought as motivation for you to perform well in your day job, get promotions, or think of a new business concept that can be the next big thing. It‟s possible that these wants not take up your savings funds, for you can let your money do the work for you.</p>
+							<p>It&rsquo;s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Banker would eventually encounter in this lifetime. </p>
+
+							<p>Your obsession with money is understandable. No one wants to compromise their financial stability and choose material happiness which are usually just temporary contentment. </p>
+
+							<p>These fears are reasonable. You want to build wealth in the shortest possible time. You want to watch your savings grow instead of it diminishing over temporary happiness; hence, you would rather save all the money that you think is not really necessary in your day-to-day sustenance. </p>
+
+							<p>However, these wants can sometimes be thought as motivation for you to perform well in your day job, get promotions, or think of a new business concept that can be the next big thing. It&rsquo;s possible that these wants not take up your savings funds, for you can let your money do the work for you. </p>
+
 							<p>Here are the solutions catered just for a Banker like you:</p>
-							
-							<p><br /><strong>#1 Enlist The Help Of A Finance Coach / Financial Advisor</strong></p>
-							<p><br />Financial coaches aim to help their clients get clear about their financial goals, habits, and money appetite. They teach people how to be responsible with their money and fix their financial practices. An advisor, on the other hand, will recommend investment according to your risk appetite, long-term goals, and amount of money you‟re willing to gamble. A financial professional is not only for the wealthy people &ndash; these professionals cater to small businesses and those with day job who are looking to start or diversify their investment portfolio.</p>
-							<p>Wealth management and investment involves risks. Specific investment strategies and the amount to be involved depends particularly on the client. This is a case-to-case basis. Financial advisors provide their clients with individual plans to cater to their needs and specific goals.</p>
-							<p>Whether it be a question on the best thing to do with your money just sitting in a bank, an advice about a particular investment, or a help in budgeting a big expensive event such as wedding and birthdays, a financial coach or advisor can provide you the best options to consider.</p>
-							<p>Where to find financial coaches / advisors?</p>
-							<ul>
-								<li>Referrals will be your best option if you have friends or colleagues who have tried their</li>
-								<li>service.</li>
-								<li>Most financial advisors are affiliated with insurance companies.</li>
-								<li>National Association of Personal Financial Advisors (NAPFA) website</li>
-								<li>Accredited Financial Counselor website</li>
-							</ul>
-							<p>Alternative: <strong>Start Subscribing To Financial Newsletters And Listening To Financial Podcasts</strong></p>
-							<p>Financial podcasts are one of the top podcast niche nowadays. Most people, even the younger generations, are worried of their financial security this pandemic. A finance professional advice may be something that they cannot afford yet, so they resort to financial podcasts to get particular advice from.</p>
 
-							<p><br /><strong>#2 When You Are Able To Take It To The Next Level, Invest In Long-Term Ones</strong><br /><br />
-							Long-term investments are those where you let your money stay for a long time to generate cash after a certain number of years. Do this when you are ready to part with some of your money and put it in an income-generating fund to leave it there for maximum returns.</p>
-							<p>Why Long-Term Investments?</p>
+							<h2 class="sub-header-banker text-center">
+								#1 Start Investing In Short-Term Investments
+							</h2>
+
+							<p>Letting your money sit in the bank is good. After all it still earns interest in your savings account. However, that alone as an investment will not realistically provide enough money to fund these wants of yours. </p>
+
+							<p><strong>Why Short-Term Investments?</strong> </p>
+
 							<ul>
-								<li>Less time-consuming. You won‟t need to be bothered by the fluctuations of the value of the asset.</li>
-								<li>Higher returns of investment.</li>
+								<li>It&rsquo;s beginner-friendly. Investors now earning 7-figures from their diverse portfolio started with short-term investments. </li>
+								<li>It is associated with lower risk. Short-term investments can be converted into cash within 5 years. </li>
 							</ul>
 
-							<p>What Are The Best Long-Term Investments?</p>
+							<p><strong>What Are The Best Short-Term Investments?</strong> </p>
+
 							<ul>
-								<li>Stocks</li>
-								<li>Corporate and Treasury Bonds</li>
-								<li>Mutual Funds</li>
+								<li>Savings Accounts </li>
+								<li>Money Market Account </li>
+								<li>Short-Term Bond Funds </li>
+								<li>Bank Certificates of Deposits </li>
+								<li>Peer-to-peer Loans</li>
 							</ul>
 
-							<p><br />Where To Avail?</p>
-							<p>Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don‟t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a&nbsp; minimum investment of $500.</p>
+							<p><strong>Where To Avail?</strong> </p>
+
+							<ul>
+								<li>Banks in your locality offer short-term investments. Most of them would offer to do the work for you such as enrolling your funds into different short-term funds and assets you prefer.&nbsp;</li>
+							</ul>
+
+							<h2 class="sub-header-banker text-center">
+								#2 When You Are Able To Take It To The Next Level, Invest In Long-Term Ones
+							</h2>
+
+							<p>Long-term investments are those where you let your money stay for a long time to generate cash after a certain number of years. Do this when you are ready to part with some of your money and put it in an income-generating fund to leave it there for maximum returns. </p>
+
+							<p><strong>Why Long-Term Investments?</strong> </p>
+
+							<ul>
+								<li>Less time-consuming. You won&rsquo;t need to be bothered by the fluctuations of the value of the asset. </li>
+								<li>Higher returns of investment. </li>
+							</ul>
+
+							<p><strong>What Are The Best Long-Term Investments?</strong> </p>
+
+							<ul>
+								<li>Stocks </li>
+								<li>Corporate and Treasury Bonds </li>
+								<li>Mutual Funds </li>
+							</ul>
+
+							<p><strong>Where To Avail?</strong> </p>
+
+							<p>Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don&rsquo;t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a minimum investment of $500. </p>
+
 							<p>There are also online brokers and trading platforms which offer $0 fees and no minimum amount. You would only need to deposit such amount enough to buy a minimum number of stocks in your preferred company.</p>
-							<p><br /><strong>#3 Start A Connected Side Hustle</strong><br /><br />
-							Here are the best low-cost side hustles for a Banker to fit on his or her expertise:</p>
+
+							<h2 class="sub-header-banker text-center">
+								#3 Start A Side Hustle
+							</h2>
+
+							<p>A Banker is always hesitant to spend money on things they are not sure about. However, there are successful online businesses and side hustles which can be started with little to no capital at all! </p>
+
+							<p>Here are the best low-cost side hustles for you and the average salary you can earn as a passive income: </p>
+
 							<ul>
-								<li><strong>Sell online courses (Minimum $50 per course)</strong></li>
-								<li><strong>Writing and content creation services (Minimum $10 per article for web content)</strong></li>
-								<li><strong>Blogger / Affiliate Marketer ($200/month for a beginner)</strong></li>
+								<li>Sell online courses (Minimum $50 per course) </li>
+								<li>Writing and content creation services (Minimum $10 per article for web content) </li>
+								<li>Blogger / Affiliate Marketer ($200/month for a beginner)</li>
 							</ul>
 						</div>
 						
+						<a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
+							BUY product for 365 DAYS OF WEALTH AFFIRMATION
+						</a>
 					</div>
 					
 				</div>

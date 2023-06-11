@@ -20,22 +20,10 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p> 
-								The Adversary loves big and risky assets. They play the get-rich-quick game no matter how big
-								the involved money is. Just like a rebel, a Adversary loves challenging the norms by their
-								creative ideas. They have their own ways of doing things and they love the track that‟s not being
-								used by many.
-							</p>
-							<p>     
-								They are the best person to ask about financial complexities. Numbers are their friends, but
-								sometimes, a Adversary bravely takes on a challenge even without enough data and backup
-								plan. When they win, they win big. But when they lose, they lose a lot.
-								You have your own set of approaches and practices when it comes to risk-taking and creativity.
-								This attitude is what makes you unstoppable from pursuing the things you want.
-								In short, you believe that your long-term goals can be easily achieved by taking the road less
-								traveled. 
-							</p>
-
+							<p> If money and wealth is the main character of the show, you would be its adversary because you believe that it is the main cause of chaos, hence, you inherently feel disconnected about it.</p>
+							<p> An Adversary has a love/hate relationship with money. There are times that they reject money, thinking that it is the root of all evil and nothing good will come from having too much of it. There are also times that they feel good about being able to save to buy the things they want. They feel anxious talking about money but at the same time, they appreciate that it can buy the things that make them truly happy. </p>
+							<p>An Adversary is a very good speaker, always carrying a purpose whenever they speak publicly. They listen to those who are exploited and helpless, then turn their woes and cries into calls for actions. An Adversary speaks with persuasion. They feel like they are blessed with such a talent to be the voice of many. </p>
+							<p>Most Adversaries focus on their advocacies and let other people handle the financial matters to them.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab1-next" >
 							Show Me My Superpowers...
@@ -57,27 +45,52 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p><u><strong>Why do I need to identify my superpowers and strengths?</strong></u></p>
-							<p>Good question. Let‟s start with knowing the importance of superpowers and strengths. First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations. Research further concluded that these skills and abilities can still be further developed according to one‟s limits.</p>
+							<h2 class="sub-header-adversary text-center">
+								Why do I need to identify my superpowers and strengths?
+							</h2>
+
+							<p>Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.</p>
+
+							<p>First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.</p>
+
+							<p>Research further concluded that these skills and abilities can still be further developed according to one&rsquo;s limits.</p>
+
+							<p>The same goes to one&rsquo;s inner traits.</p>
+
+							<p>One&rsquo;s superpowers are said to be the easiest ones to develop further &ndash; and these developed superpowers would be your fastest way to grow your wealth and cultivate a success mindset.</p>
+
+							<p>As THE ADVERSARY, here are the superpowers which you can focus on to build your first wealth base:</p>
+
+							<h2 class="sub-header-adversary text-center">
+								Once You Focus On Something, You Are Unstoppable
+							</h2>
+
+							<p>This is one the best assets of an adversary. A focused person never gives up on any challenge. When they accept a responsibility, they commit to it until it&rsquo;s done. They do not let emotions stop them. They do not postpone anything that can be done today. They are very good multi-taskers, without leaving any important details behind.</p>
+
+							<h2 class="sub-header-adversary text-center">
+								An Adversary Aims To Inspire
+							</h2>
+
+							<p>An Adversary knows how to stand on his belief. They believe that they are in the world to inspire and lead people towards better life, sans the talk about money. They believe that they can make their friends, family, and acquaintances find their own happiness that do not involve money. They relate their situation and good experiences to inspire people. An Adversary is a very good speaker with an aim to persuade.</p>
+
+							<p>An adversary has the best commanding skills to make a person work towards their personal and team goals in a group. They have leadership qualities to bind people and team players together. Social entrepreneurs are usually the people with an adversary skills.</p>
+
+							<p><strong>You Are Always Willing To Help And Take Actions</strong></p>
+							<h2 class="sub-header-adversary text-center">
+								You Are Always Willing To Help And Take Actions
+							</h2>
+
+							<p>An Adversary&rsquo;s willingness to help generate ideas in his mind that can solve problems. They take actions to direct the issue, instead of looking and focusing on the alternatives. They believe that every problem has an end, and solutions come from people who help each other.</p>
+
+							<h2 class="sub-header-adversary text-center">
+								An Adversary Values People
+							</h2>
+
+							<p>There is no such thing as impossible for an adversary. Everything can be done in the right way and no problem can never be solved with the help of people. They believe that each one of us has unique skills which fit perfectly in a puzzle. Everything will work in the end, as long as there is a leader which supports and guides everyone along the way.</p>
 
 							<p><br />
-							<strong>The same goes to one‟s inner traits.</strong></p>
-							<p> One‟s superpowers are said to be the easiest ones to develop further &ndash; and these developedsuperpowers would be your fastest way to grow your wealth and cultivate a success mindset. As THE ADVERSARY, here are the superpowers which you can focus on to build your first wealth base:</p>
+							</p>
 
-							<p><br />
-							<strong>Your Risk-Taking Attitude Keeps You On Track</strong></p>
-							<p>A Adversary usually has his long-term and short-term goals completely and clearly laid out in front of him &ndash; and this is the reason why he takes on every challenge no matter how risky it may get. Your favorite line is similar to &ldquo;Let‟s see what happens&rdquo; because your own way of getting the things you want is different from the norms. You place the highest bets on the unconventional ways of building your wealth. This is so that when you win, you know you will win big time and that‟s equivalent to one goal slashed as achieved from your bucketlist.</p>
-
-							<p><br />
-							<strong>You Never Quit</strong></p>
-							<p>A Adversary is always on experimental mode. They are constantly looking for new ways to earn and generative passive income. They may quit a strategy, but their creative and risk-taking mind will just constantly look for another way to compensate the loss in that particular strategy. Quitting is the last option, because on the mind of a adversary, the world has never-ending ideas. They always aspire to see their ideas come to life and take the responsibility of doing so.</p>
-
-							<br /><p><strong>You Are Fond Of Developing Cutting Edge Ideas</strong></p>
-							<p>A Adversary is a great unconventional entrepreneur, because they always make sure that their offers appeal to the consumers. They develop products and services with the thought in mind that this is going to be the next big thing. Adversarys Understand Financial Complexities They know how others play the money game. They never miss a cent from their financial statements. They are very well-versed with numbers that they know how to play with it. That‟s why they invest in risky and expensive investments &ndash; such as acquiring big assets &ndash; because they know the return can double and triple in the next few years.</p>
-
-							<p><br />
-							<strong>Responsible Gambler</strong></p>
-							<p> A Adversary is a lone figure. This may be a downside because he only works as a one-man team, however, this makes him a responsible person when it comes to mistakes and other liabilities.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab2-next">
 							Show Me My Weaknesses!
@@ -99,29 +112,25 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p><strong>You Find It Hard To Trust People</strong><br /><br />
-							A Adversary does not really feel comfortable when they entrust a big project or a big deadline to people other than themselves. Their trust issues might have been rooted from their childhood or past relationship and friendship betrayals which led them to their fall.</p>
+							<h2 class="sub-header-adversary text-center">
+								You Find It Hard To Accept Money As A Good Thing
+							</h2>
 
-							<p>Adversarys cannot delegate significant work, because of this fear of sabotage. Besides, you think that your own creative ways can bring the best results and only you could do it the way you wanted it to be.</p>
-
-							<p><br />
-							<strong>Adversarys Rarely Have A Backup Plan</strong><br /><br />
-							Adversarys have in mind that they will never fail, hence, they take every risk they know of. However, practicality and today‟s uncertainty necessitate the need for a backup plan. When the pandemic kicks in, a lot of thriving businesses were forced to shut down without hint of return. Managers and executives were forced to look for other jobs, media personalities and celebrities started looking for better jobs somewhere. Even the rich are asking their financial managers and advisors of the best thing to do when their investment plummets as the economy is constantly falling.</p>
-
-							<p>If a you are someone who bet a huge stake on something in danger getting dissipated because of this unforeseen event which are claiming lives and livelihoods, then chances are high that you are one of the most uncomfortable people every time the Government imposes new regulations invoking their police power for public safety.</p>
-
-							<p><br />
-							<strong>They Gamble Even Their Whole Financial Security</strong><br /><br />
-							Adversarys purchase risky big assets to take control. A Adversary with no backup plan gambles his or her whole financial stability. A risky appetite, paired with willingness to gamble everything is a very dangerous venture that anyone should be wary of.</p>
-
-							<p>Take for example the story of Patricia Kluge.</p>
-
-							<p>After getting a high-settlement divorce from a wealthy husband, Kluge invested so much of her money by opening a winery and investing into real estate. When the housing market crashed, she lost everything she invested. The bank foreclosed her winery and subdivision. She battled these cases with attorneys around the world to try and save her business ventures. She ended up filing bankruptcy and auctioning off her jewelry and luxurious assets.</p>
-
-							<p><br />
-							<strong>Adversarys Live For The Approval Of Others</strong><br /><br />
-							Adversarys are also said ask others for other‟s approval. They love to give attention to money because it makes them stand out from the crowd. A adversary strives to make a name for him or herself. They want people to see that their method of dealing with things are superior than that of the conventional standards.</p>
+							<p>An Adversary does not really know how they will treat money. It&rsquo;s always a challenge for an Adversary to admit that they need more money to get the things that they will make them happy. They know that it is the root of all evil, that&rsquo;s why they avoid it as a subject on any conversation.</p>
 							
+							<h2 class="sub-header-adversary text-center">
+								An Adversary Finds It Hard To Follow Saving Habits And Their Basic Financial Goals
+							</h2>
+
+							<p>This stems from the fact that they don&rsquo;t accept money as something that will be a catalyst of change and goodness among people. Adversaries lack financial goals because they avoid the thought that they need it to be content in life. But deep inside, they feel happy that they have enough money to sustain their needs and some of their wants.</p>
+
+							<p>This is one of the hardest challenges for an Adversary. Their mindset is geared towards positive change and contentment without the money involved. They often forget that people will eventually look for money, and lack of knowledge about financial matters can result in disastrous consequences &ndash; such as lack of retirement fund, lack of health care budget, and lack of a comfortable lifestyle.</p>
+
+							<h2 class="sub-header-adversary text-center">
+								They Hate To Talk About Financial Matters
+							</h2>
+
+							<p>Bad money habits stem from lack of enough knowledge about handling finances. An adversary comfort zone is wherever money is not involved. They don&rsquo;t want to join the bandwagon when it is involved. Lack of financial literacy is a dangerous thing.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab3-next">
 							Show Me My WEALTH CHALLENGES!
@@ -144,26 +153,34 @@
 							</div>
 
 							<!-- Section Content-->
-							<p><u><strong>These problems can impact your wealth generation potential. Why is that so?</strong></u></p>
-							<p><br />
+							<p>A high-spirited personality paired with the right mindset to put every solution into action is a magic formula to instantly build your wealth. However, there are a lot of possible problems you are most possible to encounter.</p>
 
-							<strong>Start From The Tried And Tested Systems That You&rsquo;re Already Accustomed To</strong></p>
-							<p>
-							Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you‟re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.</p>
+							<p>Let's start.</p>
 
-							<p><br />
-							<strong>Building Wealth Is A Team Effort</strong></p>
-							<p> No person became rich without a team backing him or her up. Microsoft was founded by Bill Gates and his childhood friend Paul Allen. In 1976, Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Mark Zuckerberg was helped by his classmates in creating and launching FaceMash &ndash; which would later on become Facebook.</p>
-							<p>Don‟t be mistaken that a team means a group of professionals working together towards one goal. That is one definition. But remember that you have your very own team at home &ndash; your spouse, parents, siblings, best friends, and trusted relatives. In fact, a team player does not have much qualifications. As long as you are working together in unity and with one goal, you are already considered a team.</p>
-							<p>Building wealth is rarely a one-man job. Even if you‟re only investing, you would need financial planners and managers or a stockbroker to trade. Both of you are considered a team with a single goal &ndash; to multiply your money.</p>
-							<p>Each people is gifted with a unique sets of gifts &ndash; a set of talents which will eventually fit in your path to success.</p>
-							<p>Business- and organization-wise, proper delegation is one of the skills of a good leader. He knows who trust with confidential matters, who would be the best person to do a certain task, and who would be the one who would bring significant and innovative results to the team. Team effort is a work in itself.</p>
+							<ol>
+								<li style="list-style-type:decimal"><strong>Your Health Is Compromised</strong></li>
+								<li style="list-style-type:decimal"><strong>You Are Prone To Scams And Financial Advances</strong></li>
+								<li style="list-style-type:decimal"><strong>Your Lifestyle Is Not Enough To Make You More Content And Happier</strong></li>
+							</ol>
 
-							<p style="text-align: center;"><br /><strong>This is your power motivation formula in building your wealth as a Adversary:</strong></p>
-							<p style="text-align: center;">Symbiotic Flows + Partnerships + Backup Plan</p>
-							<p style="text-align: center;"> And For Your Ultimate Secret to Wealth-Generation:</p>
-							<p style="text-align: center;">Investing In Symbiotic Flows, Long-Term Investments, And Financial Coaching</p>
-							
+							<h2 class="sub-header-adversary text-center"> Health Is Wealth</h2>
+
+							<p>Investing in your health will be the first step towards wealth generation. A person may be earning enough but if his health is slowly taking a toll on his capacity thereby shortening his active life and limiting his movements, his assets and wealth will be put in vain.</p>
+
+							<p>In 2019, the average <a href="https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsHistorical#:~:text=The%20National%20Health%20Expenditure%20Accounts,spending%20in%20the%20United%20States.&amp;text=U.S.%20health%20care%20spending%20grew,spending%20accounted%20for%2017.7%20percent." style="text-decoration:none"><u>health care costs</u></a> per person amounts to $11, 582. This goes up as you grow older and whether you are suffering from a serious ailment.</p>
+
+							<p>The first step to diminish the costs and your risk of hospitalization is prevention and insurance procurement.</p>
+
+							<p>In short, you need financial literacy how to manage risks like this.</p>
+
+							<h2 class="sub-header-adversary text-center">  Lack Of Financial Independence And Stability</h2>
+
+							<p>The first stages of wealth generation involve being debt-free so you&rsquo;d be more financially free and independent.</p>
+
+							<p>This will never happen for someone who finds it hard to talk and learn about money. People who are not clear about their financial goals are those who are far from being financially independent and happy.</p>
+
+							<p>Your lack of financial literacy will also make you more vulnerable to scams and frauds. That is, because they will only talk so little about how money will work for you and your belief in the inherent goodness of people makes you an easy target. Adversaries are very friendly and them trusting their finances to other people increases the likelihood that your income will fall into the wrong hands.</p>
+
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab4-next">
 							Show Me My WEALTH FORMULA!
@@ -186,25 +203,38 @@
 							</div>
 
 							<!-- Section Content-->
-							<p><u><strong>These problems can impact your wealth generation potential. Why is that so?</strong></u></p>
+							<h2 class="sub-header-adversary text-center"> These problems can impact your wealth generation potential. Why is that so?</h2>
+
+							<p><strong>Health And Success Are Inter-Related. </strong></p>
+							<p>Did you know that a research by the <a href="https://njaes.rutgers.edu/sshw/message/message.php?p=Finance&amp;m=190" style="text-decoration:none"><u>Rutgers Cooperative Extension Small Steps to Health and Wealth (SSHW)</u></a> shows that overweight and obesity are associated with lower earnings, particularly for women in professional occupations? Employers spend a lot in developing programs to help people maintain good health habits and provide clinical care for employees who might be ill to make them even more productive at work.</p>
+
+							<p><strong>Happiness Is A Great Motivation To Wealth Generation. </strong></p>
+							<p>In a <a href="http://sonjalyubomirsky.com/wp-content/themes/sonjalyubomirsky/papers/BLinpressb.pdf" style="text-decoration:none"><u>study</u></a> by Julia Boehm &amp; Sonja Lyubomirsky of the University of California, it was shown that contrary to the perception of many, happiness precedes success. It may sound contrary, especially if happiness is associated with money. However, it is also shown in different studies that happiness is associated with the income level. Sometimes, spending a little bit for our wants can become a big motivation which can result to better wealth generation.</p>
+
+							<p><strong>Financial Literacy Is The First Step Towards Wealth Generation</strong></p>
+							<p>The ever-changing world heavily affects the financial sector. Investments change their structure and fraudsters are becoming smarter to scam even the wisest rich. The best leaders and wise decision makers are financial literates. They know the basic accounting terms and how money works. Lack of financial literacy have the following consequences:</p>
+
+							<ul>
+								<li style="list-style-type:disc">Lack of retirement fund</li>
+								<li style="list-style-type:disc">Piling debts</li>
+								<li style="list-style-type:disc">Lack of financial stability</li>
+								<li style="list-style-type:disc">Inability to meet the expenses</li>
+							</ul>
+
+							<p><strong>Debt-Free Individuals Are Happier And More Contented</strong></p>
+
+							<p>The thought that all your hard earned income will be yours only is already comforting. Debt and interests pertaining to it can deplete your savings. People who are living debt-free or close to being debt-free never have to worry about their financial obligations.</p>
+
 							<p><br />
+							&nbsp;</p>
 
-							<strong>Start From The Tried And Tested Systems That You&rsquo;re Already Accustomed To</strong></p>
-							<p>
-							Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you‟re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.</p>
+							<h2 style="text-align:center"><strong>This is your power motivation formula in building your wealth as a Adversary: </strong></h2>
 
-							<p><br />
-							<strong>Building Wealth Is A Team Effort</strong></p>
-							<p> No person became rich without a team backing him or her up. Microsoft was founded by Bill Gates and his childhood friend Paul Allen. In 1976, Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Mark Zuckerberg was helped by his classmates in creating and launching FaceMash &ndash; which would later on become Facebook.</p>
-							<p>Don‟t be mistaken that a team means a group of professionals working together towards one goal. That is one definition. But remember that you have your very own team at home &ndash; your spouse, parents, siblings, best friends, and trusted relatives. In fact, a team player does not have much qualifications. As long as you are working together in unity and with one goal, you are already considered a team.</p>
-							<p>Building wealth is rarely a one-man job. Even if you‟re only investing, you would need financial planners and managers or a stockbroker to trade. Both of you are considered a team with a single goal &ndash; to multiply your money.</p>
-							<p>Each people is gifted with a unique sets of gifts &ndash; a set of talents which will eventually fit in your path to success.</p>
-							<p>Business- and organization-wise, proper delegation is one of the skills of a good leader. He knows who trust with confidential matters, who would be the best person to do a certain task, and who would be the one who would bring significant and innovative results to the team. Team effort is a work in itself.</p>
+							<h2  class = "text-danger" style="text-align:center"><strong>Self + Financial Literacy</strong></h2>
 
-							<p style="text-align: center;"><br /><strong>This is your power motivation formula in building your wealth as a Adversary:</strong></p>
-							<p style="text-align: center;">Symbiotic Flows + Partnerships + Backup Plan</p>
-							<p style="text-align: center;"> And For Your Ultimate Secret to Wealth-Generation:</p>
-							<p style="text-align: center;">Investing In Symbiotic Flows, Long-Term Investments, And Financial Coaching</p>
+							<p style="text-align:center"><strong>And For Your Ultimate Secret to Wealth-Generation:</strong></p>
+
+							<p style="text-align:center"><strong>Being More Knowledgeable About Financial Complexities</strong></p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab5-next">
 							Show Me My WEALTH GUIDE!
@@ -225,53 +255,94 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!--Section Content-->
-							<p>It‟s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Adversary would eventually encounter in this lifetime.</p>
-							<p>Your obsession with money is understandable. No one wants to compromise their financial stability and choose material happiness which are usually just temporary contentment.</p>
-							<p>These fears are reasonable. You want to build wealth in the shortest possible time. You want towatch your savings grow instead of it diminishing over temporary happiness; hence, you would rather save all the money that you think is not really necessary in your day-to-day sustenance.</p>
-							<p>However, these wants can sometimes be thought as motivation for you to perform well in your day job, get promotions, or think of a new business concept that can be the next big thing. It‟s possible that these wants not take up your savings funds, for you can let your money do the work for you.</p>
-							<p>Here are the solutions catered just for a Adversary like you:</p>
-							
-							<p><br /><strong>#1 Enlist The Help Of A Finance Coach / Financial Advisor</strong></p>
-							<p><br />Financial coaches aim to help their clients get clear about their financial goals, habits, and money appetite. They teach people how to be responsible with their money and fix their financial practices. An advisor, on the other hand, will recommend investment according to your risk appetite, long-term goals, and amount of money you‟re willing to gamble. A financial professional is not only for the wealthy people &ndash; these professionals cater to small businesses and those with day job who are looking to start or diversify their investment portfolio.</p>
-							<p>Wealth management and investment involves risks. Specific investment strategies and the amount to be involved depends particularly on the client. This is a case-to-case basis. Financial advisors provide their clients with individual plans to cater to their needs and specific goals.</p>
-							<p>Whether it be a question on the best thing to do with your money just sitting in a bank, an advice about a particular investment, or a help in budgeting a big expensive event such as wedding and birthdays, a financial coach or advisor can provide you the best options to consider.</p>
-							<p>Where to find financial coaches / advisors?</p>
-							<ul>
-								<li>Referrals will be your best option if you have friends or colleagues who have tried their</li>
-								<li>service.</li>
-								<li>Most financial advisors are affiliated with insurance companies.</li>
-								<li>National Association of Personal Financial Advisors (NAPFA) website</li>
-								<li>Accredited Financial Counselor website</li>
-							</ul>
-							<p>Alternative: <strong>Start Subscribing To Financial Newsletters And Listening To Financial Podcasts</strong></p>
-							<p>Financial podcasts are one of the top podcast niche nowadays. Most people, even the younger generations, are worried of their financial security this pandemic. A finance professional advice may be something that they cannot afford yet, so they resort to financial podcasts to get particular advice from.</p>
+							<p>It&rsquo;s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Adversary would eventually encounter in this lifetime.</p>
 
-							<p><br /><strong>#2 When You Are Able To Take It To The Next Level, Invest In Long-Term Ones</strong><br /><br />
-							Long-term investments are those where you let your money stay for a long time to generate cash after a certain number of years. Do this when you are ready to part with some of your money and put it in an income-generating fund to leave it there for maximum returns.</p>
-							<p>Why Long-Term Investments?</p>
+							<p>Your obsession with money is understandable. No one wants to compromise their financial stability and choose material happiness which are usually just temporary contentment.</p>
+
+							<p>These fears are reasonable. You want to build wealth in the shortest possible time. You want to watch your savings grow instead of it diminishing over temporary happiness; hence, you would rather save all the money that you think is not really necessary in your day-to-day sustenance.</p>
+
+							<p>However, these wants can sometimes be thought as motivation for you to perform well in your day job, get promotions, or think of a new business concept that can be the next big thing. It&rsquo;s possible that these wants not take up your savings funds, for you can let your money do the work for you.</p>
+
+							<p>Here are the solutions catered just for an Adversary like you:</p>
+
+							<h2 class="sub-header-adversary text-center"> #1 Start Subscribing To Financial Newsletters And Listening To Financial Podcasts</h2>
+
+							<p>Does the thought of money and managing it still overwhelms and makes you uncomfortable? Can&rsquo;t stick to your budget because it&rsquo;s not the way you do things?</p>
+
+							<p>Financial experts and bloggers can help you with that! They know simple hacks how to make these all easier. Financial blogs and books will teach you the right way to budget and to look at your salary from a different perspective. Many listeners and readers have already attested that this weekly habit changed them a lot.</p>
+
+							<p>Most Adversaries are focused on their social movements with the goal to inspire. Most of them need a little jumpstart to recognize that money is not the root of evil &ndash; that money will only be evil if it is managed badly and if it&rsquo;s used to perpetuate fraud.</p>
+
+							<p>Listening to financial podcasts will make you think of the future. Nobody had ever foreseen that this COVID pandemic will shut down a lot of business &ndash; even those which were at the top of the ladder. Most people today need money for sustenance and comfortable living. Everyone is looking for a job to make money legally. You can learn how to achieve this perspective from people who have experienced being in the same scenario.</p>
+
+							<p>A weekly financial podcast / newsletter will highlight different aspects. Consider this as a kind of free coaching.</p>
+
+							<p></p>
+
+							<h2 class="sub-header-adversary text-center"> #2 Monetize Your Leadership Skills</h2>
+
+							<p>Most Adversaries are frustrated because their ideas cannot come to life. Yet, they have the best skills to lead a business and direct it to success. Every business idea obviously needs a fund and financial skills to organize this matter &ndash; something that an Adversary is yet to learn.</p>
+
+							<p>An Adversary has the best persuasion skills. They can lead and motivate a team towards success. You&rsquo;ve already got the skills that most leaders today still lack.</p>
+
+							<p>An Adversary is the best boss for service-based businesses.</p>
+
+							<p>These are the top service-based niches for your best natural skills:</p>
+
 							<ul>
-								<li>Less time-consuming. You won‟t need to be bothered by the fluctuations of the value of the asset.</li>
-								<li>Higher returns of investment.</li>
+								<li style="list-style-type:disc">Life coaching</li>
+								<li style="list-style-type:disc">Personality Development Coaching</li>
+								<li style="list-style-type:disc">Systems Consultant</li>
+								<li style="list-style-type:disc">Virtual Assistant</li>
+								<li style="list-style-type:disc">Property Manager</li>
+								<li style="list-style-type:disc">Corporate Planner</li>
+								<li style="list-style-type:disc">Transport services</li>
+								<li style="list-style-type:disc">Errand services</li>
+								<li style="list-style-type:disc">Software that does digital services to clients</li>
+								<li style="list-style-type:disc">Mobile apps for entertainment</li>
+							</ul>
+
+							<p>More general top-selling niches to get you started:</p>
+
+							<ul>
+								<li style="list-style-type:disc">Clothing and fashion items</li>
+								<li style="list-style-type:disc">Fitness Equipment</li>
+								<li style="list-style-type:disc">Gadgets And Technology</li>
+								<li style="list-style-type:disc">Home Improvement And D&eacute;cor</li>
+								<li style="list-style-type:disc">Health-Conscious Foods</li>
+								<li style="list-style-type:disc">Pet Supplies</li>
+							</ul>
+
+							<p></p>
+
+							<h2 class="sub-header-adversary text-center"> #2 Invest In Long-Term Investments</h2>
+
+							<p>When you have enough funds to invest, opt for long-term investments. This is perfect for an Adversary, because this time, letting someone handle this aspect of your finances will do you more good. A professional fund manager will be the one to handle all these to give you peace of mind and to let you continue your advocacies.</p>
+
+							<p>Why Long-Term Investments?</p>
+
+							<ul>
+								<li style="list-style-type:disc">Less time-consuming. You won&rsquo;t need to be bothered by the fluctuations of the value of the asset.</li>
+								<li style="list-style-type:disc">Higher returns of investment.</li>
 							</ul>
 
 							<p>What Are The Best Long-Term Investments?</p>
+
 							<ul>
-								<li>Stocks</li>
-								<li>Corporate and Treasury Bonds</li>
-								<li>Mutual Funds</li>
+								<li style="list-style-type:disc">Stocks</li>
+								<li style="list-style-type:disc">Corporate and Treasury Bonds</li>
+								<li style="list-style-type:disc">Mutual Funds</li>
 							</ul>
 
-							<p><br />Where To Avail?</p>
-							<p>Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don‟t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a&nbsp; minimum investment of $500.</p>
+							<p>Where To Avail?</p>
+
+							<p>Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don&rsquo;t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a minimum investment of $500.</p>
+
 							<p>There are also online brokers and trading platforms which offer $0 fees and no minimum amount. You would only need to deposit such amount enough to buy a minimum number of stocks in your preferred company.</p>
-							<p><br /><strong>#3 Start A Connected Side Hustle</strong><br /><br />
-							Here are the best low-cost side hustles for a Adversary to fit on his or her expertise:</p>
-							<ul>
-								<li><strong>Sell online courses (Minimum $50 per course)</strong></li>
-								<li><strong>Writing and content creation services (Minimum $10 per article for web content)</strong></li>
-								<li><strong>Blogger / Affiliate Marketer ($200/month for a beginner)</strong></li>
-							</ul>
 						</div>
+						<a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
+							BUY product for 365 DAYS OF WEALTH AFFIRMATION
+						</a>
 					</div>
 				</div>
 			</div>

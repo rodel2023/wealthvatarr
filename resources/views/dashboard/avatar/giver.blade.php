@@ -20,21 +20,11 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p> 
-								The Giver loves big and risky assets. They play the get-rich-quick game no matter how big
-								the involved money is. Just like a rebel, a Giver loves challenging the norms by their
-								creative ideas. They have their own ways of doing things and they love the track that‟s not being
-								used by many.
-							</p>
-							<p>     
-								They are the best person to ask about financial complexities. Numbers are their friends, but
-								sometimes, a Giver bravely takes on a challenge even without enough data and backup
-								plan. When they win, they win big. But when they lose, they lose a lot.
-								You have your own set of approaches and practices when it comes to risk-taking and creativity.
-								This attitude is what makes you unstoppable from pursuing the things you want.
-								In short, you believe that your long-term goals can be easily achieved by taking the road less
-								traveled. 
-							</p>
+							<p>The Givers are the type of people who would not charge the full price when someone asks them to do a work. These people find it hard to talk about money, so they don’t want to elaborate about the costs, break down expenses, and allowances. What one is willing to give, that’s what they receive.</p>
+
+							<p>But Givers do this because of their eagerness to help people. They do it mostly because they think people need it the most. They are devoted to lend a hand and provide everything they can provide to those who come for their aid.</p>
+
+							<p>For most people they have helped, the Givers are their Superheroes.</p>
 
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab1-next" >
@@ -57,27 +47,53 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p><u><strong>Why do I need to identify my superpowers and strengths?</strong></u></p>
-							<p>Good question. Let‟s start with knowing the importance of superpowers and strengths. First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations. Research further concluded that these skills and abilities can still be further developed according to one‟s limits.</p>
+							<h2 class="sub-header-giver text-center">
+							Why do I need to identify my superpowers and strengths?
+							</h2>
 
-							<p><br />
-							<strong>The same goes to one‟s inner traits.</strong></p>
-							<p> One‟s superpowers are said to be the easiest ones to develop further &ndash; and these developedsuperpowers would be your fastest way to grow your wealth and cultivate a success mindset. As THE GIVER, here are the superpowers which you can focus on to build your first wealth base:</p>
+							<p>Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.</p>
 
-							<p><br />
-							<strong>Your Risk-Taking Attitude Keeps You On Track</strong></p>
-							<p>A Giver usually has his long-term and short-term goals completely and clearly laid out in front of him &ndash; and this is the reason why he takes on every challenge no matter how risky it may get. Your favorite line is similar to &ldquo;Let‟s see what happens&rdquo; because your own way of getting the things you want is different from the norms. You place the highest bets on the unconventional ways of building your wealth. This is so that when you win, you know you will win big time and that‟s equivalent to one goal slashed as achieved from your bucketlist.</p>
+							<p>First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.</p>
 
-							<p><br />
-							<strong>You Never Quit</strong></p>
-							<p>A Giver is always on experimental mode. They are constantly looking for new ways to earn and generative passive income. They may quit a strategy, but their creative and risk-taking mind will just constantly look for another way to compensate the loss in that particular strategy. Quitting is the last option, because on the mind of a giver, the world has never-ending ideas. They always aspire to see their ideas come to life and take the responsibility of doing so.</p>
+							<p>Research further concluded that these skills and abilities can still be further developed according to one&rsquo;s limits.</p>
 
-							<br /><p><strong>You Are Fond Of Developing Cutting Edge Ideas</strong></p>
-							<p>A Giver is a great unconventional entrepreneur, because they always make sure that their offers appeal to the consumers. They develop products and services with the thought in mind that this is going to be the next big thing. Givers Understand Financial Complexities They know how others play the money game. They never miss a cent from their financial statements. They are very well-versed with numbers that they know how to play with it. That‟s why they invest in risky and expensive investments &ndash; such as acquiring big assets &ndash; because they know the return can double and triple in the next few years.</p>
+							<p>The same goes to one&rsquo;s inner traits.</p>
 
-							<p><br />
-							<strong>Responsible Gambler</strong></p>
-							<p> A Giver is a lone figure. This may be a downside because he only works as a one-man team, however, this makes him a responsible person when it comes to mistakes and other liabilities.</p>
+							<p>One&rsquo;s superpowers are said to be the easiest ones to develop further &ndash; and these developed superpowers would be your fastest way to grow your wealth and cultivate a success mindset.</p>
+
+							<p><strong>As THE GIVER, here are the superpowers which you can focus on to build your first wealth base:</strong></p>
+
+							<h2 class="sub-header-giver text-center">
+							Naturally Compassionate
+							</h2>
+
+							<p>Givers are the most enthusiastic people in helping others. They feel like they owe the world big time, and they can compensate it by giving their very best in lending a hand. Givers feel satisfaction and peace of mind when they see other people&rsquo;s problems ease a little because of them.</p>
+
+
+							<h2 class="sub-header-giver text-center">
+							Ready To Take Action
+							</h2>
+
+							<p>This springs from a Giver&rsquo;s natural parental instinct &ndash; they are ready to take action to alleviate the suffering of any person. This is a very good trait because they are the best team players who are always willing to take responsibility from the unwilling team members. Bosses are grateful for them for the enthusiasm and hope they bring to the group.</p>
+
+							<h2 class="sub-header-giver text-center">
+							Equipped With A Problem-Solving Mind
+							</h2>
+
+							<p>Givers are usually the first person that those with problem run to. A giver&rsquo;s mind seems to be always full of solutions, which make them desirable to big companies and government agencies. They know how to listen and give a new perspective to a problem.</p>
+
+							<h2 class="sub-header-giver text-center">
+							Forgive Easily
+							</h2>
+
+							<p>A Giver rarely harbors ill feelings. They&rsquo;d rather forgive, than think of the revenge and hatred all day. As much as they can, Givers would ignore people who do wrong unto them. They would rather keep the hatred, than unleash it on the other person. This is both a strength and weakness &ndash; it&rsquo;s a strength because hate consumes a lot of energy and can tilt your balance greatly to affect everything in your life.</p>
+
+							<h2 class="sub-header-giver text-center">
+							They Are Very Good Conversationalist
+							</h2>
+
+							<p>Givers always listen and never disregard opinions of others. They value transparency and courtesy. You would always feel comfortable with a Giver.</p>
+							
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab2-next">
 							Show Me My Weaknesses!
@@ -99,29 +115,24 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							<p><strong>You Find It Hard To Trust People</strong><br /><br />
-							A Giver does not really feel comfortable when they entrust a big project or a big deadline to people other than themselves. Their trust issues might have been rooted from their childhood or past relationship and friendship betrayals which led them to their fall.</p>
+							<h2 class="sub-header-giver text-center">
+							They Are Always Taken Advantage Of
+							</h2>
 
-							<p>Givers cannot delegate significant work, because of this fear of sabotage. Besides, you think that your own creative ways can bring the best results and only you could do it the way you wanted it to be.</p>
+							<p>Givers would often feel guilty when they say &ldquo;No&rdquo; to the point that they trust on the goodness of people so much. They experience an indescribable guilt when they don&rsquo;t serve other people first, thus, leading them to think of themselves the last. They are always the victims of fraud and scams. The scammers know the right way to do it, hassle-free: they use emotions to gain the Giver&rsquo;s sympathy.</p>
 
-							<p><br />
-							<strong>Givers Rarely Have A Backup Plan</strong><br /><br />
-							Givers have in mind that they will never fail, hence, they take every risk they know of. However, practicality and today‟s uncertainty necessitate the need for a backup plan. When the pandemic kicks in, a lot of thriving businesses were forced to shut down without hint of return. Managers and executives were forced to look for other jobs, media personalities and celebrities started looking for better jobs somewhere. Even the rich are asking their financial managers and advisors of the best thing to do when their investment plummets as the economy is constantly falling.</p>
+							<h2 class="sub-header-giver text-center">
+							Some Hate Are Hard To Let Go
+							</h2>
 
-							<p>If a you are someone who bet a huge stake on something in danger getting dissipated because of this unforeseen event which are claiming lives and livelihoods, then chances are high that you are one of the most uncomfortable people every time the Government imposes new regulations invoking their police power for public safety.</p>
-
-							<p><br />
-							<strong>They Gamble Even Their Whole Financial Security</strong><br /><br />
-							Givers purchase risky big assets to take control. A Giver with no backup plan gambles his or her whole financial stability. A risky appetite, paired with willingness to gamble everything is a very dangerous venture that anyone should be wary of.</p>
-
-							<p>Take for example the story of Patricia Kluge.</p>
-
-							<p>After getting a high-settlement divorce from a wealthy husband, Kluge invested so much of her money by opening a winery and investing into real estate. When the housing market crashed, she lost everything she invested. The bank foreclosed her winery and subdivision. She battled these cases with attorneys around the world to try and save her business ventures. She ended up filing bankruptcy and auctioning off her jewelry and luxurious assets.</p>
-
-							<p><br />
-							<strong>Givers Live For The Approval Of Others</strong><br /><br />
-							Givers are also said ask others for other‟s approval. They love to give attention to money because it makes them stand out from the crowd. A giver strives to make a name for him or herself. They want people to see that their method of dealing with things are superior than that of the conventional standards.</p>
 							
+							<p>Not all hate and shortcomings of other people, even if it be your friend or not, are easy to be forgiven and forgotten. A Giver is very good at bottling up their emotions. They find it hard to confront, because their emotions and compassionate traits tell them to do the opposite. They do not feel comfortable in confronting those who wronged them, so they&rsquo;d rather keep it. However, bottling up your emotions will result to anxiety, panic attacks and potential mental health issues.</p>
+
+							<h2 class="sub-header-giver text-center">
+							They Are Fond Of Giving Money To The Point Of Compromising Their Financial Stability
+							</h2>
+
+							<p>A Giver&rsquo;s financial stability is a big question mark. Most of them incur debt just to give to people. If a Giver is out of other options to help those in need, they would resort to giving huge amounts of money to compensate their lack of other practical options. Lack of financial stability includes accumulating debts, inability to finance their basic needs (a house and a car), lack of a retirement plan, and lack of emergency funds.</p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab3-next">
 							Show Me My WEALTH CHALLENGES!
@@ -144,26 +155,44 @@
 							</div>
 
 							<!-- Section Content-->
-							<p><u><strong>These problems can impact your wealth generation potential. Why is that so?</strong></u></p>
-							<p><br />
+							<p>A generous person willing to take responsibilities and actions, without compromising him/herself determination is a magic formula to instantly build your wealth. However, there are a lot of possible problems you are most possible to encounter.</p>
 
-							<strong>Start From The Tried And Tested Systems That You&rsquo;re Already Accustomed To</strong></p>
-							<p>
-							Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you‟re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.</p>
+							<p>Let&rsquo;s start.</p>
 
-							<p><br />
-							<strong>Building Wealth Is A Team Effort</strong></p>
-							<p> No person became rich without a team backing him or her up. Microsoft was founded by Bill Gates and his childhood friend Paul Allen. In 1976, Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Mark Zuckerberg was helped by his classmates in creating and launching FaceMash &ndash; which would later on become Facebook.</p>
-							<p>Don‟t be mistaken that a team means a group of professionals working together towards one goal. That is one definition. But remember that you have your very own team at home &ndash; your spouse, parents, siblings, best friends, and trusted relatives. In fact, a team player does not have much qualifications. As long as you are working together in unity and with one goal, you are already considered a team.</p>
-							<p>Building wealth is rarely a one-man job. Even if you‟re only investing, you would need financial planners and managers or a stockbroker to trade. Both of you are considered a team with a single goal &ndash; to multiply your money.</p>
-							<p>Each people is gifted with a unique sets of gifts &ndash; a set of talents which will eventually fit in your path to success.</p>
-							<p>Business- and organization-wise, proper delegation is one of the skills of a good leader. He knows who trust with confidential matters, who would be the best person to do a certain task, and who would be the one who would bring significant and innovative results to the team. Team effort is a work in itself.</p>
+							<ol>
+								<li>Your Mental Health Is Compromised</li>
+								<li>You Let Your Emotions Decide For You</li>
+								<li>Believing In Good Karma Is Not Enough</li>
+							</ol>
 
-							<p style="text-align: center;"><br /><strong>This is your power motivation formula in building your wealth as a Giver:</strong></p>
-							<p style="text-align: center;">Symbiotic Flows + Partnerships + Backup Plan</p>
-							<p style="text-align: center;"> And For Your Ultimate Secret to Wealth-Generation:</p>
-							<p style="text-align: center;">Investing In Symbiotic Flows, Long-Term Investments, And Financial Coaching</p>
-							
+							<h2 class="sub-header-giver text-center">
+							Recognizing Your Emotions Will Allow You To Regain Control In Your Life
+							</h2>
+
+							<p>A Giver is always swayed by emotions. You avoid confrontation and take responsibilities not because you can do it, but because you feel pity on the person the burden falls into. By doing this, you tend to listen to other people&rsquo;s plea and disregard your own needs.</p>
+
+							<p>Bottling up your feelings can do more damage to your mental health. Moreover, you allow other people to take advantage of you, especially when it comes to money and finances. It can be the root of small fights and backstabbing &ndash; to the point that you yourself would wonder where you went wrong.</p>
+
+							<p>All these scenario point out to only one thing: that other people can control you by appealing to your emotions and sympathy.</p>
+
+							<p>Your friends are surely lauding your benevolence and compassionate being. However, the first step for a Giver when it comes to wealth-building is to regain control of their emotions first.</p>
+
+							<p>Did you know that studies show that sad people tend to do splurge shopping all the time? Sad people are also the impatient ones, which are the same people who usually fall to the get-rich- quick schemes.</p>
+
+							<p>This is an example that losing control over your emotions can ruin your savings and healthy money habits.</p>
+
+							<p>The same goes to an overly compassionate person. Providing them with financial help should only be enough without doing damage on you. Providing too much can teach them to be overly dependent.</p>
+
+
+							<h2 class="sub-header-giver text-center">
+							Believing In Good Karma Should Fuel Your Subconscious
+							</h2>
+
+							<p>Without work, pure belief in good luck will result to nothing. Let your beliefs be embedded in your subconscious and affect your habits. Beliefs are input and to put it into reality, you need to act on it. Without the actions, they will be mere thoughts and ideas.</p>
+
+
+							<p>In wealth generation, actions are very much needed. Money does not fall from the sky. Relying that the goodness you do to others will come back to you tentimes fold is not in the wealth formula. Belief brings out healthy practices Actions bring results.</p>
+
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab4-next">
 							Show Me My WEALTH FORMULA!
@@ -187,24 +216,46 @@
 
 							<!-- Section Content-->
 							<p><u><strong>These problems can impact your wealth generation potential. Why is that so?</strong></u></p>
-							<p><br />
 
-							<strong>Start From The Tried And Tested Systems That You&rsquo;re Already Accustomed To</strong></p>
-							<p>
-							Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you‟re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.</p>
+							<h2 class="sub-header-giver text-center">
+							Health And Success Are Inter-Related.
+							</h2>
+							<p>Did you know that a research by the&nbsp;<a href="https://njaes.rutgers.edu/sshw/message/message.php?p=Finance&amp;m=190" target="_blank">Rutgers Cooperative Extension Small Steps to Health and Wealth (SSHW)&nbsp;</a>shows that overweight and obesity are associated with lower earnings, particularly for women in professional occupations? Employers spend a lot in developing programs to help people maintain good health habits and provide clinical care for employees who might be ill to make them even more productive at work.</p>
 
-							<p><br />
-							<strong>Building Wealth Is A Team Effort</strong></p>
-							<p> No person became rich without a team backing him or her up. Microsoft was founded by Bill Gates and his childhood friend Paul Allen. In 1976, Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Mark Zuckerberg was helped by his classmates in creating and launching FaceMash &ndash; which would later on become Facebook.</p>
-							<p>Don‟t be mistaken that a team means a group of professionals working together towards one goal. That is one definition. But remember that you have your very own team at home &ndash; your spouse, parents, siblings, best friends, and trusted relatives. In fact, a team player does not have much qualifications. As long as you are working together in unity and with one goal, you are already considered a team.</p>
-							<p>Building wealth is rarely a one-man job. Even if you‟re only investing, you would need financial planners and managers or a stockbroker to trade. Both of you are considered a team with a single goal &ndash; to multiply your money.</p>
-							<p>Each people is gifted with a unique sets of gifts &ndash; a set of talents which will eventually fit in your path to success.</p>
-							<p>Business- and organization-wise, proper delegation is one of the skills of a good leader. He knows who trust with confidential matters, who would be the best person to do a certain task, and who would be the one who would bring significant and innovative results to the team. Team effort is a work in itself.</p>
+							<h2 class="sub-header-giver text-center">
+								Happiness Is A Great Motivation To Wealth Generation.
+							</h2>
+							<p>In a&nbsp;<a href="http://sonjalyubomirsky.com/wp-content/themes/sonjalyubomirsky/papers/BLinpressb.pdf" target="_blank">study&nbsp;</a>by Julia Boehm &amp; Sonja Lyubomirsky of the University of California, it was shown that contrary to the perception of many, happiness precedes success. It may sound contrary, especially if happiness is associated with money. However, it is also shown in different studies that happiness is associated with the income level. Sometimes, spending a little bit for our wants can become a big motivation which can result to better wealth generation.</p>
 
-							<p style="text-align: center;"><br /><strong>This is your power motivation formula in building your wealth as a Giver:</strong></p>
-							<p style="text-align: center;">Symbiotic Flows + Partnerships + Backup Plan</p>
-							<p style="text-align: center;"> And For Your Ultimate Secret to Wealth-Generation:</p>
-							<p style="text-align: center;">Investing In Symbiotic Flows, Long-Term Investments, And Financial Coaching</p>
+
+							<h2 class="sub-header-giver text-center">
+							Financial Literacy Is The First Step Towards Wealth Generation
+							</h2>
+
+							<p>The ever-changing world heavily affects the financial sector. Investments change their structure and fraudsters are becoming smarter to scam even the wisest rich. The best leaders and wise decision makers are financial literates. They know the basic accounting terms and how money works. Lack of financial literacy have the following consequences:</p>
+
+							<ul>
+								<li>Lack of retirement fund</li>
+								<li>Piling debts</li>
+								<li>Lack of financial stability</li>
+								<li>Inability to meet the expenses</li>
+							</ul>
+
+							<h2 class="sub-header-giver text-center">
+							Debt-Free Individuals Are Happier And More Contented
+							</h2>
+
+							<p>The thought that all your hard earned income will be yours only is already comforting. Debt and interests pertaining to it can deplete your savings. People who are living debt-free or close to being debt-free never have to worry about their financial obligations.</p>
+
+							<p>&nbsp;</p>
+							
+							<h2 style="text-align:center"><strong>This is your power motivation formula in building your wealth as a Giver: </strong></h2>
+
+							<h2  class = "text-danger" style="text-align:center"><strong>Self + Creating More Opportunities + Financial Literacy</strong></h2>
+
+							<p class = "text-danger" style="text-align:center"><strong>And For Your Ultimate Secret to Wealth-Generation:</strong></p>
+
+							<p class = "text-danger" style="text-align:center"><strong>Creating More Opportunities</strong></p>
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab5-next">
 							Show Me My WEALTH GUIDE!
@@ -225,53 +276,106 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!--Section Content-->
-							<p>It‟s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Giver would eventually encounter in this lifetime.</p>
-							<p>Your obsession with money is understandable. No one wants to compromise their financial stability and choose material happiness which are usually just temporary contentment.</p>
-							<p>These fears are reasonable. You want to build wealth in the shortest possible time. You want towatch your savings grow instead of it diminishing over temporary happiness; hence, you would rather save all the money that you think is not really necessary in your day-to-day sustenance.</p>
-							<p>However, these wants can sometimes be thought as motivation for you to perform well in your day job, get promotions, or think of a new business concept that can be the next big thing. It‟s possible that these wants not take up your savings funds, for you can let your money do the work for you.</p>
-							<p>Here are the solutions catered just for a Giver like you:</p>
-							
-							<p><br /><strong>#1 Enlist The Help Of A Finance Coach / Financial Advisor</strong></p>
-							<p><br />Financial coaches aim to help their clients get clear about their financial goals, habits, and money appetite. They teach people how to be responsible with their money and fix their financial practices. An advisor, on the other hand, will recommend investment according to your risk appetite, long-term goals, and amount of money you‟re willing to gamble. A financial professional is not only for the wealthy people &ndash; these professionals cater to small businesses and those with day job who are looking to start or diversify their investment portfolio.</p>
-							<p>Wealth management and investment involves risks. Specific investment strategies and the amount to be involved depends particularly on the client. This is a case-to-case basis. Financial advisors provide their clients with individual plans to cater to their needs and specific goals.</p>
-							<p>Whether it be a question on the best thing to do with your money just sitting in a bank, an advice about a particular investment, or a help in budgeting a big expensive event such as wedding and birthdays, a financial coach or advisor can provide you the best options to consider.</p>
-							<p>Where to find financial coaches / advisors?</p>
-							<ul>
-								<li>Referrals will be your best option if you have friends or colleagues who have tried their</li>
-								<li>service.</li>
-								<li>Most financial advisors are affiliated with insurance companies.</li>
-								<li>National Association of Personal Financial Advisors (NAPFA) website</li>
-								<li>Accredited Financial Counselor website</li>
-							</ul>
-							<p>Alternative: <strong>Start Subscribing To Financial Newsletters And Listening To Financial Podcasts</strong></p>
-							<p>Financial podcasts are one of the top podcast niche nowadays. Most people, even the younger generations, are worried of their financial security this pandemic. A finance professional advice may be something that they cannot afford yet, so they resort to financial podcasts to get particular advice from.</p>
+							<p>It&rsquo;s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Giver would eventually encounter in this lifetime.</p>
 
-							<p><br /><strong>#2 When You Are Able To Take It To The Next Level, Invest In Long-Term Ones</strong><br /><br />
-							Long-term investments are those where you let your money stay for a long time to generate cash after a certain number of years. Do this when you are ready to part with some of your money and put it in an income-generating fund to leave it there for maximum returns.</p>
-							<p>Why Long-Term Investments?</p>
+							<p>Your obsession with money is understandable. No one wants to compromise their financial stability and choose material happiness which are usually just temporary contentment.</p>
+
+							<p>These fears are reasonable. You want to build wealth in the shortest possible time. You want to watch your savings grow instead of it diminishing over temporary happiness; hence, you would rather save all the money that you think is not really necessary in your day-to-day sustenance.</p>
+
+							<p>However, these wants can sometimes be thought as motivation for you to perform well in your day job, get promotions, or think of a new business concept that can be the next big thing. It&rsquo;s possible that these wants not take up your savings funds, for you can let your money do the work for you.</p>
+
+							<p><strong>Here are the solutions catered just for a Salesperson like you:</strong></p>
+
+
+							<h2 class="sub-header-giver text-center">
+							#1 Create A Financial Plan
+							</h2>
+
+							<p>Without a financial plan, you don&#39;t have control over your money and cash flows. Without a budget every week (or every month), you are spending all your income and even more than what you earn. You give and spend because you think you still have more when in fact, your debts are already piling.</p>
+
+							<p><strong>The first step for a giver to generate wealth is by recognizing his finances and funds.</strong></p>
+
 							<ul>
-								<li>Less time-consuming. You won‟t need to be bothered by the fluctuations of the value of the asset.</li>
+								<li>List down your monthly (or weekly) expenses for necessities</li>
+								<li>Account all your cash flows</li>
+								<li>Track your spending and categorize your expenses after the week</li>
+								<li>Calculate how much goes into your savings Do this for 4 consecutive weeks first.</li>
+							</ul>
+
+							<p>Then identify which category of expenses eats up your cash flows. Adjust the other factors to increase your savings.</p>
+
+							<p><strong>50-30-20 Budget Rule</strong></p>
+
+							<p>For people who are having a hard time tracking and budgeting their monthly income, they use the 50-30-20 rule.</p>
+
+							<p><strong>50% of your income will go to your necessities 30% will go to wants</strong></p>
+
+							<p><strong>20% will go to savings, debts, and investments</strong></p>
+
+							<p>The key here is to categorize your expenses to have further control of your savings and for you to know which of the expenses need to be trimmed down.</p>
+
+
+							<h2 class="sub-header-giver text-center">
+							#2 Monetize Your Action-Inducing Spirit
+							</h2>
+
+							<p>A Giver has the best problem-solving skills. Their way of helping people is through their services, and money is the last option. Their minds are geared to think of solutions to help people who they think need help the most.</p>
+
+							<p><strong>An Giver has got what it takes to start a for service-based businesses. These are the top service-based niches for your best natural skills:</strong></p>
+
+							<ul>
+								<li>Life coaching</li>
+								<li>Personality Development Coaching</li>
+								<li>Systems Consultant</li>
+								<li>Virtual Assistant</li>
+								<li>Property Manager</li>
+								<li>Corporate Planner</li>
+								<li>Transport services</li>
+								<li>Errand services</li>
+								<li>Software that does digital services to clients</li>
+								<li>Mobile apps for entertainment</li>
+							</ul>
+
+							<p><strong>More general top-selling niches to get you started:</strong></p>
+
+							<ul>
+								<li>Clothing and fashion items</li>
+								<li>Fitness Equipment</li>
+								<li>Gadgets And Technology</li>
+								<li>Home Improvement And D&eacute;cor</li>
+								<li>Health-Conscious Foods</li>
+								<li>Pet Supplies</li>
+							</ul>
+
+							<h2 class="sub-header-giver text-center">
+							#3 Invest In Long-Term Investments
+							</h2>
+
+							<p>When you have enough funds to invest, opt for long-term investments. This is perfect for a Giver, because this time, letting someone handle this aspect of your finances will do you more good. A professional fund manager will be the one to handle all these to give you peace of mind and to let you continue your advocacies.</p>
+
+							<p><strong>Why Long-Term Investments?</strong></p>
+
+							<ul>
+								<li>Less time-consuming. You won&rsquo;t need to be bothered by the fluctuations of the value of the asset.</li>
 								<li>Higher returns of investment.</li>
 							</ul>
 
-							<p>What Are The Best Long-Term Investments?</p>
+
+							<p><strong>What Are The Best Long-Term Investments?</strong></p>
+
 							<ul>
 								<li>Stocks</li>
 								<li>Corporate and Treasury Bonds</li>
-								<li>Mutual Funds</li>
+								<li>Mutual Funds Where To Avail?</li>
 							</ul>
 
-							<p><br />Where To Avail?</p>
-							<p>Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don‟t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a&nbsp; minimum investment of $500.</p>
+							<p>Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don&rsquo;t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a minimum investment of $500.</p>
+
 							<p>There are also online brokers and trading platforms which offer $0 fees and no minimum amount. You would only need to deposit such amount enough to buy a minimum number of stocks in your preferred company.</p>
-							<p><br /><strong>#3 Start A Connected Side Hustle</strong><br /><br />
-							Here are the best low-cost side hustles for a Giver to fit on his or her expertise:</p>
-							<ul>
-								<li><strong>Sell online courses (Minimum $50 per course)</strong></li>
-								<li><strong>Writing and content creation services (Minimum $10 per article for web content)</strong></li>
-								<li><strong>Blogger / Affiliate Marketer ($200/month for a beginner)</strong></li>
-							</ul>
 						</div>
+						<a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
+							BUY product for 365 DAYS OF WEALTH AFFIRMATION
+						</a>
 					</div>
 				</div>
 			</div>
