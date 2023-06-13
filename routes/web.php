@@ -12,7 +12,7 @@
 */
 
 Route::namespace('Auth')->group(function () {
-    Route::get('auth/register', 'RegisterController@index')->name('register');
+    Route::get('auth/register', 'RegisterController@index')->name('registeruser');
     Route::post('auth/register', 'RegisterController@store')->name('adduser');
 });
 

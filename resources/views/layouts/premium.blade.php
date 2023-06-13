@@ -30,10 +30,10 @@
          <div class="collapse navbar-collapse" id="navbarResponsive">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav me-auto">
-               <li class="nav-item mx-0 mx-lg-1">
+               <!--<li class="nav-item mx-0 mx-lg-1">-->
                   <!-- <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'>FE</a> -->
-                  <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/basic') }}">Basic</a>
-               </li>
+                  <!--<a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/basic') }}">Basic</a>-->
+               <!--</li>-->
                <li class="nav-item mx-0 mx-lg-1">
                   <!-- <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'>FE</a> -->
                   <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/premium') }}">FE</a>
@@ -74,19 +74,22 @@
 	<div class="hero-{{$avatar}}">
       <div class="hero-image">
          <div class="hero-text">
-               <h2 class="mt-5">Unlock Your Sacred Archetypal Powers & Experience Abundance Across All Aspects Of Your Life.</h2>
-
+               <!--<h2 class="mt-5">Unlock Your Sacred Archetypal Powers & Experience Abundance Across All Aspects Of Your Life.</h2>-->
+               
                <div class="{{$avatar}}-img">
-                  <img src="{{ asset('assets/img/image') }}/{{$avatarmiddle}}" width="80px">
+                  <img src="{{ asset('assets/img/image') }}/{{$avatarmiddle}}" width="50px">
                </div>
-               <div class="title-form mt-5 mb-4"><h4>This Exclusive Reading Is Specially Prepared For:</h4></div>
+               <!--<div class="title-form mt-5 mb-4"><h4>This Exclusive Reading Is Specially Prepared For:</h4></div>-->
                <h2 class="sub-header-{{$avatar}} text-center"><strong>{{$user->name}} </strong></h2>
 
                <div class="container d-flex align-items-center flex-column">
-                  <img width="400px" src="{{ asset('/assets/img/avatars') }}/{{$image}}" alt="..." />
+                  <img width="300px" src="{{ asset('/assets/img/avatars') }}/{{$image}}" alt="..." />
                   <h2 class="sub-header-{{$avatar}} text-center">
                      {{$title}}
                   </h2>
+                    <audio controls loop autoplay>
+                        <source src="{{ asset('assets/audio/Frequency_of_miracles.mp3')  }}" type="audio/mpeg">
+                    </audio>
                </div>
          </div>
       </div>

@@ -656,6 +656,58 @@
 
 <body>
 
+    <?php
+    
+      class Form {
+          private $name;
+          private $email;
+          private $archetype;
+    
+          public function __construct($name, $email, $archetype) {
+              $this->name = $name;
+              $this->email = $email;
+              $this->archetype = $archetype;
+    
+              // database connection
+              $servername = "127.0.0.1";
+              $username = "digiyebl_wealthavatarr";
+              $password = '74*$nTKZiZ9t';
+              $dbname = "digiyebl_wealthavatarr";
+              $this->conn = new mysqli($servername, $username, $password, $dbname);
+    
+              if ($this->conn->connect_error) {
+                  die("Connection failed: " . $this->conn->connect_error);
+              }
+          }
+    
+          public function saveToDB() {
+              $sql = "INSERT INTO user_archetype (name, email, archetype) VALUES ('$this->name', '$this->email', '$this->archetype')";
+              if ($this->conn->query($sql) === TRUE) {
+    
+              } else {
+                  echo "Error: " . $sql . "<br>" . $this->conn->error;
+              }
+    
+              $this->conn->close();
+          }
+    
+      }
+    
+      // Check if the form has been submitted
+      if (isset($_GET["avatar"]) && isset($_GET["name"]) && isset($_GET["mail"])) {
+    
+          $name = $_GET["name"];
+          $email = $_GET["mail"];
+          $archetype = $_GET["avatar"];
+        
+          $form = new Form($name, $email, $archetype);
+    
+          // Save the form data to database
+          $form->saveToDB();
+      }
+    
+    ?>
+
   <div class="loading-container mt-3 mb-3">
 
     <div class="container">

@@ -47,9 +47,9 @@
               <div class="card-body text-center">
                 <div>
                   <h2>Sign up</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p>Unlock Your Sacred Archetypal Powers & Experience Abundance Across All Aspects Of Your Life. Register Here.</p>
                   @if (Route::has('password.request'))
-                    <a href="{{ route('register') }}" class="btn btn-primary active mt-3">{{ __('Register') }}</a>
+                    <a href="{{ route('registeruser') }}" class="btn btn-primary active mt-3">{{ __('Register') }}</a>
                   @endif
                 </div>
               </div>
