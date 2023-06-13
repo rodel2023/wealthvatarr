@@ -782,22 +782,22 @@
 	var yourAvatar = document.getElementById("yourAvatar")
     yourAvatar.innerHTML = "Your Avatarr is the: " + avatar;
     
-    directedTo = "https://wealthavatarr.com/";
+    //directedTo = "https://wealthavatarr.com/";
 
-// 	if(avatar == 'Banker')
-// 		directedTo = 'https://wealthavatarr.com/banker?archetype=' + avatar + '&name=' + name + '&email=' + mail;
-// 	else if(avatar == 'Capitalist')
-// 		directedTo = 'https://wealthavatarr.com/capitalist?archetype=' + avatar + '&name=' + name + '&email=' + mail;
-// 	else if(avatar == 'Sales Person')
-// 		directedTo = 'https://wealthavatarr.com/salesperson?archetype=' + avatar + '&name=' + name + '&email=' + mail;
-// 	else if(avatar == 'Conqueror')
-// 		directedTo = 'https://wealthavatarr.com/conqueror?archetype=' + avatar + '&name=' + name + '&email=' + mail;
-// 	else if(avatar == 'Giver')
-// 		directedTo = 'https://wealthavatarr.com/giver?archetype=' + avatar + '&name=' + name + '&email=' + mail;
-// 	else if(avatar == 'Influencer')
-// 		directedTo = 'https://wealthavatarr.com/influencer?archetype=' + avatar + '&name=' + name + '&email=' + mail;
-// 	else if(avatar == 'Adversary')
-// 		directedTo = 'https://wealthavatarr.com/adversary?archetype=' + avatar + '&name=' + name + '&email=' + mail;
+	if(avatar == 'Banker')
+		directedTo = 'https://wealthavatarr.com/banker?archetype=' + avatar + '&name=' + name + '&email=' + mail;
+	else if(avatar == 'Capitalist')
+		directedTo = 'https://wealthavatarr.com/capitalist?archetype=' + avatar + '&name=' + name + '&email=' + mail;
+	else if(avatar == 'Sales Person')
+		directedTo = 'https://wealthavatarr.com/salesperson?archetype=' + avatar + '&name=' + name + '&email=' + mail;
+	else if(avatar == 'Conqueror')
+		directedTo = 'https://wealthavatarr.com/conqueror?archetype=' + avatar + '&name=' + name + '&email=' + mail;
+	else if(avatar == 'Giver')
+		directedTo = 'https://wealthavatarr.com/giver?archetype=' + avatar + '&name=' + name + '&email=' + mail;
+	else if(avatar == 'Influencer')
+		directedTo = 'https://wealthavatarr.com/influencer?archetype=' + avatar + '&name=' + name + '&email=' + mail;
+	else if(avatar == 'Adversary')
+		directedTo = 'https://wealthavatarr.com/adversary?archetype=' + avatar + '&name=' + name + '&email=' + mail;
 					
     setTimeout(function(){
         window.location.href = directedTo;

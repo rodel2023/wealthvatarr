@@ -185,6 +185,54 @@ class AvatarController extends Controller
 
 ///////////////////////////// AVATARS TEST /////////////////////////////////////////////////////////////
 
+///////////////////////////// AVATARS FREE TEST /////////////////////////////////////////////////////////////
+    public function adversary_free(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        //return view('dashboard.avatar.basic.adversary',["access_level"=>$access_level,"title"=>"The Adversary", "image" => "conqueror.png","avatar" => "conqueror","avatarmiddle" => "conquerormiddle.png", "user" => $user]);
+
+        return view('dashboard.avatar.basic.adversary',["access_level"=>$access_level,"title"=>"The Adversary", "image" => "adversary.png","avatar" => "adversary","avatarmiddle" => "adversarymiddle.png", "user" => $user]);
+    }
+
+    public function banker_free(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        return view('dashboard.avatar.basic.banker',["access_level"=>$access_level,"title"=>"The Banker", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+    }
+
+    public function capitalist_free(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        return view('dashboard.avatar.basic.capitalist',["access_level"=>$access_level,"title"=>"The Capitalist", "image" => "capitalist.png","avatar" => "capitalist","avatarmiddle" => "capitalistmiddle.png", "user" => $user]);
+    }
+
+    public function conqueror_free(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        // return view('dashboard.avatar.basic.conqueror',["title"=>"The Conqueror", "image" => "conqueror.png","avatar" => "conqueror","avatarmiddle" => "conquerormiddle.png", "user" => $user]);
+        return view('dashboard.avatar.basic.conqueror',["access_level"=>$access_level,"title"=>"The Conqueror", "image" => "conqueror.png","avatar" => "conqueror","avatarmiddle" => "conquerormiddle.png", "user" => $user]);
+    }
+
+    public function giver_free(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        return view('dashboard.avatar.basic.giver',["access_level"=>$access_level,"title"=>"The Giver", "image" => "giver.png","avatar" => "giver","avatarmiddle" => "givermiddle.png", "user" => $user]);
+    }
+
+    public function influencer_free(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        return view('dashboard.avatar.basic.influencer',["access_level"=>$access_level,"title"=>"The Influencer", "image" => "influencer.png","avatar" => "influencer","avatarmiddle" => "influencermiddle.png", "user" => $user]);
+    }
+    
+    public function salesperson_free(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        return view('dashboard.avatar.basic.salesperson',["access_level"=>$access_level,"title"=>"The Sales Person", "image" => "salesperson.png","avatar" => "salesperson","avatarmiddle" => "salespersonmiddle.png", "user" => $user]);
+    }
+
+///////////////////////////// AVATARS TEST /////////////////////////////////////////////////////////////
+
     public function oto_1(){
 
         $user = auth()->user();

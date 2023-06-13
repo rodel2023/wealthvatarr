@@ -10,7 +10,7 @@
     <link href="../css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<link rel="icon" href="../image/favicon.ico">
+	<link rel="icon" href="../public/assets/img/image/favicon.ico">
 	<title>The Influencer</title>
   </head>
   <body>
@@ -21,7 +21,7 @@
 			<img src="https://res.cloudinary.com/dohqthrfv/image/upload/v1652166691/WealthAvatarr/Wealth_Avatarr_grltle.png" width="400">
 		  <h2 class="mt-5">Unlock Your Sacred Archetypal Powers & Experience Abundance Across All Aspects Of Your Life.</h2>
 		  <div class="influencer-img">
-			<img src="../image/influencermiddle.png" width="100px">
+			<img src="../public/assets/img/image/influencermiddle.png" width="100px">
 		  </div>
 		  <div class="title-form mt-5 mb-4">
 			<h4>This Exclusive Reading Is Specially Prepared For:</h4>
@@ -585,7 +585,7 @@
 							<h2 class="sub-header-salesperson text-center">
 								INTRODUCING:  WealthAvatarr™ Premium Bundle
 							</h2>
-							<img class="w-100" src="../image/analysis.png">
+							<img class="w-100" src="../public/assets/img/image/analysis.png">
 							<p>
 								The ultimate package to take your wealth to the next level.
 							</p>
@@ -750,7 +750,7 @@
 							<div class="paav2-cta">
 								<div class="row second-row">
 									<div class="col-sm-6 col-md-6 col-12 mx-auto my-auto">
-										<img src='../image/analysis.png' class='paav2-cover'>
+										<img src='../public/assets/img/image/analysis.png' class='paav2-cover'>
 									</div>
 									<div class="col-sm-6 col-md-6 col-12 mx-auto text-center my-auto">
 										<p class="reg-price">Regular Price <strike>$97</strike>, <span class="glow">Today $37</span></p>
@@ -851,7 +851,7 @@
 							<div class="paav2-cta">
 								<div class="row second-row">
 									<div class="col-sm-6 col-md-6 col-12 mx-auto my-auto">
-										<img src='../image/analysis.png' class='paav2-cover'>
+										<img src='../public/assets/img/image/analysis.png' class='paav2-cover'>
 									</div>
 									<div class="col-sm-6 col-md-6 col-12 mx-auto text-center my-auto">
 										<p class="reg-price">Regular Price <strike>$97</strike>, <span class="glow">Today $37</span></p>
@@ -981,7 +981,7 @@
 							<div class="paav2-cta">
 								<div class="row second-row">
 									<div class="col-sm-6 col-md-6 col-12 mx-auto my-auto">
-										<img src='../image/analysis.png' class='paav2-cover'>
+										<img src='../public/assets/img/image/analysis.png' class='paav2-cover'>
 									</div>
 									<div class="col-sm-6 col-md-6 col-12 mx-auto text-center my-auto">
 										<p class="reg-price">Regular Price <strike>$97</strike>, <span class="glow">Today $37</span></p>
@@ -1049,7 +1049,7 @@
 							<div class="paav2-cta">
 								<div class="row second-row">
 									<div class="col-sm-6 col-md-6 col-12 mx-auto my-auto">
-										<img src='../image/analysis.png' class='paav2-cover'>
+										<img src='../public/assets/img/image/analysis.png' class='paav2-cover'>
 									</div>
 									<div class="col-sm-6 col-md-6 col-12 mx-auto text-center my-auto">
 										<p class="reg-price">Regular Price <strike>$97</strike>, <span class="glow">Today $37</span></p>
@@ -1169,7 +1169,7 @@
 							<div class="paav2-cta">
 								<div class="row second-row">
 									<div class="col-sm-6 col-md-6 col-12 mx-auto my-auto">
-										<img src='../image/analysis.png' class='paav2-cover'>
+										<img src='../public/assets/img/image/analysis.png' class='paav2-cover'>
 									</div>
 									<div class="col-sm-6 col-md-6 col-12 mx-auto text-center my-auto">
 										<p class="reg-price">Regular Price <strike>$97</strike>, <span class="glow">Today $37</span></p>
@@ -1351,8 +1351,8 @@
 						
 										<a class='yes cta-btn' href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'><span class='btn-text'>Add to Cart</span> <i class='fas fa-arrow-right'></i></a>
 														<a class='no cta-link' href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'>Click Here To Gain Instant Access</a>
-										<img class="cta-guarantee" src="../image/guarantee.png">
-										<img class="payment-options" src="../image/payment-options.png">
+										<img class="cta-guarantee" src="../public/assets/img/image/guarantee.png">
+										<img class="payment-options" src="../public/assets/img/image/payment-options.png">
 										<div class="security">
 											<p class="security-text"><i class="fas fa-lock"></i> Your information is safe and secure. The entire transaction will take place on a secure server using SSL technology.</p>
 										</div>
@@ -1372,9 +1372,9 @@
 							<div class="container vwo-cta">
 								<div class="row">
 									<div class="col-sm-12">
-										<img class="img-mw600" src="../image/analysis.png">
+										<img class="img-mw600" src="../public/assets/img/image/analysis.png">
 					
-										<a href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'><img src='../image/pricing.png' class='img-mw600'></a>
+										<a href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'><img src='../public/assets/img/image/pricing.png' class='img-mw600'></a>
 									</div>
 									<input type="hidden" name="" value="individualogist.com/offer/paa/reading-v4/?name=sj&email=101successhacks%40gmail.com&archetype=caregiver">
 									<input type="hidden" name="" value="reading-v4">
@@ -1391,7 +1391,7 @@
 </div>
 <div id="footer">
 	<div class="footer-logo">
-		<img class="img-fluid" src="../image/wealth_avatarr.png">
+		<img class="img-fluid" src="../public/assets/img/image/wealth_avatarr.png">
 	</div>
   
 	<!--<p class="small"><a href="http://individualogist.com">Home</a> | <a href="http://individualogist.com/terms-and-conditions">Terms and Conditions</a> | <a href="http://individualogist.com/privacy-policy">Privacy Policy</a> | <a href="https://individualogist.kayako.com">Support</a> | <a href="http://individualogist.com/contact">Contact</a></p>-->

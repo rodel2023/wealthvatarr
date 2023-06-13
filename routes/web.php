@@ -38,6 +38,15 @@ Route::group(['middleware' => ['get.menu']], function () {
         Route::get('avatar/salesperson', 'AvatarController@salesperson')->name('salesperson');
         Route::get('avatar/giver', 'AvatarController@giver')->name('giver');
         Route::get('avatar/influencer', 'AvatarController@influencer')->name('influencer');
+        
+        
+        Route::get('avatar/adversary_free', 'AvatarController@adversary_free')->name('adversary_free');
+        Route::get('avatar/conqueror_free', 'AvatarController@conqueror_free')->name('conqueror_free');
+        Route::get('avatar/capitalist_free', 'AvatarController@capitalist_free')->name('capitalist_free');
+        Route::get('avatar/banker_free', 'AvatarController@banker_free')->name('banker_free');
+        Route::get('avatar/salesperson_free', 'AvatarController@salesperson_free')->name('salesperson_free');
+        Route::get('avatar/giver_free', 'AvatarController@giver_free')->name('giver_free');
+        Route::get('avatar/influencer_free', 'AvatarController@influencer_free')->name('influencer_free');
 
         Route::get('/colors', function () {     return view('dashboard.colors'); });
         Route::get('/typography', function () { return view('dashboard.typography'); });
