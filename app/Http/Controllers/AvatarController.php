@@ -9,6 +9,9 @@ use App\Models\Status;
 use App\Models\UserArchetype;
 use Illuminate\Support\Facades\Redirect;
 
+use App\Models\Oto1s;
+use Carbon\Carbon;
+
 class AvatarController extends Controller
 {
 
@@ -230,12 +233,29 @@ class AvatarController extends Controller
         $access_level = json_decode($user->access_level);
         $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
 
+        $currentMonth = Carbon::now()->format('M'); // Get the current month
+        $otos = Oto1s::where('month', $currentMonth)->get();
+
+        $month = date('m');
+        $date = Carbon::createFromFormat('m', $month);
+        $fullMonthName = $date->format('F');
+
+        // return view('dashboard.avatar.oto1', compact('otos', 'fullMonthName'));
+
         if($user_archetype){
-            return view('dashboard.avatar.oto1',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+            return view('dashboard.avatar.oto1',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user, "otos" => $otos, "fullMonthName" => $fullMonthName]);
         }else{
             return Redirect::to('http://wealthavatarr.com/quiz/');
         }
 
+
+    }
+
+    // Download the audio in Oto1
+    public function download($filename) {
+        $filePath = public_path('assets/audio/' . $filename);
+
+        return response()->download($filePath);
     }
     
     public function oto_2(){

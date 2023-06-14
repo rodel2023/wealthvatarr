@@ -11,6 +11,15 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="icon" href="{{ asset('assets/img/image/favicon.ico') }}">
+
+   {{-- This line is to play one audio at a time --}}
+   <script type="text/javascript">
+    function pauseOthers(element){
+        $("audio").not(element).each(function(index,audio){
+        audio.pause();
+        })
+    }
+    </script>
 	<title>{{$title}}</title>
   </head>
    <body>

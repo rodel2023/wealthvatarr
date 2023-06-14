@@ -20,8 +20,21 @@
 							</div>
 							<!-- Section Content-->
 						</div>
+						<h3> Month of {{$fullMonthName}}</h3>
+						@foreach($otos as $oto_item)
+						<div class="card text-center ms-2 mt-0 mb-2" style="width: 28rem;">
+							<div class="card-body">
+								<h5 class="card-title">Day {{ $oto_item->day }}</h5>
+									<audio controls onplay="pauseOthers(this);">
+										<source src="{{ $oto_item->file_location.$oto_item->file_name}}" type="audio/mpeg">
+									</audio>
+								<p class="card-text" style="font-size: 15px">Description: {{$oto_item->description}}</p>
+								<a href="{{ route('oto1s.download', ['filename' => $oto_item->file_name]) }}" class="btn btn-primary" style="width: 35%; font-size: 10px;">Download</a>
+							</div>
+						</div>
+						@endforeach
 						
-						<table class="table">
+						{{-- <table class="table">
 							<thead class="thead-dark">
 								<tr>
 								<th scope="col">Day #</th>
@@ -76,7 +89,7 @@
 									</td>
 								</tr>
 							</tbody>
-							</table>
+							</table> --}}
 
 
 					</div>
