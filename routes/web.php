@@ -30,7 +30,8 @@ Route::group(['middleware' => ['get.menu']], function () {
         Route::get('oto1', 'AvatarController@oto_1')->name('oto1');
         Route::get('oto2', 'AvatarController@oto_2')->name('oto2');
         Route::get('oto3', 'AvatarController@oto_3')->name('oto3');
-        Route::get('oto1/download/{filename}', 'AvatarController@download')->name('oto1s.download');
+        // Route::get('oto1/download/{filename}', 'AvatarController@download')->name('oto1s.download');
+        Route::get('/download-audio/{fileName}', 'AvatarController@download');
 
         // Route::get('/oto1s', 'Oto1sController@index')->name('oto1');
 
@@ -156,3 +157,4 @@ Route::group(['middleware' => ['get.menu']], function () {
     });
 });
 
+Route::get('/private/audios/{fileName}', 'PrivateController@getAudio');

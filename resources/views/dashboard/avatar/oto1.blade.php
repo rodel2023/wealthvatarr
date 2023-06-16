@@ -26,10 +26,12 @@
 							<div class="card-body">
 								<h5 class="card-title">Day {{ $oto_item->day }}</h5>
 									<audio controls onplay="pauseOthers(this);">
-										<source src="{{ $oto_item->file_location.$oto_item->file_name}}" type="audio/mpeg">
+										{{-- <source src="{{ $oto_item->file_location.$oto_item->file_name}}" type="audio/mpeg"> --}}
+										<source src="{{ url('private/audios/'.$oto_item->file_name) }}" type="audio/mp3">
 									</audio>
 								<p class="card-text" style="font-size: 15px">Description: {{$oto_item->description}}</p>
-								<a href="{{ route('oto1s.download', ['filename' => $oto_item->file_name]) }}" class="btn btn-primary" style="width: 35%; font-size: 10px;">Download</a>
+								{{-- <a href="{{ route('oto1s.download', ['filename' => $oto_item->file_name]) }}" class="btn btn-primary" style="width: 35%; font-size: 10px;">Download</a> --}}
+								<a href="{{ url('download-audio/'.$oto_item->file_name) }}" class="btn btn-primary" style="width: 35%; font-size: 10px;">Download</a>
 							</div>
 						</div>
 						@endforeach

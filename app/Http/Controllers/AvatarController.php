@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Redirect;
 
 use App\Models\Oto1s;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Storage;
 
 class AvatarController extends Controller
 {
@@ -252,10 +253,23 @@ class AvatarController extends Controller
     }
 
     // Download the audio in Oto1
-    public function download($filename) {
-        $filePath = public_path('assets/audio/' . $filename);
+    // public function download($filename) {
+    //     $filePath = public_path('assets/audio/' . $filename);
 
-        return response()->download($filePath);
+    //     return response()->download($filePath);
+    // }
+
+    // Download the audio in Oto1 from private folder
+    public function download($audio) 
+    {
+        $path = Storage::disk('private')->path('audios/'.$audio);
+        if(!Storage::disk('private')->exists('audios/'.$audio)){
+            abort(404);
+        }
+        $headers = [
+            'Content-Type' => 'audio/mpeg',
+        ];
+        return response()->download($path, $audio, $headers);
     }
     
     public function oto_2(){
