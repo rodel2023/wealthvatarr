@@ -36,10 +36,17 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Section Content-->
-							
-							<audio controls>
-								<source src="{{ asset('assets/audio/Health_Well_Being.mp3')  }}" type="audio/mpeg">
-							</audio>
+							<div class="row">
+								<div class="col-10 pt-1">
+									<audio controls controlsList="nodownload" onplay="pauseOthers(this);" style="width: 100%;">
+										{{-- <source src="{{ asset('assets/audio/Health_Well_Being.mp3')  }}" type="audio/mpeg"> --}}
+										<source src="{{ url('private/audios/Health_Well_Being.mp3') }}" type="audio/mp3">
+									</audio>
+								</div>
+								<div class="col-2 pt-1">
+									<a href="{{ url('download-audio/Health_Well_Being.mp3') }}" class="btn m-0 mt-2" style="width: 100%; background-color: #5597C3; border-radius: 25px; font-size: 10px;">Download</a>
+								</div>
+							</div>
 
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab1-next" >
@@ -63,9 +70,22 @@
 							</div>
 							<!-- Section Content-->
 							
-							<audio controls>
+							{{-- Old code --}}
+							{{-- <audio controls>
 								<source src="{{ asset('assets/audio/Welcome_Wealth.mp3')  }}" type="audio/mpeg">
-							</audio>
+							</audio> --}}
+
+							<div class="row">
+								<div class="col-10 pt-1">
+									<audio controls controlsList="nodownload" onplay="pauseOthers(this);" style="width: 100%;">
+										{{-- <source src="{{ asset('assets/audio/Welcome_Wealth.mp3')  }}" type="audio/mpeg"> --}}
+										<source src="{{ url('private/audios/Welcome_Wealth.mp3') }}" type="audio/mp3">
+									</audio>
+								</div>
+								<div class="col-2 pt-1">
+									<a href="{{ url('download-audio/Welcome_Wealth.mp3') }}" class="btn m-0 mt-2" style="width: 100%; background-color: #5597C3; border-radius: 25px; font-size: 10px;">Download</a>
+								</div>
+							</div>
 
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab2-next">
@@ -89,9 +109,22 @@
 							</div>
 							<!-- Section Content-->
 							
-							<audio controls>
+							{{-- Old Code --}}
+							{{-- <audio controls>
 								<source src="{{ asset('assets/audio/Healthy_Relationship.mp3')  }}" type="audio/mpeg">
-							</audio>
+							</audio> --}}
+
+							<div class="row">
+								<div class="col-10 pt-1">
+									<audio controls controlsList="nodownload" onplay="pauseOthers(this);" style="width: 100%;">
+										{{-- <source src="{{ asset('assets/audio/Healthy_Relationships.mp3')  }}" type="audio/mpeg"> --}}
+										<source src="{{ url('private/audios/Healthy_Relationships.mp3') }}" type="audio/mp3">
+									</audio>
+								</div>
+								<div class="col-2 pt-1">
+									<a href="{{ url('download-audio/Healthy_Relationships.mp3') }}" class="btn m-0 mt-2" style="width: 100%; background-color: #5597C3; border-radius: 25px; font-size: 10px;">Download</a>
+								</div>
+							</div>
 							
 						</div>
 						<a class="btn button-go-up" href="#nav-tab" id="tab3-next">
