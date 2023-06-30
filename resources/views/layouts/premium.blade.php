@@ -36,18 +36,45 @@
                <!--</li>-->
                <li class="nav-item mx-0 mx-lg-1">
                   <!-- <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'>FE</a> -->
-                  <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/premium') }}">FE</a>
+                  @if(!in_array(1, json_decode($user->access_level))) 
+                     <button type="button" class="btn btn-secondary px-3 mb-2 mb-lg-0" data-toggle="modal" data-target="#feModal">
+                        FE 
+                     </button>
+                  @else
+                     <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/premium') }}">FE</a>
+                  @endif
                </li>
                <li class="nav-item mx-0 mx-lg-1">
-                  <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto1') }}">OTO - 1</a>
+                  @if(!in_array(2, json_decode($user->access_level))) 
+                     <button type="button" class="btn btn-secondary px-3 mb-2 mb-lg-0" data-toggle="modal" data-target="#oto1Modal">
+                        OTO - 1 
+                     </button>
+                  @else
+                     <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto1') }}">OTO - 1</a>
+                  @endif
+
                   <!-- <a class="btn btn-secondary px-3 mb-2 mb-lg-0" href="http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4">OTO - 1</a> -->
                </li>
                <li class="nav-item mx-0 mx-lg-1">
-                  <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto2') }}">OTO - 2</a>
+                  @if(!in_array(3, json_decode($user->access_level))) 
+                     <button type="button" class="btn btn-secondary px-3 mb-2 mb-lg-0" data-toggle="modal" data-target="#oto2Modal">
+                        OTO - 2 
+                     </button>
+                  @else
+                     <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto1') }}">OTO - 1</a>
+                  @endif
+                  {{-- <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto2') }}">OTO - 2</a> --}}
                   <!-- <a class="btn btn-secondary px-3 mb-2 mb-lg-0" href="http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4">OTO - 1</a> -->
                </li>
                <li class="nav-item mx-0 mx-lg-1">
-                  <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto3') }}">OTO - 3</a>
+                  @if(!in_array(4, json_decode($user->access_level))) 
+                     <button type="button" class="btn btn-secondary px-3 mb-2 mb-lg-0" data-toggle="modal" data-target="#oto3Modal">
+                        OTO - 3
+                     </button>
+                  @else
+                     <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto1') }}">OTO - 1</a>
+                  @endif
+                  {{-- <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto3') }}">OTO - 3</a> --}}
                   <!-- <a class="btn btn-secondary px-3 mb-2 mb-lg-0" href="http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4">OTO - 1</a> -->
                </li>
             </ul>
@@ -70,7 +97,7 @@
          </div>
       </div>
    </nav>
-   
+
 	<div class="hero-{{$avatar}}">
       <div class="hero-image">
          <div class="hero-text">
@@ -94,7 +121,7 @@
          </div>
       </div>
 	</div>
-   
+
    <div class="nav" id="nav-tab" role="tablist"  style="background-color: #6610f2;">
       <button class="btn nav-button-active" id="tab1-button" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
          <p class="nav-title">Introduction</p>
@@ -130,6 +157,66 @@
         <p class="small" style="font-family:'Raleway',sans-serif;">&copy; Copyright 2022 wealthavatarr.com. All Rights Reserved</p>
     
       </div>
+
+      {{-- Modal --}}
+      {{-- FE --}}
+      <div class="modal fade" id="feModal" tabindex="-1" role="dialog" aria-labelledby="feModalLabel">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <p class="text-center">Oops! Take a quiz first!</p>
+               </div>
+               <div class="modal-footer d-flex justify-content-center">
+                  <a class='btn btn-primary' href="{{ url('/premium') }}">Take a Quiz!</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      {{-- OTO1 --}}
+      <div class="modal fade" id="oto1Modal" tabindex="-1" role="dialog" aria-labelledby="oto1ModalLabel">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <p class="text-center">Oops! You do not have access. <br> Click the button below to upgrade.</p>
+               </div>
+               <div class="modal-footer d-flex justify-content-center">
+                  <a class='btn btn-primary' href="{{ url('/oto1') }}">Upgrade Now!</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      {{-- OTO2 --}}
+      <div class="modal fade" id="oto2Modal" tabindex="-1" role="dialog" aria-labelledby="oto2ModalLabel">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <p class="text-center">Oops! You do not have access. <br> Click the button below to upgrade.</p>
+               </div>
+               <div class="modal-footer d-flex justify-content-center">
+                  <a class='btn btn-primary' href="{{ url('/oto2') }}">Upgrade Now!</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      {{-- OTO3 --}}
+      <div class="modal fade" id="oto3Modal" tabindex="-1" role="dialog" aria-labelledby="oto3ModalLabel">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <p class="text-center">Oops! You do not have access. <br> Click the button below to upgrade.</p>
+               </div>
+               <div class="modal-footer d-flex justify-content-center">
+                  <a class='btn btn-primary' href="{{ url('/oto3') }}">Upgrade Now!</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      {{-- End Modal --}}
+
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       
