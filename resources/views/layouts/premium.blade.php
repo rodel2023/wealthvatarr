@@ -163,6 +163,9 @@
       <div class="modal fade" id="feModal" tabindex="-1" role="dialog" aria-labelledby="feModalLabel">
          <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
+               <div class="modal-header d-flex justify-content-center align-items-center">
+                  <h5> <i class="fas fa-exclamation-triangle"></i> Warning</h5>
+               </div>
                <div class="modal-body">
                   <p class="text-center">Oops! Take a quiz first!</p>
                </div>
@@ -177,6 +180,9 @@
       <div class="modal fade" id="oto1Modal" tabindex="-1" role="dialog" aria-labelledby="oto1ModalLabel">
          <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
+               <div class="modal-header d-flex justify-content-center align-items-center">
+                  <h5> <i class="fas fa-exclamation-triangle"></i> Warning</h5>
+               </div>
                <div class="modal-body">
                   <p class="text-center">Oops! You do not have access. <br> Click the button below to upgrade.</p>
                </div>
@@ -191,6 +197,9 @@
       <div class="modal fade" id="oto2Modal" tabindex="-1" role="dialog" aria-labelledby="oto2ModalLabel">
          <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
+               <div class="modal-header d-flex justify-content-center align-items-center">
+                  <h5> <i class="fas fa-exclamation-triangle"></i> Warning</h5>
+               </div>
                <div class="modal-body">
                   <p class="text-center">Oops! You do not have access. <br> Click the button below to upgrade.</p>
                </div>
@@ -205,6 +214,9 @@
       <div class="modal fade" id="oto3Modal" tabindex="-1" role="dialog" aria-labelledby="oto3ModalLabel">
          <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
+               <div class="modal-header d-flex justify-content-center align-items-center">
+                  <h5> <i class="fas fa-exclamation-triangle"></i> Warning</h5>
+               </div>
                <div class="modal-body">
                   <p class="text-center">Oops! You do not have access. <br> Click the button below to upgrade.</p>
                </div>
