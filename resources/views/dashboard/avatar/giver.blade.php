@@ -1,7 +1,6 @@
 @extends('layouts.premium')
 
 @section('content')
-
 	<div class="card mx-auto" style="width: 60rem;">
 		<div class="card-body" style="text-align: -webkit-left;">
 			<div class="tab-content" id="nav-tabContent">
@@ -27,7 +26,7 @@
 							<p>For most people they have helped, the Givers are their Superheroes.</p>
 
 						</div>
-						<a class="btn button-go-up" href="#nav-tab" id="tab1-next" >
+						<a class="btn button-go-up" href="#nav-tab" id="tab1-next">
 							Show Me My Superpowers...
 						</a>
 					</div>

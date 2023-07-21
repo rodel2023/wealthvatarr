@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ asset('css/avatar.css') }}" rel="stylesheet">
 	<!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 	<!---Fontawesome CDN Link-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -17,69 +17,37 @@
 
    
    <!-- Navigation-->
-   <nav class="navbar navbar-expand-sm text-uppercase fixed-top" id="mainNav" style="position: sticky; background-color: #6610f2;">
+   <nav class="navbar navbar-expand-sm fixed-top" id="mainNav" style="position: sticky; background-color: #726950">
       <div class="container">
          <a class="navbar-brand" href="{{ url('/avatar') }}">                        
                <div class="header-logo">
                   <img class="img-fluid" src="{{ url('assets/img/wealth_avatarr.png') }}">
                </div>
          </a>
-         <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-               Menu <i class="fas fa-bars"></i>
+         <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse" id="navbarResponsive">
             <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav me-auto">
-               <!--<li class="nav-item mx-0 mx-lg-1">-->
-                  <!-- <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'>FE</a> -->
-                  <!--<a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/basic') }}">Basic</a>-->
-               <!--</li>-->
-               <li class="nav-item mx-0 mx-lg-1">
-                  <!-- <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href='http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4'>FE</a> -->
-                  @if(!in_array(1, json_decode($user->access_level))) 
-                     <button type="button" class="btn btn-secondary px-3 mb-2 mb-lg-0" data-toggle="modal" data-target="#feModal">
-                        FE 
-                     </button>
-                  @else
-                     <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/premium') }}">FE</a>
-                  @endif
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="color: #ffffff">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">Dashboard</a>
                </li>
-               <li class="nav-item mx-0 mx-lg-1">
-                  @if(!in_array(2, json_decode($user->access_level))) 
-                     <button type="button" class="btn btn-secondary px-3 mb-2 mb-lg-0" data-toggle="modal" data-target="#oto1Modal">
-                        OTO - 1 
-                     </button>
-                  @else
-                     <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto1') }}">OTO - 1</a>
-                  @endif
-
-                  <!-- <a class="btn btn-secondary px-3 mb-2 mb-lg-0" href="http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4">OTO - 1</a> -->
+               <li class="nav-item">
+                  <a class="nav-link" href="/">Upgrades</a>
                </li>
-               <li class="nav-item mx-0 mx-lg-1">
-                  @if(!in_array(3, json_decode($user->access_level))) 
-                     <button type="button" class="btn btn-secondary px-3 mb-2 mb-lg-0" data-toggle="modal" data-target="#oto2Modal">
-                        OTO - 2 
-                     </button>
-                  @else
-                     <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto1') }}">OTO - 1</a>
-                  @endif
-                  {{-- <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto2') }}">OTO - 2</a> --}}
-                  <!-- <a class="btn btn-secondary px-3 mb-2 mb-lg-0" href="http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4">OTO - 1</a> -->
+               <li class="nav-item">
+                  <a class="nav-link" href="/">Avatars</a>
                </li>
-               <li class="nav-item mx-0 mx-lg-1">
-                  @if(!in_array(4, json_decode($user->access_level))) 
-                     <button type="button" class="btn btn-secondary px-3 mb-2 mb-lg-0" data-toggle="modal" data-target="#oto3Modal">
-                        OTO - 3
-                     </button>
-                  @else
-                     <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto1') }}">OTO - 1</a>
-                  @endif
-                  {{-- <a class='btn btn-secondary px-3 mb-2 mb-lg-0' href="{{ url('/oto3') }}">OTO - 3</a> --}}
-                  <!-- <a class="btn btn-secondary px-3 mb-2 mb-lg-0" href="http://paav2.individua1.pay.clickbank.net/?cbfid=28769&cbskin=28270&cbtimer=68&name=sj&email=101successhacks@gmail.com&cbexit=194&vtid=reading-v4">OTO - 1</a> -->
+               <li class="nav-item">
+                  <a class="nav-link" href="/">Your Bonuses</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/">Contact Us</a>
                </li>
             </ul>
             <!-- Right Side Of Navbar -->
-               <ul class="navbar-nav ms-auto">
+            {{-- <ul class="navbar-nav ms-auto">
                <li class="nav-item mx-0 mx-lg-1">
                   <a class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" href="{{ url('/avatar') }}">{{ Auth::user()->name }}</a>
                </li>
@@ -93,36 +61,121 @@
                         @csrf
                      </form>
                </li>
-               </ul>
+            </ul> --}}
+            <ul class="d-flex navbar-nav">
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle curve-border" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                     {{-- {{ Auth::user()->name }} --}}
+                     Account
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <li><a class="dropdown-item" href="{{ url('/') }}"><span style="color: #726950">Settings</span></a></li>
+                     {{-- <li><a class="dropdown-item" href="#">Another action</a></li> --}}
+                     <li><hr class="dropdown-divider"></li>
+                     <li><a class="dropdown-item" href="{{ route('logout') }}"onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><span style="color: #726950">Log out</span></a></li>
+                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                     </form>
+                  </ul>
+               </li>
+            </ul>
          </div>
       </div>
    </nav>
-
-	<div class="hero-{{$avatar}}">
-      <div class="hero-image">
-         <div class="hero-text">
-               <!--<h2 class="mt-5">Unlock Your Sacred Archetypal Powers & Experience Abundance Across All Aspects Of Your Life.</h2>-->
-               
-               <div class="{{$avatar}}-img">
-                  <img src="{{ asset('assets/img/image') }}/{{$avatarmiddle}}" width="50px">
-               </div>
-               <!--<div class="title-form mt-5 mb-4"><h4>This Exclusive Reading Is Specially Prepared For:</h4></div>-->
-               <h2 class="sub-header-{{$avatar}} text-center"><strong>{{$user->name}} </strong></h2>
-
-               <div class="container d-flex align-items-center flex-column">
-                  <img width="300px" src="{{ asset('/assets/img/avatars') }}/{{$image}}" alt="..." />
-                  <h2 class="sub-header-{{$avatar}} text-center">
-                     {{$title}}
-                  </h2>
-                    <audio controls loop autoplay>
-                        <source src="{{ asset('assets/audio/Frequency_of_miracles.mp3')  }}" type="audio/mpeg">
-                    </audio>
-               </div>
-         </div>
+   {{-- This is the content, change in the future if approved --}}
+   <div class="container container-bg mt-4 pe-2 ps-1">
+      <p class="text-center">Hi, Rodelio Domingo</p>
+      <div class="row text-center">
+        <div class="col-sm-3" style="background-color: #454332;"> 
+            <img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 250px; margin-top: 1rem;">
+            <h3 style="color: #727259; font-weight: bold;">{{$title}}</h3>
+        </div>
+        <div class="col-sm-9 p-1 pb-2" style="background-color: #6C6C5F; color: #fff; border: 4px solid #454332; border-left: 0;"> 
+            <h1 class="mt-5" style="font-weight: bold;">FE Content</h1>
+            <br> <br> <br> <br> <br> <br>
+            <div class="float-end me-5 mb-2">
+                  @if(!in_array(1, json_decode($user->access_level))) 
+                     <button type="button" class="btn-readmore" data-toggle="modal" data-target="#feModal">
+                        Read More
+                     </button>
+                  @else
+                     <a class='btn-readmore' href="{{ url('/premium') }}">Read More</a>
+                     {{-- <button type="button" class="btn-readmore">Read More</button> --}}
+                  @endif
+            </div>
+        </div>
       </div>
-	</div>
+    <div class="row">
+        <div class="col-6" style="border-right: 2px solid #454332;">
+            <p class="text-center">The Adversary</p>
+        </div>
+        <div class="col-6" style="border-left: 2px solid #454332;">
+            <p class="text-center">All Wealth Avatars</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 text-center pt-5" style="background-color: #454332;"> 
+            <h1 class="mt-5 mb-5" style="color: #fff">Image Here</h1>
+        </div>
+        <div class="col-sm-9 p-1 pb-2" style="background-color: #6C6C5F; color: #fff; border: 4px solid #454332;"> 
+            <h2 class="mt-5 me-5" style="font-weight: bold; margin-left: 3rem;">HOOK FOR OTO1 CONTENT</h2>
+            <p style="font-size: 1000%; margin: 0; padding: 0; margin-left: 3rem;">10%</p>
+            <div class="float-end me-5 mb-2">
+                  @if(!in_array(2, json_decode($user->access_level))) 
+                     <button type="button" class="btn-readmore" data-toggle="modal" data-target="#oto1Modal">
+                        Read More 
+                     </button>
+                  @else
+                     <a class='btn-readmore' href="{{ url('/oto1') }}">Read More</a>
+                  @endif
+            </div>
+        </div>
+      </div>
+    <p class="text-center">OTO 2</p>
+    <div class="row">
+        <div class="col-sm-3 text-center pt-5" style="background-color: #454332;"> 
+            <h1 class="mt-5 mb-5" style="color: #fff">Image Here</h1>
+        </div>
+        <div class="col-sm-9 p-1 pb-2" style="background-color: #6C6C5F; color: #fff; border: 4px solid #454332;"> 
+            <h2 class="mt-5 me-5" style="font-weight: bold; margin-left: 3rem;">HOOK FOR OTO2 CONTENT</h2>
+            <p style="font-size: 1000%; margin: 0; padding: 0; margin-left: 3rem;">10%</p>
+            <div class="float-end me-5 mb-2">
+                  @if(!in_array(3, json_decode($user->access_level))) 
+                     <button type="button" class="btn-readmore" data-toggle="modal" data-target="#oto2Modal">
+                        Read More 
+                     </button>
+                  @else
+                     <a class='btn-readmore' href="{{ url('/oto2') }}">Read More</a>
+                  @endif
+            </div>
+        </div>
+      </div>
+    <p class="text-center">OTO 3</p>
+    <div class="row">
+        <div class="col-sm-3 text-center pt-5" style="background-color: #454332;"> 
+            <h1 class="mt-5 mb-5" style="color: #fff">Image Here</h1>
+        </div>
+        <div class="col-sm-9 p-1 pb-2" style="background-color: #6C6C5F; color: #fff; border: 4px solid #454332;"> 
+            <h2 class="mt-5 me-5" style="font-weight: bold; margin-left: 3rem;">HOOK FOR OTO3 CONTENT</h2>
+            <p style="font-size: 1000%; margin: 0; padding: 0; margin-left: 3rem;">10%</p>
+            <div class="float-end me-5 mb-2">
+                  @if(!in_array(4, json_decode($user->access_level))) 
+                     <button type="button" class="btn-readmore" data-toggle="modal" data-target="#oto3Modal">
+                        Read More
+                     </button>
+                  @else
+                     <a class='btn-readmore' href="{{ url('/oto3') }}">Read More</a>
+                  @endif
+            </div>
+        </div>
+      </div>
+   </div>
 
-   <div class="nav" id="nav-tab" role="tablist"  style="background-color: #6610f2;">
+   <hr style="border: 3px solid #958A6D">
+
+   <br> <br> 
+
+   <div class="nav" id="nav-tab" role="tablist"  style="background-color: #726950">
       <button class="btn nav-button-active" id="tab1-button" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
          <p class="nav-title">Introduction</p>
       </button>
@@ -142,21 +195,10 @@
          <p class="nav-title">Wealth Guide</p>
       </button>
    </div>
-
    <div class="row my-row">
          @yield('content')
    </div>
-
-      <div id="footer">
-        <div class="footer-logo">
-        
-            <img class="img-fluid" src="{{ asset('assets/img/image/wealth_avatarr.png') }}">
-        </div>
-    
-        <!--<p class="small"><a href="http://individualogist.com">Home</a> | <a href="http://individualogist.com/terms-and-conditions">Terms and Conditions</a> | <a href="http://individualogist.com/privacy-policy">Privacy Policy</a> | <a href="https://individualogist.kayako.com">Support</a> | <a href="http://individualogist.com/contact">Contact</a></p>-->
-        <p class="small" style="font-family:'Raleway',sans-serif;">&copy; Copyright 2022 wealthavatarr.com. All Rights Reserved</p>
-    
-      </div>
+   <br> <br> <br> <br> <br>
 
       {{-- Modal --}}
       {{-- FE --}}
@@ -229,9 +271,20 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
       {{-- End Modal --}}
 
+{{-- Footer --}}
+<div id="footer">
+   <div class="footer-logo">
+      <img class="img-fluid" src="{{ asset('assets/img/wealth_avatarr.png') }}">
+   </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      
+   <!--<p class="small"><a href="http://individualogist.com">Home</a> | <a href="http://individualogist.com/terms-and-conditions">Terms and Conditions</a> | <a href="http://individualogist.com/privacy-policy">Privacy Policy</a> | <a href="https://individualogist.kayako.com">Support</a> | <a href="http://individualogist.com/contact">Contact</a></p>-->
+   <p class="small" style="font-family:'Raleway',sans-serif;">&copy; Copyright 2022 wealthavatarr.com. All Rights Reserved</p>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
       <script>
          $(document).ready(function(){
             $("#tab1-next").click(function(){
@@ -269,263 +322,5 @@
             });
          }
       </script>
-      
-      @yield('javascript')
-
-      <script>
-         $('body').append('<div class="proof-container"><div id="proof-popup" class="hide-proof"><div class="bubble1"><div class="image"><img id="static-image" src="../assets/img/paypal-pic.png"></div><div class="content"><div class="who1" id="who">Georgia from Medicine Hat, Alberta</div><div class="what1" id="what">Just made a<b> $271 </b> Purchased of The WealthAvatarr™ Premium Bundle</div><div class="when1" id="when">12 minutes ago</div></div></div></div></div>');
-         var pluginProofImage = "https://s3.amazonaws.com/provely-public/legacy/thumbnails/ico-7.png";
-      </script>
-
-      <script>
-         var map_url_array = [pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,];
-            var what_array = ["Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle",
-               "Purchased The WealthAvatarr™ Premium Bundle"];
-
-         var who_array = ["Brian - Adversary",
-               "Leo - Banker",
-               "Lakesha - Influencer",
-               "Ryan - Conqueror",
-               "Melissa - Giver",
-               "Clifton - Sales Person",
-               "Elisa - Capitalist",
-               "Marilyn - Influencer",
-               "Jose - Giver",
-               "Angela - Sales Person",
-               "Pongky - Influencer",
-               "Krystal - Banker",
-               "Russel - Banker",
-               "Brandi - Giver",
-               "Joe - Sales Person",
-               "Jayna - Influencer",
-               "Georgia - Capitalist",
-               "Anahi - Capitalist",
-               "Kim - Sales Person",
-               "Brenda - Influencer",
-               "Audra - Giver",
-               "Dawn - Capitalist",
-               "Timothy - Influencer",
-               "Valerie - Sales Person",
-               "Frank - Banker",
-               "Patricia - Sales Person",
-               "Felda - Sales Person",
-               "Sofia - Conqueror",
-               "Jakeila - Giver",
-               "Chimezie - Banker",
-               "Sandy - Sales Person",
-               "Kenya - Influencer",
-               "Patrick - Capitalist",
-               "Terence - Adversary",
-               "Jason - Conqueror",
-               "Beth - Banker",
-               "Monique - Sales Person",
-               "Ronald - Conqueror",
-               "Cavell - Banker",
-               "Rainelle - Adversary",
-               "Ted from - Adversary",
-               "Marielys - Conqueror",
-               "Terry - Adversary",
-               "Mary - Banker",
-               "Adah - Conqueror",
-               "Rey - Adversary",
-               "Kylie - Giver",
-               "Peter - Adversary",
-               "Elizabeth - Conqueror",
-               "Jack - Capitalist",
-               "Clinton - Capitalist",
-               "Alex - Banker",
-               "Kenijae - Adversary",
-               "Jed - Conqueror",
-               "Barb - Adversary",
-               "Shawn - Adversary",
-               "Kim from - Giver",
-               "Daniel - Capitalist",
-               "Kathie - Banker",
-               "Russel - Adversary"];
-
-         var when_array = ["2 minutes ago",
-               "2 minutes ago",
-               "8 minutes ago",
-               "4 minutes ago",
-               "5 minutes ago",
-               "6 minutes ago",
-               "30 minutes ago",
-               "9 minutes ago",
-               "5 minutes ago",
-               "6 minutes ago",
-               "34 minutes ago",
-               "7 minutes ago",
-               "2 minutes ago",
-               "9 minutes ago",
-               "10 minutes ago",
-               "11 minutes ago",
-               "12 minutes ago",
-               "2 minutes ago",
-               "20 minutes ago",
-               "6 minutes ago",
-               "8 minutes ago",
-               "9 minutes ago",
-               "2 minutes ago",
-               "5 minutes ago",
-               "8 minutes ago",
-               "10 minutes ago",
-               "12 minutes ago",
-               "6 minutes ago",
-               "8 minutes ago",
-               "15 minutes ago",
-               "2 minutes ago",
-               "3 minutes ago",
-               "7 minutes ago",
-               "6 minutes ago",
-               "1 minute ago",
-               "12 minutes ago",
-               "6 minutes ago",
-               "2 minutes ago",
-               "5 minutes ago",
-               "2 minutes ago",
-               "8 minutes ago",
-               "2 minutes ago",
-               "3 minutes ago",
-               "4 minutes ago",
-               "5 minutes ago",
-               "2 minutes ago",
-               "4 minutes ago",
-               "5 minutes ago",
-               "2 minutes ago",
-               "3 minutes ago",
-               "9 minutes ago",
-               "10 minutes ago",
-               "2 minutes ago",
-               "7 minutes ago",
-               "8 minutes ago",
-               "2 minutes ago",
-               "6 minutes ago",
-               "2 minutes ago",
-               "9 minutes ago",
-               "3 minutes ago",
-               "9 minutes ago",
-               "10 minutes ago",
-               "2 minutes ago",
-               "7 minutes ago",
-               "8 minutes ago",
-               "2 minutes ago",
-               "6 minutes ago",
-               "2 minutes ago",
-               "9 minutes ago",
-               "3 minutes ago"];
-         var index_array = Array.apply(null, {length: who_array.length}).map(Number.call, Number);
-         var delay = 1000;
-         var milisecs_hiding = 10 * 1000 - delay;
-         var milisecs_to_start = 3 * 1000 - delay;
-         
-         function shuffle(array) {
-         var currentIndex = array.length, temporaryValue, randomIndex;
-         
-         while (0 !== currentIndex) {
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
-         
-            temporaryValue = array[currentIndex];
-            array[currentIndex] = array[randomIndex];
-            array[randomIndex] = temporaryValue;
-         }
-         return array;
-         } 
-         
-         function refresh_bubble(step) {
-         document.getElementById('who').innerHTML = who_array[index_array[step]];
-         document.getElementById('what').innerHTML = what_array[index_array[step]];
-         document.getElementById('when').innerHTML = when_array[index_array[step]];
-         document.getElementById('static-image').src = map_url_array[index_array[step]];
-         
-         setTimeout(function() {
-            document.getElementById('proof-popup').className = 'show-proof';
-         
-            setTimeout(function() {
-               popdown_bubble(step);
-            }, 7000);
-         }, delay);
-         }
-         
-         function popdown_bubble(step) {
-         document.getElementById('proof-popup').className = 'hide-proof';
-         
-         setTimeout(function() {
-            var rand_num = Math.floor(Math.random()*who_array.length);
-         
-            if (step < (who_array.length - 1)) {
-               refresh_bubble(rand_num);
-            } else {
-               index_array = shuffle(index_array);
-               refresh_bubble(rand_num);
-            }
-         }, milisecs_hiding);
-         }
-         
-         setTimeout(function() {
-         var rand_num = Math.floor(Math.random()*who_array.length);
-         index_array = shuffle(index_array);
-         refresh_bubble(rand_num);
-         }, milisecs_to_start);
-      </script>
-
    </body>
 </html>
