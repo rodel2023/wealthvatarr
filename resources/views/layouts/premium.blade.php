@@ -14,7 +14,6 @@
 	<title>{{$title}}</title>
   </head>
    <body>
-
    
    <!-- Navigation-->
    <nav class="navbar navbar-expand-sm fixed-top" id="mainNav" style="position: sticky; background-color: #726950">
@@ -82,6 +81,7 @@
          </div>
       </div>
    </nav>
+
    {{-- This is the content, change in the future if approved --}}
    <div class="container container-bg mt-4 pe-2 ps-1">
       <p class="text-center">Hi, Rodelio Domingo</p>
@@ -99,8 +99,8 @@
                         Read More
                      </button>
                   @else
-                     <a class='btn-readmore' href="{{ url('/premium') }}">Read More</a>
-                     {{-- <button type="button" class="btn-readmore">Read More</button> --}}
+                     {{-- <a class='btn-readmore' href="{{ url('/nav-tab') }}">Read More</a> --}}
+                     <button type="button" id="scrollNav" class="btn-readmore">Read More</button>
                   @endif
             </div>
         </div>
@@ -321,6 +321,15 @@
                this.className += " nav-button-active";
             });
          }
+
+      </script>
+      <script>
+         document.getElementById('scrollNav').addEventListener('click', function() {
+            const targetContent = document.getElementById('nav-tab');
+            if (targetContent) {
+                  targetContent.scrollIntoView({ behavior: 'smooth' });
+            }
+         });
       </script>
    </body>
 </html>
