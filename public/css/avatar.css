@@ -698,7 +698,7 @@ ul {
     font-size: 15px;
     margin: 0px 10px 25px 10px;
     display: block;
-    margin-top: 2em
+    margin-top: 2em;
 }
 .nav .btn .nav-title{
     padding: 0;
@@ -725,6 +725,53 @@ ul {
     color: white;
   }
   
+.nav .btn-oto{
+    text-align: center;
+    color:#ffff;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    width: 15%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    font-size: 15px;
+    margin: 0px 10px 25px 10px;
+    display: block;
+    margin-top: 1.5em;
+}
+.nav .btn-oto .nav-title{
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.nav .btn-oto:hover {
+    background-color: rgb(51, 19, 40);
+    color: white;
+  }
+
+.btn-next {
+  color:#ffff;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border-radius: 8px;
+  width: 15%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  margin: 0px 10px 25px 10px;
+  display: block;
+  margin-top: 1.5em;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 5px;
+}
 .navbar {
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0.5rem;
@@ -1234,14 +1281,45 @@ h2 {
     background-color: #8429c2;
     background-repeat:no-repeat;
     border-radius: 8px;
-    width: 400px;
-    padding: 10px 40px;
+    width: 40%;
+    padding: 5px 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition-duration: 0.4s;
     font-size: 20px;
     margin: 0 auto;
     display: block;
     margin-top: 2em
+}
+.row .btn-next {
+    color:#ffff;
+    background-color: #8429c2;
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    width: 10%;
+    padding: 5px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2em;
+    text-decoration: none;
+}
+
+.row .btn-oto3-header {
+    color:#ffff;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    width: 20%;
+    padding: 5px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2em;
+    text-align: center;
 }
 
 .paav2-cta {
@@ -1660,17 +1738,16 @@ a {
 
 .button-go-up {
 	color:#ffff;
-    background-color: #726950;
-    background-repeat:no-repeat;
-    border-radius: 8px;
-    width: 400px;
-    padding: 10px 40px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition-duration: 0.4s;
-    font-size: 20px;
-    margin: 0 auto;
-    display: block;
-    margin-top: 2em
+  background-color: #726950;
+  background-repeat:no-repeat;
+  border-radius: 8px;
+  padding: 10px 40px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 2em
 }
 
 .nav-button-active {
