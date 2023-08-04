@@ -2,7 +2,7 @@
 
 @section('content')
 
-	<div class="card mx-auto" style="width: 60rem;">
+	<div class="card mx-auto">
 		<div class="card-body" style="text-align: -webkit-left;">
 			<div class="tab-content" id="nav-tabContent">
 				<!-- Introduction Section-->
@@ -15,9 +15,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<p>The Salesperson are best people to be with, whenever and wherever. They are the most outgoing people and they go along with everyone as if it&rsquo;s already part of their daily routine. Connections easily come to their door. They are the most trustworthy among the other archetypes.</p>
@@ -42,9 +43,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<h2 class="sub-header-salesperson text-center">
@@ -109,9 +111,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<h2 class="sub-header-salesperson text-center">
@@ -152,9 +155,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 
 							<!-- Section Content-->
@@ -216,9 +220,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 
 							<!-- Section Content-->
@@ -269,9 +274,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!--Section Content-->
 							<p>It&rsquo;s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Salesperson would eventually encounter in this lifetime.</p>
@@ -327,9 +333,9 @@
 							</ul>
 							
 						</div>
-						<a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
+						{{-- <a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
 							BUY product for 365 DAYS OF WEALTH AFFIRMATION
-						</a>
+						</a> --}}
 					</div>
 					
 				</div>

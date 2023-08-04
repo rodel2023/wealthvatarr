@@ -242,9 +242,10 @@ class AvatarController extends Controller
         $fullMonthName = $date->format('F');
 
         // return view('dashboard.avatar.oto1', compact('otos', 'fullMonthName'));
+        $archetype = $user_archetype->archetype;
 
         if(in_array(2, $access_level)){
-            return view('dashboard.avatar.oto1',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user, "otos" => $otos, "fullMonthName" => $fullMonthName]);
+            return view('dashboard.avatar.oto1',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "title_image"=>$archetype, "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user, "otos" => $otos, "fullMonthName" => $fullMonthName]);
         }else{
             return Redirect::away('https://offers.wealthavatar.net/oto-1')->with('_blank');
         }
