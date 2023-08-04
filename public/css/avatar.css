@@ -688,17 +688,17 @@ ul {
 
 .nav .btn{
     text-align: center;
-    color:#ffff;
+    color:#000000;
     background-color: Transparent;
     background-repeat:no-repeat;
     border-radius: 8px;
-    width: 10%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition-duration: 0.4s;
     font-size: 15px;
     margin: 0px 10px 25px 10px;
     display: block;
     margin-top: 2em;
+    background-color: #B2AB99;
 }
 .nav .btn .nav-title{
     padding: 0;
@@ -754,6 +754,20 @@ ul {
     color: white;
   }
 
+.nav-button-active {
+	 /* background-color: rgb(51, 19, 40) !important; */
+	 background-color: #A79017 !important;
+    color: blue !important;
+    /* color: white !important; */
+}
+
+.header-welcome {
+  color: white; 
+  background-color: #726950;
+  padding: 1rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+}
 .btn-next {
   color:#ffff;
   background-color: Transparent;
@@ -1278,7 +1292,7 @@ h2 {
 
 .row .btn {
     color:#ffff;
-    background-color: #8429c2;
+    background-color: #A79017;
     background-repeat:no-repeat;
     border-radius: 8px;
     width: 40%;
@@ -1590,10 +1604,10 @@ a {
   }
   
   /* On mouse-over, add a deeper shadow */
-  .card:hover {
+  /* .card:hover {
   
     box-shadow: 0 8px 16px 0 rgb(128,0,128);
-  }
+  } */
 
   .w-100 {
     width: 100%!important;
@@ -1750,11 +1764,6 @@ a {
   margin-top: 2em
 }
 
-.nav-button-active {
-	 background-color: rgb(51, 19, 40) !important;
-    color: white !important;
-}
-
 .tick-list{
 	list-style: none;
 	padding-left: 15px;
@@ -1778,7 +1787,7 @@ a {
 
 
 .divider-custom {
-  margin: 1.25rem 0 1.5rem;
+  margin: .25rem 0 1.5rem;
   width: 100%;
   display: flex;
   justify-content: center;

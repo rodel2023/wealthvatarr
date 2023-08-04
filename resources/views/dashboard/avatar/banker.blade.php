@@ -2,7 +2,7 @@
 
 @section('content')
 
-	<div class="card mx-auto" style="width: 60rem;">
+	<div class="card mx-auto">
 		<div class="card-body" style="text-align: -webkit-left;">
 			<div class="tab-content" id="nav-tabContent">
 				<!-- Introduction Section-->
@@ -15,9 +15,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<p>The Bankers are the thriftiest people, yet they never go out of style. Your fellow Bankers within this group are some of the most trusted individuals you have met in your life. The kind of lifestyle that you are living now is exactly within your means. When certain arrangements change, the Bankers are the easiest to adapt to these changes. </p>
@@ -41,9 +42,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<h2 class="sub-header-banker text-center">
@@ -113,9 +115,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<p>You Miss Out A Lot of Great Things That Money Can Buy Whether we like it or not, there are really certain things in life that make us happy but in turn, we have to earn and but these stuff. In short, there are things and happiness that money can buy. </p>
@@ -151,9 +154,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 
 							<!-- Section Content-->
@@ -211,9 +215,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 
 							<!-- Section Content-->
@@ -259,9 +264,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!--Section Content-->
 							<p>It&rsquo;s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Banker would eventually encounter in this lifetime. </p>
@@ -345,9 +351,9 @@
 							</ul>
 						</div>
 						
-						<a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
+						{{-- <a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
 							BUY product for 365 DAYS OF WEALTH AFFIRMATION
-						</a>
+						</a> --}}
 					</div>
 					
 				</div>

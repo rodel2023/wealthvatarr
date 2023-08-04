@@ -2,7 +2,7 @@
 
 @section('content')
 
-	<div class="card mx-auto" style="width: 60rem;">
+	<div class="card mx-auto">
 		<div class="card-body" style="text-align: -webkit-left;">
 			<div class="tab-content" id="nav-tabContent">
 				<!-- Introduction Section-->
@@ -15,9 +15,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<p>The Influencers love to stand out from the crowd and they never fail to do such. They make the best first impressions because of their charm and the things they own. They bring radiance to any room they are in and they are always oozing with confidence wherever they may be. No wonder a lot of people are astonished with an influencer.</p>
@@ -42,9 +43,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							
@@ -109,9 +111,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<h2 class="sub-header-influencer text-center">
@@ -157,9 +160,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 
 							<!-- Section Content-->
@@ -205,9 +209,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 
 							<!-- Section Content-->
@@ -257,9 +262,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!--Section Content-->
 							<p>It&rsquo;s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Influencer would eventually encounter in this lifetime.</p>
@@ -349,9 +355,9 @@
 								<li>Pet Supplies</li>
 							</ul>
 						</div>
-						<a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
+						{{-- <a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
 							BUY product for 365 DAYS OF WEALTH AFFIRMATION
-						</a>
+						</a> --}}
 					</div>
 					
 				</div>

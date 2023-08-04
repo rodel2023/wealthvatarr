@@ -1,7 +1,7 @@
 @extends('layouts.premium')
 
 @section('content')
-	<div class="card mx-auto" style="width: 60rem;">
+	<div class="card mx-auto">
 		<div class="card-body" style="text-align: -webkit-left;">
 			<div class="tab-content" id="nav-tabContent">
 				<!-- Introduction Section-->
@@ -14,9 +14,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<p>The Givers are the type of people who would not charge the full price when someone asks them to do a work. These people find it hard to talk about money, so they don’t want to elaborate about the costs, break down expenses, and allowances. What one is willing to give, that’s what they receive.</p>
@@ -41,9 +42,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<h2 class="sub-header-giver text-center">
@@ -109,9 +111,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 							<h2 class="sub-header-giver text-center">
@@ -148,9 +151,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 
 							<!-- Section Content-->
@@ -208,9 +212,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 
 							<!-- Section Content-->
@@ -270,9 +275,10 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!--Section Content-->
 							<p>It&rsquo;s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Giver would eventually encounter in this lifetime.</p>
@@ -372,13 +378,12 @@
 
 							<p>There are also online brokers and trading platforms which offer $0 fees and no minimum amount. You would only need to deposit such amount enough to buy a minimum number of stocks in your preferred company.</p>
 						</div>
-						<a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
+						{{-- <a class="btn button-go-up" href="https://offers.wealthavatarr.com/oto-1" target="_blank">
 							BUY product for 365 DAYS OF WEALTH AFFIRMATION
-						</a>
+						</a> --}}
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 @endsection

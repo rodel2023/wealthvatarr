@@ -1,7 +1,8 @@
 @extends('layouts.oto')
 
 @section('content')
-	<div class="card mx-auto" style="width: 60rem;">
+<div class="container">
+	<div class="card mx-auto">
 		<div class="card-body" style="text-align: -webkit-left;">
 			<div class="tab-content" id="nav-tabContent">
 				<!-- Introduction Section-->
@@ -14,15 +15,16 @@
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
-								<div class="divider-custom-line"></div>
+								{{-- <div class="divider-custom-line"></div>
 								<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-								<div class="divider-custom-line"></div>
+								<div class="divider-custom-line"></div> --}}
+								<img src="{{ asset('assets/img/The '.$title_image.'.png') }}" alt="Navbar" style="height: 100px; margin-top: 1rem;">
 							</div>
 							<!-- Section Content-->
 						</div>
 						<h3> Month of {{$fullMonthName}}</h3>
 						@foreach($otos as $oto_item)
-						<div class="card text-center ms-2 mt-0 mb-2" style="width: 28rem;">
+						<div class="card text-center ms-3 mt-0 mb-3" style="width: 33rem;">
 							<div class="card-body">
 								<h5 class="card-title">Day {{ $oto_item->day }}</h5>
 									<audio controls onplay="pauseOthers(this);">
@@ -99,5 +101,5 @@
 			</div>
 		</div>
 	</div>
-
+</div>
 @endsection
