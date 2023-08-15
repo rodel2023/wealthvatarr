@@ -277,8 +277,10 @@ class AvatarController extends Controller
         $access_level = json_decode($user->access_level);
         $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
         
+        $archetype = $user_archetype->archetype;
+        
         if(in_array(3, $access_level)){
-            return view('dashboard.avatar.oto2',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+            return view('dashboard.avatar.oto2',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "title_image"=>$archetype, "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
         }else{
             return Redirect::away('https://offers.wealthavatar.net/oto-2')->with('_blank');
         }

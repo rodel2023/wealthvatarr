@@ -1,7 +1,7 @@
 @extends('layouts.oto')
 
 @section('content')
-<div class="container">
+<div class="container mt-2">
 	<div class="card mx-auto">
 		<div class="card-body" style="text-align: -webkit-left;">
 			<div class="tab-content" id="nav-tabContent">
@@ -61,7 +61,7 @@
 						<div class="card text-center ms-3 mt-0 mb-3" style="width: 33rem;">
 							<div class="card-body">
 								<h5 class="card-title">Day {{ $oto_item->day }}</h5>
-									<audio controls onplay="pauseOthers(this);">
+									<audio controls controlsList="nodownload" onplay="pauseOthers(this);">
 										{{-- <source src="{{ $oto_item->file_location.$oto_item->file_name}}" type="audio/mpeg"> --}}
 										<source src="{{ url('private/audios/'.$oto_item->file_name) }}" type="audio/mp3">
 									</audio>

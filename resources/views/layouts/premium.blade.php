@@ -133,14 +133,7 @@
       </div> --}}
 
       <div class="container-bg">
-         <div class="row">
-            <div class="col-6" style="border-right: 2px solid #454332;">
-                  <p class="text-center">{{ $title }}</p>
-            </div>
-            <div class="col-6" style="border-left: 2px solid #454332;">
-                  <p class="text-center">All Wealth Avatars</p>
-            </div>
-         </div>
+         <p class="text-center">{{ $title }}</p>
          <div class="row">
             <div class="col-sm-3 text-center pt-5" style="background-color: #454332;"> 
                   {{-- <h1 class="mt-5 mb-5" style="color: #fff">Image Here</h1> --}}
