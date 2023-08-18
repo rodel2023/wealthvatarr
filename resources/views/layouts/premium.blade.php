@@ -39,7 +39,7 @@
                   <a class="nav-link" href="/">Avatars</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="/">Your Bonuses</a>
+                  <a class="nav-link" href="/bonuses">Your Bonuses</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="/">Contact Us</a>

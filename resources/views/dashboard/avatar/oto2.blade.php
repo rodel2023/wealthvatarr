@@ -1,9 +1,7 @@
 @extends('layouts.oto')
 
 @section('content')
-
-
-<div class="mx-auto container-fluid mt-2">
+<div class="mx-auto mt-3">
 	<!-- Collapsible section -->
 	<div class="container">
 		<div class="container-fluid" style="width: 92%">
