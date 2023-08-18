@@ -1320,6 +1320,21 @@ h2 {
     text-decoration: none;
 }
 
+.row .btn-oto3-download {
+    color:#ffff;
+    background-color: #A79017;
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2em;
+    text-decoration: none;
+}
+
 .row .btn-oto3-header {
     color:#ffff;
     background-color: Transparent;
@@ -1467,6 +1482,11 @@ a {
 }
 
 .row .btn:hover {
+    background-color: rgb(51, 19, 40);
+    color: white;
+  }
+
+.row .btn-oto3-download:hover {
     background-color: rgb(51, 19, 40);
     color: white;
   }
@@ -1858,6 +1878,27 @@ audio {
         transition: none;
     }
 }
+
 .btn-readmore:hover {
     color: white; 
+}
+/* Custom styling for the image */
+.custom-image {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+/* Position the download button at the bottom of the image */
+.image-container {
+    position: relative;
+}
+
+.download-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    background-color:#FFF9EC;
+    opacity: 85%;
+    text-align: center;
 }
