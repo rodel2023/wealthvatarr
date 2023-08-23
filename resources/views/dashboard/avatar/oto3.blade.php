@@ -2,6 +2,44 @@
 
 @section('content')
 <div class="mt-2 pt-2" style="background-color: #FDF9F0; border-radius: 8px;">
+	<div class="row">
+    <div class="col text-center">
+      <div class="d-flex justify-content-center">
+				<!-- Collapsible section -->
+				<div style="width: 70%;">
+					<div class="accordion" id="collapsibleSection">
+						<div class="accordion-item" style="background-color: #726950">
+							<!-- Collapsible Header -->
+							<h2 class="accordion-header" id="sectionHeader">
+								<button class="accordion-button @if(!request('collapse')) collapsed @endif" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-expanded="false" aria-controls="collapseContent" style="background-color: #726950;">
+									<div style="font-size: 20px; color: white; margin-left: 30%;">
+										<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle me-2" viewBox="0 0 16 16"> <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+											<path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+										</svg>	
+											Watch The Training Guide Here
+									</div>
+								</button>
+							</h2>
+
+							<!-- Collapsible Content -->
+							<div id="collapseContent" class="accordion-collapse collapse" aria-labelledby="sectionHeader" data-bs-parent="#collapsibleSection">
+								<div class="accordion-body text-center">
+									<!-- Centered Local Video Embed -->
+									<div class="d-flex justify-content-center">
+										<video id="videoPlayer" width="700" height="400" controls>
+											<source src="{{ asset('assets/video/oto3_video.mov') }}" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{-- End of collapse --}}
+      </div>
+    </div>
+  </div>
 	<div class="text-center p-2">
 		<h2>Welcome to the 14-Day Mind-Reset Challenge for Wealth Building!</h2>
 		<div class="container" style="padding: 0 4rem;">
@@ -201,5 +239,13 @@
 	</div>
 	<br>
 </div>
+<script>
+	const videoPlayer = document.getElementById('videoPlayer');
+	
+	// When the collapsible section is hidden (closed), stop the video
+	document.getElementById('collapsibleSection').addEventListener('hidden.bs.collapse', function () {
+		videoPlayer.pause();
+	});
+</script>
 
 @endsection
