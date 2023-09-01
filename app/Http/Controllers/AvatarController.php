@@ -270,6 +270,16 @@ class AvatarController extends Controller
         ];
         return response()->download($path, $audio, $headers);
     }
+
+    public function downloadFile($filename)
+    {
+        $filePath = storage_path('app/public/downloads/' . $filename);
+        $headers = [
+            'Content-Type' => 'application/octet-stream',
+        ];
+
+        return response()->download($filePath, $filename, $headers);
+    }
     
     public function bonuses(){
         $user = auth()->user();
@@ -278,7 +288,7 @@ class AvatarController extends Controller
         
         $archetype = $user_archetype->archetype;
         return view('dashboard.avatar.bonuses', ["title"=>"Wealth Avatarr"]);
-    }
+    } 
     public function oto_2(){
 
         $user = auth()->user();

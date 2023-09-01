@@ -34,6 +34,9 @@ Route::group(['middleware' => ['get.menu']], function () {
         // Route::get('oto1/download/{filename}', 'AvatarController@download')->name('oto1s.download');
         Route::get('/download-audio/{fileName}', 'AvatarController@download');
 
+        // Route to download file in bonuses
+        Route::get('/download/{filename}', 'AvatarController@downloadFile')->name('download');
+
         // Route::get('/oto1s', 'Oto1sController@index')->name('oto1');
 
         Route::get('avatar/adversary', 'AvatarController@adversary')->name('adversary');
