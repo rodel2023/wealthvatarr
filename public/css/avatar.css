@@ -721,7 +721,7 @@ ul {
 } 
 
 .nav .btn:hover {
-    background-color: rgb(51, 19, 40);
+    background-color: #726950;
     color: white;
   }
   
@@ -1304,6 +1304,12 @@ h2 {
     display: block;
     margin-top: 2em
 }
+
+.row .btn:hover {
+    background-color: #726950;
+    color: white;
+  }
+
 .row .btn-next {
     color:#ffff;
     background-color: #8429c2;
@@ -1350,6 +1356,46 @@ h2 {
     margin-top: 2em;
     text-align: center;
 }
+
+.btn-watch {
+    font-family: Helvetica;
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    width: 30%;
+    border: 1px solid #726950;
+    border-radius: 30px;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+    transition-duration: 0.4s;
+    font-size: 17px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2em
+}
+
+.btn-watch:hover {
+    background-color: #bead7d;
+  }
+
+.btn-click {
+    font-family: Garamond;
+    background-repeat:no-repeat;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid #726950;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+    transition-duration: 0.4s;
+    font-size: 20px;
+    margin: 1.2rem 2rem;
+    display: block;
+}
+
+.btn-watch:hover {
+    background-color: #bead7d;
+  }
 
 .paav2-cta {
     display: -ms-flexbox;
@@ -1901,4 +1947,281 @@ audio {
     background-color:#FFF9EC;
     opacity: 85%;
     text-align: center;
+}
+/* Rodel css */
+
+.styled-text-title {
+    font-family: Lucida Console; 
+    font-size: 5rem; 
+    color: #AF846D;
+    line-height: 1.5; /* Sets the line height for spacing between lines */
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+}
+
+.styled-text-title-wealth {
+    font-family: Lucida Console; 
+    font-size: 6rem; 
+    color: #6D4B34;
+    line-height: 1.5; /* Sets the line height for spacing between lines */
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+}
+
+.styled-text-wealth  {
+    font-family: Garamond; 
+    color: #ffffff;
+    font-size: 2.5rem; 
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+}
+
+.styled-text-title-guide {
+    font-family: Lucida Handwriting; 
+    font-size: 5rem; 
+    color: #6D4B34;
+    line-height: 1.5; /* Sets the line height for spacing between lines */
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+}
+
+.styled-text-guide {
+    font-family: Helvetica; 
+    color: #6D4B34;
+    font-size: 2rem; 
+    letter-spacing: 2px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+}
+
+.styled-text-title-formula {
+    font-family: Garamond; 
+    color: #AF846D;
+    font-size: 4.5rem; 
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+}
+.styled-text-formula {
+    font-family: Helvetica; 
+    color: #AF846D;
+    font-size: 1.5rem; 
+    letter-spacing: 1px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+    text-transform:uppercase;
+}
+
+.styled-text-sub-formula {
+    font-family: Garamond; 
+    color: #AF846D;
+    font-size: 4.5rem; 
+    font-display: bold;
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+    text-transform:uppercase;
+}
+.styled-text {
+    font-family: Garamond; 
+    color: #AF846D;
+    font-size: 2.5rem; 
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+}
+
+.styled-sub-text {
+    font-family: Helvetica; 
+    color: #6D4B34;
+    letter-spacing: 1px; /* Adds letter spacing between characters */
+    margin: 10px 80px; /* Adds spacing below the text */
+    font-size: 1.7rem;
+}
+
+.styled-text-super {
+    font-family: Garamond; 
+    color: #AF846D;
+    font-size: 3rem; 
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+    text-transform:uppercase;
+}
+
+.cta-image {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    height: auto;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+
+.container-subheading {
+    padding: 20px 80px;
+    background-color: #ffffff; 
+}
+
+.container-weaknesses {
+    padding: 20px 80px;
+    background-color: #D7C07C; 
+}
+
+.container-wealth-challenges {
+    padding: 20px 80px;
+    background-color: #C1A460; 
+}
+
+.container-wealth-guide {
+    padding: 20px 80px;
+    background-color: #D7C07C; 
+}
+.container-formula {
+    /* width: 100%;
+    margin: 0 auto;
+    padding: 0px 80px;
+    background-color: #ffffff;  */
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.decorative-border {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    border: 2px solid #AF846D; /* Base border color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow of the pseudo-elements */
+}
+
+.decorative-border::before,
+.decorative-border::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #AF846D; /* Border color */
+}
+
+.decorative-border::before {
+    top: -6px;
+    left: -3px;
+    transform: rotate(45deg);
+}
+
+.decorative-border::after {
+    bottom: -6px;
+    right: -3px;
+    transform: rotate(-45deg);
+}
+
+.decorative-border-weak {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    border: 2px solid #6D4B34; /* Base border color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow of the pseudo-elements */
+}
+
+.decorative-border-weak::before,
+.decorative-border-weak::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #6D4B34; /* Border color */
+}
+
+.decorative-border-weak::before {
+    top: -6px;
+    left: -3px;
+    transform: rotate(45deg);
+}
+
+.decorative-border-weak::after {
+    bottom: -6px;
+    right: -3px;
+    transform: rotate(-45deg);
+}
+
+.decorative-border-guide {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    border: 2px solid #6D4B34; /* Base border color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow of the pseudo-elements */
+}
+
+.decorative-border-guide::before,
+.decorative-border-guide::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #6D4B34; /* Border color */
+}
+
+.decorative-border-guide::before {
+    top: -6px;
+    left: -3px;
+    transform: rotate(45deg);
+}
+
+.decorative-border-guide::after {
+    bottom: -6px;
+    right: -3px;
+    transform: rotate(-45deg);
+}
+
+p {
+    font-family: Garamond; 
+    color: #6D4B34;
+    font-size: 1.5rem;
+}
+
+li {
+    font-family: Helvetica; 
+    color: #6D4B34;
+    font-size: 1.5rem;
+}
+
+.span-box{
+    font-family: Helvetica; 
+    font-size: 1rem;
+    color: #000000;
+    letter-spacing: 0; /* Adds letter spacing between characters */
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+    .btn {
+        transition: none;
+    }
+}
+.btn:hover {
+    color: #212529;
+}
+.line-spacing {
+    line-height: 1; /* Adjust the value to your preference */
 }
