@@ -177,7 +177,9 @@
 
 							<p>In short, you need financial literacy how to manage risks like this.</p>
 
-							<h2 class="sub-header-adversary text-center">  Lack Of Financial Independence And Stability</h2>
+							<h2 class="sub-header-adversary text-center">  
+								Lack Of Financial Independence And Stability
+							</h2>
 
 							<p>The first stages of wealth generation involve being debt-free so you&rsquo;d be more financially free and independent.</p>
 
@@ -208,7 +210,9 @@
 							</div>
 
 							<!-- Section Content-->
-							<h2 class="sub-header-adversary text-center"> These problems can impact your wealth generation potential. Why is that so?</h2>
+							<h2 class="sub-header-adversary text-center">
+								 These problems can impact your wealth generation potential. Why is that so?
+								</h2>
 
 							<p><strong>Health And Success Are Inter-Related. </strong></p>
 							<p>Did you know that a research by the <a href="https://njaes.rutgers.edu/sshw/message/message.php?p=Finance&amp;m=190" style="text-decoration:none"><u>Rutgers Cooperative Extension Small Steps to Health and Wealth (SSHW)</u></a> shows that overweight and obesity are associated with lower earnings, particularly for women in professional occupations? Employers spend a lot in developing programs to help people maintain good health habits and provide clinical care for employees who might be ill to make them even more productive at work.</p>
@@ -271,7 +275,9 @@
 
 							<p>Here are the solutions catered just for an Adversary like you:</p>
 
-							<h2 class="sub-header-adversary text-center"> #1 Start Subscribing To Financial Newsletters And Listening To Financial Podcasts</h2>
+							<h2 class="sub-header-adversary text-center"> 
+								#1 Start Subscribing To Financial Newsletters And Listening To Financial Podcasts
+							</h2>
 
 							<p>Does the thought of money and managing it still overwhelms and makes you uncomfortable? Can&rsquo;t stick to your budget because it&rsquo;s not the way you do things?</p>
 
@@ -285,7 +291,9 @@
 
 							<p></p>
 
-							<h2 class="sub-header-adversary text-center"> #2 Monetize Your Leadership Skills</h2>
+							<h2 class="sub-header-adversary text-center"> 
+								#2 Monetize Your Leadership Skills
+							</h2>
 
 							<p>Most Adversaries are frustrated because their ideas cannot come to life. Yet, they have the best skills to lead a business and direct it to success. Every business idea obviously needs a fund and financial skills to organize this matter &ndash; something that an Adversary is yet to learn.</p>
 

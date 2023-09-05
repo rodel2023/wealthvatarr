@@ -249,7 +249,9 @@
 
 							<p>&nbsp;</p>
 
-							<h2 style="text-align:center"><strong>This is your power motivation formula in building your wealth as a Salesperson: </strong></h2>
+							<h2 style="text-align:center"><strong>
+								This is your power motivation formula in building your wealth as a Salesperson: 
+							</strong></h2>
 
 							<h2 class = "text-danger" style="text-align:center"><strong>Self + Network</strong></h2>
 
