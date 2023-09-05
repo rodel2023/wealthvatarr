@@ -1996,7 +1996,7 @@ audio {
 .styled-text-title-formula {
     font-family: Garamond; 
     color: #AF846D;
-    font-size: 4.5rem; 
+    font-size: 6rem; 
     letter-spacing: 5px; /* Adds letter spacing between characters */
     margin-bottom: 10px; /* Adds spacing below the text */
 }
@@ -2173,23 +2173,46 @@ audio {
     transform: rotate(-45deg);
 }
 
-p {
+.p-style {
     font-family: Garamond; 
     color: #6D4B34;
     font-size: 1.5rem;
 }
 
-li {
+.p-style-challenges {
+    font-family: Helvetica; 
+    color: #423F32;
+    font-size: 1.5rem;
+}
+
+.p-style-formula {
+    font-family: Helvetica; 
+    color: #AF846D;
+    font-size: 1.5rem;
+}
+
+.p-style-guide {
+    font-family: Helvetica; 
+    color: #423F32;
+    font-size: 1.5rem;
+}
+
+.container-wealth-guide li {
     font-family: Helvetica; 
     color: #6D4B34;
     font-size: 1.5rem;
+}
+
+.container-wealth-guide p {
+ font-family: Helvetica; 
+ color: #423F32;
 }
 
 .span-box{
     font-family: Helvetica; 
     font-size: 1rem;
     color: #000000;
-    letter-spacing: 0; /* Adds letter spacing between characters */
+    letter-spacing: 0;
     margin: 0;
     padding: 0;
 }
@@ -2223,5 +2246,5 @@ li {
     color: #212529;
 }
 .line-spacing {
-    line-height: 1; /* Adjust the value to your preference */
+    line-height: 1;
 }

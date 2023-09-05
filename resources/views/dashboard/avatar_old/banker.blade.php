@@ -345,9 +345,9 @@
 							<p>Here are the best low-cost side hustles for you and the average salary you can earn as a passive income: </p>
 
 							<ul>
-								<li>Sell online courses (Minimum $50 per course) </li>
-								<li>Writing and content creation services (Minimum $10 per article for web content) </li>
-								<li>Blogger / Affiliate Marketer ($200/month for a beginner)</li>
+								<li>sell online courses (minimum $50 per course) </li>
+								<li>writing and content creation services (minimum $10 per article for web content) </li>
+								<li>blogger / affiliate marketer ($200/month for a beginner)</li>
 							</ul>
 						</div>
 						
