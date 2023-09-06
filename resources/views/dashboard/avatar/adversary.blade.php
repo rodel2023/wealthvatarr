@@ -17,7 +17,7 @@
 	{{-- <h2 class="styled-text pt-4">WHAT MAKES YOU</h2> --}}
 		{{-- <img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Image" style="height: 130px; margin-right: 25%;"> --}}
     {{-- <h1 class="styled-text-title">{{ $title }}</h1> --}}
-    <img src="{{ asset('assets/img/dashboard/Home.png') }}" alt="Image" draggable="false" class="cta-image">
+    <img src="{{ asset('assets/img/dashboard/'.$title.'.png') }}" alt="Image" draggable="false" class="cta-image">
     <div class="text-center ps-3 ps-5 pe-5">
     <p class="p-style">
 			If money and wealth is the main character of the show, you would be its adversary because you believe that it is the main cause of chaos, hence, you inherently feel disconnected about it. An Adversary has a love/hate relationship with money. There are times that they reject money, thinking that it is the root of all evil and nothing good will come from having too much of it. There are also times that they feel good about being able to save to buy the things they want. They feel anxious talking about money but at the same time, they appreciate that it can buy the things that make them truly happy. 
@@ -31,11 +31,21 @@
 
 <div class="container-subheading">
     <div class="container">
-        <h1 class="styled-text-title">{{ $title }}</h1>
-        <p class="styled-text decorative-border">SUPERPOWERS</p>
-        <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <br>
+                <h1 class="styled-text-title mt-5">{{ $title }}</h1>
+                <p class="styled-text decorative-border">SUPERPOWERS</p>
+                <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+                <p class="p-style"> 
+                    Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+        </div>
         <p class="p-style">
-            Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.
             <br>
             First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.
             <br>
@@ -50,41 +60,45 @@
         <br>
 
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #1</span>
                 <div class="styled-text-super">
-									Once You Focus On Something, You Are Unstoppable
+                    Once You Focus On Something, You Are Unstoppable
                 </div>
             </div>
             <br>
             <br>
             <p class="p-style">
-								This is one the best assets of an adversary. A focused person never gives up on any challenge. When they accept a responsibility, they commit to it until it&rsquo;s done. They do not let emotions stop them. They do not postpone anything that can be done today. They are very good multi-taskers, without leaving any important details behind.
+                This is one the best assets of an adversary. A focused person never gives up on any challenge. When they accept a responsibility, they commit to it until it&rsquo;s done. They do not let emotions stop them. They do not postpone anything that can be done today. They are very good multi-taskers, without leaving any important details behind.
             </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #2</span>
                 <div class="styled-text-super">
-									An Adversary Aims To Inspire
+                    An Adversary Aims To Inspire
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-										An Adversary knows how to stand on his belief. They believe that they are in the world to inspire and lead people towards better life, sans the talk about money. They believe that they can make their friends, family, and acquaintances find their own happiness that do not involve money. They relate their situation and good experiences to inspire people. An Adversary is a very good speaker with an aim to persuade.
-										<br>
-										An adversary has the best commanding skills to make a person work towards their personal and team goals in a group. They have leadership qualities to bind people and team players together. Social entrepreneurs are usually the people with an adversary skills.
-										<br>
-										<strong>You Are Always Willing To Help And Take Actions</strong>
+                    An Adversary knows how to stand on his belief. They believe that they are in the world to inspire and lead people towards better life, sans the talk about money. They believe that they can make their friends, family, and acquaintances find their own happiness that do not involve money. They relate their situation and good experiences to inspire people. An Adversary is a very good speaker with an aim to persuade.
+                    <br>
+                    An adversary has the best commanding skills to make a person work towards their personal and team goals in a group. They have leadership qualities to bind people and team players together. Social entrepreneurs are usually the people with an adversary skills.
+                    <br>
+                    <strong>You Are Always Willing To Help And Take Actions</strong>
                 </p>
             </div>
         </div>
@@ -92,39 +106,43 @@
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #3</span>
                 <div class="styled-text-super line-spacing">
-									You Are Always Willing To Help And Take Actions
+                    You Are Always Willing To Help And Take Actions
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									An Adversary&rsquo;s willingness to help generate ideas in his mind that can solve problems. They take actions to direct the issue, instead of looking and focusing on the alternatives. They believe that every problem has an end, and solutions come from people who help each other.
+                    An Adversary&rsquo;s willingness to help generate ideas in his mind that can solve problems. They take actions to direct the issue, instead of looking and focusing on the alternatives. They believe that every problem has an end, and solutions come from people who help each other.
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower3-4.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #4</span>
                 <div class="styled-text-super">
-									An Adversary Values People
+                    An Adversary Values People
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									There is no such thing as impossible for an adversary. Everything can be done in the right way and no problem can never be solved with the help of people. They believe that each one of us has unique skills which fit perfectly in a puzzle. Everything will work in the end, as long as there is a leader which supports and guides everyone along the way.
+                    There is no such thing as impossible for an adversary. Everything can be done in the right way and no problem can never be solved with the help of people. They believe that each one of us has unique skills which fit perfectly in a puzzle. Everything will work in the end, as long as there is a leader which supports and guides everyone along the way.
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                {{-- <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower5.png') }}" alt="Your Image" class="img-fluid"> --}}
+            </div>
         </div>
         <br> <br> <br> <br>
     </div>
@@ -134,8 +152,10 @@
 <div class="container-weaknesses">
     <div class="container">
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+            <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <h1 class="styled-text-title" style="color: #6D4B34;"><b>{{ $title }}</b></h1>
                 <p class="styled-text decorative-border-weak" style="color: #6D4B34;">WEAKNESSES</p>
 
@@ -144,18 +164,18 @@
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #1</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											You Find It Hard To Accept Money As A Good Thing
+                        You Find It Hard To Accept Money As A Good Thing
                     </div>
                 </div>
             </div>
         </div>
         <br>
             <p class="p-style">
-							An Adversary does not really know how they will treat money. It&rsquo;s always a challenge for an Adversary to admit that they need more money to get the things that they will make them happy. They know that it is the root of all evil, that&rsquo;s why they avoid it as a subject on any conversation.
+                An Adversary does not really know how they will treat money. It&rsquo;s always a challenge for an Adversary to admit that they need more money to get the things that they will make them happy. They know that it is the root of all evil, that&rsquo;s why they avoid it as a subject on any conversation.
             </p>
         <br>
         <div class="row">
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-9 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #2</span>
@@ -164,16 +184,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
             <p class="p-style">
-							An Adversary does not really know how they will treat money. It&rsquo;s always a challenge for an Adversary to admit that they need more money to get the things that they will make them happy. They know that it is the root of all evil, that&rsquo;s why they avoid it as a subject on any conversation.
+                An Adversary does not really know how they will treat money. It&rsquo;s always a challenge for an Adversary to admit that they need more money to get the things that they will make them happy. They know that it is the root of all evil, that&rsquo;s why they avoid it as a subject on any conversation.
             </p>
         <br>
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness3.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #3</span>
@@ -190,8 +214,8 @@
         </div>
         <br>
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5"></div>
+            <div class="col-12 col-md-7 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #4</span>
@@ -227,7 +251,7 @@
         </ol>
         <br> <br> <br>
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #1</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -245,12 +269,12 @@
 									<br>
 									In short, you need financial literacy how to manage risks like this.</p>
             </div>
-            <div class="col-4"></div>
+            <div class="col-12 col-md-4"></div>
         </div>
         <br> <br> <br>
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #2</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -282,7 +306,7 @@
             </div>
 
             <div class="row">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="styled-text-sub-formula line-spacing mt-2">
                         <b> Health And Success Are Inter-Related.  </b>
                     </div>
@@ -292,7 +316,7 @@
                     </p>
                 </div>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-12 col-md-4"></div>
             </div>
 
             <br>
@@ -302,8 +326,8 @@
                 </b>
             </div>
             <div class="row">
-                <div class="col-5"></div>
-                <div class="col-7">
+                <div class="col-12 col-md-5"></div>
+                <div class="col-12 col-md-7">
                     <div class="styled-text-formula mt-1">
                         <p class="p-style-formula">
                             In a <a href="http://sonjalyubomirsky.com/wp-content/themes/sonjalyubomirsky/papers/BLinpressb.pdf" target="_blank"> <span style="color: black"><u>study</u></span></a> by Julia Boehm &amp; Sonja Lyubomirsky of the University of California, it was shown that contrary to the perception of many, happiness precedes success. It may sound contrary, especially if happiness is associated with money. However, it is also shown in different studies that happiness is associated with the income level. Sometimes, spending a little bit for our wants can become a big motivation which can result to better wealth generation.
@@ -312,7 +336,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="styled-text-sub-formula line-spacing mt-2">
                         <b> 
 													Financial Literacy Is The First Step Towards Wealth Generation
@@ -330,7 +354,7 @@
                     </ul>
                 </div>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-12 col-md-4"></div>
             </div>
             <br>
             <div class="styled-text-sub-formula line-spacing mt-2 text-center">
@@ -339,8 +363,8 @@
                 </b>
             </div>
             <div class="row">
-                <div class="col-5"></div>
-                <div class="col-7">
+                <div class="col-12 col-md-5"></div>
+                <div class="col-12 col-md-7">
                     <div class="styled-text-formula mt-1">
                         <p class="p-style-formula">
                             The thought that all your hard earned income will be yours only is already comforting. Debt and interests pertaining to it can deplete your savings. People who are living debt-free or close to being debt-free never have to worry about their financial obligations.

@@ -17,7 +17,7 @@
 	{{-- <h2 class="styled-text pt-4">WHAT MAKES YOU</h2> --}}
 		{{-- <img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Image" style="height: 130px; margin-right: 25%;"> --}}
     {{-- <h1 class="styled-text-title">{{ $title }}</h1> --}}
-    <img src="{{ asset('assets/img/dashboard/Home.png') }}" alt="Image" draggable="false" class="cta-image">
+    <img src="{{ asset('assets/img/dashboard/'.$title.'.png') }}" alt="Image" draggable="false" class="cta-image">
     <div class="text-center ps-3 ps-5 pe-5">
     <p class="p-style">
 			The Bankers are the thriftiest people, yet they never go out of style. Your fellow Bankers within this group are some of the most trusted individuals you have met in your life. The kind of lifestyle that you are living now is exactly within your means. When certain arrangements change, the Bankers are the easiest to adapt to these changes. You have your own set of approaches and practices when it comes to your personal financial accounting and wealth generation. In short, you earn to save and see your money grow mainly from your day salary alone.
@@ -44,40 +44,70 @@
             <br>
             <strong>As THE BANKER, here are the superpowers which you can focus on to build your first wealth base:</strong>
         </p>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <br>
+                <h1 class="styled-text-title mt-5">{{ $title }}</h1>
+                <p class="styled-text decorative-border">SUPERPOWERS</p>
+                <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+                <p class="p-style"> 
+                    Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+        </div>
+        <p class="p-style">
+            <br>
+            First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.
+            <br>
+            Research further concluded that these skills and abilities can still be further developed according to one&rsquo;s limits.
+            <br>
+            The same goes to one&rsquo;s inner traits.
+            <br>
+            One&rsquo;s superpowers are said to be the easiest ones to develop further &ndash; and these developed superpowers would be your fastest way to grow your wealth and cultivate a success mindset.
+            <br>
+            <strong>As THE BANKER, here are the superpowers which you can focus on to build your first wealth base:</strong>
+        </p>
         <br>
 
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #1</span>
                 <div class="styled-text-super">
-									High Appreciation for Money
+                    High Appreciation for Money
                 </div>
             </div>
             <br>
             <br>
             <p class="p-style">
-							Money is highly respected for a banker. Money is a product of one&rsquo;s sweat, sacrifices, and efforts. You value hardships so you make sure that every penny is well-accounted for.
+                Money is highly respected for a banker. Money is a product of one&rsquo;s sweat, sacrifices, and efforts. You value hardships so you make sure that every penny is well-accounted for.
             </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #2</span>
                 <div class="styled-text-super">
-									Disciplined, Never Easily Swayed By Materiality
+                    Disciplined, Never Easily Swayed By Materiality
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									Even if you have material wants, you rarely do splurge purchases because every expense must be planned. You make sure that you will earn back the amount you have used for this certain item. If you are tempted to buy a thing not really in your budget schedule, you think more than thrice before making the purchase.
+                    Even if you have material wants, you rarely do splurge purchases because every expense must be planned. You make sure that you will earn back the amount you have used for this certain item. If you are tempted to buy a thing not really in your budget schedule, you think more than thrice before making the purchase.
                 </p>
             </div>
         </div>
@@ -85,56 +115,59 @@
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #3</span>
                 <div class="styled-text-super line-spacing">
-									Highly Frugal
+                    Highly Frugal
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									You have a lot of money-saving tips in mind. You have a lot of cash-back apps that you use to pay your bills. You would rather prepare home cooked meals than buying from fast foods and restaurants. Keep this superpower of yours &ndash; this will guide your path towards wealth creation!
+                    You have a lot of money-saving tips in mind. You have a lot of cash-back apps that you use to pay your bills. You would rather prepare home cooked meals than buying from fast foods and restaurants. Keep this superpower of yours &ndash; this will guide your path towards wealth creation!
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower3-4.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #4</span>
                 <div class="styled-text-super">
-									You Practice Proper Financial Accounting
+                    You Practice Proper Financial Accounting
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									Not a penny is wasted. Every dollar is well-accounted for. Not only that, your expenses are mostly necessities. You track most of your expenses. Keep this up! You are the last person to be taken advantage when it comes to money.
+                    Not a penny is wasted. Every dollar is well-accounted for. Not only that, your expenses are mostly necessities. You track most of your expenses. Keep this up! You are the last person to be taken advantage when it comes to money.
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3"></div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3"></div>
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower5.png') }}" alt="Your Image" class="img-fluid">
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #5</span>
                 <div class="styled-text-super line-spacing">
-									You Live Within Your Means
+                    You Live Within Your Means
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									Your lifestyle is just right for your day job salary. You are never compelled or pressured to keep up with others.
+                    Your lifestyle is just right for your day job salary. You are never compelled or pressured to keep up with others.
                 </p>
             </div>
         </div>
@@ -142,18 +175,20 @@
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower5.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #6</span>
                 <div class="styled-text-super line-spacing">
-									You Pay Attention Even to Small Details 
+                    You Pay Attention Even to Small Details 
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									Frugality entails that you scrutinize your expenses very well &ndash; making sure that a certain thing you buy does its job well. After all, that&rsquo;s what you pay for. Work-wise, you pay high attention even to these small important details.
+                    Frugality entails that you scrutinize your expenses very well &ndash; making sure that a certain thing you buy does its job well. After all, that&rsquo;s what you pay for. Work-wise, you pay high attention even to these small important details.
                 </p>
             </div>
         </div>
@@ -165,48 +200,51 @@
 <div class="container-weaknesses">
     <div class="container">
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <h1 class="styled-text-title" style="color: #6D4B34;"><b>{{ $title }}</b></h1>
                 <p class="styled-text decorative-border-weak" style="color: #6D4B34;">WEAKNESSES</p>
-
-								<p class="p-style">
-									You Miss Out A Lot of Great Things That Money Can Buy Whether we like it or not, there are really certain things in life that make us happy but in turn, we have to earn and but these stuff. In short, there are things and happiness that money can buy.
-									<br>
-									Your trait to save money hinders you to feel that happiness associated with the greatest invention on Earth meant to provide the humankind happiness. We&rsquo;re talking about properties here &ndash; cars, condominium, high-end gadgets, elegant restaurants, and a luxurious lifestyle.
-								</p>
+                    <p class="p-style">
+                        You Miss Out A Lot of Great Things That Money Can Buy Whether we like it or not, there are really certain things in life that make us happy but in turn, we have to earn and but these stuff. In short, there are things and happiness that money can buy.
+                        <br>
+                        Your trait to save money hinders you to feel that happiness associated with the greatest invention on Earth meant to provide the humankind happiness. We&rsquo;re talking about properties here &ndash; cars, condominium, high-end gadgets, elegant restaurants, and a luxurious lifestyle.
+                    </p>
                 <br> <br>
 
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #1</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											You Are Obsessed With Money &ndash; A Physical Thing That Can Be Exchanged For Something More Important
+                        You Are Obsessed With Money &ndash; A Physical Thing That Can Be Exchanged For Something More Important
                     </div>
                 </div>
             </div>
         </div>
         <br>
             <p class="p-style">
-							For now, you are scared to let some of your hard-earned money to go with these &lsquo;expensive&rsquo; pleasures in life. You feel satisfied by seeing your money accumulate in your savings accounts. Keep in mind that money can also buy comfort, social relationships, and health, too. These are just some of the things that you are missing because of your money obsession.
+                For now, you are scared to let some of your hard-earned money to go with these &lsquo;expensive&rsquo; pleasures in life. You feel satisfied by seeing your money accumulate in your savings accounts. Keep in mind that money can also buy comfort, social relationships, and health, too. These are just some of the things that you are missing because of your money obsession.
             </p>
         <br>
         <div class="row">
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-9 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #2</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											The Idea of Spending a Lot Even In Necessary Purchases Stresses You
+                        The Idea of Spending a Lot Even In Necessary Purchases Stresses You
                     </div>
                 </div>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
             <p class="p-style">
-							Most people are stressed with money because it&rsquo;s not enough to meet their monthly expenses and necessities. But Bankers are stressed with the idea of their account balance diminishing because of their obsession with money itself. Bankers are scared of running out of money when an emergency occurs.
-							<br>
-							The last thing a Banker wants is to lose their financial independence.
+                Most people are stressed with money because it&rsquo;s not enough to meet their monthly expenses and necessities. But Bankers are stressed with the idea of their account balance diminishing because of their obsession with money itself. Bankers are scared of running out of money when an emergency occurs.
+                <br>
+                The last thing a Banker wants is to lose their financial independence.
             </p>
         <br> <br> <br> <br> <br>
     </div> {{-- End of container --}}
@@ -325,8 +363,8 @@
                 </b>
             </div>
             <div class="row">
-                <div class="col-5"></div>
-                <div class="col-7">
+                <div class="col-12 col-md-5"></div>
+                <div class="col-12 col-md-7">
                     <div class="styled-text-formula mt-1">
                         <p class="p-style-formula">
                             In a <a href="http://sonjalyubomirsky.com/wp-content/themes/sonjalyubomirsky/papers/BLinpressb.pdf" target="_blank"> <span style="color: black"><u>study</u></span></a> by Julia Boehm &amp; Sonja Lyubomirsky of the University of California, it was shown that contrary to the perception of many, happiness precedes success. It may sound contrary, especially if happiness is associated with money. However, it is also shown in different studies that happiness is associated with the income level. Sometimes, spending a little bit for our wants can become a big motivation which can result to better wealth generation.
@@ -356,8 +394,8 @@
                 </b>
             </div>
             <div class="row">
-                <div class="col-5"></div>
-                <div class="col-7">
+                <div class="col-12 col-md-5"></div>
+                <div class="col-12 col-md-7">
                     <div class="styled-text-formula mt-1">
                         <p class="p-style-formula">
 													The Grant Study of the Harvard Medical School that people in loving relationship&nbsp;are more inclined to earn well and use their money in a wiser manner to build wealth quickly. It does not necessarily mean being in a romantic relationship. The study is very specific that the relationship may be with a parent, grandparents, children, or friends.

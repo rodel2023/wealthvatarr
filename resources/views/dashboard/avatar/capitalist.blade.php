@@ -14,7 +14,7 @@
 
 @section('content')
 <div class="text-center" style="background-color: #D7C07C">
-    <img src="{{ asset('assets/img/dashboard/Home.png') }}" alt="Image" draggable="false" class="cta-image">
+    <img src="{{ asset('assets/img/dashboard/'.$title.'.png') }}" alt="Image" draggable="false" class="cta-image">
     <div class="text-center ps-3 ps-5 pe-5">
     <p class="p-style">
         The Capitalist are the most hardworking people, devoting almost all their time to work and business. Your fellow Capitalists within this group are punctual and results-driven. You always take initiative, because your mind is ever-flowing with creative ideas. A little change might irritate you, but your flexibility gets you back on track everytime. You have your own set of approaches and practices when it comes to leadership and creativity. This makes you unstoppable once your creative mind generates another idea. In short, your earning capacity fuel your mind to think and envision new ideas.
@@ -25,17 +25,27 @@
 
 <div class="container-subheading">
     <div class="container">
-        <h1 class="styled-text-title">{{ $title }}</h1>
-        <p class="styled-text decorative-border">SUPERPOWERS</p>
-        <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <br>
+                <h1 class="styled-text-title mt-5">{{ $title }}</h1>
+                <p class="styled-text decorative-border">SUPERPOWERS</p>
+                <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+                <p class="p-style"> 
+                    Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+        </div>
         <p class="p-style">
-            Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.&nbsp;
             <br>
-            First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.&nbsp;
+            First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.
             <br>
-            Research further concluded that these skills and abilities can still be further developed according to one&rsquo;s limits.&nbsp;
+            Research further concluded that these skills and abilities can still be further developed according to one&rsquo;s limits.
             <br>
-            The same goes to one&rsquo;s inner traits.&nbsp;
+            The same goes to one&rsquo;s inner traits.
             <br>
             One&rsquo;s superpowers are said to be the easiest ones to develop further &ndash; and these developed superpowers would be your fastest way to grow your wealth and cultivate a success mindset.
             <br>
@@ -44,7 +54,7 @@
         <br>
 
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #1</span>
                 <div class="styled-text-super">
@@ -57,14 +67,18 @@
                 When you think, you think long-term. Income-generating projects are hard to pass by, for someone who does not have a creative mind like yours. The Capitalists think of the problem they want to solve, and use it as a basis to think creatively. In fact, as of writing, you already have an idea or two which you are thinking of turning into a business very soon.
             </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #2</span>
                 <div class="styled-text-super">
@@ -82,7 +96,7 @@
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #3</span>
                 <div class="styled-text-super line-spacing">
@@ -95,13 +109,15 @@
                     Your curious and creative mind fuels your desire to act it out and turn everything into reality. A Capitalist knows that a person will have ups and downs, but he / she is prepared for this fact. You always have a backup plan which makes everything bearable from start to finish. That&rsquo;s how motivated you are.&nbsp;
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower3-4.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #4</span>
                 <div class="styled-text-super">
@@ -114,14 +130,16 @@
                     A Capitalist knows that every project, from brainstorming to the execution stage, should be well-polished. The steps to your wealth-generation project, be it about a part time job, a new venture, or a simple passive investment should have a deadline, else, it will not come into fruition. You stick with these self-imposed deadlines and that&rsquo;s what separates you from the other archetypes.
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3"></div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower5.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #5</span>
                 <div class="styled-text-super line-spacing">
@@ -143,8 +161,10 @@
 <div class="container-weaknesses">
     <div class="container">
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <h1 class="styled-text-title" style="color: #6D4B34;"><b>{{ $title }}</b></h1>
                 <p class="styled-text decorative-border-weak" style="color: #6D4B34;">WEAKNESSES</p>
 
@@ -166,7 +186,7 @@
             </p>
         <br>
         <div class="row">
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-9 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #2</span>
@@ -175,7 +195,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
             <p class="p-style">
@@ -185,8 +207,10 @@
             </p>
         <br>
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness3.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #3</span>
@@ -208,8 +232,16 @@
 </div>
 <div class="container-wealth-challenges">
     <div class="container">
-        <h1 class="styled-text-wealth"> WEALTH CHALLENGES OF</h1>
-        <h1 class="styled-text-title-wealth">A CAPITALIST</h1>
+        <div class="row">
+            <div class="col-12 col-md-7 line-spacing text-center">
+                <br> <br> <br> <br> <br> <br> <br>
+                <h1 class="styled-text-wealth"> WEALTH CHALLENGES OF</h1>
+                <h1 class="styled-text-title-wealth">A CAPITALIST</h1>
+            </div>
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/challenges.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+        </div>
 
         <p class="styled-sub-text">
             A highly creative mind paired with determination is a magic formula to instantly build your wealth. However, there are a lot of possible problems you are most possible to encounter.&nbsp;
@@ -227,7 +259,7 @@
         </ol>
         <br> <br> <br>
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-md-7">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #1</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -244,12 +276,16 @@
                     An average doctor visit costs between $70-$250. Depending on the traffic and if you would rather opt for a walk-in visit, a doctor&rsquo;s visit would only take away 2 hours from your schedule.&nbsp;
                 </p>
             </div>
-            <div class="col-4"></div>
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/challenges1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br> <br> <br>
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/challenges2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #2</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -273,15 +309,16 @@
         </div>
         <br> <br> <br>
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #3</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
                     Being Satisfied In Life Is A Matter Of Perspective
                 </div>
             </div>
-            <br>
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/challenges3.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7">
             <br>
                 <p class="p-style-challenges">
                     The Capitalists lives for the future. The problem is, the future is uncertain. What is certain is today. Look at the things around you, aren&rsquo;t they the exact things you once wished when you were a kid?&nbsp;
@@ -304,7 +341,7 @@
             </div>
 
             <div class="row">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="styled-text-sub-formula line-spacing mt-2">
                         <b> Health And Success Are Inter-Related.  </b>
                     </div>
@@ -314,7 +351,9 @@
                     </p>
                 </div>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-12 col-md-4">
+                    <img src="{{ asset('assets/img/dashboard/The Capitalist/wealth1.png') }}" alt="Your Image" class="img-fluid">
+                </div>
             </div>
 
             <br>
@@ -324,8 +363,10 @@
                 </b>
             </div>
             <div class="row">
-                <div class="col-5"></div>
-                <div class="col-7">
+                <div class="col-12 col-md-5">
+                    <img src="{{ asset('assets/img/dashboard/The Capitalist/wealth2.png') }}" alt="Your Image" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-7">
                     <div class="styled-text-formula mt-1">
                         <p class="p-style-formula">
                             In a <a href="http://sonjalyubomirsky.com/wp-content/themes/sonjalyubomirsky/papers/BLinpressb.pdf" target="_blank"> <span style="color: black"><u>study</u></span></a> by Julia Boehm &amp; Sonja Lyubomirsky of the University of California, it was shown that contrary to the perception of many, happiness precedes success. It may sound contrary, especially if happiness is associated with money. However, it is also shown in different studies that happiness is associated with the income level. Sometimes, spending a little bit for our wants can become a big motivation which can result to better wealth generation.
@@ -334,7 +375,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="styled-text-sub-formula line-spacing mt-2">
                         <b> 
                             People Who Are Good In Building Genuine Relationships Are Better At Wealth-Generation. 
@@ -346,7 +387,9 @@
                     </p>
                 </div>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-12 col-md-4">
+                    <img src="{{ asset('assets/img/dashboard/The Capitalist/wealth3.png') }}" alt="Your Image" class="img-fluid">
+                </div>
             </div>
             <br>
             <div class="styled-text-sub-formula line-spacing mt-2 text-center">
@@ -378,10 +421,9 @@
 {{-- Wealth Guide --}}
 <div class="container-wealth-guide">
     <div class="container">
-        <h1 class="styled-text-title-guide line-spacing"> {{$title}} <br>Wealth Guide</h1>
-
         <div class="row">
             <div class="col-md-6">
+                <h1 class="styled-text-title-guide line-spacing"> {{$title}} <br>Wealth Guide</h1>
                 <p class="p-style-guide">
                     It&rsquo;s not too late yet to remedy your negative vibrations (weaknesses) to counter the possible problems that a natural Capitalist would eventually encounter in this lifetime.
                     <br>
@@ -389,7 +431,9 @@
                     Your obsession with money is understandable. No one wants to compromise their financial stability and choose material happiness which are usually just temporary contentment.
                 </p>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/guide1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
 
@@ -414,12 +458,19 @@
             </div>
         </div>
 
-        <p class="p-style-guide">
-            Did you know that Bill Gates (Microsoft), Steve Jobs (Apple), and Eric Schmidt (Google) worked with a business coach to help expand their businesses? In fact, they credit their respective successes to their business mentors. If it weren&rsquo;t for them, there would not be Google, Apple, and Microsoft today.
-            <br>
-            Business coaching will teach you how to achieve your small-term and long-term goals, while still attending to your other personal responsibilities. Business coaching is perfect for business which are too dependent on the owner &ndash; the exact situation of a Capitalist when they let the negative energy overshadow their skills and huge potential. A professional will teach you how to delegate tasks and scrutinize employees with whom you can share significant and confidential information with (if any)
-            <br>
-        </p>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p class="p-style-guide">
+                    Did you know that Bill Gates (Microsoft), Steve Jobs (Apple), and Eric Schmidt (Google) worked with a business coach to help expand their businesses? In fact, they credit their respective successes to their business mentors. If it weren&rsquo;t for them, there would not be Google, Apple, and Microsoft today.
+                    <br>
+                    Business coaching will teach you how to achieve your small-term and long-term goals, while still attending to your other personal responsibilities. Business coaching is perfect for business which are too dependent on the owner &ndash; the exact situation of a Capitalist when they let the negative energy overshadow their skills and huge potential. A professional will teach you how to delegate tasks and scrutinize employees with whom you can share significant and confidential information with (if any)
+                    <br>
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/guide2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+        </div>
         <p class="p-style-guide">
             <strong>Where Can I Find The Best Business Coach?</strong>
         </p>
@@ -439,61 +490,44 @@
             Capitalists treat money as power and status. Their creativity, work performance, and business are usually their sources of money and income. The good news is these long-term investments will not require you to spend efforts and drain you to be rich. Long-term investments are those where you let your money stay for a long time to generate cash after a certain number of years. Do this when you are ready to part with some of your money and put it in an income-generating fund to leave it there for maximum returns.&nbsp;
             <br>
             <br>
-            <strong>Why Long-Term Investments?</strong>
         </p>
 
-        <ul>
-            <li>
-                Less time-consuming. You won&rsquo;t need to be bothered by the fluctuations of the value of the asset.
-            </li>
-            <li>
-                Higher returns of investment.
-            </li>
-        </ul>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p class="p-style-guide">
+                    <strong>Why Long-Term Investments?</strong>
+                </p>
 
-        <p class="p-style-guide"><strong>What Are The Best Long-Term Investments?</strong></p>
+                <ul>
+                    <li>
+                        Less time-consuming. You won&rsquo;t need to be bothered by the fluctuations of the value of the asset.
+                    </li>
+                    <li>
+                        Higher returns of investment.
+                    </li>
+                </ul>
 
-        <ul>
-            <li>Stocks</li>
-            <li>Corporate and Treasury Bonds</li>
-            <li>Mutual Funds</li>
-        </ul>
+                <p class="p-style-guide"><strong>What Are The Best Long-Term Investments?</strong></p>
 
-        <div class="decorative-border-guide text-center" style="background-color: #AF846D">
-            <div class="styled-text-super line-spacing" style="margn-bottom: 0; color: #6D4B34">
-                <b>
-                    #3 Invest In Long-Term Investments
-                </b>
+                <ul>
+                    <li>Stocks</li>
+                    <li>Corporate and Treasury Bonds</li>
+                    <li>Mutual Funds</li>
+                </ul>
+
+                <p class="p-style-guide">
+                    <strong>Where To Avail?</strong>
+                    <br>
+                    Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don&rsquo;t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a minimum investment of $500.
+                    <br>
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/guide3.png') }}" alt="Your Image" class="img-fluid mt-4">
             </div>
         </div>
 
         <p class="p-style-guide">
-            When you have enough funds to invest, opt for long-term investments. This is perfect for a Giver, because this time, letting someone handle this aspect of your finances will do you more good. A professional fund manager will be the one to handle all these to give you peace of mind and to let you continue your advocacies.
-            <br>
-            <br>
-            <strong>Why Long-Term Investments?</strong>
-        </p>
-
-        <ul>
-            <li>Less time-consuming. You won&rsquo;t need to be bothered by the fluctuations of the value of the asset.</li>
-            <li>Higher returns of investment.</li>
-        </ul>
-
-
-        <p class="p-style-guide"><strong>What Are The Best Long-Term Investments?</strong></p>
-
-        <ul>
-            <li>Stocks</li>
-            <li>Corporate and Treasury Bonds</li>
-            <li>Mutual Funds</li>
-        </ul>
-
-        <p class="p-style-guide">
-            <strong>Where To Avail?</strong>
-            <br>
-            Mutual Funds are offered by banks as well. As your local bank about their own investment fund managed by experts that are expected to yield huge returns after sometime. The good thing about this is that you don&rsquo;t need to learn the in-depths of stock trading because the experts will handle it for you. Unit Investment Trust or mutual funds managed by some retail banks require a minimum investment of $500.
-            <br>
-            <br>
             There are also online brokers and trading platforms which offer $0 fees and no minimum amount. You would only need to deposit such amount enough to buy a minimum number of stocks in your preferred company.
         </p>
         <br> <br> <br> <br>
