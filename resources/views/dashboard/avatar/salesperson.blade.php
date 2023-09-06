@@ -17,7 +17,7 @@
 	{{-- <h2 class="styled-text pt-4">WHAT MAKES YOU</h2> --}}
 		{{-- <img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Image" style="height: 130px; margin-right: 25%;"> --}}
     {{-- <h1 class="styled-text-title">{{ $title }}</h1> --}}
-    <img src="{{ asset('assets/img/dashboard/Home.png') }}" alt="Image" draggable="false" class="cta-image">
+    <img src="{{ asset('assets/img/dashboard/'.$title.'.png') }}" alt="Image" draggable="false" class="cta-image">
     <div class="text-center ps-3 ps-5 pe-5">
     <p class="p-style">
 			The Salesperson are best people to be with, whenever and wherever. They are the most outgoing people and they go along with everyone as if it&rsquo;s already part of their daily routine. Connections easily come to their door. They are the most trustworthy among the other archetypes.
@@ -32,11 +32,21 @@
 
 <div class="container-subheading">
     <div class="container">
-        <h1 class="styled-text-title">{{ $title }}</h1>
-        <p class="styled-text decorative-border">SUPERPOWERS</p>
-        <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <br>
+                <h1 class="styled-text-title mt-5">{{ $title }}</h1>
+                <p class="styled-text decorative-border">SUPERPOWERS</p>
+                <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+                <p class="p-style"> 
+                    Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+        </div>
         <p class="p-style">
-            Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.
             <br>
             First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.
             <br>
@@ -51,27 +61,31 @@
         <br>
 
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #1</span>
                 <div class="styled-text-super">
-									You Are Never Anxious About Money
+                    You Are Never Anxious About Money
                 </div>
             </div>
             <br>
             <br>
             <p class="p-style">
-							A Salesperson is free from financial-stress, simply because they are not worried about money. They feel secured knowing they have friends and relatives with whom they&rsquo;ve formed a deep bond with. They know that establishing connections is a source of living and that they&rsquo;ll be able to stay employed because of this gift.
+                A Salesperson is free from financial-stress, simply because they are not worried about money. They feel secured knowing they have friends and relatives with whom they&rsquo;ve formed a deep bond with. They know that establishing connections is a source of living and that they&rsquo;ll be able to stay employed because of this gift.
             </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #2</span>
                 <div class="styled-text-super">
@@ -89,7 +103,7 @@
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #3</span>
                 <div class="styled-text-super line-spacing">
@@ -102,43 +116,47 @@
 									This is considered a usual thing for a Salesperson. In fact, a Salesperson like you is showered with gifts just to become a bridge for two persons who are not gifted with the same ability as yours. Especially for businessmen, you are a prized employee because of this talent. You never fail at making genuine connections and that makes you stand out from your peers, too.
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower3-4.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #4</span>
                 <div class="styled-text-super">
-									Confident And Humble
+                    Confident And Humble
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									Only you can master self-confidence and humility at the same time. People like you because you know your wants and strengths, yet you keep your feet on the ground on things that you admittedly have no mastery about.
+                    Only you can master self-confidence and humility at the same time. People like you because you know your wants and strengths, yet you keep your feet on the ground on things that you admittedly have no mastery about.
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3"></div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower5.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #5</span>
                 <div class="styled-text-super line-spacing">
-									You Are Open To Criticisms
+                    You Are Open To Criticisms
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									Flexibility is one of the top traits which can advance a Salesperson&rsquo;s career. They listen to other&rsquo;s ideas and comments to improve themselves. Believe it or not, Salespersons are very good team players!
+                    Flexibility is one of the top traits which can advance a Salesperson&rsquo;s career. They listen to other&rsquo;s ideas and comments to improve themselves. Believe it or not, Salespersons are very good team players!
                 </p>
             </div>
         </div>
@@ -150,8 +168,10 @@
 <div class="container-weaknesses">
     <div class="container">
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <h1 class="styled-text-title" style="color: #6D4B34;"><b>{{ $title }}</b></h1>
                 <p class="styled-text decorative-border-weak" style="color: #6D4B34;">WEAKNESSES</p>
 
@@ -160,49 +180,53 @@
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #1</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											You Let Other People Dictate Your Happiness
+                        You Let Other People Dictate Your Happiness
                     </div>
                 </div>
             </div>
         </div>
         <br>
             <p class="p-style">
-							You feel sad and down when you see other people feeling blue. When you decide on a matter, you always see to it that your decision will make others happy, even at your expense. In short, you just don&rsquo;t feel comfortable when people around you are not okay, even for things that are beyond your control.
-							<br>
-							This is a negative energy that you need to work on. When you let people influence your decisions, you will end up exhausting yourself for reasons that are not pertaining to you. Your happiness will forever depend on them and chances are, you will sacrifice a lot of energy, time, and even money for others who are not worthy of it.
+                You feel sad and down when you see other people feeling blue. When you decide on a matter, you always see to it that your decision will make others happy, even at your expense. In short, you just don&rsquo;t feel comfortable when people around you are not okay, even for things that are beyond your control.
+                <br>
+                This is a negative energy that you need to work on. When you let people influence your decisions, you will end up exhausting yourself for reasons that are not pertaining to you. Your happiness will forever depend on them and chances are, you will sacrifice a lot of energy, time, and even money for others who are not worthy of it.
             </p>
         <br>
         <div class="row">
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-9 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #2</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											You Are Too Trusting
+                        You Are Too Trusting
                     </div>
                 </div>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
             <p class="p-style">
-							You still believe that all people are inherently good and that being good to them will do the same upon you. Appearance deceives you a lot. You&rsquo;ve been scammed once, but you&rsquo;re the stubborn one because you believe that it won&rsquo;t happen again for someone like you who desires for nothing but goodness for others.
-							<br>
-							You know you are too trusting when you agree on something even before doing verification and having second thoughts. You let your intuition and belief decide for you, instead of using logic. You forgive a lot even after several repetition of someone&rsquo;s bad habits.
+                You still believe that all people are inherently good and that being good to them will do the same upon you. Appearance deceives you a lot. You&rsquo;ve been scammed once, but you&rsquo;re the stubborn one because you believe that it won&rsquo;t happen again for someone like you who desires for nothing but goodness for others.
+                <br>
+                You know you are too trusting when you agree on something even before doing verification and having second thoughts. You let your intuition and belief decide for you, instead of using logic. You forgive a lot even after several repetition of someone&rsquo;s bad habits.
             </p>
         <br>
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness3.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #3</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											You Say Yes At Every Responsibility
+                        You Say Yes At Every Responsibility
                     </div>
                 </div>
                 <p class="p-style">
-									his is how you make good impressions &ndash; by saying to responsibility even if it&rsquo;s different from your skills. You say yes at every task, at the expense of yourself. This is a big negative energy. A person needs downtime. A break time is not equivalent to saying yes to more responsibilities.
+                    his is how you make good impressions &ndash; by saying to responsibility even if it&rsquo;s different from your skills. You say yes at every task, at the expense of yourself. This is a big negative energy. A person needs downtime. A break time is not equivalent to saying yes to more responsibilities.
                 </p>
             </div>
         </div>
@@ -229,7 +253,7 @@
         </ol>
         <br> <br> <br>
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #1</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -246,12 +270,12 @@
 									Your lack of financial literacy will also make you more vulnerable to scams and frauds. That is, because they will only talk so little about how money will work for you and your belief in the inherent goodness of people makes you an easy target. Adversaries are very friendly and them trusting their finances to other people increases the likelihood that your income will fall into the wrong hands.
                 </p>
             </div>
-            <div class="col-4"></div>
+            <div class="col-12 col-md-4"></div>
         </div>
         <br> <br> <br>
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #2</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -275,8 +299,8 @@
         </div>
         <br> <br> <br>
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #3</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -306,7 +330,7 @@
             </div>
 
             <div class="row">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="styled-text-sub-formula line-spacing mt-2">
                         <b> Health And Success Are Inter-Related.  </b>
                     </div>
@@ -316,7 +340,7 @@
                     </p>
                 </div>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-12 col-md-4"></div>
             </div>
 
             <br>
@@ -326,8 +350,8 @@
                 </b>
             </div>
             <div class="row">
-                <div class="col-5"></div>
-                <div class="col-7">
+                <div class="col-12 col-md-5"></div>
+                <div class="col-12 col-md-7">
                     <div class="styled-text-formula mt-1">
                         <p class="p-style-formula">
                             In a <a href="http://sonjalyubomirsky.com/wp-content/themes/sonjalyubomirsky/papers/BLinpressb.pdf" target="_blank"> <span style="color: black"><u>study</u></span></a> by Julia Boehm &amp; Sonja Lyubomirsky of the University of California, it was shown that contrary to the perception of many, happiness precedes success. It may sound contrary, especially if happiness is associated with money. However, it is also shown in different studies that happiness is associated with the income level. Sometimes, spending a little bit for our wants can become a big motivation which can result to better wealth generation.
@@ -336,7 +360,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="styled-text-sub-formula line-spacing mt-2">
                         <b> 
 													People Who Are Good In Building Genuine Relationships Are Better At Wealth- Generation.
@@ -348,7 +372,7 @@
                     </p>
                 </div>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-12 col-md-4"></div>
             </div>
             <br>
 

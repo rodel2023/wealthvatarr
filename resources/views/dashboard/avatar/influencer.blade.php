@@ -17,7 +17,7 @@
 	{{-- <h2 class="styled-text pt-4">WHAT MAKES YOU</h2> --}}
 		{{-- <img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Image" style="height: 130px; margin-right: 25%;"> --}}
     {{-- <h1 class="styled-text-title">{{ $title }}</h1> --}}
-    <img src="{{ asset('assets/img/dashboard/Home.png') }}" alt="Image" draggable="false" class="cta-image">
+    <img src="{{ asset('assets/img/dashboard/'.$title.'.png') }}" alt="Image" draggable="false" class="cta-image">
     <div class="text-center ps-3 ps-5 pe-5">
     <p class="p-style">
 				The Influencers love to stand out from the crowd and they never fail to do such. They make the best first impressions because of their charm and the things they own. They bring radiance to any room they are in and they are always oozing with confidence wherever they may be. No wonder a lot of people are astonished with an influencer.
@@ -32,11 +32,21 @@
 
 <div class="container-subheading">
     <div class="container">
-        <h1 class="styled-text-title">{{ $title }}</h1>
-        <p class="styled-text decorative-border">SUPERPOWERS</p>
-        <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <br>
+                <h1 class="styled-text-title mt-5">{{ $title }}</h1>
+                <p class="styled-text decorative-border">SUPERPOWERS</p>
+                <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+                <p class="p-style"> 
+                    Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+        </div>
         <p class="p-style">
-            Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.
             <br>
             First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.
             <br>
@@ -51,37 +61,41 @@
         <br>
 
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #1</span>
                 <div class="styled-text-super">
-									You Always Ooze With Self-Confidence
+                    You Always Ooze With Self-Confidence
                 </div>
             </div>
             <br>
             <br>
             <p class="p-style">
-							In fact, you never know that your radiance and high confidence can be contagious that it can influence people to follow suit. An Influencer believes in his/her abilities to take the center stage. They make a grand entrance effortlessly. They believe that their skills are enough to be showcased around and they always carry their blings which significantly can add to&nbsp; their radiance and shine.
+                In fact, you never know that your radiance and high confidence can be contagious that it can influence people to follow suit. An Influencer believes in his/her abilities to take the center stage. They make a grand entrance effortlessly. They believe that their skills are enough to be showcased around and they always carry their blings which significantly can add to&nbsp; their radiance and shine.
             </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #2</span>
                 <div class="styled-text-super">
-									You Attract People And Opportunities
+                    You Attract People And Opportunities
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									People know you are one in a kind. Thanks to your cheerful personality and the things you own which screams class and grace, people trust that you can do a job easily. Paired with a high self- esteem, an Influencer is one of the best team players to attract opportunities for the whole group.
+                    People know you are one in a kind. Thanks to your cheerful personality and the things you own which screams class and grace, people trust that you can do a job easily. Paired with a high self- esteem, an Influencer is one of the best team players to attract opportunities for the whole group.
                 </p>
             </div>
         </div>
@@ -89,56 +103,60 @@
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #3</span>
                 <div class="styled-text-super line-spacing">
-									Influencers Appreciate Opportunities
+                    Influencers Appreciate Opportunities
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									They may not make opportunities but influencers never let them pass once a door has been opened for them. It&rsquo;s a great way to bring in wealth so why have second thoughts? An influencer understands that not everyone gets the same opportunity which makes them appreciate it even more. They take actions when it comes to wealth generation.
+                    They may not make opportunities but influencers never let them pass once a door has been opened for them. It&rsquo;s a great way to bring in wealth so why have second thoughts? An influencer understands that not everyone gets the same opportunity which makes them appreciate it even more. They take actions when it comes to wealth generation.
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower3-4.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #4</span>
                 <div class="styled-text-super">
-									Influencers Are Very Good Speakers
+                    Influencers Are Very Good Speakers
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									Influencers make it easy when it comes to public interaction. They have the best public relations skills. Influencers have the ability to persuade someone by their charm and speaking skills. It adds to their executive image.
+                    Influencers make it easy when it comes to public interaction. They have the best public relations skills. Influencers have the ability to persuade someone by their charm and speaking skills. It adds to their executive image.
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3"></div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower5.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #5</span>
                 <div class="styled-text-super line-spacing">
-									Your Generosity Brings You To The Center Stage, Too
+                    Your Generosity Brings You To The Center Stage, Too
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									An Influencer helps in a way that can bring them to the center of attention, too. They never fail to ask how you&rsquo;ve been or ask for anything that they can help you with.
+                    An Influencer helps in a way that can bring them to the center of attention, too. They never fail to ask how you&rsquo;ve been or ask for anything that they can help you with.
                 </p>
             </div>
         </div>
@@ -150,8 +168,10 @@
 <div class="container-weaknesses">
     <div class="container">
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <h1 class="styled-text-title" style="color: #6D4B34;"><b>{{ $title }}</b></h1>
                 <p class="styled-text decorative-border-weak" style="color: #6D4B34;">WEAKNESSES</p>
 
@@ -160,56 +180,60 @@
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #1</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											Your Desire To Spend Compulsively Is Unstoppable
+                        Your Desire To Spend Compulsively Is Unstoppable
                     </div>
                 </div>
             </div>
         </div>
         <br>
             <p class="p-style">
-							It doesn&rsquo;t matter whether a certain item is on sale or not, as long as the Influencer desires it, it is considered sold. It is compulsive because these items are usually not necessary to live. They fall under wants and not under necessities. An Influencer has their own criteria on what to buy impulsively &ndash; as it is usually the expensive ones and useful in such a way that it can elevate his or her status, figure, and authority.
-							<br>
-							<strong>These are the usual signs that point out you are a compulsive spender:</strong>
-						</p>
-							<ul class="p-style">
-								<li>Your shopping expenses for wants take up a significant portion from your monthly income.</li>
-								<li>You go into debt because of it</li>
-								<li>You hide your extravagant purchases from family members and loved ones</li>
-								<li>You rarely use these purchases</li>
-								<li>Your New Year&rsquo;s Resolution always include limiting your impulse purchases</li>
-								<li>You&rsquo;re energetic and in the mood when it comes to shopping, online or not.</li>
-								<li>When you&rsquo;re sad and lonely, you feel that shopping can alleviate your feelings and your coping mechanism from stress.</li>
-							</ul>
+                It doesn&rsquo;t matter whether a certain item is on sale or not, as long as the Influencer desires it, it is considered sold. It is compulsive because these items are usually not necessary to live. They fall under wants and not under necessities. An Influencer has their own criteria on what to buy impulsively &ndash; as it is usually the expensive ones and useful in such a way that it can elevate his or her status, figure, and authority.
+                <br>
+                <strong>These are the usual signs that point out you are a compulsive spender:</strong>
+            </p>
+            <ul class="p-style">
+                <li>Your shopping expenses for wants take up a significant portion from your monthly income.</li>
+                <li>You go into debt because of it</li>
+                <li>You hide your extravagant purchases from family members and loved ones</li>
+                <li>You rarely use these purchases</li>
+                <li>Your New Year&rsquo;s Resolution always include limiting your impulse purchases</li>
+                <li>You&rsquo;re energetic and in the mood when it comes to shopping, online or not.</li>
+                <li>When you&rsquo;re sad and lonely, you feel that shopping can alleviate your feelings and your coping mechanism from stress.</li>
+            </ul>
         <br>
         <div class="row">
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-9 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #2</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											You Cling Onto Your Unhappy Childhood
+                        You Cling Onto Your Unhappy Childhood
                     </div>
                 </div>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
             <p class="p-style">
-							An Influencer&rsquo;s materialism is a result of his or her unhappy childhood experiences. They found solace in the things they own now as a working adult, to compensate with the fact that their&nbsp; past is not that satisfying. Expensive stuff are usually the things that mask their sadness and insecurities from the past.
+                An Influencer&rsquo;s materialism is a result of his or her unhappy childhood experiences. They found solace in the things they own now as a working adult, to compensate with the fact that their&nbsp; past is not that satisfying. Expensive stuff are usually the things that mask their sadness and insecurities from the past.
             </p>
         <br>
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness3.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #3</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											You Are Obsessed With Insecurities
+                        You Are Obsessed With Insecurities
                     </div>
                 </div>
                 <p class="p-style">
-									No one is ever happy about their own insecurities but an influencer is oftentimes highly insecure about his or her own. They tend to mask it with the things they can buy and own. Their excessive positivity, sometimes, is only a front to mask your emotional baggage. You rarely say that there&rsquo;s something wrong even in front of your best of friends for fear that you&rsquo;d get judgment and reveal your insecurities and ugly past to them.
+                    No one is ever happy about their own insecurities but an influencer is oftentimes highly insecure about his or her own. They tend to mask it with the things they can buy and own. Their excessive positivity, sometimes, is only a front to mask your emotional baggage. You rarely say that there&rsquo;s something wrong even in front of your best of friends for fear that you&rsquo;d get judgment and reveal your insecurities and ugly past to them.
                 </p>
             </div>
         </div>
@@ -237,7 +261,7 @@
         </ol>
         <br> <br> <br>
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #1</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -252,12 +276,12 @@
 									An Influencer&rsquo;s desire for fame, status, and authority through extravagant purchases is a surefire way not to achieve financial happiness and independence early. Many aspire to achieve this kind of happiness and independence while they are still young and able to enjoy the things in life. This is one of the challenges for you as an influencer, for you are the type that invests in things
                 </p>
             </div>
-            <div class="col-4"></div>
+            <div class="col-12 col-md-4"></div>
         </div>
         <br> <br> <br>
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #2</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -293,8 +317,8 @@
                 </b>
             </div>
             <div class="row">
-                <div class="col-5"></div>
-                <div class="col-7">
+                <div class="col-12 col-md-5"></div>
+                <div class="col-12 col-md-7">
                     <div class="styled-text-formula mt-1">
                         <p class="p-style-formula">
                             In a <a href="http://sonjalyubomirsky.com/wp-content/themes/sonjalyubomirsky/papers/BLinpressb.pdf" target="_blank"> <span style="color: black"><u>study</u></span></a> by Julia Boehm &amp; Sonja Lyubomirsky of the University of California, it was shown that contrary to the perception of many, happiness precedes success. It may sound contrary, especially if happiness is associated with money. However, it is also shown in different studies that happiness is associated with the income level. Sometimes, spending a little bit for our wants can become a big motivation which can result to better wealth generation.
@@ -303,7 +327,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="styled-text-sub-formula line-spacing mt-2">
                         <b> 
 													Your Saving Habits Will Jumpstart Your Wealth Generation Capabilities
@@ -315,7 +339,7 @@
                     </p>
                 </div>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-12 col-md-4"></div>
             </div>
             <br>
             <div class="styled-text-sub-formula line-spacing mt-2 text-center">
@@ -324,8 +348,8 @@
                 </b>
             </div>
             <div class="row">
-                <div class="col-5"></div>
-                <div class="col-7">
+                <div class="col-12 col-md-5"></div>
+                <div class="col-12 col-md-7">
                     <div class="styled-text-formula mt-1">
                         <p class="p-style-formula">
 													A <a href="https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/bjop.12360" style="text-decoration: none; color: black">2018 study </a>from the British Journal of Psychology concludes that focus on what they need to do instead on what they want to do. If you are focusing to buy stuff that you need because it signifies power and therefore, makes you happy, then you are more likely to be inferior in terms of your wealth-generating capacity. People who are planning how to earn more money, get promotions, and think of ways to make theirselves sellable are the people who will earn more than double in only a matter of years from now.

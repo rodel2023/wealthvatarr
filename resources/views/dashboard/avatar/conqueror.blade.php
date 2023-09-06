@@ -17,7 +17,7 @@
 	{{-- <h2 class="styled-text pt-4">WHAT MAKES YOU</h2> --}}
 		{{-- <img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Image" style="height: 130px; margin-right: 25%;"> --}}
     {{-- <h1 class="styled-text-title">{{ $title }}</h1> --}}
-    <img src="{{ asset('assets/img/dashboard/Home.png') }}" alt="Image" draggable="false" class="cta-image">
+    <img src="{{ asset('assets/img/dashboard/'.$title.'.png') }}" alt="Image" draggable="false" class="cta-image">
     <div class="text-center ps-3 ps-5 pe-5">
     <p class="p-style">
 			The Conqueror loves big and risky assets. They play the get-rich-quick game no matter how big the involved money is. Just like a rebel, a Conqueror loves challenging the norms by their creative ideas. They have their own ways of doing things and they love the track that&rsquo;s not being used by many.
@@ -34,11 +34,21 @@
 
 <div class="container-subheading">
     <div class="container">
-        <h1 class="styled-text-title">{{ $title }}</h1>
-        <p class="styled-text decorative-border">SUPERPOWERS</p>
-        <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <br>
+                <h1 class="styled-text-title mt-5">{{ $title }}</h1>
+                <p class="styled-text decorative-border">SUPERPOWERS</p>
+                <p class="styled-sub-text">WHY DO I NEED TO IDENTIFY <br> MY SUPERPOWERS AND STRENGTHS?</p>
+                <p class="p-style"> 
+                    Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+        </div>
         <p class="p-style">
-            Good question. Let&rsquo;s start with knowing the importance of superpowers and strengths.
             <br>
             First of all, research has already shown that there are certain qualities that ancient humans have evolved overtime to resist extreme weather and endure stress. These amazing traits are what made humans stand the attack of nature and made them thrive in extreme situations.
             <br>
@@ -53,95 +63,103 @@
         <br>
 
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #1</span>
                 <div class="styled-text-super">
-									Your Risk-Taking Attitude Keeps You On Track
+                    Your Risk-Taking Attitude Keeps You On Track
                 </div>
             </div>
             <br>
             <br>
             <p class="p-style">
-							A Conqueror usually has his long-term and short-term goals completely and clearly laid out in front of him &ndash; and this is the reason why he takes on every challenge no matter how risky it may get. Your favorite line is similar to &ldquo;Let&rsquo;s see what happens&rdquo; because your own way of getting the things you want is different from the norms. You place the highest bets on the unconventional ways of building your wealth. This is so that when you win, you know you will win big time and that&rsquo;s equivalent to one goal slashed as achieved from your bucketlist.
+                A Conqueror usually has his long-term and short-term goals completely and clearly laid out in front of him &ndash; and this is the reason why he takes on every challenge no matter how risky it may get. Your favorite line is similar to &ldquo;Let&rsquo;s see what happens&rdquo; because your own way of getting the things you want is different from the norms. You place the highest bets on the unconventional ways of building your wealth. This is so that when you win, you know you will win big time and that&rsquo;s equivalent to one goal slashed as achieved from your bucketlist.
             </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #2</span>
                 <div class="styled-text-super">
-									You Never Quit
+                    You Never Quit
                 </div>
             </div>
             <br>
             <br>
-							<p class="p-style">
-							A Conqueror is always on experimental mode. They are constantly looking for new ways to earn and generative passive income. They may quit a strategy, but their creative and risk-taking mind will just constantly look for another way to compensate the loss in that particular strategy. Quitting is the last option, because on the mind of a conqueror, the world has never-ending ideas. They always aspire to see their ideas come to life and take the responsibility of doing so.&nbsp;
+                <p class="p-style">
+                    A Conqueror is always on experimental mode. They are constantly looking for new ways to earn and generative passive income. They may quit a strategy, but their creative and risk-taking mind will just constantly look for another way to compensate the loss in that particular strategy. Quitting is the last option, because on the mind of a conqueror, the world has never-ending ideas. They always aspire to see their ideas come to life and take the responsibility of doing so.&nbsp;
 
-							</p>
+                </p>
             </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #3</span>
                 <div class="styled-text-super line-spacing">
-									You Are Fond Of Developing Cutting Edge Ideas
+                    You Are Fond Of Developing Cutting Edge Ideas
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									A Conqueror is a great unconventional entrepreneur, because they always make sure that their offers appeal to the consumers. They develop products and services with the thought in mind that this is going to be the next big thing.
+                    A Conqueror is a great unconventional entrepreneur, because they always make sure that their offers appeal to the consumers. They develop products and services with the thought in mind that this is going to be the next big thing.
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower3-4.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #4</span>
                 <div class="styled-text-super">
-									Conquerors Understand Financial Complexities
+                    Conquerors Understand Financial Complexities
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									They know how others play the money game. They never miss a cent from their financial statements. They are very well-versed with numbers that they know how to play with it. That&rsquo;s why they invest in risky and expensive investments &ndash; such as acquiring big assets &ndash; because they know the return can double and triple in the next few years.
+                    They know how others play the money game. They never miss a cent from their financial statements. They are very well-versed with numbers that they know how to play with it. That&rsquo;s why they invest in risky and expensive investments &ndash; such as acquiring big assets &ndash; because they know the return can double and triple in the next few years.
                 </p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3"></div>
         </div>
         <br>
         <br>
         <br>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/superpower5.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-9 text-center">
             <div class="decorative-border text-center">
                 <span class="span-box">SUPERPOWERS #5</span>
                 <div class="styled-text-super line-spacing">
-									Responsible Gambler
+                    Responsible Gambler
                 </div>
             </div>
             <br>
             <br>
                 <p class="p-style">
-									A Conqueror is a lone figure. This may be a downside because he only works as a one-man team, however, this makes him a responsible person when it comes to mistakes and other liabilities.
+                    A Conqueror is a lone figure. This may be a downside because he only works as a one-man team, however, this makes him a responsible person when it comes to mistakes and other liabilities.
                 </p>
             </div>
         </div>
@@ -153,8 +171,10 @@
 <div class="container-weaknesses">
     <div class="container">
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness1.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <h1 class="styled-text-title" style="color: #6D4B34;"><b>{{ $title }}</b></h1>
                 <p class="styled-text decorative-border-weak" style="color: #6D4B34;">WEAKNESSES</p>
 
@@ -163,7 +183,7 @@
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #1</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											You Find It Hard To Trust People
+                        You Find It Hard To Trust People
                     </div>
                 </div>
             </div>
@@ -176,27 +196,31 @@
             </p>
         <br>
         <div class="row">
-            <div class="col-9 text-center">
+            <div class="col-12 col-md-9 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #2</span>
                     <div class="styled-text-super line-spacing" style="color: #6D4B34;">
-											Conquerors Rarely Have A Backup Plan
+                        Conquerors Rarely Have A Backup Plan
                     </div>
                 </div>
             </div>
-            <div class="col-3"></div>
+            <div class="col-12 col-md-3">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness2.png') }}" alt="Your Image" class="img-fluid">
+            </div>
         </div>
         <br>
             <p class="p-style">
-							Conquerors have in mind that they will never fail, hence, they take every risk they know of. However, practicality and today&rsquo;s uncertainty necessitate the need for a backup plan. When the pandemic kicks in, a lot of thriving businesses were forced to shut down without hint of return. Managers and executives were forced to look for other jobs, media personalities and celebrities started looking for better jobs somewhere. Even the rich are asking their financial managers and advisors of the best thing to do when their investment plummets as the economy is constantly falling.
-							<br>
-							If a you are someone who bet a huge stake on something in danger getting dissipated because of this unforeseen event which are claiming lives and livelihoods, then chances are high that you are one of the most uncomfortable people every time the Government imposes new regulations invoking their police power for public safety.
+                Conquerors have in mind that they will never fail, hence, they take every risk they know of. However, practicality and today&rsquo;s uncertainty necessitate the need for a backup plan. When the pandemic kicks in, a lot of thriving businesses were forced to shut down without hint of return. Managers and executives were forced to look for other jobs, media personalities and celebrities started looking for better jobs somewhere. Even the rich are asking their financial managers and advisors of the best thing to do when their investment plummets as the economy is constantly falling.
+                <br>
+                If a you are someone who bet a huge stake on something in danger getting dissipated because of this unforeseen event which are claiming lives and livelihoods, then chances are high that you are one of the most uncomfortable people every time the Government imposes new regulations invoking their police power for public safety.
             </p>
         <br>
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5">
+                <img src="{{ asset('assets/img/dashboard/The Capitalist/weakness3.png') }}" alt="Your Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #3</span>
@@ -205,18 +229,18 @@
                     </div>
                 </div>
                 <p class="p-style">
-									Conquerors purchase risky big assets to take control. A Conqueror with no backup plan gambles his or her whole financial stability. A risky appetite, paired with willingness to gamble everything is a very dangerous venture that anyone should be wary of.
-									<br>
-									Take for example the story of Patricia Kluge.
-									<br>
-									After getting a high-settlement divorce from a wealthy husband, Kluge invested so much of her money by opening a winery and investing into real estate. When the housing market crashed, she lost everything she invested. The bank foreclosed her winery and subdivision. She battled these cases with attorneys around the world to try and save her business ventures. She ended up filing bankruptcy and auctioning off her jewelry and luxurious assets.
+                    Conquerors purchase risky big assets to take control. A Conqueror with no backup plan gambles his or her whole financial stability. A risky appetite, paired with willingness to gamble everything is a very dangerous venture that anyone should be wary of.
+                    <br>
+                    Take for example the story of Patricia Kluge.
+                    <br>
+                    After getting a high-settlement divorce from a wealthy husband, Kluge invested so much of her money by opening a winery and investing into real estate. When the housing market crashed, she lost everything she invested. The bank foreclosed her winery and subdivision. She battled these cases with attorneys around the world to try and save her business ventures. She ended up filing bankruptcy and auctioning off her jewelry and luxurious assets.
                 </p>
             </div>
         </div>
         <br>
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-5"></div>
+            <div class="col-12 col-md-7 text-center">
                 <br> <br>
                 <div class="decorative-border-weak text-center">
                     <span class="span-box" style="color: #6D4B34;">WEAKNESSES #4</span>
@@ -253,7 +277,7 @@
         </ol>
         <br> <br> <br>
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #1</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -266,12 +290,12 @@
 									If the get-rich-quick schemes work, everybody should have been rich already. Entrusting your money just because a system &lsquo;seems to work to many&rsquo; without any knowledge how it works or what is involved is a surefire way to lose money. Venturing in a business about a niche which you know nothing about is a surefire way to lose your hard earned investment.&nbsp;
                 </p>
             </div>
-            <div class="col-4"></div>
+            <div class="col-12 col-md-4"></div>
         </div>
         <br> <br> <br>
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #2</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -287,8 +311,8 @@
         </div>
         <br> <br> <br>
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #3</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -304,8 +328,8 @@
         </div>
         <br> <br> <br>
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-8">
             <div class="decorative-border text-center">
                 <span class="span-box" style="color: #000000">CHALLENGE #4</span>
                 <div class="styled-text-super line-spacing" style="color: #423F32">
@@ -340,8 +364,8 @@
                 </b>
             </div>
             <div class="row">
-                <div class="col-5"></div>
-                <div class="col-7">
+                <div class="col-12 col-md-5"></div>
+                <div class="col-12 col-md-7">
                     <div class="styled-text-formula mt-1">
                         <p class="p-style-formula">
 													Grant Cordone, an international sales expert and speaker who now owns multi-million dollar real estate, shared that building your first wealth should come from something that you&rsquo;re already familiar with. His video guy started expanding his advertising job to those connected to Cordone and that he did not &ldquo;start a doughnut shop&rdquo; to get multiple streams of income. Cordone calls this symbiotic flows and warned that adding disconnected flows may not work in providing you with better wealth.
@@ -350,7 +374,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="styled-text-sub-formula line-spacing mt-2">
                         <b> 
 													Building Wealth Is A Team Effort
@@ -370,7 +394,7 @@
                     </p>
                 </div>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-12 col-md-4"></div>
             </div>
 
 						<br>
