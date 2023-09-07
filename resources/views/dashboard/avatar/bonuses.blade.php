@@ -10,7 +10,7 @@
 <div style="background-color: #C1A460">
 	<div class="container">
 		<div class="row">
-			 <div class="col-md-6">
+			 <div class="col-12 col-md-6">
 					<p class="m-5 mb-1 text-center" style="font-family: Helvetica; color: white;">Claim your "members only" $10k/mo LIVE training <br>(Worth $497)</p>
 					<div class="card" style="width: 90%; background-color: #D7C07C;">
 							<div class="card-body sub-card">
@@ -19,7 +19,7 @@
 							</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-12 col-md-6">
 					<p class="m-5 mb-1 text-center" style="font-family: Helvetica; color: white;">Click to download your content bonuses</p>
 					<div class="d-flex justify-content-center">
 						<div class="card" style="width: 70%; background-color: #F1EBE5;">

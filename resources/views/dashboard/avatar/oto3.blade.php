@@ -1,6 +1,8 @@
-@extends('layouts.oto')
+{{-- @extends('layouts.oto') --}}
+@extends('layouts.premium')
 
 @section('content')
+<div class="container">
 <div class="mt-2 pt-2" style="background-color: #FDF9F0; border-radius: 8px;">
 	<div class="row">
     <div class="col text-center">
@@ -377,7 +379,10 @@
 		</div>
 	</div>
 	<br>
+	<br>
+	<br>
 </div>
+</div> {{-- End of Container --}}
 <script>
 	const videoPlayer = document.getElementById('videoPlayer');
 	

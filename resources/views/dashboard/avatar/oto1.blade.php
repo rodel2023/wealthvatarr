@@ -1,4 +1,5 @@
-@extends('layouts.oto')
+{{-- @extends('layouts.oto') --}}
+@extends('layouts.premium')
 
 @section('content')
 <div class="container mt-2">
@@ -57,20 +58,37 @@
 							<!-- Section Content-->
 						</div>
 						<h3> Month of {{$fullMonthName}}</h3>
-						@foreach($otos as $oto_item)
+						<div class="container">
+							<div class="row">
+									@foreach($otos as $oto_item)
+									<div class="col-12 col-md-6"> <!-- Use col-md-6 to display 2 cards in one line on medium-sized screens -->
+											<div class="card text-center mb-4">
+													<div class="card-body">
+															<h5 class="card-title">Day {{ $oto_item->day }}</h5>
+															<audio controls controlsList="nodownload" onplay="pauseOthers(this);">
+																	<source src="{{ url('private/audios/'.$oto_item->file_name) }}" type="audio/mp3">
+															</audio>
+															<p class="card-text text-center" style="font-size: 15px">Description: {{$oto_item->description}}</p>
+															<a href="{{ url('download-audio/'.$oto_item->file_name) }}" class="btn" style="width: 35%; font-size: 10px;">Download</a>
+													</div>
+											</div>
+									</div>
+									@endforeach
+							</div>
+									<br> <br> <br>
+						</div>
+						{{-- @foreach($otos as $oto_item)
 						<div class="card text-center ms-3 mt-0 mb-3" style="width: 33rem;">
 							<div class="card-body">
 								<h5 class="card-title">Day {{ $oto_item->day }}</h5>
 									<audio controls controlsList="nodownload" onplay="pauseOthers(this);">
-										{{-- <source src="{{ $oto_item->file_location.$oto_item->file_name}}" type="audio/mpeg"> --}}
 										<source src="{{ url('private/audios/'.$oto_item->file_name) }}" type="audio/mp3">
 									</audio>
 								<p class="card-text" style="font-size: 15px">Description: {{$oto_item->description}}</p>
-								{{-- <a href="{{ route('oto1s.download', ['filename' => $oto_item->file_name]) }}" class="btn btn-primary" style="width: 35%; font-size: 10px;">Download</a> --}}
 								<a href="{{ url('download-audio/'.$oto_item->file_name) }}" class="btn" style="width: 35%; font-size: 10px;">Download</a>
 							</div>
 						</div>
-						@endforeach
+						@endforeach --}}
 						
 						{{-- <table class="table">
 							<thead class="thead-dark">
