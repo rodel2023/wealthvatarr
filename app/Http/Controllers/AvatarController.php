@@ -287,7 +287,16 @@ class AvatarController extends Controller
         $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
         
         $archetype = $user_archetype->archetype;
-        return view('dashboard.avatar.bonuses', ["title"=>"Wealth Avatarr"]);
+        return view('dashboard.avatar.bonuses', ["title"=>"Wealth Avatarr", "user" => $user]);
+    } 
+
+    public function contact(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
+        
+        $archetype = $user_archetype->archetype;
+        return view('dashboard.avatar.contact', ["title"=>"Wealth Avatarr", "user" => $user]);
     } 
     public function oto_2(){
 

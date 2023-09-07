@@ -1662,7 +1662,7 @@ a {
 .card {
     /* Add shadows to create the "card" effect */
     
-    width: 70rem;
+    /* width: 70rem; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 40px;
@@ -1893,7 +1893,8 @@ audio {
   border: 1px solid #ffffff;
   border-radius: 25px;
   color: #ffffff;
-  padding: 0.1rem;
+  /* padding: 0.1rem; */
+  padding: 0.5rem 0.9rem; /* Add padding to control the width of the curved border */
 }
 
 .btn-readmore{
@@ -1952,8 +1953,17 @@ audio {
 
 .styled-text-title {
     font-family: Lucida Console; 
-    font-size: 5rem; 
+    font-size: 4rem; 
     color: #AF846D;
+    line-height: 1.5; /* Sets the line height for spacing between lines */
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+}
+
+.styled-text-title-challeges {
+    font-family: Lucida Console; 
+    font-size: 4rem; 
+    color: #6D4B34;
     line-height: 1.5; /* Sets the line height for spacing between lines */
     letter-spacing: 5px; /* Adds letter spacing between characters */
     margin-bottom: 10px; /* Adds spacing below the text */
@@ -1971,9 +1981,8 @@ audio {
 .styled-text-wealth  {
     font-family: Garamond; 
     color: #ffffff;
-    font-size: 2.5rem; 
+    font-size: 3rem; 
     letter-spacing: 5px; /* Adds letter spacing between characters */
-    margin-bottom: 10px; /* Adds spacing below the text */
 }
 
 .styled-text-title-guide {
@@ -1987,7 +1996,7 @@ audio {
 
 .styled-text-guide {
     font-family: Helvetica; 
-    color: #6D4B34;
+    color: #423F32;
     font-size: 2rem; 
     letter-spacing: 2px; /* Adds letter spacing between characters */
     margin-bottom: 10px; /* Adds spacing below the text */
@@ -1997,27 +2006,26 @@ audio {
     font-family: Garamond; 
     color: #AF846D;
     font-size: 6rem; 
-    letter-spacing: 5px; /* Adds letter spacing between characters */
-    margin-bottom: 10px; /* Adds spacing below the text */
+    letter-spacing: 3px; /* Adds letter spacing between characters */
 }
 .styled-text-formula {
     font-family: Helvetica; 
-    color: #AF846D;
+    color: #6D4B34;
     font-size: 1.5rem; 
     letter-spacing: 1px; /* Adds letter spacing between characters */
     margin-bottom: 10px; /* Adds spacing below the text */
-    text-transform:uppercase;
 }
 
 .styled-text-sub-formula {
     font-family: Garamond; 
     color: #AF846D;
-    font-size: 4.5rem; 
+    font-size: 4rem; 
     font-display: bold;
     letter-spacing: 5px; /* Adds letter spacing between characters */
     margin-bottom: 10px; /* Adds spacing below the text */
     text-transform:uppercase;
 }
+
 .styled-text {
     font-family: Garamond; 
     color: #AF846D;
@@ -2030,8 +2038,32 @@ audio {
     font-family: Helvetica; 
     color: #6D4B34;
     letter-spacing: 1px; /* Adds letter spacing between characters */
-    margin: 10px 80px; /* Adds spacing below the text */
     font-size: 1.7rem;
+}
+
+.styled-sub-text-formula {
+    font-family: Helvetica; 
+    color: #AF846D;
+    letter-spacing: 1px; /* Adds letter spacing between characters */
+    font-size: 1.7rem;
+}
+
+.styled-text-sub-title-formula {
+    font-family: Garamond; 
+    color: #AF846D;
+    font-size: 2rem; 
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+    text-transform:uppercase;
+}
+
+.styled-text-sub-title {
+    font-family: Garamond; 
+    color: #AF846D;
+    font-size: 2rem; 
+    letter-spacing: 5px; /* Adds letter spacing between characters */
+    margin-bottom: 10px; /* Adds spacing below the text */
+    text-transform:uppercase;
 }
 
 .styled-text-super {
@@ -2182,7 +2214,7 @@ audio {
 .p-style-challenges {
     font-family: Garamond; 
     color: #423F32;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .p-style-formula {

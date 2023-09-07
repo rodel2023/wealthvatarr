@@ -1,35 +1,33 @@
-@extends('layouts.oto')
+{{-- @extends('layouts.oto') --}}
+@extends('layouts.premium')
 
 @section('content')
+<div class="container">
 <div class="mx-auto mt-3">
 	<!-- Collapsible section -->
-	<div class="container">
-		<div class="container-fluid" style="width: 95%">
-			<div class="accordion" id="collapsibleSection">
-				<div class="accordion-item" style="background-color: #726950">
-					<!-- Collapsible Header -->
-					<h2 class="accordion-header" id="sectionHeader">
-						<button class="accordion-button @if(!request('collapse')) collapsed @endif" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-expanded="false" aria-controls="collapseContent" style="background-color: #726950;">
-							<div style="font-size: 20px; color: white; margin-left: 35%;">
-								<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle me-2" viewBox="0 0 16 16"> <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-									<path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-								</svg>	
-									Watch The Training Guide Here
-							</div>
-						</button>
-					</h2>
+	<div class="accordion" id="collapsibleSection">
+		<div class="accordion-item" style="background-color: #726950">
+			<!-- Collapsible Header -->
+			<h2 class="accordion-header" id="sectionHeader">
+				<button class="accordion-button @if(!request('collapse')) collapsed @endif" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-expanded="false" aria-controls="collapseContent" style="background-color: #726950;">
+					<div style="font-size: 20px; color: white; margin-left: 35%;">
+						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle me-2" viewBox="0 0 16 16"> <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+							<path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+						</svg>	
+							Watch The Training Guide Here
+					</div>
+				</button>
+			</h2>
 
-					<!-- Collapsible Content -->
-					<div id="collapseContent" class="accordion-collapse collapse" aria-labelledby="sectionHeader" data-bs-parent="#collapsibleSection">
-						<div class="accordion-body text-center">
-							<!-- Centered Local Video Embed -->
-							<div class="d-flex justify-content-center">
-								<video id="videoPlayer" class="videoPlayer" width="700" height="400" controls>
-									<source src="{{ asset('assets/video/oto2_video.mov') }}" type="video/mp4">
-									Your browser does not support the video tag.
-								</video>
-							</div>
-						</div>
+			<!-- Collapsible Content -->
+			<div id="collapseContent" class="accordion-collapse collapse" aria-labelledby="sectionHeader" data-bs-parent="#collapsibleSection">
+				<div class="accordion-body text-center">
+					<!-- Centered Local Video Embed -->
+					<div class="d-flex justify-content-center">
+						<video id="videoPlayer" class="videoPlayer" width="700" height="400" controls>
+							<source src="{{ asset('assets/video/oto2_video.mov') }}" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
 					</div>
 				</div>
 			</div>
@@ -63,9 +61,7 @@
 	</div>
 
 	<!-- Collapsible section -->
-	<div class="container mt-3">
-		<div class="container-fluid" style="width: 95%">
-			<div class="accordion" id="collapsibleSection1">
+			<div class="accordion mt-3" id="collapsibleSection1">
 				<div class="accordion-item" style="background-color: #726950">
 					<!-- Collapsible Header -->
 					<h2 class="accordion-header" id="sectionHeader">
@@ -93,7 +89,6 @@
 									Your browser does not support the video tag.
 								</video>
 							</div>
-
 							<hr>
 							<h4 class="text-center">
 								<span style="color: white;"> <strong> YOUR 7-MINUTE HEALTHY RELATIONSHIP MANIFESTATION </strong> </span>							
@@ -110,8 +105,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
 	{{-- End of collapse --}}
 	<!-- Collapsible section -->
 	{{-- <div class="container mt-3">
@@ -147,6 +140,7 @@
 	</div> --}}
 	{{-- End of collapse --}}
 
+	</div>
 </div>
 <script>
 	const videoPlayer = document.getElementById('videoPlayer');
@@ -162,7 +156,7 @@
 		videoPlayer1.pause();
 		videoPlayer2.pause();
 	});
-</script>
+</>
 
 @endsection
 
