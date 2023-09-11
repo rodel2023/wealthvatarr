@@ -13,6 +13,14 @@
 	<link rel="icon" href="{{ asset('assets/img/image/favicon.ico') }}">
 	<title>{{$title}}</title>
 
+   {{-- This line is to play one audio at a time --}}
+   <script type="text/javascript">
+    function pauseOthers(element){
+        $("audio").not(element).each(function(index,audio){
+        audio.pause();
+        })
+    }
+    </script>
   </head>
    <body>
    
@@ -223,51 +231,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-      {{-- <script>
-         $(document).ready(function(){
-            $("#tab1-next").click(function(){
-               $("#tab2-button").click();
-            });
-            
-            $("#tab2-next").click(function(){
-               $("#tab3-button").click();
-            });
-
-            $("#tab3-next").click(function(){
-               $("#tab4-button").click();
-            });
-
-            $("#tab4-next").click(function(){
-               $("#tab5-button").click();
-            });
-
-            $("#tab5-next").click(function(){
-               $("#tab6-button").click();
-            });
-
-            $("#tab6-next").click(function(){
-               $("#tab1-button").click();
-            });
-         });
-
-         var header = document.getElementById("nav-tab");
-         var btns = header.getElementsByClassName("btn");
-         for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function() {
-               var current = document.getElementsByClassName("nav-button-active");
-               current[0].className = current[0].className.replace("nav-button-active", "");
-               this.className += " nav-button-active";
-            });
-         }
-
-      </script>
-      <script>
-         document.getElementById('scrollNav').addEventListener('click', function() {
-            const targetContent = document.getElementById('nav-tab');
-            if (targetContent) {
-                  targetContent.scrollIntoView({ behavior: 'smooth' });
-            }
-         });
-      </script> --}}
+      @yield('javascript')
    </body>
 </html>

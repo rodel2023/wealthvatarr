@@ -156,7 +156,7 @@
 		videoPlayer1.pause();
 		videoPlayer2.pause();
 	});
-</>
+</script>
 
 @endsection
 
