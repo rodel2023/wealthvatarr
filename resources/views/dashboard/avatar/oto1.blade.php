@@ -12,7 +12,7 @@
 						<div class="col-12">
 							<!-- Section Heading-->
 							<h2 class="sub-header-salesperson text-center">
-								<span  class="text-danger"> <strong>365 days of wealth affirmation</strong> </span>
+								<span style="color: #A79017;"> <strong>365 days of wealth affirmation</strong> </span>
 							</h2>
 							<!-- Icon Divider-->
 							{{-- <div class="divider-custom"> --}}
