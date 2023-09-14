@@ -43,7 +43,7 @@
 						<div class="col-12">
 							<!-- Section Heading-->
 							<h2 class="sub-header-salesperson text-center">
-								<span  class="text-danger"> <strong>YOUR 7-MINUTE WEALTH MANIFESTATION</strong> </span>							
+								<span style="color: #A79017;"> <strong>YOUR 7-MINUTE WEALTH MANIFESTATION</strong> </span>
 							</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">

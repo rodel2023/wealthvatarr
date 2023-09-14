@@ -43,7 +43,11 @@
     </div>
   </div>
 	<div class="text-center p-2">
-		<h2>Welcome to the 14-Day Mind-Reset Challenge for Wealth Building!</h2>
+		<span style="color: #A79017;"> 
+			<strong>
+				<h2>Welcome to the 14-Day Mind-Reset Challenge for Wealth Building!</h2>
+			</strong> 
+		</span>
 		<div class="container" style="padding: 0 4rem;">
 			<p>This challenge is designed to help you transform your mindset around money and create a solid foundation for building wealth. Each day, you will be given a task or exercise to complete that will help you develop positive habits, cultivate abundance, and shift your thinking towards financial success. Are you ready? Let's begin!  </p>
 		</div>
