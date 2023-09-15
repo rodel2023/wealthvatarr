@@ -746,9 +746,10 @@ h2 {
 }
 
 .my-row {
-    background-color: rgb(51, 19, 40);
+    /* background-color: rgb(51, 19, 40); */
+    background-color: #D7C07C;
 }
-
+/* 
 .row .btn {
     color:#ffff;
     background-color: #8429c2;
@@ -762,7 +763,26 @@ h2 {
     margin: 0 auto;
     display: block;
     margin-top: 2em
+} */
+.row .btn {
+    color:#ffff;
+    background-color: #A79017;
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    width: 40%;
+    padding: 5px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2em
 }
+
+.row .btn:hover {
+    background-color: #726950;
+    color: white;
+  }
 
 .paav2-cta {
     display: -ms-flexbox;
