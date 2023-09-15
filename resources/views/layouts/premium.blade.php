@@ -114,7 +114,7 @@
                   <a class="nav-link" href="/bonuses">Your Bonuses</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="/contact">Contact Us</a>
+                  <a class="nav-link" href="https://support.thriivetank.com" target="_blank">Contact Us</a>
                </li>
             </ul>
             <!-- Right Side Of Navbar -->
