@@ -108,7 +108,7 @@
                      </ul>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="/">Avatars</a>
+                  <a class="nav-link" href="/avatars">Avatars</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="/bonuses">Your Bonuses</a>
