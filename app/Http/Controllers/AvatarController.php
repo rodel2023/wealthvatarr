@@ -290,6 +290,7 @@ class AvatarController extends Controller
         return view('dashboard.avatar.bonuses', ["title"=>"Wealth Avatarr", "user" => $user]);
     } 
 
+    // Contact Navigation
     public function contact(){
         $user = auth()->user();
         $access_level = json_decode($user->access_level);
@@ -297,6 +298,16 @@ class AvatarController extends Controller
         
         $archetype = $user_archetype->archetype;
         return view('dashboard.avatar.contact', ["title"=>"Wealth Avatarr", "user" => $user]);
+    } 
+
+    // Avatars Navigation
+    public function avatars(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
+        
+        $archetype = $user_archetype->archetype;
+        return view('dashboard.avatar.avatars', ["title"=>"Wealth Avatarr", "user" => $user]);
     } 
     public function oto_2(){
 

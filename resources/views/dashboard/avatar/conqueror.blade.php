@@ -18,10 +18,7 @@
     <div class="text-center ps-3 ps-5 pe-5">
         <div class="container">
             <p class="p-style">
-			The Conqueror loves big and risky assets. They play the get-rich-quick game no matter how big the involved money is. Just like a rebel, a Conqueror loves challenging the norms by their creative ideas. They have their own ways of doing things and they love the track that&rsquo;s not being used by many.
-			They are the best person to ask about financial complexities. Numbers are their friends, but sometimes, a Conqueror bravely takes on a challenge even without enough data and backup plan. When they win, they win big. But when they lose, they lose a lot.
-			You have your own set of approaches and practices when it comes to risk-taking and creativity. This attitude is what makes you unstoppable from pursuing the things you want.
-			In short, you believe that your long-term goals can be easily achieved by taking the road less traveled.
+			The Conqueror loves big and risky assets. They play the get-rich-quick game no matter how big the involved money is. Just like a rebel, a Conqueror loves challenging the norms by their creative ideas. They have their own ways of doing things and they love the track that&rsquo;s not being used by many.  They are the best person to ask about financial complexities. Numbers are their friends, but sometimes, a Conqueror bravely takes on a challenge even without enough data and backup plan. When they win, they win big. But when they lose, they lose a lot.  You have your own set of approaches and practices when it comes to risk-taking and creativity. This attitude is what makes you unstoppable from pursuing the things you want.  In short, you believe that your long-term goals can be easily achieved by taking the road less traveled.
             </p>
         </div>
     </div>
