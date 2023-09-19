@@ -224,9 +224,8 @@
    <div class="footer-logo">
       <img class="img-fluid" src="{{ asset('assets/img/wealth_avatarr.png') }}">
    </div>
-   <!--<p class="small"><a href="http://individualogist.com">Home</a> | <a href="http://individualogist.com/terms-and-conditions">Terms and Conditions</a> | <a href="http://individualogist.com/privacy-policy">Privacy Policy</a> | <a href="https://individualogist.kayako.com">Support</a> | <a href="http://individualogist.com/contact">Contact</a></p>-->
-   <p class="small" style="font-family:'Raleway',sans-serif;">&copy; Copyright 2022 wealthavatarr.com. All Rights Reserved</p>
-
+   {{-- <p class="small" style="font-family:'Raleway',sans-serif;">&copy; Copyright 2023 wealthavatar.net. All Rights Reserved</p> --}}
+   <p class="small" style="font-family:Helvetica;">&copy; Copyright 2023 wealthavatar.net. All Rights Reserved</p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
