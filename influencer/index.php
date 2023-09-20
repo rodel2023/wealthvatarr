@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!---Fontawesome CDN Link-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- <link href="../css/style.css" rel="stylesheet"> -->
+    <link href="../public/css/style.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link href="../css/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="../public/css/bootstrap.min.css" rel="stylesheet">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="icon" href="../public/assets/img/image/favicon.ico">
 	<title>The Influencer</title>
   </head>
   <body>
 
-	<div class="hero-influencer">
+	<!-- <div class="hero-influencer"> -->
+	<div class="hero-avatar">
 	<div class="hero-image">
 		<div class="hero-text">
-			<img src="https://res.cloudinary.com/dohqthrfv/image/upload/v1652166691/WealthAvatarr/Wealth_Avatarr_grltle.png" width="400">
-		  <h2 class="mt-5">Unlock Your Sacred Archetypal Powers & Experience Abundance Across All Aspects Of Your Life.</h2>
-		  <div class="influencer-img">
-			<img src="../public/assets/img/image/influencermiddle.png" width="100px">
+			<img src="../public/assets/img/wealth_avatarr.png" width="400">
+			<h2 class="hero-h2">Unlock Your Wealth Avatar Powers & Experience Abundance Across All Aspects Of Your Life.</h2>
+		  <div class="avatar-img">
+			<img src="../public/assets/img/results/Influencer.png" width="200">
 		  </div>
 		  <div class="title-form mt-5 mb-4">
 			<h4>This Exclusive Reading Is Specially Prepared For:</h4>
@@ -43,6 +48,7 @@
 			</form>
 		  </div>
 		  
+		  <br> <br> <br> <br>
 		  <div class="nav" id="nav-tab" role="tablist">
 			<button class="btn nav-button-active" id="tab1-button" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
 				<p class="nav-title">Step 1:</p>
@@ -51,10 +57,19 @@
 			<button class="btn" id="tab2-button" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
 				<p class="nav-title">Step 2:</p>
 				<p class="nav-subtitle">Potential Dangers Ahead</p></button>
-			<button class="btn" id="tab3-button" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+			<!-- <button class="btn" id="tab3-button" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+				<p class="nav-title">Step 3:</p>
+				<p class="nav-subtitle">To Riches Beyond Imagination</p>
+			</button> -->
+			<button onclick="redirectToURL('https://offers.wealthavatar.net/fe')" class="btn" type="button" role="tab">
 				<p class="nav-title">Step 3:</p>
 				<p class="nav-subtitle">To Riches Beyond Imagination</p>
 			</button>
+			<script>
+				function redirectToURL(url) {
+					window.location.href = url;
+				}
+			</script>
 		 </div>
 		</div>
 	  </div>
@@ -68,7 +83,7 @@
 				<div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="nav-home-tab">
 					<div class="row">
 						<div class="col-12">
-						<h2 class="sub-header-influencer text-center">
+						<h2 class="sub-header-avatar text-center">
 							THE INFLUENCER
 						</h2>
 
@@ -109,7 +124,7 @@
 							I hope you are ready to know about your natural gifts…and brave enough to meet your
 							weaknesses you didn’t have the courage to face before.
 						</p>
-						<h2 class="sub-header-influencer text-center">
+						<h2 class="sub-header-avatar text-center">
 							Your personality and behavior are those of THE INFLUENCER
 						</h2>
 
@@ -129,7 +144,7 @@
 							personality. And most of all…some of them tend to envy the material things you own and
 							brought by your hard-earned money. They look up to you because of this unique capability.
 						</p>
-						<h2 class="sub-header-influencer text-center">
+						<h2 class="sub-header-avatar text-center">
 						YOUR GREATEST STRENGTH LIES ON…
 						</h2>
 						<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649299539/WealthAvatarr/strength_mlmklk.png" class="img-intext" alt="" >
@@ -153,7 +168,7 @@
 							Everyone feels your power and authority every time you speak with confidence and eloquence.
 							Your optimistic attitude will bring you to all the best places.
 						</p>
-						<h2 class="sub-header-influencer text-center">
+						<h2 class="sub-header-avatar text-center">
 							Here’s an additional good news – you carry some sort of good luck thanks to this hidden strength of yours
 						</h2>
 						<p>
@@ -178,7 +193,7 @@
 							their physical appearance before they show up in a room.
 						</p>
 						
-						<h2 class="sub-header-influencer text-center">
+						<h2 class="sub-header-avatar text-center">
 							Take for example this popular person with the same natural gifts as yours.
 						</h2>
 						<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649301461/WealthAvatarr/example_rof86l.png">
@@ -210,7 +225,7 @@
 				<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="nav-profile-tab">
 					<div class="row">	
 						<div class="col-12">
-							<h2 class="sub-header-influencer text-center">
+							<h2 class="sub-header-avatar text-center">
 								THESE WONDERFUL GIFTS, HOWEVER, ARE BEING
 								COUNTERED BY YOUR GREATEST WEAKNESSES								
 							</h2>
@@ -247,7 +262,7 @@
 							<p>
 								In fact, I’m seeing that this negative energy still continues as we go along so...
 							</p>
-							<h2 class="sub-header-influencer text-center">
+							<h2 class="sub-header-avatar text-center">
 								BEWARE OF THESE POTENTIAL PROBLEMS I’VE SEEN PEOPLE WITH
 								SUCH WONDERFUL GIFTS HAVE ENCOUNTERED								
 							</h2>
@@ -268,7 +283,7 @@
 								wrong direction.
 							</p>
 							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649299539/WealthAvatarr/obstacle_dochjm.png">
-							<h2 class="sub-header-influencer text-center">
+							<h2 class="sub-header-avatar text-center">
 								DON’T TAKE THESE OBSTACLES FOR GRANTED.
 							</h2>
 							<p>
@@ -279,7 +294,7 @@
 								Your anxious mind makes it hard for you to find that happiness you’ve always yearned for in
 								your career, lifestyle, relationships, and wealth.
 							</p>
-							<h2 class="sub-header-influencer text-center">
+							<h2 class="sub-header-avatar text-center">
 								Your timeline to achieve your goals are getting more and more
 								extended because of this secret that wealthy people have since
 								uncovered
@@ -316,7 +331,7 @@
 								they’ve been possessing was taking so much control in their lives that their goals turned
 								seemingly hard to achieve.
 							</p>
-							<h2 class="sub-header-influencer text-center">
+							<h2 class="sub-header-avatar text-center">
 								Psychologists say that our financial decisions, including the unintelligent ones,
 								are affected by the subconsciousness
 							</h2>
@@ -367,11 +382,15 @@
 								<strong>...but this in-depth analysis will also reveal the missing piece to the reasons why you’re not achieving the life, relationships and bank account of your dreams. (warning: It might shock you).</strong>
 							</p>
 						</div>
-						<a class="btn button-go-up" href="#nav-tab" id="tab2-next">
+						<!-- <a class="btn button-go-up" href="#nav-tab" id="tab2-next">
+							Show Me My Missing Piece!
+						</a> -->
+						<a class="btn button-go-up" href="https://offers.wealthavatar.net/fe">
 							Show Me My Missing Piece!
 						</a>
 					</div>
 				</div>
+				<br> <br> <br> <br> <br> 
 				<div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-contact-tab">
 					<div class="row">
 						<div class="col-12">
@@ -1390,271 +1409,14 @@
 	</div>
 </div>
 <div id="footer">
-	<div class="footer-logo">
-		<img class="img-fluid" src="../public/assets/img/image/wealth_avatarr.png">
-	</div>
-  
-	<!--<p class="small"><a href="http://individualogist.com">Home</a> | <a href="http://individualogist.com/terms-and-conditions">Terms and Conditions</a> | <a href="http://individualogist.com/privacy-policy">Privacy Policy</a> | <a href="https://individualogist.kayako.com">Support</a> | <a href="http://individualogist.com/contact">Contact</a></p>-->
-	<p class="small" style="font-family:'Raleway',sans-serif;">&copy; Copyright 2022 wealthavatarr.com. All Rights Reserved</p>
-  
+   <div class="footer-logo">
+      <img class="img-fluid" src="../public/assets/img/wealth_avatarr.png">
+   </div>
+   <p class="small" style="font-family:Helvetica;">&copy; Copyright 2023 wealthavatar.net. All Rights Reserved</p>
 </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="../public/js/app.js"></script>
 
-	<script>
-	   $('body').append('<div class="proof-container"><div id="proof-popup" class="hide-proof"><div class="bubble1"><div class="image"><img id="static-image" src="../assets/img/paypal-pic.png"></div><div class="content"><div class="who1" id="who">Georgia from Medicine Hat, Alberta</div><div class="what1" id="what">Just made a<b> $271 </b> Purchased of The WealthAvatarr™ Premium Bundle</div><div class="when1" id="when">12 minutes ago</div></div></div></div></div>');
-	   var pluginProofImage = "https://s3.amazonaws.com/provely-public/legacy/thumbnails/ico-7.png";
-	</script>
-
-	<script>
-	   var map_url_array = [pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,];
-   		var what_array = ["Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle",
-            "Purchased The WealthAvatarr™ Premium Bundle"];
-
-        var who_array = ["Brian - Adversary",
-            "Leo - Banker",
-            "Lakesha - Influencer",
-            "Ryan - Conqueror",
-            "Melissa - Giver",
-            "Clifton - Sales Person",
-            "Elisa - Capitalist",
-            "Marilyn - Influencer",
-            "Jose - Giver",
-            "Angela - Sales Person",
-            "Pongky - Influencer",
-            "Krystal - Banker",
-            "Russel - Banker",
-            "Brandi - Giver",
-            "Joe - Sales Person",
-            "Jayna - Influencer",
-            "Georgia - Capitalist",
-            "Anahi - Capitalist",
-            "Kim - Sales Person",
-            "Brenda - Influencer",
-            "Audra - Giver",
-            "Dawn - Capitalist",
-            "Timothy - Influencer",
-            "Valerie - Sales Person",
-            "Frank - Banker",
-            "Patricia - Sales Person",
-            "Felda - Sales Person",
-            "Sofia - Conqueror",
-            "Jakeila - Giver",
-            "Chimezie - Banker",
-            "Sandy - Sales Person",
-            "Kenya - Influencer",
-            "Patrick - Capitalist",
-            "Terence - Adversary",
-            "Jason - Conqueror",
-            "Beth - Banker",
-            "Monique - Sales Person",
-            "Ronald - Conqueror",
-            "Cavell - Banker",
-            "Rainelle - Adversary",
-            "Ted from - Adversary",
-            "Marielys - Conqueror",
-            "Terry - Adversary",
-            "Mary - Banker",
-            "Adah - Conqueror",
-            "Rey - Adversary",
-            "Kylie - Giver",
-            "Peter - Adversary",
-            "Elizabeth - Conqueror",
-            "Jack - Capitalist",
-            "Clinton - Capitalist",
-            "Alex - Banker",
-            "Kenijae - Adversary",
-            "Jed - Conqueror",
-            "Barb - Adversary",
-            "Shawn - Adversary",
-            "Kim from - Giver",
-            "Daniel - Capitalist",
-            "Kathie - Banker",
-            "Russel - Adversary"];
-
-        var when_array = ["2 minutes ago",
-            "2 minutes ago",
-            "8 minutes ago",
-            "4 minutes ago",
-            "5 minutes ago",
-            "6 minutes ago",
-            "30 minutes ago",
-            "9 minutes ago",
-            "5 minutes ago",
-            "6 minutes ago",
-            "34 minutes ago",
-            "7 minutes ago",
-            "2 minutes ago",
-            "9 minutes ago",
-            "10 minutes ago",
-            "11 minutes ago",
-            "12 minutes ago",
-            "2 minutes ago",
-            "20 minutes ago",
-            "6 minutes ago",
-            "8 minutes ago",
-            "9 minutes ago",
-            "2 minutes ago",
-            "5 minutes ago",
-            "8 minutes ago",
-            "10 minutes ago",
-            "12 minutes ago",
-            "6 minutes ago",
-            "8 minutes ago",
-            "15 minutes ago",
-            "2 minutes ago",
-            "3 minutes ago",
-            "7 minutes ago",
-            "6 minutes ago",
-            "1 minute ago",
-            "12 minutes ago",
-            "6 minutes ago",
-            "2 minutes ago",
-            "5 minutes ago",
-            "2 minutes ago",
-            "8 minutes ago",
-            "2 minutes ago",
-            "3 minutes ago",
-            "4 minutes ago",
-            "5 minutes ago",
-            "2 minutes ago",
-            "4 minutes ago",
-            "5 minutes ago",
-            "2 minutes ago",
-            "3 minutes ago",
-            "9 minutes ago",
-            "10 minutes ago",
-            "2 minutes ago",
-            "7 minutes ago",
-            "8 minutes ago",
-            "2 minutes ago",
-            "6 minutes ago",
-            "2 minutes ago",
-            "9 minutes ago",
-            "3 minutes ago",
-            "9 minutes ago",
-            "10 minutes ago",
-            "2 minutes ago",
-            "7 minutes ago",
-            "8 minutes ago",
-            "2 minutes ago",
-            "6 minutes ago",
-            "2 minutes ago",
-            "9 minutes ago",
-            "3 minutes ago"];
-	   var index_array = Array.apply(null, {length: who_array.length}).map(Number.call, Number);
-	   var delay = 1000;
-	   var milisecs_hiding = 10 * 1000 - delay;
-	   var milisecs_to_start = 3 * 1000 - delay;
-	   
-	   function shuffle(array) {
-		var currentIndex = array.length, temporaryValue, randomIndex;
-	   
-		while (0 !== currentIndex) {
-			randomIndex = Math.floor(Math.random() * currentIndex);
-			currentIndex -= 1;
-	   
-			temporaryValue = array[currentIndex];
-			array[currentIndex] = array[randomIndex];
-			array[randomIndex] = temporaryValue;
-		}
-		return array;
-	   } 
-	   
-	   function refresh_bubble(step) {
-		document.getElementById('who').innerHTML = who_array[index_array[step]];
-		document.getElementById('what').innerHTML = what_array[index_array[step]];
-		document.getElementById('when').innerHTML = when_array[index_array[step]];
-		document.getElementById('static-image').src = map_url_array[index_array[step]];
-	   
-		setTimeout(function() {
-			document.getElementById('proof-popup').className = 'show-proof';
-	   
-			setTimeout(function() {
-				popdown_bubble(step);
-			}, 7000);
-		}, delay);
-	   }
-	   
-	   function popdown_bubble(step) {
-		document.getElementById('proof-popup').className = 'hide-proof';
-	   
-		setTimeout(function() {
-			var rand_num = Math.floor(Math.random()*who_array.length);
-	   
-			if (step < (who_array.length - 1)) {
-				refresh_bubble(rand_num);
-			} else {
-				index_array = shuffle(index_array);
-				refresh_bubble(rand_num);
-			}
-		}, milisecs_hiding);
-	   }
-	   
-	   setTimeout(function() {
-		var rand_num = Math.floor(Math.random()*who_array.length);
-		index_array = shuffle(index_array);
-		refresh_bubble(rand_num);
-	   }, milisecs_to_start);
-	</script>
   </body>
 </html>

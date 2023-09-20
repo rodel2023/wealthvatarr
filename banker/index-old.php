@@ -4,28 +4,25 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/style.css" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<!---Fontawesome CDN Link-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-    <!-- <link href="../css/style.css" rel="stylesheet"> -->
-    <link href="../public/css/style.css" rel="stylesheet">
-	<!---Bootsratp CSS-->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="../public/css/bootstrap.min.css" rel="stylesheet">
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="icon" href="../public/assets/img/image/favicon.ico">
-	<title>The Capitalist</title>
+	<title>The Banker</title>
   </head>
   <body>
 
-	<div class="hero-avatar">
+
+	<div class="hero-banker">
 	<div class="hero-image">
 		<div class="hero-text">
-			<img src="../public/assets/img/wealth_avatarr.png" width="400">
-		  <h2 class="hero-h2">Unlock Your Wealth Avatar Powers & Experience Abundance Across All Aspects Of Your Life.</h2>
-		  <div class="avatar-img">
-			<img src="../public/assets/img/results/Capitalist.png" width="280">
+		<img src="https://res.cloudinary.com/dohqthrfv/image/upload/v1652166691/WealthAvatarr/Wealth_Avatarr_grltle.png" width="400">
+		  <h2 class="mt-5">Unlock Your Sacred Archetypal Powers & Experience Abundance Across All Aspects Of Your Life.</h2>
+		  <div class="banker-img">
+			<img src="../public/assets/img/image/bankermiddle.png" width="100px">
 		  </div>
 		  <div class="title-form mt-5 mb-4">
 			<h4>This Exclusive Reading Is Specially Prepared For:</h4>
@@ -33,57 +30,47 @@
 		  <div class="container">
 			<form action="#" style="max-width:100%; margin:auto">
 				<div class="input-box">
-				  <span><i class="fa-solid fa-user icon"></i></span>
-				  <input type="text" placeholder="Name"value="<?php echo $_GET['name']; ?>">
-				</div>
+                    <span><i class="fa-solid fa-user icon"></i></span>
+                    <input type="text" id="yname" placeholder="Name" value="<?php echo $_GET['name']; ?>">
+                </div>
 				<div class="input-box">
-				  <span><i class="fa-solid fa-envelope icon"></i></span>
-				  <input type="text" placeholder="Email" value="<?php echo $_GET['email']; ?>">
-			  </div>
-			  <div class="input-box">
-				  <span><i class="fa-solid fa-hand-sparkles icon"></i></span>
-				  <input type="text" placeholder="Archetype"value="<?php echo $_GET['archetype']; ?>">
-			  </div>
+                    <span><i class="fa-solid fa-envelope icon"></i></span>
+                    <input type="text" id="email" placeholder="Email" value="<?php echo $_GET['email']; ?>">
+                </div>
+                <div class="input-box">
+                    <span><i class="fa-solid fa-hand-sparkles icon"></i></span>
+                    <input type="text" id="archetype" placeholder="Archetype" value="<?php echo $_GET['archetype']; ?>">
+                </div>
 			</form>
 		  </div>
-		  <br> <br> <br> <br>
-		  <div class="nav" id="nav-tab" role="tablist">
-			<button class="btn nav-button-active" id="tab1-button" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
-				<p class="nav-title">Step 1:</p>
-				<p class="nav-subtitle">Your Inner Wealth Vault Calling</p>
-			</button>
-			<button class="btn" id="tab2-button" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-				<p class="nav-title">Step 2:</p>
-				<p class="nav-subtitle">Potential Dangers Ahead</p></button>
-			</button>
-			<!-- <button class="btn" id="tab3-button" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
-				<p class="nav-title">Step 3:</p>
-				<p class="nav-subtitle">To Riches Beyond Imagination</p>
-			</button> -->
-			<button onclick="redirectToURL('https://offers.wealthavatar.net/fe')" class="btn" type="button" role="tab">
-				<p class="nav-title">Step 3:</p>
-				<p class="nav-subtitle">To Riches Beyond Imagination</p>
-			</button>
-			<script>
-				function redirectToURL(url) {
-					window.location.href = url;
-				}
-			</script>
-		</div>
+			<div class="nav" id="nav-tab" role="tablist">
+				<button class="btn nav-button-active" id="tab1-button" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+					<p class="nav-title">Step 1:</p>
+					<p class="nav-subtitle">Your Inner Wealth Vault Calling</p>
+				</button>
+				<button class="btn" id="tab2-button" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+					<p class="nav-title">Step 2:</p>
+					<p class="nav-subtitle">Potential Dangers Ahead</p>
+				</button>
+				<button class="btn" id="tab3-button" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+					<p class="nav-title">Step 3:</p>
+					<p class="nav-subtitle">To Riches Beyond Imagination</p>
+				</button>
+			</div>
 		</div>
 	  </div>
 	</div>
 
 
-	<div class="row my-row">
+<div class="row my-row">
 	  <div class="card mx-auto" style="width: 60rem;">
 		<div class="card-body" style="text-align: -webkit-left;">
 			<div class="tab-content" id="nav-tabContent">
 				<div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="nav-home-tab">
 					<div class="row">
-						<div class="col-12">
-						<h2 class="sub-header-avatar text-center">
-							THE CAPITALIST
+						<div class="col-12" id="step1">
+						<h2 class="sub-header-banker text-center">
+							THE BANKER
 						</h2>
 
 						<p>
@@ -98,7 +85,7 @@
 							You spent time and effort and even sacrificed a lot but the results and the turn of events
 							just...didn’t favor you.
 						</p>
-						<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649314319/WealthAvatarr/capitalist1_cc81b7.png" class="img-intext" alt="" > 
+						<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649303998/WealthAvatarr/banker1_rh9xwj.png" class="img-intext" alt="" > 
 						<p>
 							I hope you don’t lose your spark and let those greatest attributes I’ve seen in you die just
 							because of these unfortunate incidents.
@@ -123,70 +110,95 @@
 							I hope you are ready to know about your natural gifts…and brave enough to meet your
 							weaknesses you didn’t have the courage to face before.
 						</p>
-						<h2 class="sub-header-avatar text-center">
-							Your personality and behavior are those of THE CAPITALIST
+						<h2 class="sub-header-banker text-center">
+							Your personality and behavior are those of THE BANKER
 						</h2>
 
 						<p>
-							Thanks to your creative mind and the will to turn these ideas into income-generating projects, most people now have jobs to put food on the table! You working hard all the time will make you more financially independent sooner than you think!							
+							You are the most anxious about the thought of losing a cent from your bank account and
+							personal vaults. But you are also not the type that would run out of money and your friends
+							and colleagues envy you for that! Every cent you earn and spend are well accounted for.							
 						</p>
 
 						<p>
-							The quote by Steve Jobs saying that "Innovation distinguishes between a leader and a follower." appeals to you the most. Your friends and comrades will agree that you’re the only one who will relate to this motto among your circle.
+							The quote by John Tyler saying that “Wealth can only be accumulated by the earnings of
+							industry and the savings of frugality.” appeals to you the most, among your friends and
+							comrades.
 						</p>
 						<p>
-							You teach people the art of frugality. You have the power to inspire them with your actions and in fact, you are a role model to most of your friends.
+							You teach people the art of frugality. You have the power to inspire them with your actions and
+							in fact, you are a role model to most of your friends.
 						</p>
-						<h2 class="sub-header-avatar text-center">
+						<h2 class="sub-header-banker text-center">
 						YOUR GREATEST STRENGTH LIES ON…
 						</h2>
-						<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649299539/WealthAvatarr/strength_mlmklk.png" class="img-intext" alt="">
+						<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649299539/WealthAvatarr/strength_mlmklk.png" class="img-intext" alt="" >
 						<p>
-							…Your creative mind and determination to turn these into wealth-generating project.
+							<u>Your fear of becoming financially dependent.</u>
 						</p>
 						<p>
-							Your passion on the things and projects you create secures your future that you don’t have to be financially dependent to anyone anymore.
+							This fear secures all your money which are all a product of your hard work and dedication.
 						</p>
 						<p>
-							You make sure that all your time and efforts are devoted to create something beautiful and something that would give you financial security in the future.
+							You make sure that all your cashflows are very well accounted for. You do all the accounting
+							yourself and you definitely live within your budget. This is possible thanks to your very good way
+							of handling money.
 						</p>
 						<p>
-							You are the fastest one to accumulate wealth among the other wealth archetypes. You are the last one to be financially dependent even if the unforeseen happens.
+							When it comes to finances, you are the most disciplined and responsible. You never let a single
+							dollar go without knowing where it would go. Your hard work and efforts on earning are never
+							wasted because of this trait.
 						</p>
 						<p>
-							Most people want to achieve bigger in life but entrust it all to good luck. You’d rather work hard and think of the most practical things to turn it into fruition rather than read about good luck and wish upon a star.						
+							Not a lot of people track their finances. And even if they do, they are not disciplined enough to
+							hold back from spending it on things that are of no use to them.							
 						</p>
 
-						<h2 class="sub-header-avatar text-center">
-							Here’s an additional good news  – you carry some sort of good luck thanks to this hidden strength of yours
+						<h2 class="sub-header-banker text-center">
+							Take for example this popular person with the same frugal lifestyle as yours.
+						</h2>
+						<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649301461/WealthAvatarr/example_rof86l.png">
+						<p>
+							Your ability to act immediately is a valuable trait when it comes to wealth generation. 
+						</p>
+
+						<p>
+							Warren Buffett lives with at least a $100 billion net worth. The 6th wealthiest man in the globe
+							lives a simple and frugal lifestyle - which brings him happiness and contentment in life.
+						</p>
+						<p>
+							He lives in the same residence he bought in 1958. He finds joy in buying cars at reduced prices.
+							His breakfast is something that not a lot of people would expect for a billionaire’s breakfast. He
+							enjoys a simple McDonald’s to start his day right.							 
+						</p>
+						<p>
+							Just like your personality type, his natural gift of being content on simple things make him one
+							of the richest people in this modern world.
+						</p>
+						
+						<h2 class="sub-header-banker text-center">
+							Here’s an additional good news – you carry some sort of good luck thanks to this hidden strength of yours
+
 						</h2>
 						<p>
-							Your mindset that you are capable of doing anything unlocks a great potential in you. 
-						</p>
-
-						<p>
-							Mindset is a very powerful weapon that awakens your senses all the time. It’s the driving force to make changes and to turn around things in the most feasible way. It influences the way you behave and to rise immediately as soon as you fall.
+							You appreciate hard work and every penny you earn. You make sure your efforts are very well
+							reciprocated - because this alone is one of your happiness.
 						</p>
 						<p>
-							This explains that even if your idea fails you, your comeback is always just around the corner. You spring back eagerly from failure thanks to your success mindset.					 
+							Your tendency to save, save, and save attracts appreciation from other people as well. Anyone
+							who comes into your life is thankful because they learn a lesson from being with you.
 						</p>
 						<p>
-							You radiate this mindset with other people. Your colleagues are secretly thanking you for this. 
+							You encourage them to live frugally and save within their means.
 						</p>
 						<p>
-							The Capitalists understand that the true meaning of assets are not valued by money. It comes in the form of investments and creations, too. Even a business’ goodwill is a valued asset for them.
-						</p>
-						
-						
-							<h2 class="sub-header-avatar text-center">
-								Take for example this popular person with the same mindset as yours.
-							</h2>
-							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649301461/WealthAvatarr/example_rof86l.png">
-						<p>
-							Mark Zuckerberg, Facebook CEO and the 5th richest man in the world, teaches the younger generations that the first step to success is to fix your mindset. If you want to start a company, ask yourself first what the problem is in the world that you want to solve and start from there.
+							The Bankers are very trustworthy. A lot of people respect you because of that. They see how you
+							can live within your means and never run out of money when you need it.
 						</p>
 						<p>
-							Just like your personality type, his natural gift of developing such mindset made him one of the richest people in this modern world.
+							If you continue using this natural gift of yours, you will never be financially dependent on
+							anyone ever again. Your happiness, good luck, and wealth flow from this natural gift that only
+							this personality type possesses.
 						</p>
 						<p>
 							Now that you know your calling…
@@ -195,67 +207,81 @@
 							<strong>Be aware of some potential dangers ahead of you… You must know what they are before it’s too late…</strong>
 						</p>
 						</div>
-						<a class="btn button-go-up" href="#nav-tab" id="tab1-next" >
-							Show Me The Dangers…
-						</a>
+						<a class="btn button-go-up" href="#nav-tab" id="tab1-next" >Show Me The Dangers…</a>
 					</div>
 				</div>
 				<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="nav-profile-tab">
 					<div class="row">	
-						<div class="col-12">
-							<h2 class="sub-header-avatar text-center">
+						<div class="col-12"  id="test2">
+							<h2 class="sub-header-banker text-center">
 								THESE WONDERFUL GIFTS, HOWEVER, ARE BEING
 								COUNTERED BY YOUR GREATEST WEAKNESSES								
 							</h2>
 
 							<p>
-								Your obsession to feel great and good enough about your desire to do more hinders your natural gift to achieve your wealth and success goals in the shortest possible time! You find it hard to trust people to help you along the way to success. The lack of trusted people to aid you in your ideas makes the whole work more inefficient.
-							</p>
-							<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649314319/WealthAvatarr/capitalist2_erl54n.png" class="img-intext" alt="" >
-							<p>
-								You would rather do everything on your own to ensure that everything is according to your own process and wants.							
-							</p>
-							<p>
-								But the truth is…you are missing a lot of opportunities to spend your time wisely.
+								Your obsession with money itself hinders your natural gift to achieve your wealth and success
+								goals in the shortest possible time! You grow anxious and are always scared to see your bank
+								account diminishing, even though the funds would go to something where it can grow
+								exponentially.
 							</p>
 							<p>
-								You miss a lot of family events and a quality time for yourself.
-							</p>
-							
-							<p>
-								This can do more harm on your mental health and your fighting spirit to continue having such wonderful mindset!
+								You would rather have the money sit in the bank and withdraw it when the need arises. You do
+								this because you feel this is the safest way to keep your wealth.								
 							</p>
 							<p>
-								This is your greatest source of obstacles that constantly brings you problems with regards to wealth, relationships, and happiness.
+								But the truth is...you are missing a lot of opportunities to multiply your money!
+							</p>
+							<p>
+								Your obsession with money hinders you from spoiling yourself with the things you deserve.
+							</p>
+							<p>
+								Your obsession hinders you from acquiring the best things that should be aiding you with your
+								personal and professional growth.
+							</p>
+							<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649303998/WealthAvatarr/banker2_bqvv5r.png" class="img-intext" alt="" > 
+							<p>
+								You always settle on what’s the cheapest which are generally lower in quality.
+							</p>
+							<p>
+								This is your greatest source of obstacles that constantly brings you problems with regards to
+								wealth, relationships, and happiness.
 							</p>
 							<p>
 								In fact, I’m seeing that this negative energy still continues as we go along so...
 							</p>
-							<h2 class="sub-header-avatar text-center">
+							<h2 class="sub-header-banker text-center">
 								BEWARE OF THESE POTENTIAL PROBLEMS I’VE SEEN PEOPLE WITH
 								SUCH WONDERFUL GIFTS HAVE ENCOUNTERED								
 							</h2>
 							<p>
-								The Capitalists find it hard to enjoy things and be contented in life. They often forget to appreciate the small things that are beneficial to them – mentally and emotionally.
+								The Bankers are usually those who are the most distant with their family members and friends.
+								They tend to avoid social gatherings to avoid spending money. They would rather keep it on
+								their bank or spend it only when needed.
 							</p>
 							<p>
-								They are the ones always living in the future, instead of enjoying what’s in the present. Their forward-looking attitude makes them take for granted the beauty of living in the current world.
+								The Banker’s tendency to attach a price tag on everything makes it hard for them to pay even on
+								things they deserve.
 							</p>
 							<p>
-								For The Capitalist, money is a main yardstick. Majority, if not all, of their time and attention are devoted to business. 								
+								And even if they do...it won’t give them peace of mind after some time. Their anxious mind
+								would somehow interrupt with their day-to-day tasks.								
 							</p>
 							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649299539/WealthAvatarr/obstacle_dochjm.png">
-							<h2 class="sub-header-avatar text-center">
+							<h2 class="sub-header-banker text-center">
 								DON’T TAKE THESE OBSTACLES FOR GRANTED.
 							</h2>
 							<p>
-								Your gifts are being utilized at its minimal. Your greatest weaknesses are slowly taking over your potential hence, achieving your goals are taking so much time for now.
+								Your gifts are being utilized at its minimal. Your greatest weaknesses are slowly taking over your
+								potential hence, achieving your goals are taking so much time for now.
 							</p>
 							<p>
-								Your anxious mind makes it hard for you to find that happiness you’ve always yearned for in your career, lifestyle, relationships, and wealth.
+								Your anxious mind makes it hard for you to find that happiness you’ve always yearned for in
+								your career, lifestyle, relationships, and wealth.
 							</p>
-							<h2 class="sub-header-avatar text-center">
-								Your timeline to achieve your goals are getting more and more extended because of this secret that wealthy people have since uncovered
+							<h2 class="sub-header-banker text-center">
+								Your timeline to achieve your goals are getting more and more
+								extended because of this secret that wealthy people have since
+								uncovered
 							</h2>
 							<img src= "https://res.cloudinary.com/dohqthrfv/image/upload/v1649299919/WealthAvatarr/energy_ngcfll.png" class="img-intext" alt="">
 							<p>
@@ -289,7 +315,7 @@
 								they’ve been possessing was taking so much control in their lives that their goals turned
 								seemingly hard to achieve.
 							</p>
-							<h2 class="sub-header-avatar text-center">
+							<h2 class="sub-header-banker text-center">
 								Psychologists say that our financial decisions, including the unintelligent ones,
 								are affected by the subconsciousness
 							</h2>
@@ -332,26 +358,21 @@
 								...achieve them even if you encounter challenges along the way.
 							</p>
 							<p>
-								<strong>Not only would this reading provide you the true meaning and other hidden weaknesses
-									of THE CAPITALIST</strong>
+								<strong>Not only would the next part of the reading provide you the true meaning and other hidden weaknesses
+									of THE BANKER</strong>
 							</p>
 							<p>
-								<strong>...but this in-depth analysis will also provide you with all the possible solutions to your
-									current and potential problems, taking into account your deepest fears and insecurities.</strong>
+								<strong>...but this in-depth analysis will also reveal the missing piece to the reasons why you’re not achieving the life, relationships and bank account of your dreams. (warning: It might shock you).</strong>
 							</p>
 						</div>
-						<!-- <a class="btn button-go-up" href="#nav-tab" id="tab2-next">
-							Show Me My Missing Piece!
-						</a> -->
-						<a class="btn button-go-up" href="https://offers.wealthavatar.net/fe">
+						<a class="btn button-go-up" href="#nav-tab" id="tab2-next">
 							Show Me My Missing Piece!
 						</a>
 					</div>
 				</div>
-				<br> <br> <br> <br> <br> 
 				<div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-contact-tab">
 					<div class="row">
-						<div class="col-12">
+						<div class="col-12" id="step3">
 							<h2 class="sub-header-salesperson text-center">
 								The Shocking (YET Concrete) Reason Why You’re Not Achieving the Life, Relationships and Bank Account of Your Dreams 
 							</h2>
@@ -527,6 +548,7 @@
 							<p>
 								<strong>In other words, You Play Specific Frequencies That Turn On the Genes to Make Wealth</strong>
 							</p>
+							
 							<p>
 								That may sound strange, but it's cutting edge science.  
 
@@ -536,6 +558,7 @@
 							<p>
 								In layman terms, certain frequencies awaken the cells that spark abundance.
 							</p>
+							
 							<p>
 								When you tune in to these near-magic frequencies...
 							</p>
@@ -562,12 +585,12 @@
 							<h2 class="sub-header-salesperson text-center">
 								INTRODUCING:  WealthAvatarr™ Premium Bundle
 							</h2>
-							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649301462/WealthAvatarr/wealth_bundle22_a5dcqo.png">
+							<img class="w-100" src="https://res.cloudinary.com/dohqthrfv/image/upload/v1649301462/WealthAvatarr/wealth_bundle22_a5dcqo.pngg">
 							<p>
 								The ultimate package to take your Wealth Archetype to the next level.
 							</p>
 							<h2 class="sub-header-salesperson text-center">
-								COMPONENT #1: Wealth Frequencies
+								COMPONENT #1: Wealth Archetype Frequencies
 							</h2>
 							<p>
 								<strong>Here’s What You Get.</strong>
@@ -1345,7 +1368,7 @@
 							<p>
 								Click on the bright orange button below now. I’ll see you on the other side.
 							</p>
-							
+
 							<div class="container vwo-cta">
 								<div class="row">
 									<div class="col-sm-12">
@@ -1366,16 +1389,289 @@
 		</div>
 	</div>
 </div>
-
 <div id="footer">
-   <div class="footer-logo">
-      <img class="img-fluid" src="../public/assets/img/wealth_avatarr.png">
-   </div>
-   <p class="small" style="font-family:Helvetica;">&copy; Copyright 2023 wealthavatar.net. All Rights Reserved</p>
+	<div class="footer-logo">
+		<img class="img-fluid" src="../public/assets/img/image/wealth_avatarr.png">
+	</div>
+  
+	<!--<p class="small"><a href="http://individualogist.com">Home</a> | <a href="http://individualogist.com/terms-and-conditions">Terms and Conditions</a> | <a href="http://individualogist.com/privacy-policy">Privacy Policy</a> | <a href="https://individualogist.kayako.com">Support</a> | <a href="http://individualogist.com/contact">Contact</a></p>-->
+	<p class="small" style="font-family:'Raleway',sans-serif;">&copy; Copyright 2022 wealthavatarr.com. All Rights Reserved</p>
+  
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="../public/js/app.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../js/app.js"></script>
+
+	<script>
+	   $('body').append('<div class="proof-container"><div id="proof-popup" class="hide-proof"><div class="bubble1"><div class="image"><img id="static-image" src="../assets/img/paypal-pic.png"></div><div class="content"><div class="who1" id="who">Georgia from Medicine Hat, Alberta</div><div class="what1" id="what">Just made a<b> $271 </b> Purchased of The WealthAvatarr™ Premium Bundle</div><div class="when1" id="when">12 minutes ago</div></div></div></div></div>');
+	   var pluginProofImage = "https://s3.amazonaws.com/provely-public/legacy/thumbnails/ico-7.png";
+	</script>
+
+	<script>
+        // let params = new URLSearchParams(document.location.search);
+        // let avatar = params.get("avatar");
+        // let name = params.get("name");
+        // let mail = params.get("mail");
+        
+        // console.log(name)
+        // console.log(mail)
+        // console.log(avatar)
+
+        // var yourName = document.getElementById("name")
+        // var yourAvatar = document.getElementById("archetype")
+        // var yourEmail = document.getElementById("email")
+        // yourName.innerHTML = name;
+        // yourAvatar.innerHTML = avatar;
+        // yourEmail.innerHTML = mail;
+
+	   var map_url_array = [pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,pluginProofImage,];
+   		var what_array = ["Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle",
+            "Purchased The WealthAvatarr™ Premium Bundle"];
+
+        var who_array = ["Brian - Adversary",
+            "Leo - Banker",
+            "Lakesha - Influencer",
+            "Ryan - Conqueror",
+            "Melissa - Giver",
+            "Clifton - Sales Person",
+            "Elisa - Capitalist",
+            "Marilyn - Influencer",
+            "Jose - Giver",
+            "Angela - Sales Person",
+            "Pongky - Influencer",
+            "Krystal - Banker",
+            "Russel - Banker",
+            "Brandi - Giver",
+            "Joe - Sales Person",
+            "Jayna - Influencer",
+            "Georgia - Capitalist",
+            "Anahi - Capitalist",
+            "Kim - Sales Person",
+            "Brenda - Influencer",
+            "Audra - Giver",
+            "Dawn - Capitalist",
+            "Timothy - Influencer",
+            "Valerie - Sales Person",
+            "Frank - Banker",
+            "Patricia - Sales Person",
+            "Felda - Sales Person",
+            "Sofia - Conqueror",
+            "Jakeila - Giver",
+            "Chimezie - Banker",
+            "Sandy - Sales Person",
+            "Kenya - Influencer",
+            "Patrick - Capitalist",
+            "Terence - Adversary",
+            "Jason - Conqueror",
+            "Beth - Banker",
+            "Monique - Sales Person",
+            "Ronald - Conqueror",
+            "Cavell - Banker",
+            "Rainelle - Adversary",
+            "Ted from - Adversary",
+            "Marielys - Conqueror",
+            "Terry - Adversary",
+            "Mary - Banker",
+            "Adah - Conqueror",
+            "Rey - Adversary",
+            "Kylie - Giver",
+            "Peter - Adversary",
+            "Elizabeth - Conqueror",
+            "Jack - Capitalist",
+            "Clinton - Capitalist",
+            "Alex - Banker",
+            "Kenijae - Adversary",
+            "Jed - Conqueror",
+            "Barb - Adversary",
+            "Shawn - Adversary",
+            "Kim from - Giver",
+            "Daniel - Capitalist",
+            "Kathie - Banker",
+            "Russel - Adversary"];
+
+        var when_array = ["2 minutes ago",
+            "2 minutes ago",
+            "8 minutes ago",
+            "4 minutes ago",
+            "5 minutes ago",
+            "6 minutes ago",
+            "30 minutes ago",
+            "9 minutes ago",
+            "5 minutes ago",
+            "6 minutes ago",
+            "34 minutes ago",
+            "7 minutes ago",
+            "2 minutes ago",
+            "9 minutes ago",
+            "10 minutes ago",
+            "11 minutes ago",
+            "12 minutes ago",
+            "2 minutes ago",
+            "20 minutes ago",
+            "6 minutes ago",
+            "8 minutes ago",
+            "9 minutes ago",
+            "2 minutes ago",
+            "5 minutes ago",
+            "8 minutes ago",
+            "10 minutes ago",
+            "12 minutes ago",
+            "6 minutes ago",
+            "8 minutes ago",
+            "15 minutes ago",
+            "2 minutes ago",
+            "3 minutes ago",
+            "7 minutes ago",
+            "6 minutes ago",
+            "1 minute ago",
+            "12 minutes ago",
+            "6 minutes ago",
+            "2 minutes ago",
+            "5 minutes ago",
+            "2 minutes ago",
+            "8 minutes ago",
+            "2 minutes ago",
+            "3 minutes ago",
+            "4 minutes ago",
+            "5 minutes ago",
+            "2 minutes ago",
+            "4 minutes ago",
+            "5 minutes ago",
+            "2 minutes ago",
+            "3 minutes ago",
+            "9 minutes ago",
+            "10 minutes ago",
+            "2 minutes ago",
+            "7 minutes ago",
+            "8 minutes ago",
+            "2 minutes ago",
+            "6 minutes ago",
+            "2 minutes ago",
+            "9 minutes ago",
+            "3 minutes ago",
+            "9 minutes ago",
+            "10 minutes ago",
+            "2 minutes ago",
+            "7 minutes ago",
+            "8 minutes ago",
+            "2 minutes ago",
+            "6 minutes ago",
+            "2 minutes ago",
+            "9 minutes ago",
+            "3 minutes ago"];
+	   var index_array = Array.apply(null, {length: who_array.length}).map(Number.call, Number);
+	   var delay = 1000;
+	   var milisecs_hiding = 10 * 1000 - delay;
+	   var milisecs_to_start = 3 * 1000 - delay;
+	   
+	   function shuffle(array) {
+		var currentIndex = array.length, temporaryValue, randomIndex;
+	   
+		while (0 !== currentIndex) {
+			randomIndex = Math.floor(Math.random() * currentIndex);
+			currentIndex -= 1;
+	   
+			temporaryValue = array[currentIndex];
+			array[currentIndex] = array[randomIndex];
+			array[randomIndex] = temporaryValue;
+		}
+		return array;
+	   } 
+	   
+	   function refresh_bubble(step) {
+		document.getElementById('who').innerHTML = who_array[index_array[step]];
+		document.getElementById('what').innerHTML = what_array[index_array[step]];
+		document.getElementById('when').innerHTML = when_array[index_array[step]];
+		document.getElementById('static-image').src = map_url_array[index_array[step]];
+	   
+		setTimeout(function() {
+			document.getElementById('proof-popup').className = 'show-proof';
+	   
+			setTimeout(function() {
+				popdown_bubble(step);
+			}, 7000);
+		}, delay);
+	   }
+	   
+	   function popdown_bubble(step) {
+		document.getElementById('proof-popup').className = 'hide-proof';
+	   
+		setTimeout(function() {
+			var rand_num = Math.floor(Math.random()*who_array.length);
+	   
+			if (step < (who_array.length - 1)) {
+				refresh_bubble(rand_num);
+			} else {
+				index_array = shuffle(index_array);
+				refresh_bubble(rand_num);
+			}
+		}, milisecs_hiding);
+	   }
+	   
+	   setTimeout(function() {
+		var rand_num = Math.floor(Math.random()*who_array.length);
+		index_array = shuffle(index_array);
+		refresh_bubble(rand_num);
+	   }, milisecs_to_start);
+	</script>
   </body>
 </html>
