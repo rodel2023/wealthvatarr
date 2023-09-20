@@ -75,9 +75,9 @@ body {
   {{-- <h2>Login</h2> --}}
   <form class="content__form" method="POST" action="{{ route('login') }}">
     @csrf
-      <input type="text" name="email" value="{{ old('email') }}" required autofocus>
+      <input type="text" name="email" placeholder="Email" value="{{ old('email') }}" required autofocus>
 
-      <input type="password" name="password" required>
+      <input type="password" name="password" placeholder="Password" required>
       <button class="btn btn-primary px-4" type="submit">{{ __('Login') }}</button>
   </form>
   <div class="content__or-text">
