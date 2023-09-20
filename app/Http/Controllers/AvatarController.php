@@ -61,11 +61,11 @@ class AvatarController extends Controller
                 return Redirect::to('http://wealthavatarr.com/quiz/');
             }
         }else if(in_array(2, $access_level)){
-            return view('dashboard.avatar.oto1',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+            return view('dashboard.avatar.oto1',["access_level"=>$access_level, "title"=>"WealthAvatar", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
         }else if(in_array(3, $access_level)){
-            return view('dashboard.avatar.oto2',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+            return view('dashboard.avatar.oto2',["access_level"=>$access_level, "title"=>"WealthAvatar", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
         }else if(in_array(4, $access_level)){
-            return view('dashboard.avatar.oto3',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+            return view('dashboard.avatar.oto3',["access_level"=>$access_level, "title"=>"WealthAvatar", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
         }else{
             return Redirect::to('http://wealthavatarr.com/quiz/');
         }
@@ -245,7 +245,7 @@ class AvatarController extends Controller
         $archetype = $user_archetype->archetype;
 
         if(in_array(2, $access_level)){
-            return view('dashboard.avatar.oto1',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "title_image"=>$archetype, "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user, "otos" => $otos, "fullMonthName" => $fullMonthName]);
+            return view('dashboard.avatar.oto1',["access_level"=>$access_level, "title"=>"WealthAvatar", "title_image"=>$archetype, "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user, "otos" => $otos, "fullMonthName" => $fullMonthName]);
         }else{
             return Redirect::away('https://offers.wealthavatar.net/oto-1')->with('_blank');
         }
@@ -287,17 +287,7 @@ class AvatarController extends Controller
         $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
         
         $archetype = $user_archetype->archetype;
-        return view('dashboard.avatar.bonuses', ["title"=>"Wealth Avatarr", "user" => $user]);
-    } 
-
-    // Contact Navigation
-    public function contact(){
-        $user = auth()->user();
-        $access_level = json_decode($user->access_level);
-        $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
-        
-        $archetype = $user_archetype->archetype;
-        return view('dashboard.avatar.contact', ["title"=>"Wealth Avatarr", "user" => $user]);
+        return view('dashboard.avatar.bonuses', ["title"=>"Your Bonuses", "user" => $user]);
     } 
 
     // Avatars Navigation
@@ -307,8 +297,29 @@ class AvatarController extends Controller
         $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
         
         $archetype = $user_archetype->archetype;
-        return view('dashboard.avatar.avatars', ["title"=>"Wealth Avatarr", "archetype" => $archetype, "user" => $user]);
+        return view('dashboard.avatar.avatars', ["title"=>"Avatars", "archetype" => $archetype, "user" => $user]);
     } 
+
+    // Contact Navigation
+    public function contact(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
+        
+        $archetype = $user_archetype->archetype;
+        return view('dashboard.avatar.contact', ["title"=>"Contact Us", "user" => $user]);
+    } 
+
+    // Contact Navigation
+    public function settings(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
+        
+        $archetype = $user_archetype->archetype;
+        return view('dashboard.avatar.settings', ["title"=>"Settings", "user" => $user]);
+    } 
+
     public function oto_2(){
 
         $user = auth()->user();
@@ -318,7 +329,7 @@ class AvatarController extends Controller
         $archetype = $user_archetype->archetype;
         
         if(in_array(3, $access_level)){
-            return view('dashboard.avatar.oto2',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "title_image"=>$archetype, "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+            return view('dashboard.avatar.oto2',["access_level"=>$access_level, "title"=>"WealthAvatar", "title_image"=>$archetype, "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
         }else{
             return Redirect::away('https://offers.wealthavatar.net/oto-2')->with('_blank');
         }
@@ -330,7 +341,7 @@ class AvatarController extends Controller
         $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
         
         if(in_array(4, $access_level)){
-            return view('dashboard.avatar.oto3',["access_level"=>$access_level, "title"=>"Wealth Avatarr", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
+            return view('dashboard.avatar.oto3',["access_level"=>$access_level, "title"=>"WealthAvatar", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
         }else{
             return Redirect::away('https://offers.wealthavatar.net/oto-3')->with('_blank');
         }

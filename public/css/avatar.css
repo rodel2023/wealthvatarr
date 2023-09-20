@@ -1527,10 +1527,10 @@ a {
     width: 100%;
 }
 
-.row .btn:hover {
+/* .row .btn:hover {
     background-color: rgb(51, 19, 40);
     color: white;
-  }
+  } */
 
 .row .btn-oto3-download:hover {
     background-color: rgb(51, 19, 40);

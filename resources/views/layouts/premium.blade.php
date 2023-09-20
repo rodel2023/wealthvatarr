@@ -114,7 +114,8 @@
                   <a class="nav-link" href="/bonuses">Your Bonuses</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="https://support.thriivetank.com" target="_blank">Contact Us</a>
+                  {{-- <a class="nav-link" href="https://support.thriivetank.com" target="_blank">Contact Us</a> --}}
+                  <a class="nav-link" href="/contact">Contact Us</a>
                </li>
             </ul>
             <!-- Right Side Of Navbar -->
@@ -143,7 +144,7 @@
                      </span>
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <li><a class="dropdown-item" href="{{ url('/') }}"><span style="color: #726950">Settings</span></a></li>
+                     <li><a class="dropdown-item" href="{{ url('/settings') }}"><span style="color: #726950">Account Settings</span></a></li>
                      {{-- <li><a class="dropdown-item" href="#">Another action</a></li> --}}
                      <li><hr class="dropdown-divider"></li>
                      <li><a class="dropdown-item" href="{{ route('logout') }}"onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><span style="color: #726950">Log out</span></a></li>
