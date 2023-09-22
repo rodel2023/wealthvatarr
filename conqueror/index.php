@@ -84,6 +84,7 @@
 						<div class="col-12">
 						<h2 class="sub-header-avatar text-center">
 							THE CONQUEROR
+							<img src="../public/assets/img/The Conqueror.png" alt="Navbar" class="sub-avatar-icon">
 						</h2>
 
 						<p>

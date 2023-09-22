@@ -84,6 +84,7 @@
 						<div class="col-12">
 						<h2 class="sub-header-avatar text-center">
 							THE SALESPERSON
+							<img src="../public/assets/img/The Salesperson.png" alt="Navbar" class="sub-avatar-icon">
 						</h2>
 
 						<p>

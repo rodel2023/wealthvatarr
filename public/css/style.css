@@ -1156,11 +1156,12 @@ a {
 }
 
 .sub-header-avatar {
-    padding: 0.5em;
+    padding: 0.1em;
     text-transform: uppercase;
     color: 	rgb(153,153,0);
     font-size: 2em;
     letter-spacing: 3px;
+    margin: 0;
     clear: both;
     box-shadow: none;
     border-bottom: 1px solid rgb(153,153,0);
@@ -1168,4 +1169,10 @@ a {
     border-top: 0;
     border-left: 0;
     border-right: 0;
+}
+
+.sub-avatar-icon {
+    height: 4rem; 
+    margin-left: 0.4rem; 
+    padding-bottom: 0.9rem;
 }

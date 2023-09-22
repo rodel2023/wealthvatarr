@@ -85,8 +85,8 @@
 						<div class="col-12">
 						<h2 class="sub-header-avatar text-center">
 							THE INFLUENCER
+							<img src="../public/assets/img/The Influencer.png" alt="Navbar" class="sub-avatar-icon">
 						</h2>
-
 						<p>
 							You are one of the few people blessed with the <strong>best gifts</strong> not given to many. Your superpowers
 							are there (in fact, you know you can feel it in you!) but they are currently dormant. There are
