@@ -281,6 +281,16 @@ class AvatarController extends Controller
 
         return response()->download($filePath, $filename, $headers);
     }
+
+    // Dashboard Navigation
+    public function dashboard(){
+        $user = auth()->user();
+        $access_level = json_decode($user->access_level);
+        $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
+        
+        $archetype = $user_archetype->archetype;
+        return view('dashboard.avatar.dashboard', ["title"=>"Dashboard", "archetype" => $archetype, "user" => $user]);
+    } 
     
     public function bonuses(){
         $user = auth()->user();

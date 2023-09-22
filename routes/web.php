@@ -30,6 +30,7 @@ Route::group(['middleware' => ['get.menu']], function () {
         Route::get('oto1', 'AvatarController@oto_1')->name('oto1');
         Route::get('oto2', 'AvatarController@oto_2')->name('oto2');
         Route::get('oto3', 'AvatarController@oto_3')->name('oto3');
+        Route::get('dashboard', 'AvatarController@dashboard');
         Route::get('bonuses', 'AvatarController@bonuses');
         Route::get('contact', 'AvatarController@contact');
         Route::get('avatars', 'AvatarController@avatars');
