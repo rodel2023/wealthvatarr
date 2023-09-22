@@ -526,10 +526,18 @@
                 <img src="{{ asset('assets/img/dashboard/The Capitalist/guide3.png') }}" alt="Your Image" class="img-fluid" style="100%;">
             </div>
         </div>
-
-        <br> <br> <br> <br>
-        
     </div>
+</div>
+
+<div class="fe-image-content">
+    <h1>Commissioned 5-Minute A Day Miracle-Wealth Audio</h1>
+    <br>
+    <audio controls autoplay controlsList="nodownload">
+        <source src="{{ asset('assets/audio/FE - 5 Minutes.mp3')  }}" type="audio/mpeg" class="mb-4">
+    </audio>
+    <br>
+    <h3>Crafted for:</h3>
+    <h4><u>{{$title}}</u></h4>
 </div>
 
 @endsection
