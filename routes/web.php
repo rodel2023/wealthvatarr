@@ -172,3 +172,6 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/change-password', 'Auth\ChangePasswordController@changePassword')->name('password.change');
     // Add other authenticated routes here
 });
+
+
+Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');

@@ -12,6 +12,11 @@ body {
   height: 100vh;
 }
 
+.forgot-link {
+  text-decoration: none;
+  color: white;
+}
+
 .login-container {
   background-color: #454332;
   padding: 20px;
@@ -80,13 +85,13 @@ body {
       <input type="password" name="password" placeholder="Password" required>
       <button class="btn btn-primary px-4" type="submit">{{ __('Login') }}</button>
   </form>
-  <div class="content__or-text">
+  <div class="content__or-text mb-2">
     <span></span>
     <span style="color:rgb(219, 219, 219);">OR</span>
     <span></span>
   </div>
-    <a href="#" style="color:rgb(219, 219, 219);">Forgot password?</a>
-    {{-- <a href="{{ route('password.request') }}" class="btn btn-link px-0">{{ __('Forgot Your Password?') }}</a> --}}
+    {{-- <a href="#" style="color:rgb(219, 219, 219);">Forgot password?</a> --}}
+    <a href="{{ route('password.request') }}" class="forgot-link">{{ __('Forgot Your Password?') }}</a>
 </div>
 
 @endsection
