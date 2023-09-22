@@ -85,6 +85,7 @@
 						<div class="col-12" id="step1">
 						<h2 class="sub-header-avatar text-center">
 							THE BANKER
+							<img src="../public/assets/img/The Banker.png" alt="Navbar" class="sub-avatar-icon">
 						</h2>
 
 						<p>

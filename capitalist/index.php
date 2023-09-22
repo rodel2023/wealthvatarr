@@ -84,6 +84,7 @@
 						<div class="col-12">
 						<h2 class="sub-header-avatar text-center">
 							THE CAPITALIST
+							<img src="../public/assets/img/The Capitalist.png" alt="Navbar" class="sub-avatar-icon">
 						</h2>
 
 						<p>

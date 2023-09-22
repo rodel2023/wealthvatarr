@@ -85,6 +85,7 @@
 						<div class="col-12">
 						<h2 class="sub-header-avatar text-center">
 							THE GIVER
+							<img src="../public/assets/img/The Giver.png" alt="Navbar" class="sub-avatar-icon">
 						</h2>
 
 						<p>
