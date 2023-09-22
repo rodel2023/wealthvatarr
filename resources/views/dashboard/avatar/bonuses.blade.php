@@ -38,7 +38,7 @@
 							<a href="{{ route('download', ['filename' => 'The Morning Ritual.pdf']) }}" class="btn-click">
 								<span style="color: #000000;">The Morning Ritual</span>
 							</a>
-							<a href="/" class="btn-click">
+							<a href="{{ route('download', ['filename' => 'OTO3 14-day wealth challenge.pdf']) }}" class="btn-click">
 								<span style="color: #000000;">Recession Proof Profits</span>
 							</a>
 						</div>

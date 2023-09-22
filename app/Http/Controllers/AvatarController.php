@@ -247,7 +247,8 @@ class AvatarController extends Controller
         if(in_array(2, $access_level)){
             return view('dashboard.avatar.oto1',["access_level"=>$access_level, "title"=>"WealthAvatar", "title_image"=>$archetype, "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user, "otos" => $otos, "fullMonthName" => $fullMonthName]);
         }else{
-            return Redirect::away('https://offers.wealthavatar.net/oto-1')->with('_blank');
+            // return Redirect::away('https://offers.wealthavatar.net/oto-1')->with('_blank');
+            return Redirect::away('https://offers.wealthavatar.net/oto-1-for-approval')->with('_blank');
         }
     }
 

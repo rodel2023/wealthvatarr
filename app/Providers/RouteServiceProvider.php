@@ -16,6 +16,9 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected $namespace = 'App\Http\Controllers';
 
+    // Added for reset password redirect
+    public const HOME = '/';
+
     /**
      * Define your route model bindings, pattern filters, etc.
      *
@@ -70,4 +73,5 @@ class RouteServiceProvider extends ServiceProvider
              ->namespace($this->namespace)
              ->group(base_path('routes/api.php'));
     }
+
 }
