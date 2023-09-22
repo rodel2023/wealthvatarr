@@ -4,6 +4,17 @@
 		border: 2px solid #423F32;
 		margin: 20px 15px;
 	}
+	.content-wrapper {
+		 display: flex;
+		align-items: center;
+		/* justify-content: center; 
+		text-align: center; 
+		height: 100%;  */
+	}
+	.content-wrapper img {
+		margin-right: 10px; /* Add margin to create space between image and text */
+		height: 3.5rem;
+	}
 </style>
 
 @section('content')
@@ -24,19 +35,36 @@
 					<div class="d-flex justify-content-center">
 						<div class="card" style="width: 70%; background-color: #F1EBE5;">
 							<a href="{{ route('download', ['filename' => 'MoneyChakraSecrets.pdf']) }}" class="btn-click">
-								<span style="color: #000000;">Money Chakra Secrets</span>
+								{{-- <img src="{{ asset('assets/img/bonuses/Money Chakra.png') }}" oncontextmenu="return false;" alt="Money Chakra Secrets" class="img-fluid">
+								<span style="color: #000000;">Money Chakra Secrets</span> --}}
+								<div class="content-wrapper">
+									<img src="{{ asset('assets/img/bonuses/Money Chakra.png') }}" oncontextmenu="return false;" alt="Money Chakra Secrets" class="img-fluid">
+									<span style="color: #000000;">Money Chakra Secrets</span>
+								</div>
 							</a>
 							<a href="{{ route('download', ['filename' => 'The Real Law Of Attraction Code - Training Guide.pdf']) }}" class="btn-click">
-								<span style="color: #000000;">The Real Law of Attraction Code</span>
+								<div class="content-wrapper">
+									<img src="{{ asset('assets/img/bonuses/Real Law of Attraction.png') }}" oncontextmenu="return false;" alt="Money Chakra Secrets" class="img-fluid">
+									<span style="color: #000000;">The Real Law of Attraction Code</span>
+								</div>
 							</a>
 							<a href="{{ route('download', ['filename' => 'Mind Reset.pdf']) }}" class="btn-click">
-								<span style="color: #000000;">Mind Reset </span>
+								<div class="content-wrapper">
+									<img src="{{ asset('assets/img/bonuses/Mind Reset.png') }}" oncontextmenu="return false;" alt="Money Chakra Secrets" class="img-fluid">
+									<span style="color: #000000;">Mind Reset</span>
+								</div>
 							</a>
 							<a href="{{ route('download', ['filename' => '30 Days of Motivation.pdf']) }}" class="btn-click">
-								<span style="color: #000000;">30 days of Motivation</span>
+								<div class="content-wrapper">
+									<img src="{{ asset('assets/img/bonuses/30 days of Motivation.png') }}" oncontextmenu="return false;" alt="Money Chakra Secrets" class="img-fluid">
+									<span style="color: #000000;">30 days of Motivation</span>
+								</div>
 							</a>
 							<a href="{{ route('download', ['filename' => 'The Morning Ritual.pdf']) }}" class="btn-click">
-								<span style="color: #000000;">The Morning Ritual</span>
+								<div class="content-wrapper">
+									<img src="{{ asset('assets/img/bonuses/Morning Ritual.png') }}" oncontextmenu="return false;" alt="Money Chakra Secrets" class="img-fluid">
+									<span style="color: #000000;">The Morning Ritual</span>
+								</div>
 							</a>
 							<a href="{{ route('download', ['filename' => 'OTO3 14-day wealth challenge.pdf']) }}" class="btn-click">
 								<span style="color: #000000;">Recession Proof Profits</span>
