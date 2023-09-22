@@ -2280,3 +2280,15 @@ audio {
 .line-spacing {
     line-height: 1;
 }
+
+.fe-image-content {
+    background-image: url("../assets/img/dashboard/FE Background.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    color: white;
+    font-family: Garamond;
+}
