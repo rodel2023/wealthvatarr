@@ -39,7 +39,7 @@
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="color: #ffffff">
                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/dashboard">Dashboard</a>
+                  <a class="nav-link active" aria-current="page" href="/">Dashboard</a>
                </li>
                <li class="nav-item dropdown">
                      {{-- <a class="nav-link dropdown-toggle curve-border" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"> --}}
