@@ -2283,6 +2283,8 @@ audio {
 
 .fe-image-content {
     background-image: url("../assets/img/dashboard/FE Background.png");
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center center; /* Center the background image */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2291,4 +2293,32 @@ audio {
     height: 50vh;
     color: white;
     font-family: Garamond;
+}
+
+.container-deluxe {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.btn-deluxe-reading {
+    color: #ffff;
+    background-color: #A79017;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    padding: 10px 20px; /* Adjust padding for better fitting */
+    font-size: 20px; /* Adjust font size for responsiveness */
+    display: inline-block; /* Make it inline-block to fit its content width */
+    text-align: center; /* Center the text horizontally */
+    text-decoration: none; /* Remove underlines from links */
+    transition-duration: 0.4s;
+    margin-top: 1rem;
+}
+.btn-deluxe-reading:hover {
+    background-color: #FFD700;
+    color: white;
+  }
+  @media screen and (max-width: 768px) {
+    .btn-deluxe-reading {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
 }
