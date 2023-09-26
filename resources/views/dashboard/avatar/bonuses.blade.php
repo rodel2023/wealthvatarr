@@ -56,8 +56,8 @@
 							</a>
 							<a href="{{ route('download', ['filename' => '30 Days of Motivation.pdf']) }}" class="btn-click">
 								<div class="content-wrapper">
-									<img src="{{ asset('assets/img/bonuses/30 days of Motivation.png') }}" oncontextmenu="return false;" alt="Money Chakra Secrets" class="img-fluid">
-									<span style="color: #000000;">30 days of Motivation</span>
+									<img src="{{ asset('assets/img/bonuses/30 Days of Motivation.png') }}" oncontextmenu="return false;" alt="Money Chakra Secrets" class="img-fluid">
+									<span style="color: #000000;">30 Days of Motivation</span>
 								</div>
 							</a>
 							<a href="{{ route('download', ['filename' => 'The Morning Ritual.pdf']) }}" class="btn-click">
@@ -76,8 +76,6 @@
 		<br> <br>
 		<br> <br>
 		<p class="text-center" style="font-family: Helvetica; color: white">you're not just receiving bonuses – you're receiving a toolkit to further help you transform your mindset, attract abundance, and embark on a journey of self-discovery and growth. Embrace the power of these bonuses and witness the positive ripple effects they bring to every aspect of your life.</p>
-		<br> <br>
-		<br> <br>
 		<br> <br>
 		<br> <br>
 	</div>
