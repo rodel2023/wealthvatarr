@@ -1,32 +1,40 @@
 @extends('layouts.premium')
 <style>
-	.p-email {
-		color: black;
-	}
-	.bordered-content {
-		border: 2px solid #ccc; /* Adjust border style and color as needed */
-		padding: 20px; /* Add some padding for spacing */
-		border-radius: 10px; /* Add rounded corners */
-	}
 </style>
 
 @section('content')
-<div style="background-color: #C1A460">
-	<div class="container pt-2" style="background-color: white; height: 90%;">
-			<div class="row justify-content-center mt-5">
-				<div class="col-12 col-md-6 text-center bordered-content">
-					<h1>Contact Us:</h1>
-					<p class="text-center">Email: 
-						<a href="mailto:support@wealthavatar.net">
-							<span class="p-email">
-								<u>
-									support@wealthavatar.net
-								</u>
-							</span>
-						</a>
-					</p>
-				</div>
-			</div>
-	</div>
+<div style="background-color: #C1A460; padding: 1rem; height: 90%;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        @if (session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+                        <h5 class="card-title text-center">Got a question or need assistance?</h5>
+                        <form action="{{ route('contact.submit') }}" method="POST">
+                            @csrf
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection

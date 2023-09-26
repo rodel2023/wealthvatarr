@@ -32,9 +32,12 @@ Route::group(['middleware' => ['get.menu']], function () {
         Route::get('oto3', 'AvatarController@oto_3')->name('oto3');
         Route::get('dashboard', 'AvatarController@dashboard');
         Route::get('bonuses', 'AvatarController@bonuses');
-        Route::get('contact', 'AvatarController@contact');
+        // Route::get('contact', 'AvatarController@contact');
         Route::get('avatars', 'AvatarController@avatars');
         Route::get('settings', 'AvatarController@settings');
+
+        Route::get('/contact', 'ContactController@showForm')->name('dashboard.avatar.contact');
+        Route::post('/contact', 'ContactController@submitForm')->name('contact.submit');
         // Route::post('/change-password', 'Auth\ChangePasswordController@update')->name('password.change');
 
         // Route::get('oto1/download/{filename}', 'AvatarController@download')->name('oto1s.download');
@@ -173,6 +176,5 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/change-password', 'Auth\ChangePasswordController@changePassword')->name('password.change');
     // Add other authenticated routes here
 });
-
 
 Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
