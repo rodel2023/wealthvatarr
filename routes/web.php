@@ -125,6 +125,9 @@ Route::group(['middleware' => ['get.menu']], function () {
     Route::group(['middleware' => ['role:admin']], function () {
         Route::resource('bread',  'BreadController');   //create BREAD (resource)
         Route::resource('users',        'UsersController')->except( ['create', 'store'] );
+
+        // Route::get('/users/{user}', 'UsersController@show')->name('user.show');
+        
         Route::resource('roles',        'RolesController');
         Route::resource('mail',        'MailController');
         Route::get('prepareSend/{id}',        'MailController@prepareSend')->name('prepareSend');
