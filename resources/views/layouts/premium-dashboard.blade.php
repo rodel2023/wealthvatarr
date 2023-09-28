@@ -162,7 +162,14 @@
    {{-- <div class="container container-bg mt-4 pe-2 ps-1"> --}}
    <div>
 
-   @yield('content')
+      @include('dashboard.avatar.segment.premium')
+
+      <div id="content" style="display: none;">
+         @yield('content')
+      <div>
+
+      @include('dashboard.avatar.segment.audio')
+      @include('dashboard.avatar.segment.upgrade')
    
    </div>
 
@@ -234,5 +241,21 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
    @yield('javascript')
+
+   <script>
+        // Get references to the button and content div
+        const accessButton = document.getElementById('accessButton');
+        const content = document.getElementById('content');
+
+        // Add a click event listener to the button
+        accessButton.addEventListener('click', function() {
+            // Toggle the visibility of the content div
+            if (content.style.display === 'none' || content.style.display === '') {
+                content.style.display = 'block'; // Show the content
+            } else {
+                content.style.display = 'none'; // Hide the content
+            }
+        });
+    </script>
    </body>
 </html>
