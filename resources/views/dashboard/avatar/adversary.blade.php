@@ -1,5 +1,5 @@
 {{-- @extends('layouts.premium') --}}
-@extends('layouts.premium-dashboard')
+@extends('layouts.premium-avatar')
 <style>
 .cta-image-formula {
     width: 100%;
@@ -15,21 +15,24 @@
 
 @section('content')
 
-<div class="text-center" style="background-color: #D7C07C">
-    <img src="{{ asset('assets/img/dashboard/'.$title.'.png') }}" alt="Image" draggable="false" class="cta-image">
-    <div class="text-center ps-3 ps-5 pe-5">
-        <div class="container">
-            <p class="p-style">
-			If money and wealth is the main character of the show, you would be its adversary because you believe that it is the main cause of chaos, hence, you inherently feel disconnected about it. An Adversary has a love/hate relationship with money. There are times that they reject money, thinking that it is the root of all evil and nothing good will come from having too much of it. There are also times that they feel good about being able to save to buy the things they want. They feel anxious talking about money but at the same time, they appreciate that it can buy the things that make them truly happy. 
-			<br>
-			An Adversary is a very good speaker, always carrying a purpose whenever they speak publicly. They listen to those who are exploited and helpless, then turn their woes and cries into calls for actions. An Adversary speaks with persuasion. They feel like they are blessed with such a talent to be the voice of many. Most Adversaries focus on their advocacies and let other people handle the financial matters to them.
-            </p>
+<div id="home">
+    <div class="text-center" style="padding-top: 0; background-color: #D7C07C;">
+        <img src="{{ asset('assets/img/dashboard/'.$title.'.png') }}" alt="Image" draggable="false" class="cta-image">
+        <div class="text-center ps-3 ps-5 pe-5">
+            <div class="container">
+                <p class="p-style">
+                If money and wealth is the main character of the show, you would be its adversary because you believe that it is the main cause of chaos, hence, you inherently feel disconnected about it. An Adversary has a love/hate relationship with money. There are times that they reject money, thinking that it is the root of all evil and nothing good will come from having too much of it. There are also times that they feel good about being able to save to buy the things they want. They feel anxious talking about money but at the same time, they appreciate that it can buy the things that make them truly happy. 
+                <br>
+                An Adversary is a very good speaker, always carrying a purpose whenever they speak publicly. They listen to those who are exploited and helpless, then turn their woes and cries into calls for actions. An Adversary speaks with persuasion. They feel like they are blessed with such a talent to be the voice of many. Most Adversaries focus on their advocacies and let other people handle the financial matters to them.
+                </p>
+            </div>
         </div>
+        <br>
     </div>
-	<br>
+
 </div>
 
-<div class="container-subheading">
+<div id="superpower" class="container-subheading">
     <div class="container">
 
         <div class="text-center">
@@ -137,7 +140,7 @@
 </div>
 
 {{-- Weakness --}}
-<div class="container-weaknesses">
+<div id="weaknesses" class="container-weaknesses">
     <div class="container">
         <div class="text-center">
             <h1 class="styled-text-title mt-4" style="color: #6D4B34;"><b>{{ $title }}</b></h1>
@@ -193,7 +196,8 @@
         </div>
     </div> {{-- End of container --}}
 </div>
-<div class="container-wealth-challenges">
+
+<div id="challenges" class="container-wealth-challenges">
     <div class="container">
         <h1 class="styled-text-wealth"> WEALTH CHALLENGES OF</h1>
         <h1 class="styled-text-title-challeges"><b>A ADVERSARY</b></h1>
@@ -264,7 +268,7 @@
         <br> 
     </div>
 </div>
-<div class="container-formula" style="background-color: white;">
+<div id="formula"  class="container-formula" style="background-color: white;">
     <div class="cta-image-formula">
         {{-- <img src="{{ asset('assets/img/dashboard/Work.png') }}" alt="Image" draggable="false" class="cta-image-formula"> --}}
             <div class="styled-text-title-formula mt-3 line-spacing text-center">
@@ -370,7 +374,7 @@
     </div>
 </div>
 {{-- Wealth Guide --}}
-<div class="container-wealth-guide">
+<div id="guide" class="container-wealth-guide">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -534,7 +538,9 @@
         <a href="https://perpetualincome365.convertri.com/pre-registration" target="_blank" class="btn-deluxe-reading">Income Replacement Side-Hustle For <i>{{$title}}</i></a>
     </div>
 
+<br> <br> <br> <br>
 </div>
 </div> {{-- end of the content --}}
+
 
 @endsection

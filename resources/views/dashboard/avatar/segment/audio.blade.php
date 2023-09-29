@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-4 text-center pt-5"> 
-                <h4 class="mt-5 me-2" style="color: white; font-family: Helvetica;">3-Minute A Day Miracle-Wealth Audio</h4>
+                <h4 class="mt-5 me-2" style="color: white; font-family: Helvetica;">5-Minute A Day Miracle-Wealth Audio</h4>
                 <audio controls controlsList="nodownload">
                     <source src="{{ asset('assets/audio/FE - 5 Minutes.mp3')  }}" type="audio/mpeg" class="mb-4">
                 </audio>

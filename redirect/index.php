@@ -1,4 +1,8 @@
+<?php
+$urlParamValueName = $_GET['name'];
+$urlParamValueEmail = $_GET['mail'];
 
+?>
 
 <!DOCTYPE html>
 
@@ -16,7 +20,7 @@
 
   <meta name="author" content="">
 
-  <title>WealthAvatarr.com | Loading</title>
+  <title>WealthAvatar.com | Loading</title>
 
 
 
@@ -37,7 +41,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <style>
-
+		
+  input[name="submitButton"] {
+    display: none;
+  }
     body,
 
     .loading-container {
@@ -669,10 +676,14 @@
               $this->archetype = $archetype;
     
               // database connection
-              $servername = "127.0.0.1";
-              $username = "digiyebl_wealthavatarr";
-              $password = '74*$nTKZiZ9t';
-              $dbname = "digiyebl_wealthavatarr";
+              // $servername = "127.0.0.1";
+              // $username = "digiyebl_wealthavatarr";
+              // $password = '74*$nTKZiZ9t';
+              // $dbname = "digiyebl_wealthavatarr";
+              $servername = "localhost";
+              $username = "root";
+              $password = '';
+              $dbname = "wealthavatarr-template";
               $this->conn = new mysqli($servername, $username, $password, $dbname);
     
               if ($this->conn->connect_error) {
@@ -729,7 +740,65 @@
     </div>
 
 
+<!-- AWeber Web Form Generator 3.0.1 -->
 
+		<form id="customAweber" method="post" class="af-form-wrapper" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl"  >
+		<div style="display: none;">
+		<input type="hidden" name="meta_web_form_id" value="488999826" />
+		<input type="hidden" name="meta_split_id" value="" />
+		<input type="hidden" name="listname" value="awlist6557722" />
+		<input type="hidden" name="redirect" value="https://www.aweber.com/thankyou.htm?m=default" id="redirect_1af31640d58493a66706b3bdc0df5aa1" />
+
+		<input type="hidden" name="meta_adtracking" value="Wealth_Avatar_form" />
+		<input type="hidden" name="meta_message" value="1" />
+		<input type="hidden" name="meta_required" value="name,email" />
+
+		<input type="hidden" name="meta_tooltip" value="" />
+		</div>
+		<div id="af-form-488999826" class="af-form"><div id="af-body-488999826" class="af-body af-standards">
+		<div class="af-element">
+		<!--label class="previewLabel" for="awf_field-116263728">Name:</label>-->
+		<div class="af-textWrap">
+		<input id="awf_field-116263728" type="hidden" name="name" class="text" value="<?php echo $urlParamValueName ?>" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " tabindex="500" />
+		</div>
+		<div class="af-clear"></div>
+		</div><div class="af-element">
+		<!--<label class="previewLabel" for="awf_field-116263729">Email:</label>-->
+		<div class="af-textWrap"><input class="text" id="awf_field-116263729" type="hidden" name="email" value="<?php echo $urlParamValueEmail ?>" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " />
+		</div><div class="af-clear"></div>
+		</div><div class="af-element buttonContainer">
+		<input name="submitButton" class="submit" type="submit" value="Submit" tabindex="502" />
+		<div class="af-clear"></div>
+		</div>
+		</div>
+		</div>
+		<div style="display: none;"><img src="https://forms.aweber.com/form/displays.htm?id=LBwcnJycHExs" alt="" /></div>
+		</form>
+
+		<script type="text/javascript">
+		
+		<!--
+		(function() {
+		var IE = /*@cc_on!@*/false;
+		if (!IE) { return; }
+		if (document.compatMode && document.compatMode == 'BackCompat') {
+		if (document.getElementById("af-form-488999826")) {
+		document.getElementById("af-form-488999826").className = 'af-form af-quirksMode';
+		}
+		if (document.getElementById("af-body-488999826")) {
+		document.getElementById("af-body-488999826").className = "af-body inline af-quirksMode";
+		}
+		if (document.getElementById("af-header-488999826")) {
+		document.getElementById("af-header-488999826").className = "af-header af-quirksMode";
+		}
+		if (document.getElementById("af-footer-488999826")) {
+		document.getElementById("af-footer-488999826").className = "af-footer af-quirksMode";
+		}
+		}
+		})();
+		-->
+		</script>
+		<script type="text/javascript">document.getElementById('redirect_1af31640d58493a66706b3bdc0df5aa1').value = document.location;</script>
     <div class="container text-center">
 
       <div class="row mt-3">
@@ -738,7 +807,7 @@
 
         <h1 class="header" >
               Welcome <span class="name">My Dear</span>,
-               Your Avatarr Reading Is Starting
+               Your Avatar Reading Is Starting
         </h1>
         
           <p class="dontclose">(Don't close this page!)</p>
@@ -751,7 +820,7 @@
 
         <div class="col-sm-12 mx-auto">
 
-          <p class="drop" id="yourAvatar">Your Avatarr is the <span class="archetype" style="text-transform: capitalize;"></span></p>
+          <p class="drop" id="yourAvatar">Your Avatar is the <span class="archetype" style="text-transform: capitalize;"></span></p>
 
         </div>
 
@@ -789,7 +858,7 @@
 
         <div class="col-sm-12 mx-auto">
 
-          <h2 class="drop">Please wait while we redirect you to your Free <span class="archetype" style="text-transform: capitalize;"></span> Avatarr Reading in <span id="countdown">5</span> seconds...</h2>
+          <h2 class="drop">Please wait while we redirect you to your Free <span class="archetype" style="text-transform: capitalize;"></span> Avatar Reading in <span id="countdown">5</span> seconds...</h2>
 
         </div>
 
@@ -816,10 +885,50 @@
       </div>
 
     </div>
+	
+	
+	
 
   </div>
 
   <script>
+  
+  window.onload = function() {
+    // Check if a cookie indicating form submission exists
+    var hasSubmitted = getCookie("formSubmitted");
+    
+    // If the cookie doesn't exist, or it's set to "false," submit the form
+    if (!hasSubmitted || hasSubmitted !== "true") {
+        document.getElementById('customAweber').submit();
+
+        // Set a cookie to indicate that the form has been submitted, and make it expire in 1 minute
+        setCookie("formSubmitted", "true", 1); // 1 minute
+    }
+};
+
+// Function to set a cookie
+function setCookie(name, value, minutes) {
+    var date = new Date();
+    date.setTime(date.getTime() + (minutes * 60 * 1000)); // Convert minutes to milliseconds
+    var expires = "; expires=" + date.toUTCString();
+    document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+// Function to get a cookie by name
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') {
+            c = c.substring(1, c.length);
+        }
+        if (c.indexOf(nameEQ) === 0) {
+            return c.substring(nameEQ.length, c.length);
+        }
+    }
+    return null;
+}
 	let params = new URLSearchParams(document.location.search);
 	let avatar = params.get("avatar");
 	let name = params.get("name");

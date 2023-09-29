@@ -54,7 +54,8 @@ class AvatarController extends Controller
                     return view('dashboard.avatar.influencer',["access_level"=>$access_level, "title"=>"The Influencer", "image" => "influencer.png","avatar" => "influencer","avatarmiddle" => "influencermiddle.png", "user" => $user]);
                 }else if($archetype == "Adversary"){
                     return view('dashboard.avatar.adversary',["access_level"=>$access_level, "title"=>"The Adversary", "image" => "adversary.png","avatar" => "adversary","avatarmiddle" => "adversarymiddle.png", "user" => $user]);
-                }else{
+                }
+                else{
                     return Redirect::to('http://wealthavatarr.com/quiz/');
                 }
             }else{
@@ -203,23 +204,7 @@ class AvatarController extends Controller
             $user_archetype = UserArchetype::where('email', $user->email)->orderBy('id', 'DESC')->first();
             $archetype = $user_archetype->archetype;
             if($user_archetype){
-                if($archetype == "Banker"){
-                    return view('dashboard.avatar.banker',["access_level"=>$access_level, "title"=>"The Banker", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
-                }else if($archetype == "Capitalist"){
-                    return view('dashboard.avatar.capitalist',["access_level"=>$access_level, "title"=>"The Capitalist", "image" => "capitalist.png","avatar" => "capitalist","avatarmiddle" => "capitalistmiddle.png", "user" => $user]);
-                }else if($archetype == "Sales Person"){
-                    return view('dashboard.avatar.salesperson',["access_level"=>$access_level, "title"=>"The Sales Person", "image" => "salesperson.png","avatar" => "salesperson","avatarmiddle" => "salespersonmiddle.png", "user" => $user]);
-                }else if($archetype == "Conqueror"){
-                    return view('dashboard.avatar.conqueror',["access_level"=>$access_level, "title"=>"The Conqueror", "image" => "conqueror.png","avatar" => "conqueror","avatarmiddle" => "conquerormiddle.png", "user" => $user]);
-                }else if($archetype == "Giver"){
-                    return view('dashboard.avatar.giver',["access_level"=>$access_level, "title"=>"The Giver", "image" => "giver.png","avatar" => "giver","avatarmiddle" => "givermiddle.png", "user" => $user]);
-                }else if($archetype == "Influencer"){
-                    return view('dashboard.avatar.influencer',["access_level"=>$access_level, "title"=>"The Influencer", "image" => "influencer.png","avatar" => "influencer","avatarmiddle" => "influencermiddle.png", "user" => $user]);
-                }else if($archetype == "Adversary"){
-                    return view('dashboard.avatar.adversary',["access_level"=>$access_level, "title"=>"The Adversary", "image" => "adversary.png","avatar" => "adversary","avatarmiddle" => "adversarymiddle.png", "user" => $user]);
-                }else{
-                    return Redirect::to('http://wealthavatarr.com/quiz/');
-                }
+                return view('dashboard.avatar.dashboard',["access_level"=>$access_level, "title"=>"The Banker", "image" => "banker.png","avatar" => "banker","avatarmiddle" => "bankermiddle.png", "user" => $user]);
             }else{
                 return Redirect::to('http://wealthavatarr.com/quiz/');
             }
