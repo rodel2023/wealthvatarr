@@ -5,7 +5,7 @@
             <div class="col-sm-3 left-segment text-center pt-4"> 
                   {{-- <h1 class="mt-5 mb-5" style="color: #fff">Image Here</h1> --}}
                     <h4 class="mt-2 me-2" style="color: white">Premium Avatar Reading</h4>
-                  <img src="{{ asset('assets/img/'.$title.'.png') }}" alt="Navbar" class="img-fluid mt-2">
+                  <img src="{{ asset('assets/img/The '.$archetype.'.png') }}" alt="Navbar" class="img-fluid mt-3">
             </div>
             {{-- <div class="col-sm-9 p-1 pb-2" style="background-color: #6C6C5F; color: #fff; border: 4px solid #454332;">  --}}
             <div class="col-sm-9 right-segment p-1 pb-2"> 
@@ -30,7 +30,8 @@
                     </ul>
                 </p>
                 <div class="float-end me-5 mb-1">
-                    <button class='btn-readmore' id="accessButton">Access Now</button>
+                    {{-- <button class='btn-readmore' id="accessButton">Access Now</button> --}}
+                    <a href="/avatar" class="btn-readmore" target="_blank">Access Now</a>
                 </div>
             </div>
         </div>

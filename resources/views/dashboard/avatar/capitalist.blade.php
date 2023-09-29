@@ -1,5 +1,5 @@
 {{-- @extends('layouts.premium') --}}
-@extends('layouts.premium-dashboard')
+@extends('layouts.premium-avatar')
 <style>
 .cta-image-formula {
     width: 100%;
@@ -15,7 +15,7 @@
 
 @section('content')
 
-<div class="text-center" style="background-color: #D7C07C">
+<div id="home" class="text-center" style="background-color: #D7C07C;">
     <img src="{{ asset('assets/img/dashboard/'.$title.'.png') }}" alt="Image" draggable="false" class="cta-image">
     <div class="text-center ps-3 ps-5 pe-5">
         <div class="container">
@@ -27,7 +27,7 @@
 	<br>
 </div>
 
-<div class="container-subheading">
+<div id="superpower" class="container-subheading">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6">
@@ -153,7 +153,7 @@
 </div>
 
 {{-- Weakness --}}
-<div class="container-weaknesses">
+<div id="weaknesses" class="container-weaknesses">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-5">
@@ -224,7 +224,7 @@
         <br>
     </div> {{-- End of container --}}
 </div>
-<div class="container-wealth-challenges">
+<div id="challenges" class="container-wealth-challenges">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-7 line-spacing text-center">
@@ -328,7 +328,7 @@
         <br> 
     </div>
 </div>
-<div class="container-formula" style="background-color: white;">
+<div id="formula"  class="container-formula" style="background-color: white;">
     <div class="cta-image-formula">
         {{-- <img src="{{ asset('assets/img/dashboard/Work.png') }}" alt="Image" draggable="false" class="cta-image-formula"> --}}
             <div class="styled-text-title-formula mt-3 line-spacing text-center">
@@ -412,7 +412,7 @@
     </div>
 </div>
 {{-- Wealth Guide --}}
-<div class="container-wealth-guide">
+<div id="guide" class="container-wealth-guide">
     <div class="container">
         <div class="row">
             <div class="col-md-6">

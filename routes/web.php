@@ -17,7 +17,8 @@ Route::namespace('Auth')->group(function () {
 });
 
 
-Route::get('/',  'AvatarController@index');
+// Route::get('/',  'AvatarController@index');
+Route::get('/',  'AvatarController@dashboard');
 
 Route::group(['middleware' => ['get.menu']], function () {
 
