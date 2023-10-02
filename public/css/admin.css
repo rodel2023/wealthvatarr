@@ -12337,3 +12337,11 @@ span.flatpickr-weekday {
     width: 260px;
 }
 /*# sourceMappingURL=app.css.map*/
+
+  .user-dashboard {
+    color: black;
+    text-decoration: none;
+  }
+  .user-dashboard:hover {
+    color: black;
+  }
