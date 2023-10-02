@@ -5,6 +5,7 @@
     <div class="card-header">
       <h5 class="card-title mb-0">List of Users</h5>
     </div>
+    <div class="card-body">
     <table class="table table-hover my-0">
       <thead>
         <tr>
@@ -37,5 +38,6 @@
         @endforeach
       </tbody>
     </table>
+    </div>
   </div>
 @endsection
