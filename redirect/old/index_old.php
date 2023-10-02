@@ -1,7 +1,6 @@
 <?php
 $urlParamValueName = $_GET['name'];
 $urlParamValueEmail = $_GET['mail'];
-$avatar = $_GET['avatar'];
 
 ?>
 
@@ -50,8 +49,7 @@ $avatar = $_GET['avatar'];
 
     .loading-container {
 
-      /* background: #e1d9e3; */
-      background: #D7C07C;
+      background: #e1d9e3;
 
     }
 
@@ -147,8 +145,7 @@ $avatar = $_GET['avatar'];
 
       letter-spacing: 3px;
 
-      /* background: rgb(128,0,128); */
-      background: #9F8B4A;
+      background: rgb(128,0,128);
 
       box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
 
@@ -184,8 +181,7 @@ $avatar = $_GET['avatar'];
 
       transition: 0.5s;
 
-      /* background: rgb(255,20,147); */
-      background: #A98F18;
+      background: rgb(255,20,147);
 
       color: #222;
 
@@ -561,9 +557,9 @@ $avatar = $_GET['avatar'];
 
   .archetype-icon {
 
-    width: 100px;
+    width: 50px;
 
-    height: 100px;
+    height: 50px;
 
     top: 0;
 
@@ -680,14 +676,10 @@ $avatar = $_GET['avatar'];
               $this->archetype = $archetype;
     
               // database connection
-              // $servername = "127.0.0.1";
-              // $username = "digiyebl_wealthavatarr";
-              // $password = '74*$nTKZiZ9t';
-              // $dbname = "digiyebl_wealthavatarr";
-              $servername = "localhost";
-              $username = "root";
-              $password = '';
-              $dbname = "wealthavatarr-template";
+              $servername = "127.0.0.1";
+              $username = "digiyebl_wealthavatarr";
+              $password = '74*$nTKZiZ9t';
+              $dbname = "digiyebl_wealthavatarr";
               $this->conn = new mysqli($servername, $username, $password, $dbname);
     
               if ($this->conn->connect_error) {
@@ -734,7 +726,7 @@ $avatar = $_GET['avatar'];
           <div class="indi-logo text-center p-3">
 
 			<!--<span class="purple"><h1><strong>Wealth</strong></span> <span class="pink">Avatarr</h1></span>-->
-            <img class="img-fluid" src="../assets/img/image/wealth_avatarr.png">
+			<img class="img-fluid" src="../assets/img/image/wealth_avatarr.png">
           </div>
 
         </div>
@@ -840,8 +832,7 @@ $avatar = $_GET['avatar'];
 
             <img id="archetype-img" class="archetype-icon">-->
 
-            <!-- <img src="../assets/img/image/adversarymiddle.png" class="archetype-icon"> -->
-            <img src="../public/assets/img/results/<?=$avatar?>.png" class="archetype-icon">
+            <img src="../assets/img/image/adversarymiddle.png" class="archetype-icon">
 
             <div class="circle"></div>
 
@@ -946,7 +937,7 @@ function getCookie(name) {
 	console.log(name + " " + mail + " " + avatar);
 
 	var yourAvatar = document.getElementById("yourAvatar")
-    yourAvatar.innerHTML = "Your Avatar is the: " + avatar;
+    yourAvatar.innerHTML = "Your Avatarr is the: " + avatar;
     
     //directedTo = "https://wealthavatarr.com/";
 
@@ -965,9 +956,9 @@ function getCookie(name) {
 	else if(avatar == 'Adversary')
 		directedTo = 'https://wealthavatarr.com/adversary?archetype=' + avatar + '&name=' + name + '&email=' + mail;
 					
-    // setTimeout(function(){
-    //     window.location.href = directedTo;
-    // }, 5000);
+    setTimeout(function(){
+        window.location.href = directedTo;
+    }, 5000);
     
   </script>
   
@@ -1057,4 +1048,4 @@ function getCookie(name) {
 -->
 </body>
 
-<html
+<html>
