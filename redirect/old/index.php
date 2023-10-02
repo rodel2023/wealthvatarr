@@ -680,14 +680,10 @@ $avatar = $_GET['avatar'];
               $this->archetype = $archetype;
     
               // database connection
-              // $servername = "127.0.0.1";
-              // $username = "digiyebl_wealthavatarr";
-              // $password = '74*$nTKZiZ9t';
-              // $dbname = "digiyebl_wealthavatarr";
-              $servername = "localhost";
-              $username = "root";
-              $password = '';
-              $dbname = "wealthavatarr-template";
+              $servername = "127.0.0.1";
+              $username = "digiyebl_wealthavatarr";
+              $password = '74*$nTKZiZ9t';
+              $dbname = "digiyebl_wealthavatarr";
               $this->conn = new mysqli($servername, $username, $password, $dbname);
     
               if ($this->conn->connect_error) {
@@ -734,7 +730,7 @@ $avatar = $_GET['avatar'];
           <div class="indi-logo text-center p-3">
 
 			<!--<span class="purple"><h1><strong>Wealth</strong></span> <span class="pink">Avatarr</h1></span>-->
-            <img class="img-fluid" src="../assets/img/image/wealth_avatarr.png">
+			<img class="img-fluid" src="../assets/img/image/wealth_avatarr.png">
           </div>
 
         </div>
@@ -841,7 +837,7 @@ $avatar = $_GET['avatar'];
             <img id="archetype-img" class="archetype-icon">-->
 
             <!-- <img src="../assets/img/image/adversarymiddle.png" class="archetype-icon"> -->
-            <img src="../public/assets/img/results/<?=$avatar?>.png" class="archetype-icon">
+            <img src="../assets/img/results/<?=$avatar?>.png" class="archetype-icon">
 
             <div class="circle"></div>
 
@@ -965,9 +961,9 @@ function getCookie(name) {
 	else if(avatar == 'Adversary')
 		directedTo = 'https://wealthavatarr.com/adversary?archetype=' + avatar + '&name=' + name + '&email=' + mail;
 					
-    // setTimeout(function(){
-    //     window.location.href = directedTo;
-    // }, 5000);
+    setTimeout(function(){
+        window.location.href = directedTo;
+    }, 5000);
     
   </script>
   
@@ -1057,4 +1053,4 @@ function getCookie(name) {
 -->
 </body>
 
-<html
+<html>
