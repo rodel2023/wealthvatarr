@@ -18,14 +18,14 @@ Route::namespace('Auth')->group(function () {
 
 
 // Route::get('/',  'AvatarController@index');
-// Route::get('/',  'AvatarController@dashboard');
+Route::get('/',  'AvatarController@dashboard');
 
 Route::group(['middleware' => ['get.menu']], function () {
 
     Route::get('/dashboard', function () {           return view('dashboard.homepage'); });
     
     Route::group(['middleware' => ['role:user']], function () {
-        Route::get('/',  'AvatarController@dashboard');
+        // Route::get('/',  'AvatarController@dashboard');
         Route::get('avatar', 'AvatarController@index')->name('avatar');
         Route::get('basic', 'AvatarController@basic')->name('basic');
         Route::get('premium', 'AvatarController@premium')->name('premium');
@@ -126,7 +126,7 @@ Route::group(['middleware' => ['get.menu']], function () {
 
     Route::group(['middleware' => ['role:admin']], function () {
 
-        Route::get('/',  'UsersController@index');
+        // Route::get('/',  'UsersController@index');
         Route::resource('bread',  'BreadController');   //create BREAD (resource)
         Route::resource('users',        'UsersController')->except( ['create', 'store'] );
 
